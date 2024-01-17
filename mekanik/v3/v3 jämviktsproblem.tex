@@ -1,24 +1,52 @@
 \documentclass[12pt]{article}
-\usepackage{../../mtu-uppgifter}
-\setcounter{section}{1}
+\usepackage{mtu-uppgifter}
 
 \begin{document}
+\setcounter{section}{1}
 \section{Jämviktsproblem}
 
 \begin{enumerate}
-    \item Pelles vikt är 80 kg, och han lyfter en skivstång som totalt väger 50 kg. Rita ut och beräkna krafterna som verkar precis när Pelle är i toppen på sitt lyft.
-    
-    \includesvg{pelle} % Add this line to include the graphic
-    
-    
+        \item
+              \begin{minipage}[t]{0.6\textwidth}
+                      Pelles vikt är 80 kg, och han lyfter en skivstång som totalt väger 50 kg. Rita ut och beräkna de krafter som verkar precis när Pelle är i toppen på sitt lyft.
+              \end{minipage}
+              \hfill
+              \begin{minipage}{0.3\textwidth}
+                \svgbox[width=.9\textwidth]{pelle}
+              \end{minipage}
+        \item
+              \begin{minipage}[t]{0.6\textwidth}
+                      Stegen
+              \end{minipage}
+              \hfill
+              \begin{minipage}{0.3\textwidth}
+                      \includesvg[width=.9\textwidth]{stege}
+              \end{minipage}
 \end{enumerate}
 
+\section*{Lösningar \thesection.}
 \begin{enumerate}
-    \item Pelles vikt är 80 kg, och han lyfter en skivstång som totalt väger 50 kg. Rita ut och beräkna krafterna som verkar precis när Pelle är i toppen på sitt lyft.
-          \begin{enumerate}
-              \item Draw a free body diagram for the block.
-              \item What is the acceleration of the block?
-          \end{enumerate}
+        \item
+              \begin{minipage}[t]{0.5\textwidth}
+                      Pelles tyngdkraft är $F_{gp} = m_pg$, och skivstångens tyngdkraft är $F_{gs} = m_sg$. Dessa två krafter verkar båda nedåt, men eftersom Pelle och stången fortsätter att stå stilla måste det finnas någon motriktad kraft- detta är normalkraften från marken, $F_{N}$. Först räknar vi ut tyngdkrafterna:
+                      \begin{gather*}
+                              F_{gp} = m_pg = \SI{80}{\kilogram} \cdot \SI{9.82}{\meter/\second\squared} = \SI{785.6}{\newton} \\
+                              F_{gs} = m_sg = \SI{50}{\kilogram} \cdot \SI{9.82}{\meter/\second\squared} = \SI{491}{\newton}
+                      \end{gather*}
+                      Nu kan vi räkna ut normalkraften, $F_{N}$:
+                      \begin{align*}
+                              F_{N} & = F_{gp} + F_{gs}                         \\
+                              F_{N} & = \SI{785.6}{\newton} + \SI{491}{\newton} \\
+                              F_{N} & = \SI{1276.6}{\newton}
+                      \end{align*}
+              \end{minipage}
+              \hfill
+              \begin{minipage}[t]{0.4\textwidth}
+                      \begin{adjustbox}{valign=t}
+                              \includesvg[width=\textwidth]{pelle_facit}
+                      \end{adjustbox}
+              \end{minipage}
+              \hfill
 \end{enumerate}
 
 \end{document}

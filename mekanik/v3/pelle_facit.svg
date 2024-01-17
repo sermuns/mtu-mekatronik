@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="pelle.svg"
+   sodipodi:docname="pelle_facit.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,8 +24,8 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      inkscape:zoom="1.0343948"
-     inkscape:cx="252.32144"
-     inkscape:cy="412.31837"
+     inkscape:cx="217.51849"
+     inkscape:cy="366.88119"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -34,6 +34,46 @@
      inkscape:current-layer="layer1" />
   <defs
      id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ArrowWide"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path4" />
+    </marker>
     <inkscape:path-effect
        effect="skeletal"
        id="path-effect10"
@@ -119,6 +159,26 @@
        vertical_pattern="false"
        hide_knot="false"
        fuse_tolerance="0" />
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path4-4" />
+    </marker>
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -196,5 +256,50 @@
        inkscape:path-effect="#path-effect10-3"
        inkscape:original-d="M 561.25982,596.09455 512.696,641.92122 v 104.56416"
        transform="matrix(0.97244576,0,0,1.1182265,211.36199,-25.748798)" />
+    <path
+       style="fill:#000000;stroke:#ff0000;stroke-width:7.1811;stroke-linecap:square;stroke-miterlimit:3.6;marker-end:url(#ArrowWideRounded);stroke-opacity:1"
+       d="m 759.52496,567.03753 -0.9413,241.95341"
+       id="path1" />
+    <path
+       style="fill:#000000;stroke:#00deff;stroke-width:7.58875;stroke-linecap:square;stroke-miterlimit:3.6;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6)"
+       d="m 906.93574,814.07091 0.61658,-412.50479"
+       id="path1-0" />
+    <path
+       style="fill:#000000;stroke:#ff0000;stroke-width:7.1811;stroke-linecap:square;stroke-miterlimit:3.6;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 761.38532,347.48077 V 484.54064"
+       id="path5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:small-caps;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:3.59055;stroke-linecap:square;stroke-miterlimit:3.6;stroke-opacity:0"
+       x="912.54901"
+       y="815.34912"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="912.54901"
+         y="815.34912"
+         style="fill:#000000;fill-opacity:1;stroke-width:3.59055">1276.6 N</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:small-caps;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:3.59055;stroke-linecap:square;stroke-miterlimit:3.6;stroke-opacity:0"
+       x="690.61578"
+       y="321.8367"
+       id="text1-6"><tspan
+         sodipodi:role="line"
+         id="tspan1-7"
+         x="690.61578"
+         y="321.8367"
+         style="fill:#000000;fill-opacity:1;stroke-width:3.59055">491 N</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:small-caps;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:3.59055;stroke-linecap:square;stroke-miterlimit:3.6;stroke-opacity:0"
+       x="662.92352"
+       y="867.57281"
+       id="text1-6-6"><tspan
+         sodipodi:role="line"
+         id="tspan1-7-7"
+         x="662.92352"
+         y="867.57281"
+         style="fill:#000000;fill-opacity:1;stroke-width:3.59055">785.6 N</tspan></text>
   </g>
 </svg>
