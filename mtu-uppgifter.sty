@@ -2,6 +2,8 @@
 
 % For inserting images
 \usepackage{graphicx} 
+\usepackage{svg}
+\usepackage{xcolor}
 
 % Margins
 \usepackage[a4paper, total={16cm, 25cm}]{geometry} 
@@ -15,3 +17,7 @@
 
 % Make exercises preceded by section number
 \renewcommand{\theenumi}{\thesection.\arabic{enumi}}
+
+% Negate the color of included graphics
+\let\oldincludegraphics\includegraphics
+\renewcommand{\includegraphics}[2][]{\negcolorbox{white}{\oldincludegraphics[#1]{#2}}}
