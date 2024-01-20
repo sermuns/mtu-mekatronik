@@ -1,31 +1,41 @@
-\documentclass[12pt]{article}
+\documentclass[11pt]{article}
 \usepackage{mtu-uppgifter}
 
 \begin{document}
+\raggedright
 \setcounter{section}{1}
 \section{Jämviktsproblem}
 
-\begin{enumerate}
+\begin{enumerate}[itemsep=2em]
         \item
               \begin{minipage}[t]{0.6\textwidth}
-                      Pelles vikt är 80 kg, och han lyfter en skivstång som totalt väger 50 kg. Rita ut och beräkna de krafter som verkar precis när Pelle är i toppen på sitt lyft.
+                      Pelles vikt är 80 kg, och han lyfter en skivstång som totalt väger 50 kg. \textbf{Rita ut} och \textbf{beräkna} de krafter som verkar precis när Pelle är i toppen på sitt lyft.
               \end{minipage}
-              \hfill
-              \begin{minipage}{0.3\textwidth}
-                \svgbox[width=.9\textwidth]{pelle}
-              \end{minipage}
+              \hspace{2em}
+              \begin{adjustbox}{valign=t}
+                      \includesvg[width=8em]{pelle}
+              \end{adjustbox}
         \item
               \begin{minipage}[t]{0.6\textwidth}
-                      Stegen
+                      En stege som väger 20 kg och ligger mot en vägg. Den har en friktionskraft mot marken på 50 N. \textbf{Rita ut} och \textbf{beräkna} övriga krafter som verkar på stegen.
               \end{minipage}
-              \hfill
-              \begin{minipage}{0.3\textwidth}
-                      \includesvg[width=.9\textwidth]{stege}
+              \hspace{2em}
+              \begin{adjustbox}{valign=t}
+                      \includesvg[width=10em]{stege}
+              \end{adjustbox}
+        \item
+              \begin{minipage}[t]{0.4\textwidth}
+                      \raggedright
+                      Efter att ha gymmat i en timme är Pelle trött och hans kompis måste dra hem honom på en vagn. Vagnen väger i princip ingenting. De bromsande krafterna är sammanlagt 25 N. Hur hårt måste kompisen dra i vagnen för att Pelle ska förflyttas med \textbf{konstant hastighet}. Snöret bildar 30\degree{} mot horisontallinjen.
               \end{minipage}
+              \hspace{1em}
+              \begin{adjustbox}{valign=t}
+                      \includesvg[width=20em]{vagn}
+              \end{adjustbox}
 \end{enumerate}
 
 \section*{Lösningar \thesection.}
-\begin{enumerate}
+\begin{enumerate}[itemsep=2em]
         \item
               \begin{minipage}[t]{0.5\textwidth}
                       Pelles tyngdkraft är $F_{gp} = m_pg$, och skivstångens tyngdkraft är $F_{gs} = m_sg$. Dessa två krafter verkar båda nedåt, men eftersom Pelle och stången fortsätter att stå stilla måste det finnas någon motriktad kraft- detta är normalkraften från marken, $F_{N}$. Först räknar vi ut tyngdkrafterna:
@@ -40,13 +50,56 @@
                               F_{N} & = \SI{1276.6}{\newton}
                       \end{align*}
               \end{minipage}
-              \hfill
-              \begin{minipage}[t]{0.4\textwidth}
-                      \begin{adjustbox}{valign=t}
-                              \includesvg[width=\textwidth]{pelle_facit}
-                      \end{adjustbox}
+              \hspace{2em}
+              \begin{adjustbox}{valign=t}
+                      \includesvg[width=15em]{pelle_facit}
+              \end{adjustbox}
+        \item
+              \begin{minipage}[t]{0.5\textwidth}
+                      \raggedright
+                      Det finns krafter både i $x$- och $y$-led, så vi gör två ekvationer som ska bli lika med noll. Vi vet att det finns en friktionskraft $F_f$ på 50 N som verkar åt vänster, negativt i $x$-led. Stegens tyngdkraft $F_{g}$ verkar nedåt, negativt i $y$-led.
+
+                      Eftersom stegen rör sig i konstant hastighet (står stilla) i är summan av krafterna i $x$-led lika med noll, och därför finns det någon motriktad kraft till friktionskraften, nämligen normalkraften som från väggen, $F_{nv}$. Summan av krafterna i $y$-led ska också vara lika med noll, och det finns också en normalkraft från marken $F_{nm}$ som motverkar tyngdkraften. Vi får alltså två ekvationer:
+
+                      \begin{align*}
+                              \textbf{x-led}: \begin{aligned}[t]
+                                                      -F_f + F_{nv} & = 0              \\
+                                                      -50 + F_{nv}  & = 0              \\
+                                                      F_{nv}        & = 50\,\mathrm{N}
+                                              \end{aligned}
+                      \end{align*}
+                      \begin{align*}
+                              \textbf{y-led}: \begin{aligned}[t]
+                                                      -F_g + F_{nm}                                                        & = 0                 \\
+                                                      -\SI{20}{\kilogram} \cdot \SI{9.82}{\meter/\second\squared} + F_{nm} & = 0                 \\
+                                                      F_{nm}                                                               & = 196.4\,\mathrm{N}
+                                              \end{aligned}
+                      \end{align*}
               \end{minipage}
               \hfill
+              \begin{adjustbox}{valign=t}
+                      \includesvg[width=0.4\textwidth]{stege_facit}
+              \end{adjustbox}
+
+        \item
+              \begin{minipage}[t]{0.6\textwidth}
+                      \raggedright
+                      Vi börjar med att rita ut alla krafter som verkar på vagnen. Vi vet att vagnen rör sig med konstant hastighet, så summan av krafterna i $x$-led är noll. Det finns en motriktad kraft till de bromsande krafterna, och det är dragkraften $F_d$ som kompisen drar med. Men mer specifikt är det bara x-komponenten av $F_d$ som är verksam. Vinkeln mellan $F_d$ och $x$-axeln är 30\degree{}, alltså blir $F_{dx}$ = $F_d \cdot cos(30\degree)$. Vi vet också att summan av krafterna i $y$-led är noll, eftersom vagnen inte rör sig i höjdled. Det finns en normalkraft $F_{N}$ som motverkar tyngdkraften $F_g$.
+                      \begin{align*}
+                              \textbf{x-led}: \begin{aligned}[t]
+                                                      -F_b + F_d \cdot \cos(30\degree) & = 0                \\
+                                                      -25 + F_d \cdot \cos(30\degree)  & = 0                \\
+                                                      F_d                              & = 43.3\,\mathrm{N}
+                                              \end{aligned}
+                      \end{align*}
+                      \begin{align*}
+                              \textbf{y-led}: \begin{aligned}[t]
+                                                      -F_g + F_{N} + F_d \cdot \sin(30\degree)                                         & = 0                 \\
+                                                      -80 \cdot \SI{9.82}{\meter/\second\squared} + F_{N} + 43.3 \cdot \sin(30\degree) & = 0                 \\
+                                                      F_{N}                                                                            & = 353.1\,\mathrm{N}
+                                              \end{aligned}
+                      \end{align*}
+              \end{minipage}
 \end{enumerate}
 
 \end{document}

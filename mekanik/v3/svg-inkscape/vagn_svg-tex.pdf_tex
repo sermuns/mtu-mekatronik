@@ -1,6 +1,6 @@
 %% Creator: Inkscape 1.3.2 (091e20e, 2023-11-25, custom), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'stege_svg-tex.pdf' (pdf, eps, ps)
+%% Accompanies image file 'vagn_svg-tex.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{568.46713329bp}%
+    \setlength{\unitlength}{751.82462437bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,12 +50,12 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,1.03037673)%
+  \begin{picture}(1,0.37823024)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{stege_svg-tex.pdf}}%
-    \put(0.22894293,0.06951915){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}50 N\end{tabular}}}}%
-    \put(0.6426682,0.16713297){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}40°\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{stege_svg-tex.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{vagn_svg-tex.pdf}}%
+    \put(-0.00123457,0.05871449){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}25 N\end{tabular}}}}%
+    \put(0.84777177,0.10458629){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30°\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{vagn_svg-tex.pdf}}%
   \end{picture}%
 \endgroup%
