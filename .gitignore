@@ -16,3 +16,6 @@
 
 # Ignore vector images which have file endings *-tex.pdf
 *-tex.pdf*
+
+# Ignore the busy synctex file
+*.synctex.gz(busy)
