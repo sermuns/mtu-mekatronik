@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{751.82462437bp}%
+    \setlength{\unitlength}{743.71169684bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,12 +50,12 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.37823024)%
+  \begin{picture}(1,0.3615121)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{vagn_svg-tex.pdf}}%
-    \put(-0.00123457,0.05871449){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}25 N\end{tabular}}}}%
-    \put(0.84777177,0.10458629){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30°\end{tabular}}}}%
+    \put(-0.00124804,0.11704371){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}25 N\end{tabular}}}}%
+    \put(0.83570962,0.0909338){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30°\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{vagn_svg-tex.pdf}}%
   \end{picture}%
 \endgroup%

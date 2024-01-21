@@ -24,16 +24,18 @@
                       \includesvg[width=10em]{stege}
               \end{adjustbox}
         \item
-              \begin{minipage}[t]{0.4\textwidth}
-                      \raggedright
-                      Efter att ha gymmat i en timme är Pelle trött och hans kompis måste dra hem honom på en vagn. Vagnen väger i princip ingenting. De bromsande krafterna är sammanlagt 25 N. Hur hårt måste kompisen dra i vagnen för att Pelle ska förflyttas med \textbf{konstant hastighet}. Snöret bildar 30\degree{} mot horisontallinjen.
-              \end{minipage}
-              \hspace{1em}
-              \begin{adjustbox}{valign=t}
-                      \includesvg[width=20em]{vagn}
-              \end{adjustbox}
+              \raggedright
+              \setlength{\parskip}{1em}
+              Efter att ha gymmat i en timme är Pelle trött och hans kompis måste dra hem honom på en vagn. Snöret som kompisen drar i bildar en vinkel på 30\degree{} mot horisontallinjen. Vagnen väger i princip ingenting. De bromsande krafterna är 25 N.
+
+              \textbf{Hur hårt måste kompisen dra i snöret för att vagnen ska förflyttas med konstant hastighet?}
+
+              \begin{center}
+                      \includesvg[width=30em]{vagn}
+              \end{center}
 \end{enumerate}
 
+\newpage
 \section*{Lösningar \thesection.}
 \begin{enumerate}[itemsep=2em]
         \item
@@ -45,15 +47,20 @@
                       \end{gather*}
                       Nu kan vi räkna ut normalkraften, $F_{N}$:
                       \begin{align*}
-                              F_{N} & = F_{gp} + F_{gs}                         \\
-                              F_{N} & = \SI{785.6}{\newton} + \SI{491}{\newton} \\
-                              F_{N} & = \SI{1276.6}{\newton}
+                              F_{N} - F_{gp} - F_{gs} & = 0                                       \\
+                              F_{N}                   & = F_{gp} + F_{gs}                         \\
+                              F_{N}                   & = \SI{785.6}{\newton} + \SI{491}{\newton} \\
+                              F_{N}                   & = \SI{1276.6}{\newton}
                       \end{align*}
               \end{minipage}
               \hspace{2em}
               \begin{adjustbox}{valign=t}
                       \includesvg[width=15em]{pelle_facit}
               \end{adjustbox}
+
+              \textbf{Svar:} Pelles tyngdkraft är 785.6 N, skivstångens tyngdkraft är 491 N, och normalkraften från marken är 1276.6 N.
+
+              \newpage
         \item
               \begin{minipage}[t]{0.5\textwidth}
                       \raggedright
@@ -61,45 +68,40 @@
 
                       Eftersom stegen rör sig i konstant hastighet (står stilla) i är summan av krafterna i $x$-led lika med noll, och därför finns det någon motriktad kraft till friktionskraften, nämligen normalkraften som från väggen, $F_{nv}$. Summan av krafterna i $y$-led ska också vara lika med noll, och det finns också en normalkraft från marken $F_{nm}$ som motverkar tyngdkraften. Vi får alltså två ekvationer:
 
-                      \begin{align*}
-                              \textbf{x-led}: \begin{aligned}[t]
-                                                      -F_f + F_{nv} & = 0              \\
-                                                      -50 + F_{nv}  & = 0              \\
-                                                      F_{nv}        & = 50\,\mathrm{N}
-                                              \end{aligned}
-                      \end{align*}
-                      \begin{align*}
-                              \textbf{y-led}: \begin{aligned}[t]
-                                                      -F_g + F_{nm}                                                        & = 0                 \\
-                                                      -\SI{20}{\kilogram} \cdot \SI{9.82}{\meter/\second\squared} + F_{nm} & = 0                 \\
-                                                      F_{nm}                                                               & = 196.4\,\mathrm{N}
-                                              \end{aligned}
-                      \end{align*}
               \end{minipage}
               \hfill
               \begin{adjustbox}{valign=t}
                       \includesvg[width=0.4\textwidth]{stege_facit}
               \end{adjustbox}
+              \begin{align*}
+                      \textbf{x-led}: \begin{aligned}[t]
+                                              -F_f + F_{nv} & = 0              \\
+                                              -50 + F_{nv}  & = 0              \\
+                                              F_{nv}        & = 50\,\mathrm{N}
+                                      \end{aligned}
+              \end{align*}
+              \begin{align*}
+                      \textbf{y-led}: \begin{aligned}[t]
+                                              -F_g + F_{nm}                                                        & = 0                 \\
+                                              -\SI{20}{\kilogram} \cdot \SI{9.82}{\meter/\second\squared} + F_{nm} & = 0                 \\
+                                              F_{nm}                                                               & = 196.4\,\mathrm{N}
+                                      \end{aligned}
+              \end{align*}
+              \textbf{Svar:} Normalkraften från väggen är 50 N, \\ och normalkraften från marken är 196.4 N.
 
+              \newpage
         \item
-              \begin{minipage}[t]{0.6\textwidth}
-                      \raggedright
-                      Vi börjar med att rita ut alla krafter som verkar på vagnen. Vi vet att vagnen rör sig med konstant hastighet, så summan av krafterna i $x$-led är noll. Det finns en motriktad kraft till de bromsande krafterna, och det är dragkraften $F_d$ som kompisen drar med. Men mer specifikt är det bara x-komponenten av $F_d$ som är verksam. Vinkeln mellan $F_d$ och $x$-axeln är 30\degree{}, alltså blir $F_{dx}$ = $F_d \cdot cos(30\degree)$. Vi vet också att summan av krafterna i $y$-led är noll, eftersom vagnen inte rör sig i höjdled. Det finns en normalkraft $F_{N}$ som motverkar tyngdkraften $F_g$.
-                      \begin{align*}
-                              \textbf{x-led}: \begin{aligned}[t]
-                                                      -F_b + F_d \cdot \cos(30\degree) & = 0                \\
-                                                      -25 + F_d \cdot \cos(30\degree)  & = 0                \\
-                                                      F_d                              & = 43.3\,\mathrm{N}
-                                              \end{aligned}
-                      \end{align*}
-                      \begin{align*}
-                              \textbf{y-led}: \begin{aligned}[t]
-                                                      -F_g + F_{N} + F_d \cdot \sin(30\degree)                                         & = 0                 \\
-                                                      -80 \cdot \SI{9.82}{\meter/\second\squared} + F_{N} + 43.3 \cdot \sin(30\degree) & = 0                 \\
-                                                      F_{N}                                                                            & = 353.1\,\mathrm{N}
-                                              \end{aligned}
-                      \end{align*}
-              \end{minipage}
+              \raggedright
+              Vi börjar med att rita ut alla krafter som verkar på vagnen. Vi vet att vagnen rör sig med konstant hastighet, så summan av krafterna i $x$-led är noll. Det finns en motriktad kraft till de bromsande krafterna, och det är dragkraften $F_d$ som kompisen drar med. Men mer specifikt är det bara x-komponenten av $F_d$ som är verksam. Vinkeln mellan $F_d$ och $x$-axeln är 30\degree{}, alltså blir $F_{dx}$ = $F_d \cdot cos(30\degree)$. Vi vet också att summan av krafterna i $y$-led är noll, eftersom vagnen inte rör sig i höjdled. Det finns en normalkraft $F_{N}$ som motverkar tyngdkraften $F_g$.
+              \begin{align*}
+                      -F_b + F_{dx}                    & = 0                                      \\
+                      -F_b + F_d \cdot \cos(30\degree) & = 0                                      \\
+                      F_d \cdot \cos(30\degree)        & = F_b                                    \\
+                      F_d                              & = \frac{F_b}{\cos(30\degree)}            \\
+                      F_d                              & = \frac{25}{\cos(30\degree)}\,\mathrm{N} \\
+                      F_d                              & = 28.87\,\mathrm{N}
+              \end{align*}
+              \textbf{Svar:} Kompisen måste dra med en kraft på 28.87 N.
 \end{enumerate}
 
 \end{document}
