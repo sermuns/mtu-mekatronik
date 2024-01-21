@@ -15,4 +15,4 @@
 #*.pdf
 
 # Ignore vector images which have file endings *-tex.pdf
-*-tex.pdf
+*-tex.pdf*
