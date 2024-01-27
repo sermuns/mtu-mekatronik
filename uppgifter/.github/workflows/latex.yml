@@ -1,0 +1,12 @@
+name: Compile LaTeX documents
+on: [push]
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Check out source code
+          uses: actions/checkout@v2
+        - name: Compile LaTeX documents
+          uses: docker://danteev/texlive
+          with:
+              args: find . -name '*.tex' -exec latexmk -pdf {} \;
