@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="248.04341mm"
+   height="148.48531mm"
+   viewBox="0 0 248.04341 148.48531"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="skiftnyckel.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0343421"
+     inkscape:cx="566.06032"
+     inkscape:cy="346.59714"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Stop"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path23" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-30.125498,-66.014024)">
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-opacity:1"
+       d="M 82.484787,145.39626 102.01375,110.43773 82.484787,99.012686 59.542201,91.082927 41.654349,123.43601 30.759475,115.71527 45.940068,73.491466 l 30.481369,-6.906927 35.109073,26.604963 136.3747,0 -0.42044,28.759168 -138.34522,0.2558 -17.179633,25.6877 z"
+       id="path2"
+       sodipodi:nodetypes="cccccccccccccc"
+       inkscape:transform-center-x="-64.596794"
+       inkscape:transform-center-y="-25.147193" />
+    <path
+       sodipodi:type="star"
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-opacity:1"
+       id="path1"
+       inkscape:flatsided="true"
+       sodipodi:sides="6"
+       sodipodi:cx="97.673569"
+       sodipodi:cy="115.76126"
+       sodipodi:r1="26.77957"
+       sodipodi:r2="23.191788"
+       sodipodi:arg1="0"
+       sodipodi:arg2="0.52359878"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 124.45314,115.76126 -13.38979,23.19179 H 84.283784 l -13.389785,-23.19179 13.389785,-23.191787 26.779566,0 z"
+       inkscape:transform-center-x="1.2305331e-06"
+       inkscape:transform-center-y="-1.4584097e-06"
+       transform="translate(-28.578563,6.4432134)" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.15607;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:6.93642, 6.93642;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Stop);marker-end:url(#marker4)"
+       d="M 69.19537,158.01811 H 247.84954"
+       id="path3" />
+    <text
+       xml:space="preserve"
+       style="font-size:21.1667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-caps:small-caps;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:6.34997, 6.34997;stroke-dashoffset:0;stroke-opacity:1"
+       x="131.93489"
+       y="182.88416"
+       id="text4"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.1667px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833"
+         x="131.93489"
+         y="182.88416"
+         id="tspan5">30cm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:21.1667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-caps:small-caps;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:6.34997, 6.34997;stroke-dashoffset:0;stroke-opacity:1"
+       x="262.76932"
+       y="157.8114"
+       id="text4-8"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.1667px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833"
+         x="262.76932"
+         y="157.8114"
+         id="tspan5-6">100N</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.29167;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-dashoffset:2.3814;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="m 257.60155,109.30989 0.74717,88.1398"
+       id="path6" />
+  </g>
+</svg>
