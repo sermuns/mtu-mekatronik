@@ -5,11 +5,12 @@
 \usepackage{svg}
 \usepackage{xcolor}
 \usepackage{adjustbox} % Add the missing adjustbox package
-\usepackage{amsmath}
+\usepackage{amsmath,amssymb}
 \usepackage{siunitx}
 \usepackage{lipsum}
 \usepackage{enumitem}
 \usepackage{gensymb}
+\usepackage{cancel}
 
 % Paragraph spacing
 \usepackage{parskip}
@@ -28,3 +29,6 @@
 % Make exercises preceded by section number
 \renewcommand{\theenumi}{\thesection.\arabic{enumi}}
 \renewcommand{\labelenumi}{\textbf{\theenumi.}}
+
+% Figures subfolder
+\graphicspath{{figures/}}

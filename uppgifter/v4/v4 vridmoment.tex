@@ -16,16 +16,38 @@
                       \includesvg[width=15em]{skiftnyckel}
               \end{adjustbox}
         \item
-              Pelle och hans lillasyster ska gunga på en 3m lång gungbräda. Pelle väger 80 kg och hans lillasyster väger 40 kg. Lillasystern sitter ute vid brädans ände. \textbf{Hur långt från gungbrädans mittpunkt måste Pelle sitta för att gungbrädan ska vara i balans?}
+              Pelle och hans lillasyster ska gunga på en 3m lång gungbräda. Pelle väger 80 kg och hans lillasyster väger 40 kg. Lillasystern sitter ute vid brädans ände. \textbf{Hur långt från gungbrädans mittpunkt måste Pelle sitta för att gungbrädan ska vara i jämvikt?}
               \begin{center}
                       \includesvg[width=35em]{gungbräda}
               \end{center}
 
         \item
-              Pella har tråkigt på en lektion och balanserar ett suddigummi på sin linjal som hänger över kanten på bänken. Han märker att allting är i balans när linjalens tyngdpunkt är 10 cm från bänkens kant, och suddigummit är 4 cm från bänkens kant. \textbf{Hur mycket väger linjalen om suddigummit väger 30 g?}
+              Pelle har tråkigt på en lektion och balanserar ett suddigummi på sin linjal som hänger över kanten på bänken. Han märker att allting är i balans när linjalens tyngdpunkt är 10 cm från bänkens kant, och suddigummit är 4 cm från bänkens kant. \textbf{Hur mycket väger linjalen om suddigummit väger 30 g?}
               \begin{center}
-                \includesvg[width=35em]{linjal}
+                      \includesvg[width=35em]{linjal}
               \end{center}
+
+        \item
+              \begin{minipage}[t]{0.5\textwidth}
+                      Pelle har varit snäll och handlat mat åt sin familj. Han hänger matkassarna på styret på sin cykel. Den ena matkassen väger 5 kg och hänger 20 cm från styrets mitt. Den andra matkassen väger 3 kg och hänger 50 cm från styrets mitt. \textbf{Kommer kassarna att hänga i balans, eller kommer Pelle behöva tillföra vridmoment? (Hur mycket, och åt vilken riktning isåfall?)}
+              \end{minipage}
+              \hspace{1em}
+              \begin{adjustbox}{valign=t}
+                      \includesvg[width=15em]{cykel}
+              \end{adjustbox}
+
+        \item
+              En 50 ton bro ligger på två stödytor och är i jämvikt.  Avstånd mellan tyngdpunkt och vänster stödyta är 10 meter och avståndet mellan tyngdpunkt och höger stödyta är 5 meter.
+              \textbf{Hur mycket kraft tar varje stödyta upp?}
+              \begin{center}
+                      \includesvg[width=0.9\textwidth]{bro}
+              \end{center}
+
+        \item
+        Pelle har fått sommarjobb som byggarbetare. På kafferasten sitter han ute på en balk som spänns upp av en lina som är fäst i balkens ände. Linan bildar 30\degree{} mot horisontallinjen. Balken är 5 meter lång och väger 100 kg. \textbf{Hur mycket kraft tar linan upp?}
+        \begin{center}
+                \includesvg[width=0.6\textwidth]{byggarbete}
+        \end{center}
 
 \end{enumerate}
 
@@ -34,25 +56,66 @@
 \begin{enumerate}[itemsep=2em]
         \item
               \begin{minipage}[t]{0.5\textwidth}
-                      $M = F \cdot l = \SI{100}{\newton} \cdot \SI{0.3}{\metre} = \SI{30}{\newton\metre}$
+                      $M = F \cdot l = \SI{100}{\newton} \cdot \SI{0.3}{\meter} = \SI{30}{\newton\metre}$
               \end{minipage}
               \hspace{1em}
               \begin{adjustbox}{valign=t}
                       \includesvg[width=15em]{skiftnyckel}
               \end{adjustbox}
         \item
-                            $M_{Pelle} = M_{Lillasyster}$\\
-                            $M_{Pelle} = F_{Pelle} \cdot l_{Pelle} = F_{Lillasyster} \cdot l_{Lillasyster}$\\
-                            $F_{Pelle} = \SI{80}{\kilogram} \cdot \SI{9.82}{\metre\per\second\squared} = \SI{785.6}{\newton}$\\
-                            $F_{Lillasyster} = \SI{40}{\kilogram} \cdot \SI{9.82}{\metre\per\second\squared} = \SI{392.8}{\newton}$\\
-                            $l_{Pelle} = \SI{3}{\metre} - l_{Lillasyster}$\\
-                            $M_{Pelle} = \SI{785.6}{\newton} \cdot (\SI{3}{\metre} - l_{Lillasyster}) = \SI{392.8}{\newton} \cdot l_{Lillasyster}$\\
-                            $l_{Lillasyster} = \SI{1.5}{\metre}$\\
-                            $l_{Pelle} = \SI{3}{\metre} - \SI{1.5}{\metre} = \SI{1.5}{\metre}$
-                  \begin{adjustbox}{valign=t}
-                            \includesvg[width=35em]{gungbräda}
-                  \end{adjustbox}
-              
+              Vi kan kalla avståndet mellan Pelle och mittpunkt för $x$. Pelles massa är $m_P = \SI{80}{\kilogram}$ och hans lillasysters massa är $m_L = \SI{40}{\kilogram}$. Pelles tyngdkraft är $F_P = m_P \cdot g$ och hans lillasysters tyngdkraft är $F_L = m_L \cdot g$.
+
+              Vi söker $x$ genom att sätta upp momentekvationen:
+              \begin{align*}
+                      \overset{\curvearrowright}{O} : \begin{aligned}[t]
+                                                              F_L \cdot 1.5 - F_P \cdot x                 & = 0                                                       \\
+                                                              m_L \cdot g \cdot 1.5 - m_P \cdot g \cdot x & = 0                                                       \\
+                                                              -m_P \cdot g \cdot x                        & = -m_L \cdot g \cdot 1.5                                  \\
+                                                              x                                           & = \frac{m_L \cdot g \cdot 1.5}{m_P \cdot g}               \\
+                                                              x                                           & = \frac{m_L \cdot 1.5}{m_P}                               \\
+                                                              x                                           & = \frac{\SI{40}{\kilogram} \cdot 1.5}{\SI{80}{\kilogram}} \\
+                                                              x                                           & = \SI{0.75}{\meter}
+                                                      \end{aligned}
+              \end{align*}
+              \textbf{Svar:} Pelle måste sitta \SI{0.75}{\meter} från gungbrädans mittpunkt för att gungbrädan ska vara i balans.
+
+              \begin{center}
+                      \includesvg[width=27em]{gungbräda_facit}
+              \end{center}
+              \newpage
+        \item
+              Det okända i uppgiften är linjalens massa, $m_L$. Vi vet att suddigummits massa är $m_s = \SI{30}{\gram}$. Vi kan även räkna ut linjalens tyngdkraft, $F_L = m_L \cdot g$, och suddigummits tyngdkraft, $F_s = m_s \cdot g$.
+
+              Vi kan nu ställa upp en momentekvation kring kanten på bänken $K$:
+
+              \begin{align*}
+                      \overset{\curvearrowright}{K} : \begin{aligned}[t]
+                                                              F_L \cdot 0.1 - F_s \cdot 0.04                 & = 0                                          \\
+                                                              m_L \cdot g \cdot 0.1 - m_s \cdot g \cdot 0.04 & = 0                                          \\
+                                                              m_L \cdot g \cdot 0.1                          & = m_s \cdot g \cdot 0.04                     \\
+                                                              m_L                                            & = \frac{m_s \cdot g \cdot 0.04}{g \cdot 0.1} \\
+                                                              m_L                                            & = \frac{m_s \cdot 0.04}{0.1}                 \\
+                                                              m_L                                            & = \frac{\SI{30}{\gram} \cdot 0.04}{0.1}      \\
+                                                              m_L                                            & = \SI{12}{\gram}
+                                                      \end{aligned}
+              \end{align*}
+              \begin{center}
+                      \includesvg[width=35em]{linjal_facit}
+              \end{center}
+
+        \item
+              Vi vet inte om styret är i jämvikt, alltså kan vi inte skriva upp hela momentekvationen med noll i högerled. Vi kan däremot undersöka vad totala vridmomentet medurs och moturs är.
+
+              Vi kan börja med att räkna ut vridmomentet från den vänstra kassen (medurs), $M_1 = F_1 \cdot l_1 = \SI{5}{\kilogram} \cdot 9.82 \, \si{\meter/\second\squared} \cdot \SI{0.2}{\meter} = \SI{10}{\newton\metre}$. Vi kan sedan räkna ut vridmomentet från den högra kassen (moturs), $M_2 = F_2 \cdot l_2 = \SI{3}{\kilogram} \cdot 9.82 \, \si{\meter/\second\squared} \cdot \SI{0.5}{\metre} = \SI{15}{\newton\meter}$.
+
+              Eftersom $M_2 > M_1$ så kommer styret vilja rotera moturs. Pelle kommer alltså behöva tillföra ett vridmoment på \SI{5}{\newton\metre} medurs för att styret ska vara i balans.
+
+              \textbf{Svar:} Pelle kommer behöva tillföra ett vridmoment på \SI{5}{\newton\metre} medurs för att styret ska vara i balans.
+
+              \newpage
+        \item
+
+
 \end{enumerate}
 
 \end{document}
