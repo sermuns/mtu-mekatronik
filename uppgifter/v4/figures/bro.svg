@@ -24,9 +24,9 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showborder="false"
-     inkscape:zoom="1.4627806"
-     inkscape:cx="438.54834"
-     inkscape:cy="549.97996"
+     inkscape:zoom="1.0343421"
+     inkscape:cx="440.37655"
+     inkscape:cy="594.09746"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -159,7 +159,7 @@
          id="tspan4"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833"
          x="67.451744"
-         y="101.66441">50 cm</tspan></text>
+         y="101.66441">10 m</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:21.1667px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';font-variant-caps:small-caps;fill:#000000;fill-opacity:1;stroke:#050505;stroke-width:1.05833;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:2.11667, 4.23333;stroke-dashoffset:0;stroke-opacity:1"
@@ -170,7 +170,7 @@
          id="tspan23"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833"
          x="153.86395"
-         y="101.66441">20 cm</tspan></text>
+         y="101.66441">5 m</tspan></text>
     <path
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#Triangle)"
        d="m 148.5,121.00669 v 40.51645"

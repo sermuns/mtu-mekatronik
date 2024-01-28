@@ -13,27 +13,27 @@
               \end{minipage}
               \hfill
               \begin{adjustbox}{valign=t}
-                      \includesvg[width=15em]{skiftnyckel}
+                      \includesvg[width=17em]{skiftnyckel}
               \end{adjustbox}
         \item
               Pelle och hans lillasyster ska gunga på en 3m lång gungbräda. Pelle väger 80 kg och hans lillasyster väger 40 kg. Lillasystern sitter ute vid brädans ände. \textbf{Hur långt från gungbrädans mittpunkt måste Pelle sitta för att gungbrädan ska vara i jämvikt?}
               \begin{center}
-                      \includesvg[width=35em]{gungbräda}
+                      \includesvg[width=25em]{gungbräda}
               \end{center}
 
         \item
               Pelle har tråkigt på en lektion och balanserar ett suddigummi på sin linjal som hänger över kanten på bänken. Han märker att allting är i balans när linjalens tyngdpunkt är 10 cm från bänkens kant, och suddigummit är 4 cm från bänkens kant. \textbf{Hur mycket väger linjalen om suddigummit väger 30 g?}
               \begin{center}
-                      \includesvg[width=35em]{linjal}
+                      \includesvg[width=30em]{linjal}
               \end{center}
 
         \item
               \begin{minipage}[t]{0.5\textwidth}
                       Pelle har varit snäll och handlat mat åt sin familj. Han hänger matkassarna på styret på sin cykel. Den ena matkassen väger 5 kg och hänger 20 cm från styrets mitt. Den andra matkassen väger 3 kg och hänger 50 cm från styrets mitt. \textbf{Kommer kassarna att hänga i balans, eller kommer Pelle behöva tillföra vridmoment? (Hur mycket, och åt vilken riktning isåfall?)}
               \end{minipage}
-              \hspace{1em}
+              \hfill
               \begin{adjustbox}{valign=t}
-                      \includesvg[width=15em]{cykel}
+                      \includesvg[width=0.4\textwidth]{cykel}
               \end{adjustbox}
 
         \item
@@ -44,10 +44,10 @@
               \end{center}
 
         \item
-        Pelle har fått sommarjobb som byggarbetare. På kafferasten sitter han ute på en balk som spänns upp av en lina som är fäst i balkens ände. Linan bildar 30\degree{} mot horisontallinjen. Balken är 5 meter lång och väger 100 kg. \textbf{Hur mycket kraft tar linan upp?}
-        \begin{center}
-                \includesvg[width=0.6\textwidth]{byggarbete}
-        \end{center}
+              Pelle har fått sommarjobb som byggarbetare. På kafferasten sitter han ute på en balk som spänns upp av en lina som är fäst i balkens ände. Linan bildar 30\degree{} mot horisontallinjen. Pelle väger fortfarande 80 kg och balken är 5 meter lång och väger 100 kg. \textbf{Hur mycket kraft tar linan upp?}
+              \begin{center}
+                      \includesvg[width=0.6\textwidth]{byggarbete}
+              \end{center}
 
 \end{enumerate}
 
@@ -114,7 +114,41 @@
 
               \newpage
         \item
+              Vi kan välja antingen vänster eller höger stödyta som mittpunkt för rotation. Här väljer vi vänstra stödytan, och kallar den för $V$.
+              \begin{align*}
+                      \overset{\curvearrowright}{V} : \begin{aligned}[t]
+                                                              m \cdot g \cdot \SI{10}{\meter} - F_{H} \cdot \SI{15}{\meter} & = 0                                                                                                            \\
+                                                              m \cdot g \cdot \SI{10}{\meter}                               & = F_{H} \cdot \SI{15}{\meter}                                                                                  \\
+                                                              F_{H}                                                         & = \frac{m \cdot g \cdot \SI{10}{\meter}}{\SI{15}{\meter}}                                                      \\
+                                                              F_{H}                                                         & = \frac{\SI{50 000}{\kilogram} \cdot \SI{9.82}{\meter/\second\squared} \cdot \SI{10}{\meter}}{\SI{15}{\meter}} \\
+                                                              F_{H}                                                         & = \SI{327 333}{\newton} = \SI{327.333}{\kilo\newton}
+                                                      \end{aligned}
+              \end{align*}
+              Enligt jämvikt måste höger- och vänster stödyta sammanlagt ta upp hela tyngden av bron, så vi kan räkna ut vänster stödyta genom att subtrahera höger stödyta från tyngden av bron:
+              \begin{align*}
+                      F_V + F_H & = m \cdot g                                                                              \\
+                      F_V       & = m \cdot g - F_H                                                                        \\
+                      F_V       & = \SI{50 000}{\kilogram} \cdot \SI{9.82}{\meter/\second\squared} - \SI{327 333}{\newton} \\
+                      F_V       & = \SI{163 670}{\newton} = \SI{163.67}{\kilo\newton}
+              \end{align*}
+              \textbf{Svar:} Vänster stödyta tar upp \SI{163.67}{\kilo\newton} och höger stödyta tar upp \SI{327.333}{\kilo\newton}.
 
+        \item
+              Vi kan lösa detta problem på två sätt. Vi kan antingen se till att totala vridmomentet kring upphängningspunkten $O$ är noll, eller så kan vi se till att totala krafterna i $y$-led är noll. Vi väljer att lösa problemet med vridmoment.
+
+              $m_b$ är balkens massa, $m_p$ är Pelles massa, $g$ är tyngdaccelerationen, $F_l$ är linans kraft.
+
+              \begin{align*}
+                      \overset{\curvearrowright}{O} : \begin{aligned}[t]
+                                                              - m_b \cdot g \cdot \SI{2.5}{\meter} - m_p \cdot g \cdot \SI{3}{\meter} + F_{l} \cdot \cos{30} \cdot \SI{5}{\meter} & = 0                                                                                                                                                                                                          \\
+                                                              F_l \cdot \cos{30} \cdot \SI{5}{\meter}                                                                             & = m_b \cdot g \cdot \SI{2.5}{\meter} + m_p \cdot g \cdot \SI{3}{\meter}                                                                                                                                      \\
+                                                              F_l                                                                                                                 & = \frac{m_b \cdot g \cdot \SI{2.5}{\meter} + m_p \cdot g \cdot \SI{3}{\meter}}{\cos{30} \cdot \SI{5}{\meter}}                                                                                                \\
+                                                              F_l                                                                                                                 & = \frac{\SI{100}{\kilogram} \cdot \SI{9.82}{\meter/\second\squared} \cdot \SI{2.5}{\meter} + \SI{80}{\kilogram} \cdot \SI{9.82}{\meter/\second\squared} \cdot \SI{3}{\meter}}{\cos{30} \cdot \SI{5}{\meter}} \\
+                                                              F_l &= \frac{4811.8}{4.33} \mathrm{N} \\
+                                                              F_l &= \SI{1111.1}{\newton}
+                                                      \end{aligned}
+              \end{align*}
+              \textbf{Svar:} Linan tar upp \SI{1111.1}{\newton}.
 
 \end{enumerate}
 
