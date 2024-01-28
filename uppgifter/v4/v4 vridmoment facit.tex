@@ -1,0 +1,109 @@
+\documentclass[11pt]{article}
+\usepackage{../mtu-uppgifter}
+
+\begin{document}
+\raggedright
+\setcounter{section}{3}
+
+\newpage
+\section*{Facit \thesection}
+\begin{enumerate}[itemsep=2em]
+        \item
+              \begin{minipage}[t]{0.5\textwidth}
+                      $M = F \cdot l = \SI{100}{\newton} \cdot \SI{0.3}{\meter} = \SI{30}{\newton\metre}$
+              \end{minipage}
+              \hspace{1em}
+              \begin{adjustbox}{valign=t}
+                      \includesvg[width=15em]{skiftnyckel}
+              \end{adjustbox}
+        \item
+              Vi kan kalla avståndet mellan Pelle och mittpunkt för $x$. Pelles massa är $m_P = \SI{80}{\kilogram}$ och hans lillasysters massa är $m_L = \SI{40}{\kilogram}$. Pelles tyngdkraft är $F_P = m_P \cdot g$ och hans lillasysters tyngdkraft är $F_L = m_L \cdot g$.
+
+              Vi söker $x$ genom att sätta upp momentekvationen:
+              \begin{align*}
+                      \overset{\curvearrowright}{O} : \begin{aligned}[t]
+                                                              F_L \cdot 1.5 - F_P \cdot x                 & = 0                                                       \\
+                                                              m_L \cdot g \cdot 1.5 - m_P \cdot g \cdot x & = 0                                                       \\
+                                                              -m_P \cdot g \cdot x                        & = -m_L \cdot g \cdot 1.5                                  \\
+                                                              x                                           & = \frac{m_L \cdot g \cdot 1.5}{m_P \cdot g}               \\
+                                                              x                                           & = \frac{m_L \cdot 1.5}{m_P}                               \\
+                                                              x                                           & = \frac{\SI{40}{\kilogram} \cdot 1.5}{\SI{80}{\kilogram}} \\
+                                                              x                                           & = \SI{0.75}{\meter}
+                                                      \end{aligned}
+              \end{align*}
+              \textbf{Svar:} Pelle måste sitta \SI{0.75}{\meter} från gungbrädans mittpunkt för att gungbrädan ska vara i balans.
+
+              \begin{center}
+                      \includesvg[width=27em]{gungbräda_facit}
+              \end{center}
+              \newpage
+        \item
+              Det okända i uppgiften är linjalens massa, $m_L$. Vi vet att suddigummits massa är $m_s = \SI{30}{\gram}$. Vi kan även räkna ut linjalens tyngdkraft, $F_L = m_L \cdot g$, och suddigummits tyngdkraft, $F_s = m_s \cdot g$.
+
+              Vi kan nu ställa upp en momentekvation kring kanten på bänken $K$:
+
+              \begin{align*}
+                      \overset{\curvearrowright}{K} : \begin{aligned}[t]
+                                                              F_L \cdot 0.1 - F_s \cdot 0.04                 & = 0                                          \\
+                                                              m_L \cdot g \cdot 0.1 - m_s \cdot g \cdot 0.04 & = 0                                          \\
+                                                              m_L \cdot g \cdot 0.1                          & = m_s \cdot g \cdot 0.04                     \\
+                                                              m_L                                            & = \frac{m_s \cdot g \cdot 0.04}{g \cdot 0.1} \\
+                                                              m_L                                            & = \frac{m_s \cdot 0.04}{0.1}                 \\
+                                                              m_L                                            & = \frac{\SI{30}{\gram} \cdot 0.04}{0.1}      \\
+                                                              m_L                                            & = \SI{12}{\gram}
+                                                      \end{aligned}
+              \end{align*}
+              \begin{center}
+                      \includesvg[width=35em]{linjal_facit}
+              \end{center}
+
+        \item
+              Vi vet inte om styret är i jämvikt, alltså kan vi inte skriva upp hela momentekvationen med noll i högerled. Vi kan däremot undersöka vad totala vridmomentet medurs och moturs är.
+
+              Vi kan börja med att räkna ut vridmomentet från den vänstra kassen (medurs), $M_1 = F_1 \cdot l_1 = \SI{5}{\kilogram} \cdot 9.82 \, \si{\meter/\second\squared} \cdot \SI{0.2}{\meter} = \SI{10}{\newton\metre}$. Vi kan sedan räkna ut vridmomentet från den högra kassen (moturs), $M_2 = F_2 \cdot l_2 = \SI{3}{\kilogram} \cdot 9.82 \, \si{\meter/\second\squared} \cdot \SI{0.5}{\metre} = \SI{15}{\newton\meter}$.
+
+              Eftersom $M_2 > M_1$ så kommer styret vilja rotera moturs. Pelle kommer alltså behöva tillföra ett vridmoment på \SI{5}{\newton\metre} medurs för att styret ska vara i balans.
+
+              \textbf{Svar:} Pelle kommer behöva tillföra ett vridmoment på \SI{5}{\newton\metre} medurs för att styret ska vara i balans.
+
+              \newpage
+        \item
+              Vi kan välja antingen vänster eller höger stödyta som mittpunkt för rotation. Här väljer vi vänstra stödytan, och kallar den för $V$.
+              \begin{align*}
+                      \overset{\curvearrowright}{V} : \begin{aligned}[t]
+                                                              m \cdot g \cdot \SI{10}{\meter} - F_{H} \cdot \SI{15}{\meter} & = 0                                                                                                            \\
+                                                              m \cdot g \cdot \SI{10}{\meter}                               & = F_{H} \cdot \SI{15}{\meter}                                                                                  \\
+                                                              F_{H}                                                         & = \frac{m \cdot g \cdot \SI{10}{\meter}}{\SI{15}{\meter}}                                                      \\
+                                                              F_{H}                                                         & = \frac{\SI{50 000}{\kilogram} \cdot \SI{9.82}{\meter/\second\squared} \cdot \SI{10}{\meter}}{\SI{15}{\meter}} \\
+                                                              F_{H}                                                         & = \SI{327 333}{\newton} = \SI{327.333}{\kilo\newton}
+                                                      \end{aligned}
+              \end{align*}
+              Enligt jämvikt måste höger- och vänster stödyta sammanlagt ta upp hela tyngden av bron, så vi kan räkna ut vänster stödyta genom att subtrahera höger stödyta från tyngden av bron:
+              \begin{align*}
+                      F_V + F_H & = m \cdot g                                                                              \\
+                      F_V       & = m \cdot g - F_H                                                                        \\
+                      F_V       & = \SI{50 000}{\kilogram} \cdot \SI{9.82}{\meter/\second\squared} - \SI{327 333}{\newton} \\
+                      F_V       & = \SI{163 670}{\newton} = \SI{163.67}{\kilo\newton}
+              \end{align*}
+              \textbf{Svar:} Vänster stödyta tar upp \SI{163.67}{\kilo\newton} och höger stödyta tar upp \SI{327.333}{\kilo\newton}.
+
+        \item
+              Vi kan lösa detta problem på två sätt. Vi kan antingen se till att totala vridmomentet kring upphängningspunkten $O$ är noll, eller så kan vi se till att totala krafterna i $y$-led är noll. Vi väljer att lösa problemet med vridmoment.
+
+              $m_b$ är balkens massa, $m_p$ är Pelles massa, $g$ är tyngdaccelerationen, $F_l$ är linans kraft.
+
+              \begin{align*}
+                      \overset{\curvearrowright}{O} : \begin{aligned}[t]
+                                                              - m_b \cdot g \cdot \SI{2.5}{\meter} - m_p \cdot g \cdot \SI{3}{\meter} + F_{l} \cdot \cos{30} \cdot \SI{5}{\meter} & = 0                                                                                                                                                                                                          \\
+                                                              F_l \cdot \cos{30} \cdot \SI{5}{\meter}                                                                             & = m_b \cdot g \cdot \SI{2.5}{\meter} + m_p \cdot g \cdot \SI{3}{\meter}                                                                                                                                      \\
+                                                              F_l                                                                                                                 & = \frac{m_b \cdot g \cdot \SI{2.5}{\meter} + m_p \cdot g \cdot \SI{3}{\meter}}{\cos{30} \cdot \SI{5}{\meter}}                                                                                                \\
+                                                              F_l                                                                                                                 & = \frac{\SI{100}{\kilogram} \cdot \SI{9.82}{\meter/\second\squared} \cdot \SI{2.5}{\meter} + \SI{80}{\kilogram} \cdot \SI{9.82}{\meter/\second\squared} \cdot \SI{3}{\meter}}{\cos{30} \cdot \SI{5}{\meter}} \\
+                                                              F_l &= \frac{4811.8}{4.33} \mathrm{N} \\
+                                                              F_l &= \SI{1111.1}{\newton}
+                                                      \end{aligned}
+              \end{align*}
+              \textbf{Svar:} Linan tar upp \SI{1111.1}{\newton}.
+
+\end{enumerate}
+
+\end{document}
