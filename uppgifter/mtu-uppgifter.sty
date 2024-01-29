@@ -29,8 +29,16 @@
 \onehalfspacing
 
 % Make exercises preceded by section number
-\renewcommand{\theenumi}{\thesection.\arabic{enumi}}
+\renewcommand{\theenumi}{\lessonNumber.\arabic{enumi}}
 \renewcommand{\labelenumi}{\textbf{\theenumi.}}
 
 % Figures subfolder
 \graphicspath{{figures/}}
+
+% Set PDF metadata
+\usepackage[pdftex,
+    pdfauthor={Samuel Åkesson},
+    pdftitle={V\week{}: \lessonName{} MEKMEK01}
+]{hyperref}
+
+\setcounter{section}{\lessonNumber}
