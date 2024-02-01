@@ -49,3 +49,9 @@ destination: ../docs
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Include in processing
+# The CNAME file is required to publish your site on a custom domain.
+
+include:
+  - CNAME
