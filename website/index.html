@@ -1,0 +1,28 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: home
+---
+
+<div>
+    <p>
+        Här hittar du allt för kursen Mekatronik 1 för elprogrammet på MTU mediagymnasiet.
+    </p>
+    <p>
+        För att komma åt material för ett visst moment, hitta det i länkarna ovan till höger!
+    </p>
+</div>
+
+<h1>Planering</h1>
+
+<div id="planeringContainer" style="height: 50rem; overflow: scroll;">
+    <iframe height=3500px width="1700px"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQi403X2WYK78XkFKcOIV5hGU6WifWZLlFVblBtZPa0NDiviFrzewID7d5V5r5_WzAYgWaa8YcEUI4c/pubhtml?gid=347063290&single=true"></iframe>
+</div>
+
+<script>
+    window.onload = function () {
+        var planeringContainer = document.getElementById('planeringContainer');
+        planeringContainer.scrollTop = planeringContainer.scrollHeight * 0.4;
+    }
+</script>

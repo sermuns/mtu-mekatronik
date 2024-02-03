@@ -4,17 +4,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Mekatronik 1
+author: Samuel Åkesson
 email: samak519@student.liu.se
 description: >- # this means to ignore newlines until "baseurl:"
   Sida för kursen Mekatronik 1 på MTU mediagymnasiet.
 
-
-
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
 
 # Include the CNAME file
 include:
@@ -22,3 +19,6 @@ include:
 
 # Change output folder from default _site to docs
 destination: ../docs
+
+# Enable livereload and watch by default
+livereload: true
