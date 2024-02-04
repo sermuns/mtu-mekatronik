@@ -14,6 +14,9 @@
 \usepackage[swedish]{babel}
 \usepackage{datetime}
 \usepackage{textcase}
+\usepackage{currfile}
+\usepackage{hyperref}
+
 
 % Paragraph spacing
 \usepackage{parskip}
@@ -36,8 +39,7 @@
 % Figures subfolder
 \graphicspath{{figures/}}
 
-% Set PDF metadata
-\usepackage[pdftex,
+\hypersetup{
     pdfauthor={Samuel Åkesson},
-    pdftitle={\facit{}V\week{}: \lessonName{} | MEKMEK01}
-]{hyperref}
+    pdftitle={\facit{}V\week{}: \lessonName{} | MEKMEK01},
+}
