@@ -22,3 +22,5 @@ destination: ../docs
 
 # Enable livereload and watch by default
 livereload: true
+
+port: 3000
