@@ -14,7 +14,9 @@
 \usepackage{textcase}
 \usepackage{currfile}
 \usepackage{hyperref}
+\usepackage{titlesec}
 
+\titleformat*{\section}{\centering\Large\bfseries}
 
 % Paragraph spacing
 \usepackage{parskip}
@@ -31,7 +33,7 @@
 \onehalfspacing
 
 % Make exercises preceded by section number
-\renewcommand{\theenumi}{\lessonNumber.\arabic{enumi}}
+% \renewcommand{\theenumi}{\lessonNumber.\arabic{enumi}}
 \renewcommand{\labelenumi}{\textbf{\theenumi.}}
 
 % Figures subfolder
@@ -39,5 +41,5 @@
 
 \hypersetup{
     pdfauthor={Samuel Åkesson},
-    pdftitle={\facit{}V\week{}: \lessonName{} | MEKMEK01},
+    pdftitle={\testName{} | MEKMEK01}
 }

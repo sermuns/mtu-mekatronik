@@ -1,0 +1,124 @@
+\documentclass[11pt]{article}
+
+\renewcommand{\facit}{Facit }
+\usepackage{../mtu-uppgifter}
+
+\begin{document}
+\raggedright
+
+\section*{Facit till \lessonNumber. \lessonName}
+\begin{enumerate}[itemsep=2em]
+        \item
+              \raggedright
+              Formeln för att räkna ut vridmoment är $M = F \cdot l$. Vi vet att vridmomentet är \SI{10 000}{\newton\meter} och att kofoten är \SI{65}{\centi\meter} lång. Vi kan lösa ut kraften $F$ ur formeln:
+              \begin{equation*}
+                      F = \frac{M}{l} = \frac{\SI{10 000}{\newton\meter}}{\SI{65}{\centi\meter}} = \frac{{\SI{10 000}{\newton\meter}}}{{\SI{0.65}{\meter}}} = \SI{15384.6}{\newton} \approx \SI{15.4}{\kilo\newton}
+              \end{equation*}
+              \textbf{Svar:} Pelle måste använda en kraft på \SI{15.4}{\kilo\newton} för att bryta upp dörren.
+        \item
+              \raggedright
+              Vi vet att soffans massa är \SI{50}{\kilo\gram}. Den kommer att lyftas i konstant hastighet, och är alltså i jämvikt. Vi kan använda formeln $F_g = m \cdot g$ för att räkna soffans tyngdkraft.
+              \begin{equation*}
+                      F_g = m \cdot g = \SI{50}{\kilo\gram} \cdot \SI{9.82}{\meter\per\second\squared} = \SI{491}{\newton}
+              \end{equation*}
+              \begin{minipage}[c]{0.4\textwidth}
+                      Jämviktsekvation i vertikalled ger:
+              \end{minipage}
+              \begin{minipage}[c]{0.4\textwidth}
+                      \begin{align*}
+                              \uparrow : \begin{aligned}[t]
+                                                 F_{\text{rep}} - F_g & = 0                 \\
+                                                 F_{\text{rep}}       & = F_g               \\
+                                                 F_{\text{rep}}       & = \SI{491}{\newton}
+                                         \end{aligned}
+                      \end{align*}
+              \end{minipage}
+
+              \textbf{Svar:} Pelle måste dra i repet med en kraft på \SI{491}{\newton} för att lyfta soffan i konstant hastighet.
+
+        \item
+              Soffan väger fortfarande \SI{50}{\kilo\gram}, men nu måste Pelle inte motverka hela soffans tyngd, utan endast den del som är parallell med rampen.
+              Vi vet att normalkraften från rampen på soffan är \SI{425.22}{\newton}, och från förra uppgiften hittade vi soffans tyngdkraft, \SI{491}{\newton}. Eftersom alla krafter tar ut varandra i jämvikt, så är den kraft som Pelle måste använda för att dra soffan uppför rampen lika stor som den kraft som behövs för att motverka soffans tyngd parallellt med rampen.
+
+              \begin{minipage}[c]{0.7\textwidth}
+                      \raggedright
+                      Vi kan använda pythagoras sats för att räkna ut repkraften:
+              \end{minipage}
+              \hfill
+              \begin{minipage}[c]{0.15\textwidth}
+                      \includesvg[width=0.95\textwidth]{soffa_ramp_triangel}
+              \end{minipage}
+
+              \begin{minipage}[c]{0.2\textwidth}
+                      \begin{align*}
+                              F_{\text{rep}}^2 + F_{\text{n}}^2           & = F_g^2                                                   \\
+                              F_{\text{rep}}^2 + (\SI{425.22}{\newton})^2 & = (\SI{491}{\newton})^2                                   \\
+                              F_{\text{rep}}^2                            & = (\SI{491}{\newton})^2 - (\SI{425.22}{\newton})^2        \\
+                              F_{\text{rep}}                              & = \sqrt{(\SI{491}{\newton})^2 - (\SI{425.22}{\newton})^2} \\
+                              F_{\text{rep}}                              & \approx (\SI{245.5}{\newton})
+                      \end{align*}
+              \end{minipage}
+              \hspace{1em}
+              \begin{minipage}[c]{0.3\textwidth}
+                      \includesvg[width=0.95\textwidth]{soffa_ramp_facit}
+              \end{minipage}
+
+              \textbf{Svar:} Pelle måste dra i repet med en kraft på \SI{245.5}{\newton}.
+              \newpage
+        \item
+              \textbf{Svar: } a, b och e är exempel på mekanikens gyllene regel (det man vinner i kraft förloras i väg).
+
+        \item
+              Eftersom Pelle cyklar i konstant hastighet (30 km/h) är hela systemet i jämvikt. Vi kan sätta upp en momentekvation med bakhjulet $B$ som momentpunkt.
+
+              \begin{align*}
+                      \overset{\curvearrowleft}{B} : \begin{aligned}[t]
+                                                             -F_{\text{pelle}} \cdot \SI{1.2}{\meter} + F_{\text{cykel}} \cdot \SI{1.2}{\meter} + F_{\text{fram}} \cdot (\SI{1.2}{\meter} + \SI{0.3}{\meter})                                                                  & = 0                                                   \\
+                                                             -\SI{80}{\kilo\gram} \cdot \SI{9.82}{\meter/\second\squared} \cdot \SI{1.2}{\meter} - \SI{10}{\kilo\gram} \cdot \SI{9.82}{\meter/\second\squared} \cdot \SI{1.2}{\meter} + F_{\text{fram}} \cdot \SI{1.5}{\meter} & = 0                                                   \\
+                                                             \SI{-942.72}{\newton\meter} - \SI{117.84}{\newton\meter} + F_{\text{fram}} \cdot \SI{1.5}{\meter}                                                                                                                 & = 0                                                   \\
+                                                             F_{\text{fram}} \cdot \SI{1.5}{\meter}                                                                                                                                                                            & = \SI{1060.6}{\newton\meter}                          \\
+                                                             F_{\text{fram}}                                                                                                                                                                                                   & = \frac{\SI{1060.6}{\newton\meter}}{\SI{1.5}{\meter}} \\
+                                                             F_{\text{fram}}                                                                                                                                                                                                   & = \SI{707.07}{\newton}
+                                                     \end{aligned}
+              \end{align*}
+              Vi kan nu använda jämviktsekvationen i vertikalled för att räkna ut kraften i bakhjulet:
+              \begin{align*}
+                      \uparrow : \begin{aligned}[t]
+                                         - F_{\text{cykel}} - F_{\text{pelle}} + F_{\text{bak}} + F_{\text{fram}} & = 0                                                                                                                                                \\
+                                         F_{\text{bak}}                                                           & = F_{\text{cykel}} + F_{\text{pelle}} - F_{\text{fram}}                                                                                            \\
+                                         F_{\text{bak}}                                                           & = \SI{80}{\kilo\gram} \cdot \SI{9.82}{\meter/\second\squared} + \SI{10}{\kilo\gram} \cdot \SI{9.82}{\meter/\second\squared} - \SI{707.07}{\newton} \\
+                                         F_{\text{bak}}                                                           & = \SI{176.73}{\newton}
+                                 \end{aligned}
+              \end{align*}
+
+              \textbf{Svar: } Bakdäcket tar upp en kraft på \SI{176.73}{\newton} och framdäcket tar upp en kraft på \SI{707.07}{\newton}.
+
+              \newpage
+        \item
+              Vi kan sätta upp en momentekvation kring kanten $K$ för att räkna ut kraften $F$ som Pelle måste använda för att välta tillbaka bilen på hjulen igen.
+              \begin{align*}
+                      \overset{\curvearrowleft}{K} : \begin{aligned}[t]
+                                                             -F \cdot \SI{2.9}{\meter} + F_{\text{bil}} \cdot \SI{0.1}{\meter}                                                 & = 0                                                  \\
+                                                             -F \cdot \SI{2.9}{\meter} + \SI{2 000}{\kilo\gram} \cdot \SI{9.82}{\meter/\second\squared} \cdot \SI{0.1}{\meter} & = 0                                                  \\
+                                                             -F \cdot \SI{2.9}{\meter} + \SI{1 964}{\newton\meter}                                                             & = 0                                                  \\
+                                                             -F \cdot \SI{2.9}{\meter}                                                                                         & = -\SI{1 964}{\newton\meter}                         \\
+                                                             F                                                                                                                 & = \frac{\SI{1 964}{\newton\meter}}{\SI{2.9}{\meter}} \\
+                                                             F                                                                                                                 & \approx \SI{677.24}{\newton}
+                                                     \end{aligned}
+              \end{align*}
+              \begin{center}
+                      \includesvg[width=0.7\textwidth]{hävarm_bil_facit}
+              \end{center}
+
+
+
+
+\end{enumerate}
+\vfill
+\begin{center}
+        \fbox{\parbox{0.5\textwidth}{\centering
+                        \textbf{Senast ändrad:} \today{}, kl \currenttime
+                }}
+\end{center}
+
+\end{document}
