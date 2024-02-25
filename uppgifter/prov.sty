@@ -16,11 +16,13 @@
 \usepackage{hyperref}
 \usepackage{titlesec}
 
+\usepackage{ulem}
+
 \titleformat*{\section}{\centering\Large\bfseries}
 
 % Paragraph spacing
 \usepackage{parskip}
-\setlength{\parskip}{1em}
+\setlength{\parskip}{1.5em}
 
 % Margins
 \usepackage[a4paper, total={16cm, 25cm}]{geometry}
@@ -41,5 +43,13 @@
 
 \hypersetup{
     pdfauthor={Samuel Åkesson},
-    pdftitle={\testName{} | MEKMEK01}
+    pdftitle={\testName{}}
 }
+
+\newcommand{\paddedfbox}[1]{
+    \setlength{\fboxsep}{10pt}
+    \fbox{\begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}#1\end{minipage}}
+}
+
+\usepackage{parskip}
+\setlength{\parskip}{1em}
