@@ -1,0 +1,44 @@
+\newcommand{\week}{10}
+
+% For inserting images
+\usepackage{graphicx}
+\usepackage{svg}
+\usepackage{xcolor}
+\usepackage{adjustbox} % Add the missing adjustbox package
+\usepackage{amsmath,amssymb}
+\usepackage{siunitx}
+\usepackage{lipsum}
+\usepackage{enumitem}
+\usepackage{gensymb}
+\usepackage{cancel}
+\usepackage[swedish]{babel}
+\usepackage{datetime}
+\usepackage{textcase}
+\usepackage{currfile}
+\usepackage{hyperref}
+
+% Paragraph spacing
+\usepackage{parskip}
+\setlength{\parskip}{1em}
+
+% Margins
+\usepackage[a4paper, total={16cm, 25cm}]{geometry}
+
+% Font
+\usepackage[default]{opensans}
+
+% Line spacing
+\usepackage{setspace}
+\onehalfspacing
+
+% Make exercises preceded by section number
+\renewcommand{\theenumi}{\thesection.\arabic{enumi}}
+\renewcommand{\labelenumi}{\textbf{\theenumi.}}
+
+% Figures subfolder
+\graphicspath{{figures/}}
+
+\hypersetup{
+    pdfauthor={Samuel Åkesson},
+    pdftitle={Arduino-övningar v\week{} | MEKMEK01},
+}
