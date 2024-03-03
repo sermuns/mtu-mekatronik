@@ -1,44 +1,62 @@
 \newcommand{\week}{10}
 
-% For inserting images
 \usepackage{graphicx}
 \usepackage{svg}
 \usepackage{xcolor}
-\usepackage{adjustbox} % Add the missing adjustbox package
-\usepackage{amsmath,amssymb}
-\usepackage{siunitx}
-\usepackage{lipsum}
+\usepackage[export]{adjustbox}
 \usepackage{enumitem}
-\usepackage{gensymb}
-\usepackage{cancel}
 \usepackage[swedish]{babel}
 \usepackage{datetime}
 \usepackage{textcase}
-\usepackage{currfile}
+\usepackage{titling}
+\usepackage{nameref}
+
+\usepackage{float}
 \usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, % Disable colors for links
+    linkcolor=[rgb]{0.0, 0.2, 0.0}, % Color of internal links
+    urlcolor=blue, % Text color for URLs
+    pdfauthor={Samuel Åkesson},
+    pdftitle={Arduino-övningar v\week{} | MEKMEK01},
+}
+
+
+% Set the style for listings
+\usepackage{listings}
+\lstset{
+literate={ä}{{\"a}}1 {ö}{{\"o}}1 {ü}{{\"u}}1 {Ä}{{\"A}}1 {Ö}{{\"O}}1 {Ü}{{\"U}}1 {ß}{{\ss}}1 {å}{{\r{a}}}1 {Å}{{\r{A}}}1,
+basicstyle=\ttfamily\small, % Set the font style to small teletype
+breaklines=true, % Enable line breaking
+columns=flexible, % Compress multiple spaces into a single space
+% xleftmargin=1em, % Add left margin
+frame=single, % Frame around the code
+framesep=0.7em, % Padding around the code
+}
 
 % Paragraph spacing
 \usepackage{parskip}
 \setlength{\parskip}{1em}
 
 % Margins
-\usepackage[a4paper, total={16cm, 25cm}]{geometry}
+\usepackage[a4paper, total={17cm, 25cm}]{geometry}
 
 % Font
 \usepackage[default]{opensans}
 
 % Line spacing
 \usepackage{setspace}
-\onehalfspacing
+\doublespacing
+
+% Section title spacing
+\usepackage{titlesec}
+\newcommand{\abovesection}{1.5em}
+\newcommand{\belowsection}{0.3em}
+\titlespacing*{\section}{0pt}{\abovesection}{\belowsection}
+\titlespacing*{\subsection}{0pt}{\abovesection}{\belowsection}
+\titlespacing*{\subsubsection}{0pt}{\abovesection}{\belowsection}
 
 % Make exercises preceded by section number
-\renewcommand{\theenumi}{\thesection.\arabic{enumi}}
-\renewcommand{\labelenumi}{\textbf{\theenumi.}}
+% \renewcommand{\theenumi}{\thesection.\arabic{enumi}}
+% \renewcommand{\labelenumi}{\textbf{\theenumi.}}
 
-% Figures subfolder
-\graphicspath{{figures/}}
-
-\hypersetup{
-    pdfauthor={Samuel Åkesson},
-    pdftitle={Arduino-övningar v\week{} | MEKMEK01},
-}
