@@ -1,0 +1,44 @@
+\documentclass[11pt]{article}
+\usepackage{arduino-uppgifter}
+
+\newcommand{\mallurl}{https://wokwi.com/projects/357812594927244289}
+
+% Figures subfolder
+\graphicspath{{figures/}}
+
+\begin{document}
+\begin{center}
+      \textbf{\huge{Arduino-kompendium}}
+      \huge{| MEKMEK01}
+\end{center}
+\vspace{2em}
+
+\tableofcontents
+
+\newpage
+
+\subsection{Vad är en pin}\label{sec:pin}
+\subsection{Analog pin}
+\subsection{Utgång eller ingång?}\label{sec:io}
+
+\section{Programmering}
+\subsection{\texttt{pinMode}}
+Används för att bestämma om en pin (vad är en pin förklaras \ref{sec:pin}) ska vara en utgång eller ingång (\ref{sec:io})
+
+Exempelanvändning:
+\begin{lstlisting}
+pinMode(4, OUTPUT);
+\end{lstlisting}
+Kommer att välja pin D4 som en utgång.
+
+\subsection{\texttt{digitalWrite}}
+
+\subsection{\texttt{digitalRead}}
+
+\subsection{\texttt{delay}}
+
+\subsection{Serial}
+
+\subsection{\texttt{millis}}
+
+\end{document}
