@@ -22,17 +22,27 @@
 Här förklaras lite grundläggande koncept som behövs för att förstå Arduino.
 
 \subsection{Vad är en pin}\label{sec:pin}
-En pin är en fysisk kontakt på en mikrokontroller som kan användas för att koppla in och ut signaler. En pin kan vara en ingång eller en utgång (se \ref{sec:io}). De pins som heter D0-D13 kan användas för digitala signaler, medan A0-A5 kan användas för analoga signaler (se \ref{sec:analog}).
+En pin är en fysisk kontakt på en mikrokontroller som kan användas för att
+koppla in och ut signaler. En pin kan vara en ingång eller en utgång (se
+\ref{sec:io}). De pins som heter D0-D13 kan användas för digitala signaler,
+medan A0-A5 kan användas för analoga signaler (se \ref{sec:analog-digital}).
 
 \subsection{Utgång eller ingång?}\label{sec:io}
-Du som programmerare väljer om en pin ska vara en ingång eller utgång genom \texttt{pinMode} (se \ref{sec:pinmode}). En ingång kan användas för att läsa av en signal, till exempel från en knapp eller en sensor. En utgång kan användas för att skicka en signal, till exempel till en lampa eller en motor.
+Du som programmerare väljer om en pin ska vara en ingång eller utgång genom
+\texttt{pinMode} (se \ref{sec:pinmode}). En ingång kan användas för att läsa av
+en signal, till exempel från en knapp eller en sensor. En utgång kan användas
+för att skicka en signal, till exempel till en lampa eller en motor.
 
-\subsection{Digital eller analog?}\label{sec:analog}
-En digital signal kan bara ha två tillstånd: hög eller låg. En analog signal kan ha ett kontinuerligt värde mellan hög och låg. En analog signal kan till exempel användas för att styra en motor så att den snurrar med olika hastighet, eller en lampa så att den lyser med olika styrka.
+\subsection{Digital eller analog?}\label{sec:analog-digital}
+En digital signal kan bara ha två tillstånd: hög eller låg. En analog signal
+kan ha ett kontinuerligt värde mellan hög och låg. En analog signal kan till
+exempel användas för att styra en motor så att den snurrar med olika hastighet,
+eller en lampa så att den lyser med olika styrka.
 
 \section{Programmering}
 \subsection{\texttt{pinMode}}\label{sec:pinmode}
-Används för att bestämma om en \hyperref[sec:pin]{pin} ska vara en utgång eller ingång (\ref{sec:io})
+Används för att bestämma om en \hyperref[sec:pin]{pin} ska vara en utgång eller
+ingång (\ref{sec:io})
 
 \textbf{Exempelanvändning:}
 \begin{lstlisting}
@@ -41,15 +51,106 @@ pinMode(4, OUTPUT);
 Kommer att välja pin D4 som en utgång.
 
 \subsection{\texttt{digitalWrite}}
+För att styra signaler på en \hyperref[sec:pin]{pin} som är bestämd som
+\hyperref[sec:io]{utgång}. Kan användas för att tända eller släcka en lampa,
+eller styra en motor. Eftersom en \hyperref[sec:analog-digital]{digital} signal
+bara kan vara hög eller låg, kan \texttt{digitalWrite} bara skicka signaler med
+dessa två tillstånd.
+
+\textbf{Exempelanvändning:}
+För att skicka ut en hög signal på pin D4:
+\begin{lstlisting}
+digitalWrite(4, HIGH);
+\end{lstlisting}
+
+\textbf{Exempelanvändning:}
+För att släcka den interna lampan på Arduino-enheten:
+\begin{lstlisting}
+digitalWrite(LED_BUILTIN, LOW);
+\end{lstlisting}
 
 \subsection{\texttt{digitalRead}}
+För att läsa av en \hyperref[sec:pin]{pin} som är bestämd som
+\hyperref[sec:io]{ingång}. Kan användas för att läsa av en knapptryckning eller
+en digital sensor. Returnerar \texttt{HIGH} eller \texttt{LOW} beroende på om
+spänningen på pinnen är hög eller låg. Eftersom en
+\hyperref[sec:analog-digital]{digital} signal bara kan vara hög eller låg, kan
+\texttt{digitalRead} bara läsa av dessa två tillstånd.
+
+Det lämpar sig bra att lagra resultatet i en variabel med typen \texttt{bool}.
+
+\textbf{Exempelanvändning:}
+För att läsa av en hög insignal på pin D11:
+\begin{lstlisting}
+bool value = digitalRead(11);
+\end{lstlisting}
 
 \subsection{\texttt{delay}}
+Används för att vänta en viss tid innan programmet fortsätter. Kan användas för
+att skapa en paus i programmet, till exempel för att blinka en lampa med ett
+visst intervall.
+
+\textbf{Exempelanvändning:}
+För att tända en lampa på pin D4 i 1000 millisekunder, sedan släcka den i 1000
+millisekunder:
+
+\begin{lstlisting}
+digitalWrite(4, HIGH);
+delay(1000);
+digitalWrite(4, LOW);
+delay(1000);
+\end{lstlisting}
+
+\textbf{En varning:} många problem kan uppstå om \texttt{delay} används i
+större
+program, eftersom programmet inte kan göra något annat under tiden som
+\texttt{delay} körs. Det finns bättre sätt att vänta i programmet, till exempel
+\hyperref[sec:millis]{\texttt{millis}}.
 
 \subsection{Seriell kommunikation}
+\subsubsection{\texttt{Serial.begin}}
+Måste alltid anropas i \texttt{void setup()} för att överhuvudtaget kunna
+använda seriell kommunikation. Argumentet är den baudrate som ska användas. En
+standard-baudrate är 9600.
 
-\subsection{\texttt{millis}}
-Används för att mäta tid. Vid anrop returneras antal millisekunder sedan Arduino-enheten startades. En begränsning är att det inte går att mäta längre tid än vad datatypen \texttt{unsigned long} kan rymma, vilket är ungefär 50 dagar.
+\textbf{Exempelanvändning:}
+För att starta seriell kommunikation med baudrate 9600:
+\begin{lstlisting}
+Serial.begin(9600);
+\end{lstlisting}
+
+\subsubsection{\texttt{Serial.print}}\label{sec:serial.print}
+Används för att skicka meddelanden genom seriell kommunikation. Vanligtvis vill
+man också att en radbrytning ska skickas efter meddelandet, vilket kan göras
+med \hyperref[sec:serial.println]{\texttt{Serial.println}.}
+
+\textbf{Exempelanvändning:}
+För att skicka texten ``Hello, world!'' till seriell kommunikation:
+\begin{lstlisting}
+Serial.print("Hello, world!");
+\end{lstlisting}
+
+\subsubsection{\texttt{Serial.println}} \label{sec:serial.println}
+Har exakt samma användning som
+\hyperref[sec:serial.print]{\texttt{Serial.print}} med skillnaden att den
+skickar en radbrytning efter meddelandet. Om man vill använda den seriella
+plottern är det enklast att använda \texttt{Serial.println}.
+
+\textbf{Exempelanvändning:}
+För att skriva ut antalet millisekunder sedan Arduino-enheten startades varje
+loop:
+
+\begin{lstlisting}
+void loop() {
+  Serial.println(millis());
+}
+\end{lstlisting}
+
+\subsection{\texttt{millis}}\label{sec:millis}
+Används för att mäta tid. Vid anrop returneras antal millisekunder sedan
+Arduino-enheten startades. En begränsning är att det inte går att mäta längre
+tid än vad datatypen \texttt{unsigned long} kan rymma, vilket är ungefär 50
+dagar.
 
 \textbf{Exempelanvändning:}\\
 För att blinka en lampa varje sekund, utan att använda \texttt{delay}:
@@ -63,6 +164,5 @@ void loop() {
   }
 }
 \end{lstlisting}
-
 
 \end{document}
