@@ -9,8 +9,8 @@
 \begin{document}
 \raggedright{}
 \begin{center}
-      \textbf{\huge{Arduino-kompendium}}
-      \huge{| MEKMEK01}
+  \textbf{\huge{Arduino-kompendium}}
+  \huge{| MEKMEK01}
 \end{center}
 \vspace{2em}
 
@@ -41,23 +41,51 @@ exempel användas för att styra en motor så att den snurrar med olika hastighe
 eller en lampa så att den lyser med olika styrka.
 
 \subsection{PWM}\label{sec:pwm}
-Pulse Width Modulation (PWM) är en teknik som används för att skapa en analog signal
+Pulse Width Modulation (PWM) är en teknik som används för att skapa en analog
+signal
 med hjälp av digitala signaler. Detta är användbart för att styra till exempel
 motorer och lampor med en mikrokontroller.
 
 PWM fungerar genom att skicka en serie av snabba höga och låga signaler, där
 förhållandet mellan hög och låg signal bestämmer hur stark den genomsnittliga
-signalen blir. 
+signalen blir.
 
 Se figur \ref{fig:pwm} för att se hur en PWM-signal ser ut vid olika procent.
-
 \begin{figure}[H]
-      \centering
-      \includegraphics[width=0.5\textwidth]{pwm}
-      \caption{Hur PWM-signaler ser ut vid olika procent.}
-      \label{fig:pwm}
+  \centering
+  \includegraphics[width=0.5\textwidth]{pwm}
+  \caption{Hur PWM-signaler ser ut vid olika procent.}
+  \label{fig:pwm}
 \end{figure}
 
+\subsection{Enpulsning}\label{sec:enpulsning}
+Väldigt ofta är vi intresserade av när en signal precis går från låg till hög
+(så kallad \textbf{positiv flank} eller \textbf{rising edge} på engelska), inte
+bara \textit{att} signalen är hög. För att detektera en positiv flank kan
+enpulsning användas.
+
+Ett sätt att genomföra enpulsning av en signal i Arduino är att spara det förra
+tillståndet av signalen, och jämföra det med det nuvarande tillståndet. Om det
+förra tillståndet var låg och det nuvarande är högt, har en positiv flank
+inträffat.
+
+\textbf{Exempelkod:}
+Här enpulsas signalen på pin D2:
+\begin{lstlisting}
+bool lastState = LOW;
+void setup() {
+  pinMode(2, INPUT);
+}
+void loop() {
+  bool currentState = digitalRead(2);
+  if (lastState == LOW && currentState == HIGH) {
+    // En positiv flank har inträffat
+  }
+  lastState = currentState;
+}
+\end{lstlisting}
+
+\newpage
 \section{Programmering}
 \subsection{\texttt{pinMode}}\label{sec:pinmode}
 Används för att bestämma om en \hyperref[sec:pin]{pin} ska vara en utgång eller
@@ -106,7 +134,8 @@ bool value = digitalRead(11);
 
 \subsection{\texttt{analogWrite}}
 För att skriva en \hyperref[sec:analog-digital]{analog} signal till en pin som
-är bestämd som \hyperref[sec:io]{utgång}. Den valda pinen måste dessutom vara en
+är bestämd som \hyperref[sec:io]{utgång}. Den valda pinen måste dessutom vara
+en
 av de pins som stödjer \hyperref[sec:pwm]{PWM}.
 
 \subsection{\texttt{delay}}
@@ -188,6 +217,5 @@ void loop() {
   }
 }
 \end{lstlisting}
-
 
 \end{document}

@@ -26,6 +26,10 @@
 Skapa en krets med 5 lampor, där alla lampor blinkar samtidigt med ett jämnt
 intervall, som nedan.
 \begin{figure}[H]
+      \animategraphics[autoplay, loop,
+            width=0.8\linewidth]{1}{2-}{0}{2}
+\end{figure}
+\begin{figure}[H]
       \centering
       \begin{minipage}{0.4\textwidth}
             \includegraphics[width=\textwidth]{5led-low}
@@ -71,16 +75,36 @@ och den andra med ett intervall på 700ms.
       I uppgift \ref{sec:flera-lampor} och \ref{sec:sekvensiell-blinkning}
       används
       \texttt{digitalWrite} för att tända och släcka lampor. Detta är en
-      binär (eller digital) funktion, det vill säga att lampan är antingen tänd eller släckt.
+      binär (eller digital) funktion, det vill säga att lampan är antingen tänd
+      eller släckt.
       Med funktionen \texttt{analogWrite} kan man istället styra ljusstyrkan på
-      en lampa med hjälp av \texttt{PWM}. (Läs på om detta i \href{https://mek.samake.se/arduino/kompendium}{Arduino-kompendiet.})
+      en lampa med hjälp av \texttt{PWM}. (Läs på om detta i
+      \href{https://mek.samake.se/arduino/kompendium}{Arduino-kompendiet.})
 }
 
-Skapa en krets med en lampa som börjar med att lysa svagt, sedan ökar ljusstyrkan
-över två sekunder till max, och sedan minskar ljusstyrkan till svagt igen. Detta repeteras om-och-om igen.
+Skapa en krets med en lampa som börjar med att lysa svagt, sedan ökar
+ljusstyrkan
+över två sekunder till max, och sedan minskar ljusstyrkan till svagt igen.
+Detta repeteras om-och-om igen.
 
-\vspace{2em}
-\hrule
+\section{Knapptrycksräknare}\label{sec:knapptrycksraknare}
+\paddedfbox{
+      Enpulsning är en teknik för att detektera när en signal precis går från
+      låg
+      till hög. Detta kan användas för att exempelvis räkna antalet gånger en
+      knapp har tryckts. Läs på om detta i
+      \href{https://mek.samake.se/arduino/kompendium}{Arduino-kompendiet.}
+}
+
+Skapa en krets med en knapp. När knappen trycks in ska en räknare öka med 1,
+och räknarens värde ska skrivas ut i terminalen.
+
+\subsection{Utökning av knapptrycksräknare}\label{sec:utokning}
+Utöka kretsen från \ref{sec:knapptrycksraknare} genom att lägga till en
+reset-knapp, och en minus-knapp. När reset-knappen trycks in ska räknaren
+återställas till 0, och när minus-knappen trycks in ska räknaren minska med 1.
+
+\vspace{4em}\hrule
 \section*{Extra-uppgifter}
 \paddedfbox{
       Dessa uppgifter är lite mer avancerade och är inte nödvändiga för att
