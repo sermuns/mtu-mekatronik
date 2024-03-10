@@ -60,6 +60,7 @@ När alla fem lampor har tänts ska alla släckas samtidigt och cykeln börja om
       något annat under tiden \texttt{delay} kallas på. Detta kan lösas, genom
       att
       använda \texttt{millis} och \texttt{if}-satser. Läs på om detta i
+
       \href{https://mekatronik.samake.se/dokument/arduino_komp/arduino_komp.pdf}{Arduino-kompendiet.}
 }
 
@@ -75,13 +76,16 @@ och den andra med ett intervall på 700ms.
       eller släckt.
       Med funktionen \texttt{analogWrite} kan man istället styra ljusstyrkan på
       en lampa med hjälp av \texttt{PWM}. (Läs på om detta i
+
       \href{https://mekatronik.samake.se/dokument/arduino_komp/arduino_komp.pdf}{Arduino-kompendiet.})
 }
 
 Skapa en krets med en lampa som börjar med att lysa svagt, sedan ökar
 ljusstyrkan
-över två sekunder till max, och sedan minskar ljusstyrkan till svagt igen.
+till sitt max, och sedan minskar ljusstyrkan till svagt igen.
 Detta repeteras om-och-om igen.
+
+\textbf{Tips:} Om du uppdaterar ljusstyrkan för fort så kanske du inte hinner se någon förändring. Testa att använda \texttt{delay} för att sakta ner uppdateringen.
 
 \section{Knapptrycksräknare}\label{sec:knapptrycksraknare}
 \paddedfbox{
@@ -89,6 +93,7 @@ Detta repeteras om-och-om igen.
       låg
       till hög. Detta kan användas för att exempelvis räkna antalet gånger en
       knapp har tryckts. Läs på om detta i
+
       \href{https://mekatronik.samake.se/dokument/arduino_komp/arduino_komp.pdf}{Arduino-kompendiet.}
 }
 
@@ -99,8 +104,6 @@ och räknarens värde ska skrivas ut i terminalen.
 Utöka kretsen från \ref{sec:knapptrycksraknare} genom att lägga till en
 reset-knapp, och en minus-knapp. När reset-knappen trycks in ska räknaren
 återställas till 0, och när minus-knappen trycks in ska räknaren minska med 1.
-
-
 
 \newpage\hrule
 \section*{Extra-uppgifter}

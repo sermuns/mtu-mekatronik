@@ -38,9 +38,14 @@ för att skicka en signal, till exempel till en lampa eller en motor.
 
 \subsection{Digital eller analog?}\label{sec:analog-digital}
 En digital signal kan bara ha två tillstånd: hög eller låg. En analog signal
-kan ha ett kontinuerligt värde mellan hög och låg. En analog signal kan till
-exempel användas för att styra en motor så att den snurrar med olika hastighet,
-eller en lampa så att den lyser med olika styrka.
+kan ha ett kontinuerligt värde mellan hög och låg.
+
+De pins som heter D0-D13 kan användas för skicka ut och läsa av digitala
+signaler, medan A0-A7 kan enbart användas för att \textbf{läsa av} analoga
+signaler.
+
+För att skicka ut analoga signaler måste pins som stödjer
+\hyperref[sec:pwm]{PWM} användas. Dessa är D3, D5, D6, D9, D10 och D11.
 
 \subsection{PWM}\label{sec:pwm}
 Pulse Width Modulation (PWM) är en teknik som används för att skapa en analog
@@ -71,19 +76,32 @@ tillståndet av signalen, och jämföra det med det nuvarande tillståndet. Om d
 förra tillståndet var låg och det nuvarande är högt, har en positiv flank
 inträffat.
 
+\textbf{Obs!} Det är viktigt att lägga in en liten fördröjning när en flank har
+upptäckts. Detta är för att knappar tenderar att ``studsa'' i verkligheten, och
+då kan den räkna fler knapptryck än vad som faktiskt har inträffat.
+
+\newpage
 \textbf{Exempelkod:}
-Här enpulsas signalen på pin D2:
+
 \begin{lstlisting}
-bool lastState = LOW;
 void setup() {
-  pinMode(2, INPUT);
+  pinMode(4, INPUT_PULLUP);
 }
+
+bool btnState, oldState;
+byte counter = 0;
+
 void loop() {
-  bool currentState = digitalRead(2);
-  if (lastState == LOW && currentState == HIGH) {
-    // En positiv flank har inträffat
+  btnState = !digitalRead(4);
+
+  if (btnState != oldState) {
+    if (btnState) {
+      // positiv flank!
+    }
+    delay(10); // för att slippa "studs"
   }
-  lastState = currentState;
+
+  oldState = btnState;
 }
 \end{lstlisting}
 
