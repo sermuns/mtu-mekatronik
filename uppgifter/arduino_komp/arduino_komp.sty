@@ -38,7 +38,7 @@ framesep=0.5em, % Padding around the code
 \setlength{\parskip}{1em}
 
 % Margins
-\usepackage[a4paper, total={17cm, 25cm}, margin=3em]{geometry}
+\usepackage[a4paper, total={17cm, 25cm}, margin=5em]{geometry}
 
 % Font
 \usepackage[default]{opensans}
@@ -59,3 +59,10 @@ framesep=0.5em, % Padding around the code
 % \renewcommand{\theenumi}{\thesection.\arabic{enumi}}
 % \renewcommand{\labelenumi}{\textbf{\theenumi.}}
 
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear header and footer
+\lhead{\leftmark} % Left-aligned header with section name
+\rhead{\hyperlink{toc}{$\uparrow$ INNEHÅLL}} % Right-aligned header with hyperlink to ToC
+\cfoot{\thepage} % Centered footer with page number

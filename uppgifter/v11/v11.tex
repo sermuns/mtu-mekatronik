@@ -36,7 +36,7 @@ intervall, som nedan.
 \end{figure}
 
 \section{Lampor blinkar en-efter-en}\label{sec:sekvensiell-blinkning}
-Nu ska lamporna tändas en-efter-en i serie, med jämna mellanrum.
+Nu ska lamporna tändas en-efter-en i serie, som en ``mask'' som rör sig framåt.
 När alla fem lampor har tänts ska alla släckas samtidigt och cykeln börja om.
 \begin{figure}[H]
       \centering
@@ -53,12 +53,48 @@ När alla fem lampor har tänts ska alla släckas samtidigt och cykeln börja om
 
 \section{Multitasking: blinka olika lampor med olika intervall}
 \paddedfbox{
-      Uppgift \ref{sec:flera-lampor} och \ref{sec:sekvensiell-blinkning} kan lösas
-      med \texttt{delay}. Ett problem med den lösningen är att Arduino inte kan göra
-      något annat under tiden \texttt{delay} kallas på. Detta kan lösas, genom att
-      använda \texttt{millis} och \texttt{if}-satser. Läs på om detta i \href{https://mek.samake.se/arduino/kompendium}{Arduino-kompendiet.}
+      Uppgift \ref{sec:flera-lampor} och \ref{sec:sekvensiell-blinkning} kan
+      lösas
+      med \texttt{delay}. Ett problem med den lösningen är att Arduino inte kan
+      göra
+      något annat under tiden \texttt{delay} kallas på. Detta kan lösas, genom
+      att
+      använda \texttt{millis} och \texttt{if}-satser. Läs på om detta i
+      \href{https://mek.samake.se/arduino/kompendium}{Arduino-kompendiet.}
 }
 
-Skapa en krets med 5 lampor, där varje lampa blinkar med olika intervall. Första lampans intervall är 1000ms, andra 500ms, tredje 250ms, fjärde 125ms och femte 62.5ms.
+Skapa en krets med två lampor, där den ena blinkar med ett intervall på 500ms
+och den andra med ett intervall på 700ms.
+
+\section{Ljusstyrka med PWM}\label{sec:pwm}
+\paddedfbox{
+      I uppgift \ref{sec:flera-lampor} och \ref{sec:sekvensiell-blinkning}
+      används
+      \texttt{digitalWrite} för att tända och släcka lampor. Detta är en
+      binär (eller digital) funktion, det vill säga att lampan är antingen tänd eller släckt.
+      Med funktionen \texttt{analogWrite} kan man istället styra ljusstyrkan på
+      en lampa med hjälp av \texttt{PWM}. (Läs på om detta i \href{https://mek.samake.se/arduino/kompendium}{Arduino-kompendiet.})
+}
+
+Skapa en krets med en lampa som börjar med att lysa svagt, sedan ökar ljusstyrkan
+över två sekunder till max, och sedan minskar ljusstyrkan till svagt igen. Detta repeteras om-och-om igen.
+
+\vspace{2em}
+\hrule
+\section*{Extra-uppgifter}
+\paddedfbox{
+      Dessa uppgifter är lite mer avancerade och är inte nödvändiga för att
+      klara av projektet.
+}
+
+\section{Automatisk binär räknare}\label{sec:binar-raknare}
+Skapa en krets med 4 lampor som räknar i binära tal. Räknaren kommer alltså att
+kunna visa talen 0--15. När räknaren når 15 ska den börja om från 0. Räknaren
+ska räkna upp med ett intervall på 1 sekund.
+
+\section{Manuell binär räknare}\label{sec:manuell-binar-raknare}
+Utöka kretsen från \ref{sec:binar-raknare} genom att lägga till två knappar.
+Den ena knappen ska göra så att räknaren ökar med 1, och den andra knappen ska
+göra så att räknaren minskar med 1.
 
 \end{document}
