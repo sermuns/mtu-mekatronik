@@ -87,17 +87,52 @@ void loop() {
 }
 \end{lstlisting}
 
+\subsection{Datatyper}
+blavlajsadj
+
 \newpage
 \section{Programmering}
 \subsection{\texttt{pinMode}}\label{sec:pinmode}
 Används för att bestämma om en \hyperref[sec:pin]{pin} ska vara en utgång eller
 ingång (\ref{sec:io})
 
+\texttt{pinMode} har tre konfigurationer:
+\begin{itemize}
+  \item \texttt{INPUT}
+  \item \texttt{OUTPUT}
+  \item \hyperref[sec:input_pullup]{\texttt{INPUT\_PULLUP}}
+\end{itemize}
+
 \textbf{Exempelanvändning:}
 \begin{lstlisting}
 pinMode(4, OUTPUT);
 \end{lstlisting}
 Kommer att välja pin D4 som en utgång.
+
+\subsubsection{\texttt{INPUT\_PULLUP}}\label{sec:input_pullup}
+En variant av \hyperref[sec:input]{input}. Denna konfiguration gör så att
+pin:en internt kopplas till en så kallad pull-up resistor.
+Det betyder att när pinen inte är kopplad till GND kommer den att vara hög.
+
+Detta är användbart när man kopplar in en knapp, eftersom då behövs endast två
+sladdar: en till GND och en till pinen.
+
+\textbf{Obs!} När knappen är nedtryckt kommer alltså signalen vara låg, annars
+hög. Det är därför vanligt att man vill invertera den avlästa signalen.
+
+\textbf{Exempelanvändning:}
+En knapp kopplad till pin D2:
+\begin{lstlisting}
+void setup() {
+  pinMode(2, INPUT_PULLUP);
+}
+void loop() {
+  bool buttonState = !digitalRead(2); // inverterad logik
+  if (buttonState) {
+    // Knappen är nedtryckt
+  }
+}
+\end{lstlisting}
 
 \subsection{\texttt{digitalWrite}}
 För att styra signaler på en \hyperref[sec:pin]{pin} som är bestämd som
