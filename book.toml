@@ -1,0 +1,9 @@
+[book]
+authors = ["Samuel Åkesson"]
+language = "sv"
+multilingual = false
+src = "src"
+title = "mtu-book"
+
+[output.html]
+mathjax-support = true
