@@ -7,11 +7,11 @@ Låt mig illustrera detta med ett exempel:
 
 Förr i tiden när man skulle ploga en åker, hur gjorde man då?
 
-Man anlitade ett par gubbar och hästar och satte igång, arbetet skulle inte bli enklare.
+Man anlitade helt enkelt ett par gubbar och hästar och satte igång, arbetet skulle inte bli enklare.
 
 ![horse_with_workers](horse_with_workers_pulling_plough_in_sweden_rocks-97042d7e-1f99-417e-8196-fc1c7d25d02c.webp)
 
-Men idag har hästen blivit totalt ersatt av något annat...
+Men idag har hästen blivit totalt ersatt av något annat!
 
 ![robot_horse](robotic_horse_with_workers_pulling_plough_in_sweden_rocks-65b06739-f885-4bd7-bdfe-097a52dc083e.webp)
 

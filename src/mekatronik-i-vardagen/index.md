@@ -5,3 +5,5 @@ När stöter vi på mekatronik till vardags? Ja, hela tiden typ. Tänk på en bi
 
 Eller en diskmaskin?
 - Diskmaskiner har motorer som driver pumpar och roterande armar, och en dator som styr hela programmet.
+
+Gå till [uppgiftsbeskrivning](uppgift.html)
