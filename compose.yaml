@@ -1,8 +1,10 @@
 services:
   mdbook:
+    user: 1000:1000
     container_name: mdbook
     image: peaceiris/mdbook:v0.4.40
     stdin_open: true
+    restart: unless-stopped
     tty: true
     ports:
       - 3000:3000

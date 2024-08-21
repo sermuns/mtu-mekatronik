@@ -21,9 +21,12 @@ En robothäst[^robot_horse]! Typ..
 
 Vad var det som hände? Jo, vi gick från rent **mekaniska** lösningar (handarbete, fysisk ansträngning) till komplicerade maskiner med elektroniska komponenter.
 
-> Mekanik + Elektronik = Mekatronik <span style="color:red"><3</span>
+> Mekanik + Elektronik = Mekatronik <3
 
-**Mekatronik** kallas alltså sånt som byggs med **både** [mekaniska](/begrepp#mekanik) delar och [elektroniska](/begrepp#elektronik) delar.
+I denna kurs kommer vi lära oss att räkna på krafter, skapa elektriska kretsar som har 'logik', helt enkelt förutsäga framtiden! Det är det som är poängen med att studera verkligheten, att kunna förutse vad som kommer hända och förbereda sig för det.
+
+## TLDR
+**Mekatronik** beskriver sånt som består av både [mekaniska](/begrepp#mekanik) delar och [elektroniska](/begrepp#elektronik) delar.
 
 ## Frågor
 - Kan du komma på exempel på prylar som består av **både mekaniska och elektroniska delar?**
