@@ -1,0 +1,36 @@
+# Introduktion
+
+Vad är mekatronik? Varför ska vi bry oss om det?
+
+<br>
+Låt mig illustrera detta med ett exempel:
+
+Förr i tiden när man skulle ploga en åker, hur gjorde man då?
+
+Man anlitade ett par gubbar och hästar och satte igång, arbetet skulle inte bli enklare.
+
+![horse_with_workers](horse_with_workers_pulling_plough_in_sweden_rocks-97042d7e-1f99-417e-8196-fc1c7d25d02c.webp)
+
+Men idag har hästen blivit totalt ersatt av något annat...
+
+![robot_horse](robotic_horse_with_workers_pulling_plough_in_sweden_rocks-65b06739-f885-4bd7-bdfe-097a52dc083e.webp)
+
+En robothäst[^robot_horse]! Typ..
+
+![tractor](tractor.webp)
+
+Vad var det som hände? Jo, vi gick från rent **mekaniska** lösningar (handarbete, fysisk ansträngning) till komplicerade maskiner med elektroniska komponenter.
+
+> Mekanik + Elektronik = Mekatronik <span style="color:red"><3</span>
+
+**Mekatronik** kallas alltså sånt som byggs med **både** [mekaniska](/begrepp#mekanik) delar och [elektroniska](/begrepp#elektronik) delar.
+
+## Frågor
+- Kan du komma på exempel på prylar som består av **både mekaniska och elektroniska delar?**
+- Kan du komma på exempel på prylar som **endast består av mekaniska delar?**
+- Kan du komma på exempel på prylar som **endast består av elektroniska delar?**
+
+
+<br>
+
+[^robot_horse]: <https://www.wikiwand.com/en/Horsey_Horseless>

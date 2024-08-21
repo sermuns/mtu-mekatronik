@@ -1,0 +1,20 @@
+blockquote {
+    text-align: center;
+    margin: 4rem auto;
+}
+
+img {
+    max-width: 85% !important;
+    display: block;
+    margin: auto;
+    border: 0.5rem solid #808080;
+    border-radius: 0.5rem;
+}
+
+ul * {
+    margin: 1rem 0;
+}
+
+li::marker {
+    content: "→  ";
+}

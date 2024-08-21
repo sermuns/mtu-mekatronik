@@ -1,7 +1,7 @@
 # Mekatronik 1
 Aktuellt moment: [Arduino](arduino/index)
 
-För att se alla moment, titta i <button onclick="sidebar_toggle.click()">menyn</button> till vänster.
+För att se alla moment, titta i menyn till vänster
 
 ## Planering
 <iframe

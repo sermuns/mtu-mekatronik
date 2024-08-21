@@ -8,6 +8,10 @@ title = "Mekatronik 1 | MTU"
 [output.html]
 mathjax-support = true
 theme= "custom_theme"
+additional-css = ["custom.css"]
+
+[build]
+build-dir = ".build"
 
 # [preprocssor.last-changed]
 # command = "mdbook-last-changed"

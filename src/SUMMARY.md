@@ -1,10 +1,8 @@
 # Summary
-
 [Startsida](index.md)
-
 ---
-
 # Moment
+- [Introduktion](introduktion/index.md)
 - [Mekatronik i vardagen](mekatronik-i-vardagen/index.md)
 - [Digitalteknik](digitalteknik/index.md)
     - [Talsystem](digitalteknik/talsystem.md)
@@ -14,10 +12,9 @@
 - [Mekanik](mekanik/index.md)
 	- [Krafter](mekanik/krafter.md)
 - [Arduino](arduino/index.md)
-
-# Extra material
+---
+- [Begrepp](begrepp/index.md)
 - [Länkar](lankar.md)
 - [Verktyg](verktyg.md)
-
 ---
 [Om sidan](om-sidan.md)
