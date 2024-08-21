@@ -1,8 +1,7 @@
 # Mekatronik 1
 Aktuellt moment: [Arduino](arduino/index)
 
-# Innehåll
-{{#toc}}
+För att se alla moment, titta i <button onclick="sidebar_toggle.click()">menyn</button> till vänster.
 
 ## Planering
 <iframe
