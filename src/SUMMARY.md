@@ -3,8 +3,10 @@
 ---
 # Moment
 - [Introduktion](introduktion/index.md)
-- [Mekatronik i vardagen](mekatronik-i-vardagen/index.md)
-  - [Uppgift](mekatronik-i-vardagen/uppgift.md)
+- [Grunder i mekatronik](grunder-i-mekatronik/index.md)
+  - [Vad är mekatronik?](grunder-i-mekatronik/vad-ar-mekatronik.md)
+  - [Mekatronik i vardagen](grunder-i-mekatronik/mekatronik-i-vardagen.md)
+  - [Uppgift](grunder-i-mekatronik/uppgift.md)
 - [Digitalteknik](digitalteknik/index.md)
     - [Talsystem](digitalteknik/talsystem.md)
     - [Grindar](digitalteknik/grindar.md)

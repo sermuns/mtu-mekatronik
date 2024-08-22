@@ -4,7 +4,6 @@ services:
     container_name: mdbook
     image: peaceiris/mdbook:v0.4.40
     stdin_open: true
-    restart: unless-stopped
     tty: true
     ports:
       - 3000:3000
@@ -14,4 +13,4 @@ services:
     command:
       - serve
       - --hostname
-      - '0.0.0.0'
+      - "0.0.0.0"

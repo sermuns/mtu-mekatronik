@@ -1,19 +1,23 @@
-:root {
-    --external-link-color: cyan;
-    --internal-link-color: pink;
-}
-
 blockquote {
     text-align: center;
     margin: 4rem auto;
 }
 
+p {
+    margin: 2rem 0;
+}
+
 img {
-    max-width: 85% !important;
+    max-width: 90% !important;
     display: block;
     margin: auto;
-    border: 0.5rem solid #808080;
-    border-radius: 0.5rem;
+    border: 0.3rem solid #808080;
+    border-radius: 0.3rem;
+}
+
+img + em {
+    display: block;
+    text-align: center;
 }
 
 ul * {
@@ -25,27 +29,16 @@ li::marker {
 }
 
 a {
-    padding: 0 0.2rem !important;
     white-space: nowrap;
-    color: var(--internal-link-color) !important;
     text-decoration: none !important;
     border: 1px solid transparent;
     &:hover {
-        border-color: rgba(var(--internal-link-color), 0.6);
+        border-color: rgba(var(--links), 0.6);
     }
-}
-
-a[href^="#"] {
-    color: unset !important;
 }
 
 a[href^="http"] {
-    color: var(--external-link-color);
-    &:hover {
-        border-color: var(--external-link-color);
+    &::after {
+        content: " ⤴";
     }
-}
-a[target="_blank"]::after {
-    content: " ⤴";
-    font-size: smaller;
 }
