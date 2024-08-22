@@ -5,12 +5,8 @@ on:
       - main
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # To push a branch
-      pages: write # To push to a GitHub Pages site
-      id-token: write # To update the deployment status
     steps:
       - uses: actions/checkout@v4
         with:
@@ -34,6 +30,13 @@ jobs:
         with:
           # Upload entire repository
           path: ".build"
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # To push a branch
+      pages: write # To push to a GitHub Pages site
+      id-token: write # To update the deployment status
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
