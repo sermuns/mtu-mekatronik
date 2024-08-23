@@ -1,11 +1,14 @@
 # Summary
 [Startsida / Planering](index.md)
+
 ---
+
 # Moment
 - [Introduktion](introduktion/index.md)
 - [Grunder i mekatronik](grunder-i-mekatronik/index.md)
   - [Vad är mekatronik?](grunder-i-mekatronik/vad-ar-mekatronik.md)
   - [Mekatronik i vardagen](grunder-i-mekatronik/mekatronik-i-vardagen.md)
+  - [Komponenter](grunder-i-mekatronik/komponenter.md)
   - [Uppgift](grunder-i-mekatronik/uppgift.md)
 - [Digitalteknik](digitalteknik/index.md)
     - [Talsystem](digitalteknik/talsystem.md)

@@ -7,12 +7,12 @@ title = "Mekatronik 1 | MTU"
 
 [output.html]
 mathjax-support = true
-theme= "custom_theme"
-additional-css = ["custom.css"]
+additional-css = ["theme/custom.css"]
+preferred-dark-theme = "ayu"
 
 [build]
 build-dir = ".build"
 
-# [preprocssor.last-changed]
-# command = "mdbook-last-changed"
-# renderer = ["html"]
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]

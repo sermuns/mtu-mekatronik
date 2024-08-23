@@ -18,16 +18,19 @@ tr.current-week{
 
 # Mekatronik 1
 
-Aktuellt moment: [Arduino](arduino/index)
+> Aktuellt moment: [Arduino](arduino/index)
 
-För att se alla moment, titta i menyn till vänster
+Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/introduktion) om du är ny här.
 
 ## Planering
 
+<details>
+<summary>Visa planering</summary>
+
 | VECKA | INNEHÅLL                                                                      | VIKTIGT         | MOMENT                                                                      |
 | ----- | ----------------------------------------------------------------------------- | --------------- | --------------------------------------------------------------------------- |
-| 35    | Introduktion till mekatronik                                                  |                 | [Mekatronik i vardagen](/mekatronik-i-vardagen)                             |
-| 36    | Överblick på kursen, förberedelse för presentation                            |                 | [Mekatronik i vardagen](/mekatronik-i-vardagen) |
+| 35    | Kursintroduktion                                                  |                 | [Grunder i mekatronik](/grunder-i-mekatronik)                             |
+| 36    | Överblick på kursen, förberedelse för presentation                            |                 | [Grunder i mekatronik](/grunder-i-mekatronik)                             |
 | 37    | Genomförande presentation, intro till logiska grindar, boolesk algebra        | PRESENTATION    | [Digitalteknik](/digitalteknik)                                             |
 | 38    | Laborationsövningar med logiska grindar, koppla upp                           |                 | [Digitalteknik](/digitalteknik)                                             |
 | 39    | Introduktion binära tal, övningar med sanningstabeller, logicly booleska nät  |                 | [Digitalteknik](/digitalteknik)                                             |
@@ -68,5 +71,7 @@ För att se alla moment, titta i menyn till vänster
 | 22    | Omprovstillfälle / rest                                                       |                 |                                                                             |
 | 23    |                                                                               |                 |                                                                             |
 | 24    |                                                                               |                 |                                                                             |
+
+</details>
 
 <script src=/planering.js>

@@ -1,0 +1,101 @@
+html {
+    font-family: "Atkinson Hyperlegible", monospace !important;
+}
+
+body{
+    font-size: 1.7rem;
+}
+
+blockquote {
+    margin: 1rem 2rem 0 0;
+}
+
+blockquote h3,
+blockquote p {
+    margin: 2rem auto;
+}
+
+summary {
+    cursor: pointer;
+    user-select: none;
+}
+
+.content p{
+    line-height: 2.5rem !important;
+}
+
+p {
+    margin: 2rem 0;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+blockquote img{
+    max-width: 50% !important;
+    margin: 1rem auto;
+}
+
+main > img, img::before {
+    max-width: 90% !important;
+    border: 0.3rem solid #808080;
+    border-radius: 0.3rem;
+}
+
+img + em {
+    display: block;
+    text-align: center;
+}
+
+blockquote table {
+    margin-bottom: 2rem;
+}
+
+ul * {
+    margin: 1rem 0;
+}
+
+main > ul > li::marker {
+    // nothing
+}
+
+a {
+    white-space: nowrap;
+    text-decoration: none !important;
+    border: 1px solid transparent;
+    &:hover {
+        border-color: rgba(var(--links), 0.6);
+    }
+}
+
+a[href^="http"] {
+    &::after {
+        content: " ⤴";
+    }
+}
+
+h1:target::before, h2:target::before, h3:target::before, h4:target::before, h5:target::before, h6:target::before {
+  margin-inline-start: unset;
+  width: 3rem;
+  color: var(--sidebar-active);
+  animation: blink 1s ease 0s 1 normal forwards;
+}
+
+@keyframes blink {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+
+
+	25%,
+	75% {
+		opacity: 0;
+		transform: translateX(-1rem);
+	}
+}
