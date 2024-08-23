@@ -2,15 +2,17 @@ services:
   mdbook:
     user: 1000:1000
     container_name: mdbook
-    image: peaceiris/mdbook:v0.4.40
+    image: peaceiris/mdbook
     stdin_open: true
     tty: true
-    ports:
-      - 3000:3000
-      - 3001:3001
+    #   ports:
+    #     - 3000:3000
+    #     - 3001:3001
+    network_mode: host
     volumes:
       - .:/book
     command:
       - serve
       - --hostname
       - "0.0.0.0"
+    stop_grace_period: 2s

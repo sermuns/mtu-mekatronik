@@ -28,6 +28,10 @@ p {
     margin: 2rem 0;
 }
 
+summary{
+    margin: 2rem 0rem;
+}
+
 img {
     display: block;
     margin: auto;
@@ -90,12 +94,17 @@ h1:target::before, h2:target::before, h3:target::before, h4:target::before, h5:t
 		opacity: 1;
 		transform: translateX(0);
 	}
-
-
-
 	25%,
 	75% {
 		opacity: 0;
 		transform: translateX(-1rem);
 	}
+}
+
+.menu-bar > .right-buttons{
+    display: none;
+}
+
+li.part-title {
+    color: var(--search-mark-bg) !important;
 }

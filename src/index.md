@@ -25,6 +25,7 @@ Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/in
 ## Planering
 
 <details>
+
 <summary>Visa planering</summary>
 
 | VECKA | INNEHÅLL                                                                      | VIKTIGT         | MOMENT                                                                      |
