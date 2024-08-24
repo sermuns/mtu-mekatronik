@@ -21,6 +21,9 @@ jobs:
           path: /tmp/.docker
           key: test
 
+      - name: Pull
+        run: docker compose pull
+
       - name: Build Book
         run: docker compose run --rm mdbook build
 
