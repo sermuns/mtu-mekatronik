@@ -80,9 +80,10 @@ a[href^="http"] {
     }
 }
 
+
 h1:target::before, h2:target::before, h3:target::before, h4:target::before, h5:target::before, h6:target::before {
   margin-inline-start: unset;
-  width: 3rem;
+  width: 1em;
   color: var(--sidebar-active);
   animation: blink 1s ease 0s 1 normal forwards;
 }

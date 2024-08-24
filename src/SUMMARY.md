@@ -8,7 +8,6 @@
   - [Vad är mekatronik?](grunder-i-mekatronik/vad-ar-mekatronik/index.md)
   - [Mekatronik i vardagen](grunder-i-mekatronik/mekatronik-i-vardagen/index.md)
   - [Komponenter](grunder-i-mekatronik/komponenter/index.md)
-  - [Uppgift](grunder-i-mekatronik/uppgift/index.md)
 - [Digitalteknik](digitalteknik/index.md)
   - [Talsystem](digitalteknik/talsystem/index.md)
   - [Grindar](digitalteknik/grindar/index.md)

@@ -21,8 +21,12 @@ Vad var det som hände? Jo, vi gick från rent **mekaniska** lösningar (handarb
 
 I denna kurs kommer vi lära oss att räkna på krafter, skapa elektriska kretsar som har 'logik', helt enkelt förutsäga framtiden! Det är det som är poängen med att studera verkligheten, att kunna förutse vad som kommer hända och förbereda sig för det.
 
-## TLDR
 **Mekatronik** beskriver sånt som består av både [mekaniska](/begrepp#mekanik) delar och [elektroniska](/begrepp#elektronik) delar.
+
+>### Mekanik
+>Ett väldigt generellt ord som innefattar:
+>- Fysiken bakom krafter och rörelser
+>- Tekniska lösningar / uppfinningar som endast består av delar som gör det enklare att utnyttja krafter. Exempel på enkla mekaniska lösningar är [hävstången](/mekanik) eller [det lutande planet](/mekanik)
 
 ## Frågor
 - Kan du komma på exempel på prylar som består av **både mekaniska och elektroniska delar?**
