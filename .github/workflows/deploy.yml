@@ -19,9 +19,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: /tmp/.docker
-          key: ${{ runner.os }}-docker-${{ hashFiles('compose.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-docker-
+          key: test
 
       - name: Build Book
         run: docker compose run --rm mdbook build
