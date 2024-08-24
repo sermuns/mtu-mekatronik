@@ -21,9 +21,5 @@
 ---
 
 [Begrepp](begrepp/index.md)
-[Länkar](länkar/index.md)
-[Verktyg](verktyg/index.md)
-
----
 
 [Om sidan](om-sidan/index.md)
