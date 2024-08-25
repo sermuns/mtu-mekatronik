@@ -11,7 +11,7 @@ _Presentationer laddas upp rullande, efter varje lektion._
 
 Ni kommer att arbeta i grupper om tre och välja någon mekatroniskt lösning (uppfinning) som ni använder till vardags. Det kan vara allt från en elektrisk bil, ett tjuvlarmssystem eller  en köks- eller hushållsapparat.
 
-Uppgiften är att förbereda och genomföra en 5-10 minuter lång presentation om denna uppfinning.
+Uppgiften är att förbereda och genomföra en ~5 minuter lång presentation om denna uppfinning.
 
 Exempel på innehåll:
 

@@ -25,9 +25,9 @@ tr.current-week{
 
 # Mekatronik 1
 
-> Aktuellt moment: [Arduino](arduino/index)
+> Aktuellt moment: [Grunder i mekatronik](/grunder-i-mekatronik)
 
-Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/introduktion) om du är ny här.
+Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/introduktion) om det är första gången du besöker sidan.
 
 ## Planering
 
