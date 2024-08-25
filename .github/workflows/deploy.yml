@@ -19,11 +19,8 @@ jobs:
       - name: Cache Docker layers
         uses: actions/cache@v4
         with:
-          path: ~/.docker
-          key: ${{ hashFiles('compose.yaml') }}
-
-      - name: Pull
-        run: docker compose pull
+          path: /var/lib/docker
+          key: var-lib-docker-${{ hashFiles('compose.yaml') }}
 
       - name: Build Book
         run: docker compose run --rm mdbook build
