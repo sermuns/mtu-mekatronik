@@ -25,9 +25,16 @@ tr.current-week{
 
 # Mekatronik 1
 
+<center>
+
+> 🚧 **OBS:** sidan är fortfarande under uppbyggnad. 🚧
+
+</center>
+
 > Aktuellt moment: [Grunder i mekatronik](/grunder-i-mekatronik)
 
 Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/introduktion) om det är första gången du besöker sidan.
+
 
 ## Planering
 

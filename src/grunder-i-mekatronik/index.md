@@ -4,8 +4,7 @@ Det finns en del grundläggande, återkommande principer och komponenter inom me
 
 ## Presentationer
 _Presentationer laddas upp rullande, efter varje lektion._
-- [V35: askdjlas](/slides/hehe.html)
-
+- [V35: Kursintro, grunder i mekatronik](/slides/MEKMEK01%20EE22%20v35.pdf)
 
 ## Examination
 
