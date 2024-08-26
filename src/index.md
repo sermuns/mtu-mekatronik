@@ -18,8 +18,8 @@ td > a{
     padding: 0.5em;
 }
 tr.current-week{
-  border: 5px hsl(50, 50%, 50%) solid;
-  filter: brightness(200%);
+  border: 5px color-mix(in srgb, var(--bg), yellow 25%) solid;
+  background-color: color-mix(in srgb, var(--bg), yellow 15%);
 }
 </style>
 
