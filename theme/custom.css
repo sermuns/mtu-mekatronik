@@ -28,6 +28,10 @@ p {
     margin: 2rem 0;
 }
 
+*::selection {
+    background-color: color-mix(in srgb, var(--bg), var(--fg) 15%);
+}
+
 summary{
     margin: 2rem 0rem;
 }
