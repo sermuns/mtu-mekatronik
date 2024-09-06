@@ -22,7 +22,7 @@ jobs:
           key: docker-images-${{ hashFiles('compose.yaml') }}
 
       - name: Build Book
-        run: docker compose run --rm mdbook build
+        run: docker compose run --user root mdbook build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
