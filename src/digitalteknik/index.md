@@ -3,7 +3,7 @@
 För att skapa datorer som kan beräkna vad-som-helst, behöver vi förstå principerna bakom de mest grundläggande byggstenarna i datorvärlden. I digitalteknik lär vi oss just detta, och hur de enkla byggstenarna kan kombineras för att skapa mer komplexa system.
 
 ## Presentationer
-
+- [Logiska grindar](<Logiska grindar.pptx>)
 
 ## Examination
 

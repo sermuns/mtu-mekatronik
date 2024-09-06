@@ -2,7 +2,7 @@ html {
     font-family: "Atkinson Hyperlegible", monospace !important;
 }
 
-body{
+body {
     font-size: 1.7rem;
 }
 
@@ -20,7 +20,7 @@ summary {
     user-select: none;
 }
 
-.content p{
+.content p {
     line-height: 2.5rem !important;
 }
 
@@ -32,7 +32,7 @@ p {
     background-color: color-mix(in srgb, var(--bg), var(--fg) 15%);
 }
 
-summary{
+summary {
     margin: 2rem 0rem;
 }
 
@@ -41,23 +41,26 @@ img {
     margin: auto;
 }
 
-blockquote img{
+main img {
+    max-width: 80% !important;
+}
+
+blockquote img {
     max-width: 50% !important;
     margin: 1rem auto;
 }
 
-main > img, img::before {
-    max-width: 90% !important;
+img::before {
     border: 0.3rem solid #808080;
     border-radius: 0.3rem;
 }
 
-img + em {
+img+em {
     display: block;
     text-align: center;
 }
 
-div > svg {
+div>svg {
     display: block;
     width: 100%;
 }
@@ -74,6 +77,7 @@ a {
     white-space: nowrap;
     text-decoration: none !important;
     border: 1px solid transparent;
+
     &:hover {
         border-color: rgba(var(--links), 0.6);
     }
@@ -86,31 +90,58 @@ a[href^="http"] {
 }
 
 
-h1:target::before, h2:target::before, h3:target::before, h4:target::before, h5:target::before, h6:target::before {
-  margin-inline-start: unset;
-  width: 1em;
-  color: var(--sidebar-active);
-  animation: blink 1s ease 0s 1 normal forwards;
+h1:target::before,
+h2:target::before,
+h3:target::before,
+h4:target::before,
+h5:target::before,
+h6:target::before {
+    margin-inline-start: unset;
+    width: 1em;
+    color: var(--sidebar-active);
+    animation: blink 1s ease 0s 1 normal forwards;
 }
 
 @keyframes blink {
-	0%,
-	50%,
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-	25%,
-	75% {
-		opacity: 0;
-		transform: translateX(-1rem);
-	}
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+        transform: translateX(-1rem);
+    }
 }
 
-.menu-bar > .right-buttons{
+/* .menu-bar > .right-buttons{
     display: none;
-}
+} */
 
 li.part-title {
     color: var(--search-mark-bg) !important;
+}
+
+
+/* place items in section side by side, but collapse if too narrow */
+/* make second child as high as first childs content */
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+
+}
+
+section>p {
+    flex: 1;
+}
+
+html.navy img[src$=".svg"], html.coal img[src$=".svg"], html.ayu img[src$=".svg"] {
+    filter: invert(1);
 }

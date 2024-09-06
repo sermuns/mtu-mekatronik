@@ -25,22 +25,18 @@ tr.current-week{
 
 # Mekatronik 1
 
-<center>
 
-> 🚧 **OBS:** sidan är fortfarande under uppbyggnad. 🚧
-
-</center>
-
-> Aktuellt moment: [Grunder i mekatronik](/grunder-i-mekatronik)
+> Aktuellt moment: <a id=current-moment><javascript behövs för att visa></a>
 
 Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/introduktion) om det är första gången du besöker sidan.
 
+<center>
+
+🚧 **OBS:** sidan är fortfarande under uppbyggnad. 🚧
+
+</center>
 
 ## Planering
-
-<details>
-
-<summary>Visa planering</summary>
 
 | VECKA | INNEHÅLL                                                                      | VIKTIGT         | MOMENT                                        |
 | ----- | ----------------------------------------------------------------------------- | --------------- | --------------------------------------------- |
@@ -85,7 +81,5 @@ Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/in
 | 21    | Presentation av Arduinoprojekt                                                |                 | [Arduino](/arduino)                           |
 | 22    | Omprovstillfälle / rest                                                       |                 |                                               |
 | 23    | Omprovstillfälle / rest                                                       |                 |                                               |
-
-</details>
 
 <script src=/planering.js>

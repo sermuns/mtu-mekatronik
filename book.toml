@@ -4,14 +4,18 @@ language = "sv"
 multilingual = false
 src = "src"
 title = "Mekatronik 1 | MTU"
+cname = "mek.samake.se"
+
+[build]
+build-dir = ".build"
 
 [output.html]
 mathjax-support = true
 additional-css = ["theme/custom.css"]
 preferred-dark-theme = "ayu"
 
-[build]
-build-dir = ".build"
+[output.html.print]
+enable = false
 
 [preprocessor.toc]
 command = "mdbook-toc"

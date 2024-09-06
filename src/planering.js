@@ -18,10 +18,10 @@ function getDateWeek(date) {
 
 const WEEK_COLUMN_INDEX = 0;
 
-function main() {
-  // find table
+function getRowOfCurrentWeek() {
   const tbody = document.querySelector("tbody");
-  const currentWeek = getDateWeek(new Date());
+  // const currentWeek = getDateWeek(new Date());
+  const currentWeek = 37;
 
   for (const row of tbody.children) {
     // find week of row
@@ -29,11 +29,27 @@ function main() {
 
     // if week is current week
     if (week == currentWeek) {
-      // add class to row
-      row.classList.add("current-week");
+      return row;
     }
   }
 }
 
-// Run main upon completion of loading the page
-window.onload = main;
+function highlightRow(row) {
+  row.classList.add("current-week");
+}
+
+// extract <a> from last <td> child of row, put in place of #current-moment
+function setCurrentMoment(row) {
+  const currentMoment = document.querySelector("#current-moment");
+  const lastTd = row.children[row.children.length - 1];
+  const link = lastTd.querySelector("a");
+
+  currentMoment.innerHTML = link.outerHTML;
+}
+
+// MAIN CODE
+window.onload = () => {
+  const thisWeekRow = getRowOfCurrentWeek();
+  highlightRow(thisWeekRow);
+  setCurrentMoment(thisWeekRow);
+}
