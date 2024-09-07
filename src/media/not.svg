@@ -25,13 +25,13 @@
      inkscape:document-units="mm"
      inkscape:zoom="1.0544998"
      inkscape:cx="447.60559"
-     inkscape:cy="186.34428"
+     inkscape:cy="186.34427"
      inkscape:window-width="1920"
      inkscape:window-height="1043"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g1" />
   <defs
      id="defs1" />
   <g
@@ -51,16 +51,8 @@
          y="6.9096723" />
       <path
          style="fill:none;stroke:#000000;stroke-width:1.00026;stroke-dasharray:none;stroke-opacity:1"
-         d="M 9.8597442,46.096326 H 38.37525"
+         d="M 9.8597442,31.71893 H 38.37525"
          id="path3" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1.00026;stroke-dasharray:none;stroke-opacity:1"
-         d="M 9.7548012,23.246404 H 38.270307"
-         id="path4" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1.01425;stroke-dasharray:none;stroke-opacity:1"
-         d="m 103.41018,33.450286 h 29.31899"
-         id="path5" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.9017px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';text-align:center;text-anchor:middle;fill:#020202;fill-opacity:1;stroke:none;stroke-width:2.40848;stroke-dasharray:none;stroke-opacity:1"
@@ -72,12 +64,20 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';fill:#020202;fill-opacity:1;stroke:none;stroke-width:2.40848;stroke-dasharray:none;stroke-opacity:1"
            x="63.134754"
            y="41.372093">1</tspan></text>
-      <circle
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-dasharray:none;stroke-opacity:1"
-         id="path6"
-         cx="95.802994"
-         cy="33.191696"
-         r="7.1189513" />
+      <g
+         id="g2"
+         transform="translate(0,-1.4727664)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.01425;stroke-dasharray:none;stroke-opacity:1"
+           d="m 103.41018,33.450286 h 29.31899"
+           id="path5" />
+        <circle
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-dasharray:none;stroke-opacity:1"
+           id="path6"
+           cx="95.802994"
+           cy="33.191696"
+           r="7.1189513" />
+      </g>
     </g>
   </g>
 </svg>

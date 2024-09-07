@@ -57,7 +57,7 @@ function drawSquareWave(containerId) {
     var path = digitalSignalGraph.makePath().noFill();
 
     path.linewidth = 4;
-    path.stroke = 'blue';
+    path.stroke = 'green';
     path.closed = false;
 
     // create square wave

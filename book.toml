@@ -7,11 +7,12 @@ title = "Mekatronik 1 | MTU"
 cname = "mek.samake.se"
 
 [build]
-build-dir = ".build"
+build-dir = "build"
 
 [output.html]
 mathjax-support = true
 additional-css = ["theme/custom.css"]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
 preferred-dark-theme = "ayu"
 
 [output.html.print]
@@ -20,3 +21,9 @@ enable = false
 [preprocessor.toc]
 command = "mdbook-toc"
 renderer = ["html"]
+
+[preprocessor.katex]
+after = ["links"]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"

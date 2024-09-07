@@ -3,36 +3,31 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # to push a branch
-      pages: write # to push to a github pages site
-      id-token: write # to update the deployment status
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Cache Docker images.
-        uses: ScribeMD/docker-cache@0.5.0
-        with:
-          key: docker-images-${{ hashFiles('compose.yaml') }}
-
       - name: Build Book
         run: docker compose run --user root mdbook build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Setup mdBook
+        uses: peaceiris/actions-mdbook@v2
         with:
-          # Upload entire repository
-          path: ".build"
+          mdbook-version: 'latest'
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - run: cargo --version
+
+      - run: mdbook build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build

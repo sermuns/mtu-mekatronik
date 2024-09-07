@@ -57,6 +57,7 @@ img::before {
 
 img+em {
     display: block;
+    margin-top: 1em;
     text-align: center;
 }
 
@@ -144,4 +145,14 @@ section>p {
 
 html.navy img[src$=".svg"], html.coal img[src$=".svg"], html.ayu img[src$=".svg"] {
     filter: invert(1);
+}
+
+svg[id^="mermaid"] {
+ display: block;
+margin: auto; 
+}
+
+span.katex {
+    /* no wrap */
+    white-space: nowrap;
 }
