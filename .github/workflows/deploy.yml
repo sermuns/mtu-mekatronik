@@ -13,9 +13,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Build Book
-        run: docker compose run --user root mdbook build
-
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v2
         with:
