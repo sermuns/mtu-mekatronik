@@ -8,6 +8,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # to push a branch
+      pages: write # to push to a github pages site
+      id-token: write # to update the deployment status
     steps:
       - uses: actions/checkout@v4
         with:
