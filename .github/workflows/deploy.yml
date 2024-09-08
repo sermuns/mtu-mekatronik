@@ -22,6 +22,8 @@ jobs:
         with:
           mdbook-version: 'latest'
 
+      - run: cargo install mdbook-toc mdbook-mermaid mdbook-admonish mdbook-katex mdbook-linkcheck
+
       - run: mdbook build
 
       - name: Setup Pages
@@ -30,8 +32,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: ".build"
+          path: "build"
 
       - name: Deploy to GitHub Pages
         id: deployment
