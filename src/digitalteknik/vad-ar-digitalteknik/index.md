@@ -1,12 +1,17 @@
 # Vad är digitalteknik?
-
-> Hur kan man spara information på en dator? Vad är ens information? Hur kan en dator beräkna saker med information? Vad är ens en dator?
+> "Digitalteknik är ett område inom både elektroniken och datavetenskapen som handlar om analys och konstruktion av digitala nät." - Wikipedia
 
 ![Dator](/media/ezb_main_nocut.webp)
 
-Om du blev tillbakaskickad i tiden 100 år och ville förklara för dåtidens folk hur man kan skapa en dator, skulle du kunna göra det? 
+I förra momentet pratade vi om sensorer, aktuatorer och styrenheter. Varje komponent har en viktig roll i det mekatroniska systemet, men inget system kan fungera om inte komponenterna kommunicerar med varandra.
 
-Om inte du har pluggat detta tidigare, så är svaret troligtvis nej, men under detta moment kommer du att få en grundlig förståelse för hur logik skapas i en dator, det är just detta som är digitalteknik.
+Som ni har lärt er, tar sensorer in information från verkligheten, och skickar vidare till styrenheten, som i sin tur styr aktuatorerna.
 
-<!-- TODO: Lägg till exempel på digitalteknik i vardagen -->
+```mermaid
+graph LR
+    Sensorer --> Styrenhet
+    Styrenhet --> Aktuatorer
+```
+
+I detta avsnitt tar vi en närmare titt på hur själva styrenheten fungerar, och hur _lite_ som faktiskt krävs för att skapa en beslutsfattande enhet.
 

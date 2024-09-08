@@ -20,8 +20,7 @@ const WEEK_COLUMN_INDEX = 0;
 
 function getRowOfCurrentWeek() {
   const tbody = document.querySelector("tbody");
-  // const currentWeek = getDateWeek(new Date());
-  const currentWeek = 37;
+  const currentWeek = getDateWeek(new Date());
 
   for (const row of tbody.children) {
     // find week of row

@@ -18,8 +18,8 @@ td > a{
     padding: 0.5em;
 }
 tr.current-week{
-  border: 5px color-mix(in srgb, var(--bg), yellow 25%) solid;
-  background-color: color-mix(in srgb, var(--bg), yellow 15%);
+  border: 5px color-mix(in srgb, var(--bg), orange 45%) solid;
+  background-color: color-mix(in srgb, var(--bg), orange 85%);
 }
 </style>
 
@@ -32,7 +32,10 @@ Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/in
 
 <center>
 
-🚧 **OBS:** sidan är fortfarande under uppbyggnad. 🚧
+```admonish warning
+👷🚧 **OBS:** sidan är fortfarande under uppbyggnad. 🚧
+```
+
 
 </center>
 

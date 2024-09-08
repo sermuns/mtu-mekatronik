@@ -11,7 +11,7 @@ build-dir = "build"
 
 [output.html]
 mathjax-support = true
-additional-css = ["theme/custom.css"]
+additional-css = ["theme/custom.css", "./mdbook-admonish.css"]
 additional-js = ["mermaid.min.js", "mermaid-init.js"]
 preferred-dark-theme = "ayu"
 
@@ -27,3 +27,7 @@ after = ["links"]
 
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
