@@ -22,8 +22,6 @@ jobs:
         with:
           mdbook-version: 'latest'
 
-      - run: cargo --version
-
       - run: mdbook build
 
       - name: Deploy

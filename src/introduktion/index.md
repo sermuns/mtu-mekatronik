@@ -1,6 +1,6 @@
 # Introduktion
 
-Under kursens gång kommer vi lära oss vad mekatronik är, mikrodatorer..
+Denna hemsida är er kursbok där ni kan läsa teori om varje moment. Här förklaras det hur man använder sidan.
 
 
 ## Innehåll

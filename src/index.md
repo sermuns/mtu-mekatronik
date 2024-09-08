@@ -45,9 +45,9 @@ Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/in
 | ----- | ----------------------------------------------------------------------------- | --------------- | --------------------------------------------- |
 | 35    | Kursintroduktion, grunder i mekatronik genomgång                              |                 | [Grunder i mekatronik](/grunder-i-mekatronik) |
 | 36    | Presentation av grupparbete                                                   | PRESENTATION    | [Grunder i mekatronik](/grunder-i-mekatronik) |
-| 37    | Intro till logiska grindar, boolesk algebra                                   |                 | [Digitalteknik](/digitalteknik)               |
+| 37    | Intro till logik (logiska grindar, boolesk algebra och sanningstabeller)                                   |                 | [Digitalteknik](/digitalteknik)               |
 | 38    | Laborationsövningar med logiska grindar, koppla upp                           |                 | [Digitalteknik](/digitalteknik)               |
-| 39    | Introduktion binära tal, övningar med sanningstabeller, logicly booleska nät  |                 | [Digitalteknik](/digitalteknik)               |
+| 39    | Talsystem (binära- och hexadecimala tal)  |                 | [Digitalteknik](/digitalteknik)               |
 | 40    | Förberedelse inför LaX digitalteknik: övnings-LaX                             |                 | [Digitalteknik](/digitalteknik)               |
 | 41    | Laborativ examination i digitalteknik                                         | LAX             | [Digitalteknik](/digitalteknik)               |
 | 42    | Inför skriftligt prov i digitalteknik (frågor/repetition)                     |                 | [Digitalteknik](/digitalteknik)               |
