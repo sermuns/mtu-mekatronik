@@ -5,6 +5,10 @@ on:
       - main
   workflow_dispatch:
 
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -22,9 +26,14 @@ jobs:
         with:
           mdbook-version: 'latest'
 
-      - run: cargo install mdbook-toc mdbook-mermaid mdbook-admonish mdbook-katex mdbook-linkcheck
+      - name: install cargo binstall
+        run: curl -L --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/cargo-bins/cargo-binstall/main/install-from-binstall-release.sh | bash
 
-      - run: mdbook build
+      - name: Install mdBook plugins
+        run: cargo binstall mdbook-toc mdbook-mermaid mdbook-admonish mdbook-katex mdbook-linkcheck
+
+      - name: Build mdBook
+        run: mdbook build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
