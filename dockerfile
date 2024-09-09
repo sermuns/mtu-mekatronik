@@ -1,14 +1,16 @@
-# Extend the peaceiris/mdbook image
-FROM peaceiris/mdbook
+FROM rust:alpine
 
-# Install Cargo and Rust, needed to install mdbook-katex
-RUN apk add --no-cache cargo rust
+# Install dependencies
+RUN apk add --no-cache curl tar
 
-# Install mdbook-katex
-RUN cargo install mdbook-katex
+RUN curl -L https://github.com/cargo-bins/cargo-binstall/releases/latest/download/cargo-binstall-x86_64-unknown-linux-musl.tgz \
+	| tar -xz -C /usr/local/bin
 
-# Set the working directory
-WORKDIR /book
-
-# Command to serve the book
-CMD ["mdbook", "serve", "--hostname", "0.0.0.0"]
+# Install crates (mdbook, etc)
+RUN cargo binstall -y \
+	mdbook \
+	mdbook-toc \
+	mdbook-mermaid \
+	mdbook-admonish \
+	mdbook-linkcheck \
+	mdbook-external-links
