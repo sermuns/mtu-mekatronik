@@ -18,8 +18,8 @@ td > a{
     padding: 0.5em;
 }
 tr.current-week{
-  border: 5px color-mix(in srgb, var(--bg), orange 45%) solid;
-  background-color: color-mix(in srgb, var(--bg), orange 85%);
+  border: 5px color-mix(in srgb, var(--bg), orange 65%) solid;
+  background-color: color-mix(in srgb, var(--bg), orange 30%);
 }
 </style>
 
@@ -29,15 +29,6 @@ tr.current-week{
 > Aktuellt moment: <a id=current-moment><javascript behövs för att visa></a>
 
 Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/introduktion) om det är första gången du besöker sidan.
-
-<center>
-
-```admonish warning
-👷🚧 **OBS:** sidan är fortfarande under uppbyggnad. 🚧
-```
-
-
-</center>
 
 ## Planering
 
