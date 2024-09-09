@@ -12,27 +12,23 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # to push a branch
-      pages: write # to push to a github pages site
-      id-token: write # to update the deployment status
+#   permissions:
+#     contents: write # to push a branch
+#     pages: write # to push to a github pages site
+#     id-token: write # to update the deployment status
     steps:
+
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Setup mdBook
-        uses: peaceiris/actions-mdbook@v2
+      - name: Cache Docker images.
+        uses: ScribeMD/docker-cache@0.5.0
         with:
-          mdbook-version: 'latest'
-
-      - uses: cargo-bins/cargo-binstall@main
-
-      - name: Install mdBook plugins
-        run: cargo binstall -y mdbook-toc mdbook-mermaid mdbook-admonish mdbook-katex mdbook-linkcheck
+          key: docker-images-${{ hashFiles('dockerfile') }}
 
       - name: Build mdBook
-        run: mdbook build
+        run: docker compose run mdbook mdbook build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
