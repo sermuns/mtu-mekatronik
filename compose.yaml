@@ -2,32 +2,14 @@ services:
   mdbook:
     user: 1000:1000
     container_name: mdbook
-    image: peaceiris/mdbook
+    build: .
     stdin_open: true
     tty: true
-    #   ports:
-    #     - 3000:3000
-    #     - 3001:3001
-    network_mode: host
+    ports:
+      - 3000:3000
+      - 3001:3001
     volumes:
       - .:/book
-    command:
-      - serve
-      - --hostname
-      - "0.0.0.0"
+    working_dir: /book
+    command: "mdbook serve --hostname 0.0.0.0"
     stop_grace_period: 1s
-    #  marp:
-    #    image: marpteam/marp-cli
-    #    depends_on:
-    #      - mdbook
-    ##   user: 1000:1000
-    #    container_name: marp
-    #    network_mode: none
-    #    volumes:
-    #      - ./marp:/home/marp/app
-    #      - ./src/slides:/home/marp/app/output
-    #    environment:
-    #      - LANG=${LANG}
-    #      - MARP_USER="1000:1000"
-    #    command: --config .marprc.yml --theme ./dracula/dracula.css --watch -I slides -o output
-    #    stop_grace_period: 1s

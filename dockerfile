@@ -13,4 +13,5 @@ RUN cargo binstall -y \
 	mdbook-mermaid \
 	mdbook-admonish \
 	mdbook-linkcheck \
+	mdbook-katex \
 	mdbook-external-links
