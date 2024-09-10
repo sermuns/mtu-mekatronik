@@ -1,4 +1,6 @@
-FROM rust:alpine
+FROM rust:alpine AS builder
+
+ENV CARGO_HOME=/usr/local/cargo
 
 # Install dependencies
 RUN apk add --no-cache curl tar
@@ -15,3 +17,7 @@ RUN cargo binstall -y \
 	mdbook-linkcheck \
 	mdbook-katex \
 	mdbook-external-links
+
+FROM alpine
+
+COPY --from=builder /usr/local/cargo/bin /usr/local/bin
