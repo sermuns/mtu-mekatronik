@@ -16,7 +16,7 @@ $$
 
 Det ser ju ut som multiplikation!? Ja, sanningen är att AND-grinden _ÄR_  multiplikation. Det viktiga att komma ihåg är booleska uttryck hanterar bara binära signaler, alltså endast 0 eller 1.
 
-```admonish
+```admonish question title="Testa själv!"
 Testa att stoppa in 0 eller 1 för $a$ och $b$ i uttrycket ovan, vad blir svaret?
 ```
 
@@ -74,6 +74,6 @@ Som tur är fungerar de klassiska prioriteringsreglerna från matematiken: multi
 | 4 | Addition | OR |
 
 
-```admonish tip
+```admonish tip title="Tips!"
 Det är aldrig fel att använda paranteser! Använd hellre för många om du är osäker på prioriteringsreglerna
 ```

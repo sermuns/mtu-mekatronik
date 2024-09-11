@@ -41,7 +41,7 @@ För att skapa en sanningstabell, skriver man upp alla möjliga kombinationer av
   </tr>
 </table>
 
-```admonish question
+```admonish question title="Testa själv!"
 Testa att skapa sanningstabeller för OR, NOT och XOR-grindarna (kom ihåg att NOT endast tar **en** insignal). Svar finns i [sammanfattningen](/digitalteknik/logik#tldr--sammanfattning).
 ```
 
@@ -239,6 +239,6 @@ Testa att skapa sanningstabeller för OR, NOT och XOR-grindarna (kom ihåg att N
 7. Beräkna utsignalen för varje rad enligt booleska uttrycket. (I exemplet har vi inte sagt vad $y$ ska vara, så vi kan inte fylla i det.)
 
 
-```admonish question
-Skapa sanningstabellen för $y = abcd$
+```admonish question title="Testa själv!"
+Kan du skapa sanningstabellen för $y = abcd$
 ```

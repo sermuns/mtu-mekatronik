@@ -15,6 +15,7 @@
     - [Booleska uttryck](digitalteknik/booleska-uttryck/index.md)
     - [Sanningstabeller](digitalteknik/sanningstabeller/index.md)
     - [Uppgifter](digitalteknik/logik/uppgifter/index.md)
+    - [Laboration](digitalteknik/logik/laboration/index.md)
   - [Talsystem](digitalteknik/talsystem/index.md)
     - [Uppgifter](digitalteknik/talsystem/uppgifter/index.md)
 - [Ellära]()
