@@ -39,15 +39,12 @@ summary {
 img {
     display: block;
     margin: auto;
-}
-
-main img {
-    max-width: 80% !important;
+    max-height: 15em !important;
 }
 
 blockquote img {
-    max-width: 50% !important;
     margin: 1rem auto;
+    max-height: 40em;
 }
 
 img::before {
@@ -155,4 +152,8 @@ margin: auto;
 span.katex {
     /* no wrap */
     white-space: nowrap;
+}
+
+hr{
+    border-color: var(--fg);
 }

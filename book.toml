@@ -11,8 +11,8 @@ build-dir = "build"
 
 [output.html]
 mathjax-support = true
-additional-css = ["theme/custom.css", "./mdbook-admonish.css"]
-additional-js = ["mermaid.min.js", "mermaid-init.js"]
+additional-css = ["theme/custom.css", "theme/mdbook-admonish.css"]
+additional-js = ["theme/mermaid.min.js", "theme/mermaid-init.js"]
 preferred-dark-theme = "ayu"
 
 [output.html.print]

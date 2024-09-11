@@ -28,7 +28,7 @@ jobs:
           key: docker-images-${{ hashFiles('dockerfile') }}
 
       - name: Build mdBook
-        run: docker compose run mdbook mdbook build
+        run: docker compose run --user root mdbook mdbook build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
