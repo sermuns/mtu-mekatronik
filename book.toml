@@ -18,6 +18,8 @@ preferred-dark-theme = "ayu"
 [output.html.print]
 enable = false
 
+[preprocessor.external-links]
+
 [preprocessor.toc]
 command = "mdbook-toc"
 renderer = ["html"]

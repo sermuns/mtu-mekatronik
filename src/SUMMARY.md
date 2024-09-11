@@ -25,6 +25,6 @@
 
 ---
 
-[Begrepp](begrepp/index.md)
+<!-- [Begrepp](begrepp/index.md) -->
 
 [Om sidan](om-sidan/index.md)
