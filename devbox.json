@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
+  "packages": [
+    "rustup@latest",
+    "mdbook-admonish",
+    "mdbook-mermaid",
+    "mdbook-toc",
+    "mdbook@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "rustupHomeDir=./.rustup",
+      "mkdir -p $rustupHomeDir",
+      "export RUSTUP_HOME=$rustupHomeDir",
+      "export LIBRARY_PATH=$LIBRARY_PATH:\"$projectDir/nix/profile/default/lib\"",
+      "rustup default stable >/dev/null 2>&1",
+      "cargo binstall -q -y mdbook-external-links mdbook-variables"
+    ],
+    "scripts": {
+      "build": [
+        "mdbook build"
+      ]
+    }
+  }
+}
