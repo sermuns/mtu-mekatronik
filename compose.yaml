@@ -1,6 +1,6 @@
 services:
   mdbook:
-    user: ${UID}:${GID}
+    user: 1000:1000
     container_name: mdbook
     build: .
     stdin_open: true
