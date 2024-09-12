@@ -1,3 +1,4 @@
+// Optimized function to calculate the current week
 function getDateWeek(date) {
   const currentDate = typeof date === "object" ? date : new Date();
   const januaryFirst = new Date(currentDate.getFullYear(), 0, 1);
@@ -18,32 +19,37 @@ function getDateWeek(date) {
 
 const WEEK_COLUMN_INDEX = 0;
 
+// Cache DOM lookup for performance
 function getRowOfCurrentWeek() {
   const tbody = document.querySelector("tbody");
   const currentWeek = getDateWeek(new Date());
+  const rows = Array.from(tbody.children);
 
-  for (const row of tbody.children) {
-    // find week of row
+  return rows.find((row) => {
     const week = parseInt(row.children[WEEK_COLUMN_INDEX].textContent.trim());
+    return week === currentWeek;
+  });
+}
 
-    // if week is current week
-    if (week == currentWeek) {
-      return row;
-    }
+// Optimized highlighting of row using requestAnimationFrame
+function highlightRow(row) {
+  if (row) {
+    requestAnimationFrame(() => {
+      row.classList.add("current-week");
+    });
   }
 }
 
-function highlightRow(row) {
-  row.classList.add("current-week");
-}
-
-// extract <a> from last <td> child of row, put in place of #current-moment
+// Set current moment with requestAnimationFrame for smoother UI updates
 function setCurrentMoment(row) {
-  const currentMoment = document.querySelector("#current-moment");
-  const lastTd = row.children[row.children.length - 1];
-  const link = lastTd.querySelector("a");
-
-  currentMoment.innerHTML = link.outerHTML;
+  if (row) {
+    requestAnimationFrame(() => {
+      const currentMoment = document.querySelector("#current-moment");
+      const lastTd = row.children[row.children.length - 1];
+      const link = lastTd.querySelector("a");
+      currentMoment.innerHTML = link.outerHTML;
+    });
+  }
 }
 
 // MAIN CODE
@@ -51,4 +57,4 @@ window.onload = () => {
   const thisWeekRow = getRowOfCurrentWeek();
   highlightRow(thisWeekRow);
   setCurrentMoment(thisWeekRow);
-}
+};

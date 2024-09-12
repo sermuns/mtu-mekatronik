@@ -60,5 +60,18 @@ Arduinon kommer att ge ström till de integrerade kretsarna genom sina <kbd>5V</
 
 ---
 ## Laborationsuppgifter
+I uppgifterna nedan ska ni koppla upp en krets som implementerar en viss logisk funktion. Ni ska använda er av de integrerade kretsarna som beskrivs ovan, samt en breadboard och en Arduino Nano.
+
 ### Laborationsuppgift 1
+Skapa en krets som implementerar _$y = ab + c$._
+
+### Laborationsuppgift 2
+Skapa en krets som implementerar följande sanningstabell:
+
+| a | b | y |
+|---|---|---|
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
 

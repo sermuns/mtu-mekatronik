@@ -157,3 +157,8 @@ span.katex {
 hr{
     border-color: var(--fg);
 }
+
+/* em > .katex {
+    border: 1px solid var(--fg);
+    padding: 0.2em;
+} */

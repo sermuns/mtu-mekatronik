@@ -76,4 +76,4 @@ Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/in
 | 22    | Omprovstillfälle / rest                                                       |                 |                                               |
 | 23    | Omprovstillfälle / rest                                                       |                 |                                               |
 
-<script src=/planering.js>
+<script defer src=/planering.js>
