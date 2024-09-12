@@ -14,7 +14,7 @@
       "export RUSTUP_HOME=$rustupHomeDir",
       "export LIBRARY_PATH=$LIBRARY_PATH:\"$projectDir/nix/profile/default/lib\"",
       "rustup default stable >/dev/null 2>&1",
-      "cargo binstall -q -y mdbook-external-links mdbook-variables"
+      "cargo install -q mdbook-external-links mdbook-variables"
     ],
     "scripts": {
       "build": [
