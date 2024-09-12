@@ -9,14 +9,14 @@ RUN curl -L https://github.com/cargo-bins/cargo-binstall/releases/latest/downloa
 	| tar -xz -C /usr/local/bin
 
 # Install crates (mdbook, etc)
-RUN cargo binstall -y mdbook
-RUN cargo binstall -y mdbook-toc
-RUN cargo binstall -y mdbook-mermaid
-RUN cargo binstall -y mdbook-admonish
-RUN cargo binstall -y mdbook-linkcheck
-RUN cargo binstall -y mdbook-katex
-RUN cargo binstall -y mdbook-external-links
-RUN cargo binstall -y mdbook-variables
+RUN cargo binstall -y 	mdbook \
+						mdbook-toc \
+						mdbook-mermaid \
+						mdbook-admonish \
+						mdbook-linkcheck \
+						mdbook-katex \
+						mdbook-external-links \
+						mdbook-variables
 
 FROM alpine
 
