@@ -66,12 +66,12 @@ Exempelvis $y=ab+c$, vilket ser ut såhär:
 
 Som tur är fungerar de klassiska prioriteringsreglerna från matematiken: multiplikation före addition. Därför ger $y=c+ab$ samma resultat.
 
-| Prioritet | Klassisk matematik | Boolesk matematik |
-| --- | --- | --- |
-| 1 | Parenteser | Parenteser |
-| 2 | Potenser | NOT |
-| 3 | Multiplikation / division | AND / XOR |
-| 4 | Addition | OR |
+| Prioritet | Klassisk matematik        | Boolesk matematik |
+| --------- | ------------------------- | ----------------- |
+| 1         | Parenteser                | Parenteser        |
+| 2         | Potenser                  | NOT               |
+| 3         | Multiplikation / division | AND / XOR         |
+| 4         | Addition                  | OR                |
 
 
 ```admonish tip title="Tips!"

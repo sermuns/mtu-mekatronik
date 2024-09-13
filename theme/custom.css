@@ -10,6 +10,15 @@ blockquote {
     margin: 1rem 2rem 0 0;
 }
 
+blockquote h1,
+blockquote h2,
+blockquote h3,
+blockquote h4,
+blockquote h5,
+blockquote h6 {
+    margin-block-start: 1em !important;
+}
+
 blockquote h3,
 blockquote p {
     margin: 2rem auto;
@@ -39,7 +48,7 @@ summary {
 img {
     display: block;
     margin: auto;
-    max-height: 15em !important;
+    max-height: 25em !important;
 }
 
 blockquote img {
@@ -140,13 +149,15 @@ section>p {
     flex: 1;
 }
 
-html.navy img[src$=".svg"], html.coal img[src$=".svg"], html.ayu img[src$=".svg"] {
+html.navy img[src$=".svg"],
+html.coal img[src$=".svg"],
+html.ayu img[src$=".svg"] {
     filter: invert(1);
 }
 
 svg[id^="mermaid"] {
- display: block;
-margin: auto; 
+    display: block;
+    margin: auto;
 }
 
 span.katex {
@@ -154,7 +165,7 @@ span.katex {
     white-space: nowrap;
 }
 
-hr{
+hr {
     border-color: var(--fg);
 }
 
@@ -162,3 +173,25 @@ hr{
     border: 1px solid var(--fg);
     padding: 0.2em;
 } */
+
+ol.exercises {
+    gap: 5rem;
+
+    & li{
+        border: 1px solid var(--fg);
+        padding: 1em;
+    }
+
+    & li+li {
+        margin-top: 10rem;
+    }
+    
+    & li::marker {
+        font-weight: bold;
+    }
+}
+
+kbd{
+    color: var(--fg);
+    margin: 0;
+}
