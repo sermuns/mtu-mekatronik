@@ -15,8 +15,7 @@ RUN cargo binstall -y 	mdbook \
 						mdbook-admonish \
 						mdbook-linkcheck \
 						mdbook-katex \
-						mdbook-external-links \
-						mdbook-variables
+						mdbook-external-links
 
 FROM alpine
 
