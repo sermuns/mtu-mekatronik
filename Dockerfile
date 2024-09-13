@@ -17,6 +17,8 @@ RUN cargo binstall -y 	mdbook \
 						mdbook-katex \
 						mdbook-external-links
 
+# ----------------------------
+
 FROM alpine
 
-COPY --from=builder /usr/local/cargo/bin /usr/local/bin
+COPY --from=builder /usr/local/cargo/bin/mdbook* /usr/local/bin
