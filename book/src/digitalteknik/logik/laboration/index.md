@@ -64,7 +64,7 @@ Standarden är att trycka fast IC:n i mitten av breadboarden, och dra sladd frå
 
 Slutligen, för att ge ström till kretsen använder vi oss av en `Arduino Nano`. Vi kommer **inte** programmera den.
 
-Arduinon kommer att ge ström till de integrerade kretsarna genom sina <kbd>5V</kbd> och <kbd>GND</kbd>-pinnar. Ni kommer också koppla slutliga utsignalen $y$ till pin <kbd>D13</kbd> på Arduinon för att se resultatet.
+Arduinon kommer att ge ström till de integrerade kretsarna genom sina <kbd>5V</kbd> och <kbd>GND</kbd>-pinnar. Ni kommer också koppla slutliga utsignalen $y$ till pin <kbd>A0</kbd> på Arduinon för att se resultatet.
 
 ### Knappar
 
@@ -106,9 +106,14 @@ I uppgifterna nedan ska ni koppla upp en krets som implementerar en viss logisk 
 
 Ni ska använda er av de integrerade kretsarna, en breadboard och en Arduino Nano.
 
-Utsignalen $y$ ska kopplas till pin <kbd>D13</kbd> på Arduinon, och kommer då lysa upp den inbygga LED-lampan (ofta benämnd **L**) på Arduinon när den är hög.
+Utsignalen $y$ ska kopplas till pin <kbd>A0</kbd> på Arduinon, och kommer då lysa upp den inbygga LED-lampan (ofta benämnd **L**) på Arduinon när den är hög.
 
 <ol class="exercises">
+
+<li>
+Koppla upp en krets som realiserar
+$$y = a$$
+</li>
 
 <li>
 Koppla upp en krets som realiserar 

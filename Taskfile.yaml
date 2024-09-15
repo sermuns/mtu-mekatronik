@@ -5,6 +5,6 @@ tasks:
     cmds:
       - docker compose run --rm mdbook mdbook build
     sources:
-      - src/**
+      - book/src/**
     generates:
-      - build/**
+      - book/build/**
