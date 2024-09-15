@@ -3,6 +3,8 @@ name: Image publish
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - 'Dockerfile'      # Only run when Dockerfile changes
   workflow_dispatch:
 
 env:
