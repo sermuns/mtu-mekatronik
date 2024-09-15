@@ -1,15 +1,15 @@
 services:
   mdbook:
-    user: 1000:1000
+    image: ghcr.io/sermuns/mtu:latest
     container_name: mdbook
-    build: .
+    user: 1000:1000
     stdin_open: true
     tty: true
     ports:
       - 3000:3000
       - 3001:3001
     volumes:
-      - .:/book
+      - ./book:/book
     working_dir: /book
     command: "mdbook serve --hostname 0.0.0.0"
-    stop_grace_period: 1s
+    stop_signal: SIGKILL
