@@ -5,10 +5,11 @@ För att skapa datorer behöver vi förstå de mest grundläggande byggstenarna 
 I momentet ingår logiska grindar, booleska uttryck, sanningstabeller och talsystem.
 
 ## Verktyg
-- <a href="https://logic.ly/demo/" target="_blank">logic.ly</a>: En webbaserad simulator för logiska grindar.
+- <a href="https://logigator.com/editor/" target="_blank">logigator</a>: En webbaserad simulator för logiska grindar.
 
 ## Presentationer
-- [Logiska grindar](<Logiska grindar.pptx>)
+- [V37 - Logik](<MEKMEK01 v37 - logik.pdf>)
+- [V39 - Talsystem](<MEKMEK01 v39 - talsystem.pdf>)
 
 ## Examination
 

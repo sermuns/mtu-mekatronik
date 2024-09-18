@@ -3,7 +3,7 @@
 Det finns en del grundläggande, återkommande principer och komponenter inom mekatronik. Detta kapitel kommer hantera några av dessa, samt var de används i vardagen.
 
 ## Presentationer
-- [V35: Kursintro, grunder i mekatronik](/slides/MEKMEK01%20EE22%20v35.pdf)
+- [V35: Kursintro, grunder i mekatronik](<MEKMEK01 EE22 v35.pdf>)
 
 ## Examination
 

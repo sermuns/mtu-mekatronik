@@ -35,7 +35,7 @@ function getRowOfCurrentWeek() {
 function highlightRow(row) {
   if (row) {
     requestAnimationFrame(() => {
-      row.classList.add("current-week");
+      row.id = "current-week";
     });
   }
 }
