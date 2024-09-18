@@ -1,16 +1,22 @@
 # Talsystem
 
-Vi människor räknar för det mesta i det <u>decimala</u> talsystemet.
-- Använder siffrorna 0-9
-- Positionen av siffran visar hur mycket den är värd (ental, tiotal, osv..)
+Vi människor använder siffror överallt i vardagen. Vi kommer i kontakt med det så ofta att vi kan läsa det flytande. Så fort vi ser symbolen "1", kopplar vi det direkt till **värdet** ett. Kombinationen "23" vet vi betyder "två tior plus tre ettor".
+
+Vi kanske inte förstår hur stort talet "1 026 245 341 553 566" är, men vi får direkt en uppfattning om det, eftersom vi är så bekväma med de regler vårt talsystem har:
+
+Talsystemet jag pratar om är det <u>decimala talsystemet</u>, vilket är uppbyggt av:
+- Siffrorna 0-9
+- Regeln att siffror precis till vänster om kommatecknet är värda ett (ental). Siffror till vänster är värda tio (tiotal), och så vidare. Varje steg till vänster motsvarar en multiplikation med 10.
 
 ![talsystem](/media/decimala_talsystemet_495x215.png)
 
+```admonish question title=""
 Varför valde vi just detta talsystem? Troligtvis för att vi har tio fingrar.
+```
 
-Sanningen är att man kan skapa talsystem på vilken siffra som helst, det finns ingenting speciellt med just tio (det decimala systemet).
+Ett talsystem behöver alltså symboler som representerar värden, och positioner. Det som skiljer talsystem mellan varandra är vilket tal man har som bas. 
 
-Här är några exempel på andra talsystem:
+Nedan följer några exempel på vanliga talsystem:
 
 ## Unära talsystemet
 
@@ -49,4 +55,4 @@ Detta talsystem kommer vi titta närmre på, eftersom det är väldigt viktigt i
 | 15       | F            |
 | 16       | 10           |
 
-Det hexadecimala talsystemet är på ett sätt ett **större** talsystem än det decimala, eftersom det har fler siffror, ända från 0 till F (16 stycken). Vi kommer också att titta närmre på detta talsystem, eftersom det är väldigt användbart inom digitalteknik.
+Det hexadecimala talsystemet är på ett sätt ett **större** talsystem än det decimala, eftersom den har fler symboler, ända från 0 till F (16 stycken). Vi kommer också att titta närmre på detta talsystem, eftersom det är väldigt användbart inom digitalteknik.

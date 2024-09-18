@@ -1,21 +1,15 @@
 # Binära talsystemet
 
-Det binära talsystemet är ett talsystem som endast använder sig av siffrorna 0 och 1. Frågan är, varför skulle det vara användbart?
+Det binära talsystemet är ett talsystem som endast använder sig av symbolerna 0 och 1. Frågan är, varför skulle det vara användbart?
 
 Ett exempel då binära tal har användning:
 
-Låt säga att din kompis är i ett annat rum, och du måste av någon anledning skicka siffror mellan 0-15 till dem.
+Låt säga att din kompis är i ett annat rum, och du måste förmedla en livsviktig siffra till dem. Till din förfogan har du bara fyra knappar som är direktkopplade till varsin lampa i kompisens rum.
 
 ![button-puzzle](/media/button-puzzle.svg)
 
-En lösning är att bestämma ett värde på varje lampa, och för att få fram siffran du tänker på, ska kompisen addera ihop värdena på alla lampor som är tända just då.
+Om ni får prata ihop er i förväg, skulle ni kunna bestämma att en lampa är värd 1, en annan 2, 3, osv.
 
-![button](/media/buttons-numbers.svg)
+![button](/media/buttons-naive.svg)
 
-Första lampa (från höger) får värdet 1, nästa lampa får 2, nästa lampa får 4, och till sist 8.
-
-Om du vill skicka exempelvis "3" till din kompis, hur ska du göra då?
-
-\\[
-3_{10} = 0011_2
-\\]
+Med den logiken behövs det dock samma antal knappar/lampor som den högsta siffran du vill skicka. Finns det något bättre sätt att skicka fler siffror med bara fyra knappar?
