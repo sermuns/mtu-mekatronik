@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="33.828014mm"
+   height="5.222321mm"
+   viewBox="0 0 33.828016 5.2223211"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="talsys-mall.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="4"
+     inkscape:cx="74.625"
+     inkscape:cy="11.125"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1">
+    <rect
+       x="195.31625"
+       y="305.09875"
+       width="243.10994"
+       height="136.99475"
+       id="rect1" />
+  </defs>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.40833px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2"
+     x="12.277164"
+     y="0.86677462"
+     id="text2"><tspan
+       sodipodi:role="line"
+       id="tspan2"
+       style="fill:#000000;fill-opacity:1;stroke-width:2"
+       x="12.277164"
+       y="0.86677462">_ _ _ , _ </tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';opacity:1;fill:#404040;fill-opacity:1;stroke:none;stroke-width:1.241"
+     x="12.908901"
+     y="4.9602027"
+     id="text3"><tspan
+       sodipodi:role="line"
+       id="tspan3"
+       style="font-size:2.82222px;fill:#404040;fill-opacity:1;stroke-width:1.241"
+       x="12.908901"
+       y="4.9602027">2     1    0         -1 </tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';opacity:1;fill:#030303;fill-opacity:1;stroke:none;stroke-width:1.241"
+     x="-0.19755541"
+     y="4.7679439"
+     id="text1"><tspan
+       sodipodi:role="line"
+       id="tspan1"
+       style="font-size:2.82222px;fill:#030303;fill-opacity:1;stroke-width:1.241"
+       x="-0.19755541"
+       y="4.7679439">position:</tspan></text>
+</svg>
