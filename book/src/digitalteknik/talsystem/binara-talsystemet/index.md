@@ -1,15 +1,22 @@
 # Binära talsystemet
 
-Det binära talsystemet är ett talsystem som endast använder sig av symbolerna 0 och 1. Frågan är, varför skulle det vara användbart?
+Det binära talsystemet är ett talsystem som endast använder sig av symbolerna 0 och 1. 
 
-Ett exempel då binära tal har användning:
+Hur funkar det?
 
-Låt säga att din kompis är i ett annat rum, och du måste förmedla en livsviktig siffra till dem. Till din förfogan har du bara fyra knappar som är direktkopplade till varsin lampa i kompisens rum.
+```admonish example title="Exempel på binärt tal"
+Hur mycket är det binära talet $101$ värt i det decimala talsystemet?
 
-![button-puzzle](/media/button-puzzle.svg)
 
-Om ni får prata ihop er i förväg, skulle ni kunna bestämma att en lampa är värd 1, en annan 2, 3, osv.
+För att räkna ut det binära talet i decimala talsystemet, läser vi från höger till vänster. Den högersta siffran är värd 1, den näst högersta är värd 2, den näst näst högersta är värd 4, och så vidare, fördubblas värdet för varje steg till vänster.
 
-![button](/media/buttons-naive.svg)
+\\[101_2 = 4 + 0 + 1 = 5_{10} \\]
 
-Med den logiken behövs det dock samma antal knappar/lampor som den högsta siffran du vill skicka. Finns det något bättre sätt att skicka fler siffror med bara fyra knappar?
+Så det binära talet $101$ är värt 5 i det decimala talsystemet.
+
+```
+
+Det binära talsystemet är väldigt viktigt inom digitalteknik, eftersom datorer använder sig av just detta talsystem för att räkna. 
+
+Vi kommer att titta närmre på det binära talsystemet i kommande avsnitt. 
+

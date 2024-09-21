@@ -10,11 +10,20 @@ Talsystemet jag pratar om är det <u>decimala talsystemet</u>, vilket är uppbyg
 
 ![talsystem](/media/decimala_talsystemet_495x215.png)
 
-```admonish question title=""
-Varför valde vi just detta talsystem? Troligtvis för att vi har tio fingrar.
+```admonish question title="Fråga"
+Varför valde vi just det decimala talsystemet?
+
+Troligtvis för att vi har tio fingrar.
 ```
 
 Ett talsystem behöver alltså symboler som representerar värden, och positioner. Det som skiljer talsystem mellan varandra är vilket tal man har som bas. 
+
+```admonish info title="Info"
+För att vara tydlig kan man skriva vilket talsystem man vill att en siffra ska tolkas i. Såhär:
+
+\\[3_{10} = 111_1 = 11_2 = 3_{16} \\]
+
+```
 
 Nedan följer några exempel på vanliga talsystem:
 
