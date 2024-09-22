@@ -3,7 +3,7 @@ FROM rust:alpine AS builder
 ENV CARGO_HOME=/usr/local/cargo
 
 # Install dependencies
-RUN apk add --no-cache curl tar musl-dev gcc go-task
+RUN apk add --no-cache curl tar musl-dev gcc go-task inkscape
 
 RUN curl -L https://github.com/cargo-bins/cargo-binstall/releases/latest/download/cargo-binstall-x86_64-unknown-linux-musl.tgz \
 	| tar -xz -C /usr/local/bin
