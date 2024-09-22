@@ -1,7 +1,5 @@
 <style>
-    .more-gap li {
-        margin-bottom: 5em;
-    }
+
 </style>
 
 # Binära talsystemet
@@ -9,41 +7,52 @@
 Det binära talsystemet är ett talsystem med basen 2 och symbolerna "0" och "1".
 Ni kommer alltså aldrig se ett binärt tal som ser ut som följande: 500001000222210014.
 
-Är 101 binärt?
-Inte nödvändigtvis. Det kan möjligen vara binärt eftersom symbolerna i talet ingår alla i de binära symbolerna men det kan också vara i exempelvis basen 10 eller 7, eller väldigt många andra. För att vi ska veta vilken bas ett tal är skrivet i finns ett litet försänkt tal precis efter talet. I det decimala talssystemet är notationen 10, i binärt är den 2. 
+Är talet "101" binärt?
 
-så $101_2$ är alltså binärt. Vad har det för värde?
+Inte nödvändigtvis. Det skulle kunna vara binärt, eftersom det endast består av 0/1. Det kan också vara i exempelvis basen 10 eller 7, eller väldigt många andra. 
 
-<img src="/media/binar-ex1.png" style="height: 7em;"></img>
+För att tydlig visa vilken bas vi vill att talet ska tolkas i ska man sätta ett litet försänkt tal precis efter talet. I det decimala talssystemet är notationen 10, i binärt är den 2. 
+
+$101_2$ är alltså binärt, men hur mycket är det värt i det decimala talsystemet?
+
+## Från binärt till decimalt
+
+För att översätta binära tal till det decimala talsystemet, måste vi först avgöra vilket värde de olika positionerna har. Positionen precis till vänster om kommatecknet (ifall inget kommatecken finns så positionen längst till höger) är värd 1, ett steg till vänster har värdet 2, nästa har värdet 4 och så vidare. Varje steg till vänster innebär alltså en fördubbling av positionens värde (i det binära talsystemet - bas 2). Det decimala talet beräknas som summan av termer, där varje term är symbolen på en viss position cdot positionens värde. 
 
 ```admonish example title="Binärt till decimalt"
 Hur mycket är det binära talet $101$ värt i det decimala talsystemet?
 
+<img src="/media/binar-ex1.svg" style="height: 7em; border: 1px solid var(--fg); padding: 1em;"></img>
 
-För att räkna ut det binära talet i decimala talsystemet, läser vi från höger till vänster. Den högersta siffran är värd 1, den näst högersta är värd 2, den näst näst högersta är värd 4, och så vidare, fördubblas värdet för varje steg till vänster.
-
-\\[101_2 = 4 + 0 + 1 = 5_{10} \\]
+$$
+\begin{aligned}
+101_2 &= 1\cdot2^2 + 0\cdot2^1 + 1\cdot2^0 \\\\
+&= 4 + 1 \\\\
+&= 5
+\end{aligned}
+$$
 
 Så det binära talet $101$ är värt 5 i det decimala talsystemet.
 ```
 
-Nu vet vi hur vi kan översätta binära tal till decimala tal. Hur kan vi göra det omvända?
+Nu vet vi hur vi kan översätta binära tal till decimala tal. Hur gör man det omvända?
 
-1. Ha koll på vilket decimalt tal som ska översättas.
+## Från decimalt till binärt
+
+
 1. Hitta det största värdet en position kan ha utan att överstiga värdet av det decimala talet.
 1. Ta reda på vilken symbol ska stå på den positionen (i det binära talsystemet är det antingen 0 eller 1).
-1. Subtrahera värdet av positionen*symbolens värde ur ursprungstalet.
+1. Subtrahera värdet av positionen multiplicerat med symbolens värde från det decimala talet.
 1. Gå vidare till nästa position och avgör vilken symbol som finns på den samt subtrahera ur värdet som är kvar.
 1. Upprepa tills det är färdigt.
+
+Kolla på exemplet nedan för att se hur det går till.
 
 ```admonish example title="Decimalt till binärt"
 <ol class="more-gap">
 
-<li>
 
-\\(102_{10}\\)
-
-</li>
+Hur översätter man $101 _ {10}$ till binärt?
 
 <li>
 
@@ -67,7 +76,9 @@ Nu vet vi hur vi kan översätta binära tal till decimala tal. Hur kan vi göra
 
 <li>
 
-64 får plats i 102, så vi sätter en 1:a på den positionen.
+64 får plats i 102, så vi sätter en 1:a på den positionen. 64≤102.
+
+Vi sätter en 1:a på den positionen, och subtraherar 64 från 102.
 
 <img src="/media/binar-ex2-2.svg" style="height: 7em;"></img>
 
@@ -83,13 +94,17 @@ $102-64 = 28$
 
 Nästa position har värdet 32 vilket är för stort. 32>28.
 
+Vi sätter en 0:a på den positionen.
+
 <img src="/media/binar-ex2-3.svg" style="height: 7em;"></img>
 
 </li>
 
 <li>
 
-16<28 finns bara med en gång.
+16≤28.
+
+16 får plats i 28. Vi sätter en 1:a på den positionen och subtraherar 16 från 28.
 
 <img src="/media/binar-ex2-4.svg" style="height: 7em;"></img>
 
@@ -103,7 +118,10 @@ Nästa position har värdet 32 vilket är för stort. 32>28.
 
 <li>
 
-Nästa positions värde är 8. 8<12.
+Nästa positions värde är 8. 
+
+8≤12, så vi sätter en 1:a på den positionen, och subtraherar 8 från 12.
+
 
 <img src="/media/binar-ex2-5.svg" style="height: 7em;"></img>
 
@@ -117,7 +135,9 @@ Nästa positions värde är 8. 8<12.
 
 <li>
 
-Nästa positions värde är 4=4.
+Nästa positions värde är 4. 
+
+4≤4.
 
 <img src="/media/binar-ex2-6.svg" style="height: 7em;"></img>
 
@@ -138,4 +158,9 @@ Resterande är noll.
 </li>
 
 </ol>
+
+Så $$101 _ {10} = 1100110_2 $$
+```
+
+
 ```

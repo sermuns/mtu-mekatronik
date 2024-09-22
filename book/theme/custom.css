@@ -6,9 +6,6 @@ body {
     font-size: 1.7rem;
 }
 
-blockquote {
-    margin: 1rem 2rem 0 0;
-}
 blockquote h1,
 blockquote h2,
 blockquote h3,
@@ -47,7 +44,7 @@ summary {
 img {
     display: block;
     margin: auto;
-    max-height: 25em !important;
+    max-height: 25em;
 }
 
 blockquote img {
@@ -188,6 +185,14 @@ ol.exercises {
 
 ol li::marker {
     font-weight: bold;
+}
+
+.more-gap li + li{
+    margin-top: 5em;
+}
+
+main li+li{
+    margin-top: 1em;
 }
 
 kbd{

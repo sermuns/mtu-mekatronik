@@ -2,7 +2,6 @@
 authors = ["Samuel Åkesson"]
 language = "sv"
 multilingual = false
-src = "src"
 title = "Mekatronik 1 | MTU"
 cname = "mek.samake.se"
 
@@ -19,7 +18,7 @@ preferred-dark-theme = "ayu"
 enable = false
 
 [output.html.fold]
-enable = true
+# enable = true
 
 [preprocessor.external-links]
 
