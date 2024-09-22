@@ -12,5 +12,5 @@ services:
       - ./book:/book
       - ./entrypoint.sh:/entrypoint.sh
     working_dir: /book
-    entrypoint: "mdbook serve --hostname 0.0.0.0"
+    command: "mdbook serve --hostname 0.0.0.0"
     stop_signal: SIGKILL
