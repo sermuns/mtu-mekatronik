@@ -1,8 +1,8 @@
 # Talsystem
 
-Vi människor använder siffror överallt i vardagen. Vi kommer i kontakt med det så ofta att vi kan läsa det flytande. Så fort vi ser symbolen "1", kopplar vi det direkt till **värdet** ett. Kombinationen "23" vet vi betyder "två tior plus tre ettor".
+Vi människor använder siffror överallt i vardagen. Vi kommer i kontakt med det så ofta att vi kan läsa det flytande. Så fort vi ser symbolen "1" kopplar vi det direkt till **värdet** ett. Kombinationen "23" vet vi betyder "två tior plus tre ettor".
 
-Vi kanske inte förstår hur stort talet "1 026 245 341 553 566" är, men vi får direkt en uppfattning om det, eftersom vi är så bekväma med de regler vårt talsystem har:
+Vi kanske inte förstår hur stort talet "1 026 245 341 553 566" är, men vi får direkt en uppfattning om det eftersom vi är så bekväma med de regler vårt talsystem har:
 
 Alla talsystem har en <u>bas</u> och <u>symboler</u> som representerar olika värden. 
 

@@ -1,6 +1,7 @@
 services:
   mdbook:
     image: ghcr.io/sermuns/mtu:latest
+    restart: unless-stopped
     container_name: mdbook
     user: 1000:1000
     stdin_open: true

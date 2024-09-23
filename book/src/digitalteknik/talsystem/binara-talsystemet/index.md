@@ -7,9 +7,11 @@
 Det binära talsystemet är ett talsystem med basen 2 och symbolerna "0" och "1".
 Ni kommer alltså aldrig se ett binärt tal som ser ut som följande: 500001000222210014.
 
-Är talet "101" binärt?
+```admonish question title="Är talet 101 binärt?"
 
-Inte nödvändigtvis. Det skulle kunna vara binärt, eftersom det endast består av 0/1. Det kan också vara i exempelvis basen 10 eller 7, eller väldigt många andra. 
+
+Inte nödvändigtvis. Det skulle kunna vara binärt eftersom det endast består av 0/1. Det kan också vara i exempelvis basen 10 eller 7, eller väldigt många andra. 
+```
 
 För att tydlig visa vilken bas vi vill att talet ska tolkas i ska man sätta ett litet försänkt tal precis efter talet. I det decimala talssystemet är notationen 10, i binärt är den 2. 
 
@@ -17,7 +19,7 @@ $101_2$ är alltså binärt, men hur mycket är det värt i det decimala talsyst
 
 ## Från binärt till decimalt
 
-För att översätta binära tal till det decimala talsystemet, måste vi först avgöra vilket värde de olika positionerna har. Positionen precis till vänster om kommatecknet (ifall inget kommatecken finns så positionen längst till höger) är värd 1, ett steg till vänster har värdet 2, nästa har värdet 4 och så vidare. Varje steg till vänster innebär alltså en fördubbling av positionens värde (i det binära talsystemet - bas 2). Det decimala talet beräknas som summan av termer, där varje term är symbolen på en viss position cdot positionens värde. 
+För att översätta binära tal till det decimala talsystemet måste vi först avgöra vilket värde de olika positionerna har. Positionen precis till vänster om kommatecknet (ifall inget kommatecken finns så positionen längst till höger) är värd 1, ett steg till vänster har värdet 2, nästa har värdet 4 och så vidare. Varje steg till vänster innebär alltså en fördubbling av positionens värde (i det binära talsystemet - bas 2). Det decimala talet beräknas som summan av termer, där varje term är symbolen på en viss position gånger positionens värde. 
 
 ```admonish example title="Binärt till decimalt"
 Hur mycket är det binära talet $101$ värt i det decimala talsystemet?
@@ -163,4 +165,4 @@ Så $$101 _ {10} = 1100110_2 $$
 ```
 
 
-```
+

@@ -21,6 +21,7 @@
   - [Talsystem](digitalteknik/talsystem/index.md)
     - [Binära talsystemet](digitalteknik/talsystem/binara-talsystemet/index.md)
     - [Hexadecimala talsystemet](digitalteknik/talsystem/hexadecimala-talsystemet/index.md)
+    - [Mellan bin och hex](digitalteknik/talsystem/mellan-bin-och-hex/index.md)
     - [Uppgifter](digitalteknik/talsystem/uppgifter/index.md)
 - [Ellära]()
 - [Mekanik]()
