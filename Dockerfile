@@ -21,4 +21,8 @@ RUN cargo binstall -y 	mdbook \
 
 FROM alpine
 
+RUN apk add --no-cache inkscape inotify-tools
+
+COPY entrypoint.sh /usr/local/bin/entrypoint
+
 COPY --from=builder /usr/local/cargo/bin/mdbook* /usr/local/bin

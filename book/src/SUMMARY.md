@@ -19,6 +19,8 @@
     - [Uppgifter](digitalteknik/logik/uppgifter/index.md)
     - [Laboration](digitalteknik/logik/laboration/index.md)
   - [Talsystem](digitalteknik/talsystem/index.md)
+    - [Binära talsystemet](digitalteknik/talsystem/binara-talsystemet/index.md)
+    - [Hexadecimala talsystemet](digitalteknik/talsystem/hexadecimala-talsystemet/index.md)
     - [Uppgifter](digitalteknik/talsystem/uppgifter/index.md)
 - [Ellära]()
 - [Mekanik]()
