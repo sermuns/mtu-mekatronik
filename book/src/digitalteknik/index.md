@@ -27,4 +27,6 @@ Under det skriftliga provet visar man kunskaper inom de delar i momentet som man
 
 > **Tidigare prov:**  
 > - [Prov1](<Prov digitalteknik MEKMEK01 EE21.pdf>)  
+> - [Prov1 facit](<Prov digitalteknik MEKMEK01 EE21 v43 FACIT.pdf>)
 > - [Prov2](<Prov2 digitalteknik MEKMEK01 EE21.pdf>)
+> - [Prov2 facit](<Prov2 FACIT digitalteknik MEKMEK01 EE21 v43.pdf>)
