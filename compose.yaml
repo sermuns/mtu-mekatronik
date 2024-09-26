@@ -2,7 +2,6 @@ services:
   mdbook:
     image: ghcr.io/sermuns/mtu:latest
     restart: unless-stopped
-    container_name: mdbook
     user: 1000:1000
     stdin_open: true
     tty: true
@@ -14,4 +13,14 @@ services:
       - ./entrypoint.sh:/entrypoint.sh
     working_dir: /book
     command: "mdbook serve --hostname 0.0.0.0"
+    stop_signal: SIGKILL
+
+  mtu-pandoc:
+    image: ghcr.io/sermuns/styrelsemote-lysator:latest
+    user: 1000:1000
+    network_mode: none
+    volumes:
+      - ./pandoc:/pandoc
+    working_dir: /pandoc
+    entrypoint: build -w -i src -o build -t template.tex -m metadata.yaml
     stop_signal: SIGKILL
