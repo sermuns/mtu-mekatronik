@@ -18,7 +18,7 @@ title: MEKMEK01 | Digitalteknik LaX
 ```{=typst}
 #set table(
   stroke: none,
-  gutter: 0.2em,
+  gutter: 0em,
   align: horizon,
   fill: (x, y) =>
     if y == 0 { black },
@@ -44,8 +44,8 @@ title: MEKMEK01 | Digitalteknik LaX
         y : tillåtet att starta bilen
     ],
     [$$y = ab$$],
-    table.header[align(center)[
+    [
         Gridnnät
-    ]]
+    ]
 )
 ```
