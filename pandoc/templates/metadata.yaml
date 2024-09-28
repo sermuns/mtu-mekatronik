@@ -1,0 +1,12 @@
+---
+lang: "sv"
+paper: "a4"
+mainfont: "Atkinson Hyperlegible"
+rawfont: JuliaMono
+
+margin:
+    x: 2cm
+    y: 2cm
+    top: 3cm
+    bottom: 3cm
+---

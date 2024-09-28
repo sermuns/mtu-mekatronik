@@ -12,11 +12,11 @@ services:
     entrypoint: "mdbook serve --hostname 0.0.0.0"
     stop_signal: SIGKILL
 
-# mtu-pandoc:
-#   image: ghcr.io/sermuns/styrelsemote-lysator:latest
-#   network_mode: none
-#   volumes:
-#     - ./pandoc:/pandoc
-#   working_dir: /pandoc
-#   entrypoint: build -w -i src -o build -t template.tex -m metadata.yaml
-#   stop_signal: SIGKILL
+  mtu-pandoc:
+    image: ghcr.io/sermuns/styrelsemote-lysator:latest
+    network_mode: none
+    volumes:
+      - ./pandoc:/pandoc
+    working_dir: /pandoc
+    entrypoint: build -w -i src -o build -t templates/template.typ -m templates/metadata.yaml -e typst
+    stop_signal: SIGKILL
