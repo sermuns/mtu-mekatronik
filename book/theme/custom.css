@@ -20,11 +20,6 @@ blockquote p {
     margin: 2rem auto;
 }
 
-summary {
-    cursor: pointer;
-    user-select: none;
-}
-
 .content p {
     line-height: 2.5rem !important;
 }
@@ -35,10 +30,6 @@ p {
 
 *::selection {
     background-color: color-mix(in srgb, var(--bg), var(--fg) 15%);
-}
-
-summary {
-    margin: 2rem 0rem;
 }
 
 img {
@@ -138,7 +129,6 @@ section {
     justify-content: space-between;
     align-items: flex-start;
     gap: 2rem;
-
 }
 
 section>p {
@@ -173,7 +163,7 @@ hr {
 ol.exercises {
     gap: 5rem;
 
-    & li{
+    & li {
         border: 1px solid var(--fg);
         padding: 1em;
     }
@@ -187,15 +177,38 @@ ol li::marker {
     font-weight: bold;
 }
 
-.more-gap li + li{
+.more-gap li+li {
     margin-top: 5em;
 }
 
-main li+li{
+main li+li {
     margin-top: 1em;
 }
 
-kbd{
+kbd {
     color: var(--fg);
     margin: 0;
+}
+
+ol ol {
+    list-style-type: lower-alpha;
+}
+
+li{
+    padding-left: 0.5em;
+}
+
+summary{
+    cursor: pointer;
+    outline: 1px solid var(--fg);
+    padding: 0 0.5em;
+}
+
+details{
+    user-select: none;
+    margin-top: 1em;
+    border: 1px solid var(--fg); 
+    >:not(summary){
+        margin: 1em 1em;
+    }
 }

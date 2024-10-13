@@ -21,8 +21,6 @@ jobs:
     steps:
 
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Cache Docker images.
         uses: ScribeMD/docker-cache@0.5.0
@@ -30,7 +28,7 @@ jobs:
           key: docker-images-${{ hashFiles('Dockerfile') }}
 
       - name: Build mdBook
-        run: docker compose run --user root mdbook mdbook build
+        run: docker compose run --user root mdbook build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
