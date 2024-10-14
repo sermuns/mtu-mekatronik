@@ -23,6 +23,7 @@
     - [Hexadecimala talsystemet](digitalteknik/talsystem/hexadecimala-talsystemet/index.md)
     - [Mellan bin och hex](digitalteknik/talsystem/mellan-bin-och-hex/index.md)
     - [Uppgifter](digitalteknik/talsystem/uppgifter/index.md)
+  - [Blandade uppgifter](digitalteknik/uppgifter/index.md)
 - [Ellära]()
 - [Mekanik]()
   - [Krafter]()
