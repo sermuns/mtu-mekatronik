@@ -36,11 +36,10 @@ Hur bra ledare något är kan också beskrivas med en fysikalisk storhet, *resis
 
 Elektriskt motstånd har också ett fysikaliskt namn, vilket är **resistans**. Ett materials ledningsförmåga har att göra med den inre resistansen hos materialet. Utöver den finns det elektroniska komponenter vars uppgift är att skapa resistans. Dessa kallas **resistorer**. 
 
-
-
 ```admonish info title="Storhet och enhet"
 Resistans beteckans $R$ och har enheten $\ohm$.
 ```
+
 Det finns resistorer med olika stor resistans. För att veta vilken resistor man jobbar med kan man kolla på resistorn själv. Den har några färglada streck över sig. De olika färgerna är kopplade till olika siffror. Genom att kolla på en tabell (eller om man kan de utantill) är det lätt att avgöra hur stor resistansen är i resistorn.
 
 BILD  PÅ RESISTORER
