@@ -29,7 +29,7 @@ p {
 }
 
 *::selection {
-    background-color: color-mix(in srgb, var(--bg), var(--fg) 15%);
+    background-color: color-mix(in srgb, var(--sidebar-bg), var(--sidebar-active) 35%);
 }
 
 img {
