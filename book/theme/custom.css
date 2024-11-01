@@ -28,9 +28,14 @@ p {
     margin: 2rem 0;
 }
 
-*::selection {
+nav *::selection {
     background-color: color-mix(in srgb, var(--sidebar-bg), var(--sidebar-active) 35%);
 }
+
+#page-wrapper *::selection {
+    background-color: color-mix(in srgb, var(--bg), var(--sidebar-active) 30%);
+}
+
 
 img {
     display: block;

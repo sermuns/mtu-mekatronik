@@ -1,1 +1,0 @@
-# Potential och spänning

@@ -25,7 +25,7 @@
     - [Uppgifter](digitalteknik/talsystem/uppgifter/index.md)
   - [Blandade uppgifter](digitalteknik/uppgifter/index.md)
 - [Ellära](ellara/index.md)
-    - [Potential och spänning](ellara/potential-och-spanning.md)
+    - [Potential och spänning](ellara/potential-och-spanning/index.md)
     - [Ström och resistans](ellara/strom-och-resistans.md)
     - [Ohms lag](ellara/ohms-lag.md)
     - [Serie- och parallellkoppling]()
