@@ -43,13 +43,13 @@ Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/in
 | 42    | Inför skriftligt prov i digitalteknik (frågor/repetition)                     |                 | [Digitalteknik](/digitalteknik)               |
 | 43    | Skriftligt prov i digitalteknik                                               | SKRIFTLIGT PROV | [Digitalteknik](/digitalteknik)               |
 | 44    | \-                                                                            |                 |                                               |
-| 45    | Intro ellära (spänning, ström och resistans) + simulering av likströmskretsar |                 | [Ellära](/ellära)                             |
-| 46    | Begreppet effekt, parallelkopplade resistans, uppkoppling av enkla kretsar    |                 | [Ellära](/ellära)                             |
-| 47    | Förberedelse inför LaX                                                        |                 | [Ellära](/ellära)                             |
-| 48    | LaX ellära                                                                    | LAX             | [Ellära](/ellära)                             |
-| 49    | Förberedelse inför prov                                                       |                 | [Ellära](/ellära)                             |
-| 50    | Skriftligt prov ellära                                                        | SKRIFTLIGT PROV | [Ellära](/ellära)                             |
-| 51    | Besök av FIA robotics (MISSA INTE!)                                           |                 | [Ellära](/ellära)                             |
+| 45    | Intro ellära (spänning, ström och resistans) + simulering av likströmskretsar |                 | [Ellära](/ellara)                             |
+| 46    | Begreppet effekt, parallelkopplade resistans, uppkoppling av enkla kretsar    |                 | [Ellära](/ellara)                             |
+| 47    | Förberedelse inför LaX                                                        |                 | [Ellära](/ellara)                             |
+| 48    | LaX ellära                                                                    | LAX             | [Ellära](/ellara)                             |
+| 49    | Förberedelse inför prov                                                       |                 | [Ellära](/ellara)                             |
+| 50    | Skriftligt prov ellära                                                        | SKRIFTLIGT PROV | [Ellära](/ellara)                             |
+| 51    | Besök av FIA robotics (MISSA INTE!)                                           |                 | [Ellära](/ellara)                             |
 | 52    | \-                                                                            |                 |                                               |
 | 1     | \-                                                                            |                 |                                               |
 | 2     | \-                                                                            |                 |                                               |

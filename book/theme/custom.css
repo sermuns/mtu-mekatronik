@@ -217,3 +217,17 @@ details{
         margin: 1em 1em;
     }
 }
+
+.grid{
+    display: grid;
+    justify-items: stretch;
+
+    >div{
+        padding: 0.5em;
+        border: 0.1em solid var(--icons);
+    }
+}
+
+svg *[fill="white"] {
+    display: none;
+}
