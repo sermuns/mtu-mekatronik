@@ -29,6 +29,7 @@ renderer = ["html"]
 
 [preprocessor.katex]
 after = ["links"]
+macros = "theme/macros.tex"
 
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
