@@ -47,7 +47,9 @@ function setCurrentMoment(row) {
       const currentMoment = document.querySelector("#current-moment");
       const lastTd = row.children[row.children.length - 1];
       const link = lastTd.querySelector("a");
-      currentMoment.innerHTML = link.outerHTML;
+      if (link) {
+        currentMoment.innerHTML = link.outerHTML;
+      }
     });
   }
 }
