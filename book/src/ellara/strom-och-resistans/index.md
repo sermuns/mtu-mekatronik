@@ -44,12 +44,16 @@ Ett materials ledningsförmåga har att göra med den *inre* resistansen hos mat
 
 Det finns resistorer med olika stor resistans. För att veta vilken resistor man jobbar med kan man kolla på resistorn själv. Den har några färglada streck över sig. De olika färgerna är kopplade till olika siffror. Genom att kolla på en tabell (eller om man kan de utantill) är det lätt att avgöra hur stor resistansen är i resistorn.
 
-BILD  PÅ RESISTORER
+![resistor färg](resistor.png)
+*Hur man kan beräkna motståndet från färgerna (5-band resistor)*
 
 ```admonish question title="Varför vill vi ha resistorer i kretsen?"
-Du kan tänka på resistansen som stenar mitt i en flod. Vattnet strömmar och stöter på motstånd. Motståndet gör så att strömmen inte kan vara så stor alltså att vattnet saktar in. Liknande roll har resistansen i eleketriska sammanhang. 
 
-Ifall en krets skulle kopplas samman med bra ledare och inget annat motstånd mellan spänningskällans olika poler skulle kretsen vara kortsluten, bli varm och vara en risk för brand. Genom att ha motstånd som "saktar ner" (minskar) strömmen blir inte komponenterna så varma och håller längre.
+Man kan tänka på resistanssom stenar i en flod. Vattnet strömmar och stöter på motstånd. Motståndet gör så att strömmen inte kan vara så stor, vattnet saktar in. 
+
+Liknande roll har resistansen i elektriska sammanhang. 
+
+Om man kopplar samman en spänningskälla med bra ledare och inget annat motstånd mellan spänningskällans olika poler skulle kretsen vara kortsluten. Den blir snabbt väldigt varm och en brandrisk. Genom att ha motstånd som "saktar ner" (minskar) strömmen blir inte komponenterna så varma och håller längre.
 ```
 
 

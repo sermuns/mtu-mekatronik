@@ -22,44 +22,12 @@ Potential mäts i enheten volt, $\volt$.
 *Tyngdkraftspotentialen* är den potentialen som beskriver hur mycket energi som finns lagrat i ett föremål när den befinner sig på en viss höjd. Ju högre upp föremålet kommer desto mer energi finns sparat i den. När föremålet sedan rör sig neråt är den inte längre "lika långt ifrån" marken.
 
 
-Elektrisk potential har att göra med de elektriska laddningarna. Vi har lärt oss att partiklars olika laddningar ger upphov till en kraft som antingen attraherar eller repellerar partiklarna från varandra. Om vi nu tänker oss att partiklarna <u>attraherar</u> varandra och ena partikeln sitter fast i väggen och den andra partikeln är fri i exempelvis luften. Vi kan tänka oss att den pria partikeln är på ett avstånd som ger den potentialen 5 $\volt$. När den dras närmare väggen minskar dess potential och vid väggen kan vi säga att potentialen är 0 $\volt$.
+Elektrisk potential har att göra med de elektriska laddningarna. Vi har lärt oss att partiklars olika laddningar ger upphov till krafter som antingen attraherar eller repellerar partiklarna från varandra.
 
-
-BILD PÅ PARTIKLARNA OLIKA LÅNGT BORT FRÅN VÄGGEN. ENA PARTIKLEN POSITIV DEN ANDRA NEGATIV.
-
-ORIGINALTEXTEN:
-Elektrisk potential är (typ) ett mått på hur stort underskott på elektroner ett föremål har.
-- När ett föremål har *få elektroner* har den *hög potential*.
-- När ett föremål har *mycket elektroner* har den *låg potential*.
-
-![Potential](potential.svg)
-*Bollen till vänster har högre potential.*
-
-```admonish info title="Andra typer av potential"
-Nu pratar vi om <u>elektrisk potential</u>, men för att förstå kan det vara hjälpsamt att jämföra med andra typer av potential. Här är några exempel:
-
-<div class="grid" style="grid-template-columns: 1fr 2fr;">
-    <div>
-        Tyngdkraftspotential:
-    </div>
-    <div>
-        Ju högre upp vi lyfter någonting, desto längre har det att falla! Alltså "sparar" vi energi i jordens tyngdkraft.
-    </div>
-    <div>
-        Kemisk potential
-    </div>
-    <div>
-        När bomber exploderar, är det deras kemiska potential som blir till faktisk energi.
-    </div>
-    <div>
-        Elastisk energi
-    </div>
-    <div>
-        Gummiband eller fjädrar kan töjas ut eller tryckas ihop, men de kommer till slut att återgå till sitt jämviktsläge. När de hålls uppe i någon extrem har de potentiell energi sparat.
-    </div>
-</div>
-
-```
+> Om vi tänker oss att vi har två partiklar som <u>attraherar</u> varandra och ena partikeln sitter fast i väggen mean den andra partikeln är fri i luften. Vi kan tänka oss att den fria partikeln är på ett avstånd som ger den potentialen 5 $\volt$. När den dras närmare väggen minskar dess potential och vid väggen kan vi säga att potentialen är 0 $\volt$.
+> 
+> ![potential mellan partiklar](./partiklar_potential.svg)
+> *Partiklarna "vill" mot varandra. När de hålls isär finns det potentiell energi.*
 
 ## Nod
 Noder är något som kommer bli intressant för oss när vi jobbar med elektriska kretsar. Just nu introducerar vi begreppet så att ni ska börja få en uppfattning. 
