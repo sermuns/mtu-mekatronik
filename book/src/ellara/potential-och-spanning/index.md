@@ -26,8 +26,11 @@ Elektrisk potential har att göra med de elektriska laddningarna. Vi har lärt o
 
 > Om vi tänker oss att vi har två partiklar som <u>attraherar</u> varandra och ena partikeln sitter fast i väggen mean den andra partikeln är fri i luften. Vi kan tänka oss att den fria partikeln är på ett avstånd som ger den potentialen 5 $\volt$. När den dras närmare väggen minskar dess potential och vid väggen kan vi säga att potentialen är 0 $\volt$.
 > 
-> ![potential mellan partiklar](./partiklar_potential.svg)
+> ![potential mellan partiklar](partiklar_potential_5v.svg)
 > *Partiklarna "vill" mot varandra. När de hålls isär finns det potentiell energi.*
+>
+> ![potential mellan partiklar](partiklar_potential_2v.svg)
+> *Här är partiklarna inte lika långt ifrån varandra, alltså är potentialen lägre.*
 
 ## Nod
 Noder är något som kommer bli intressant för oss när vi jobbar med elektriska kretsar. Just nu introducerar vi begreppet så att ni ska börja få en uppfattning. 
@@ -51,15 +54,16 @@ Senare i avsnittet lär vi oss att det är bra att tänka på noder som **platse
 
 ## Spänning
 
-Oftast är det inte potentialen som är intressant utan skillnaden i den. 
-
-Du kan tänka dig att du måste gå uppför en trappa till byggnadens nästa våning. Trapporna mellan våning 1 och 2 samt våning 2 och 3 är likadana. Du kommer inte tycka att det är jobbigare att gå uppför trappan från våning 2 till 3 än det är att gå från våning 1 till 2 även om din tyngdkraftspotential är högre i de högre våningarna. 
-
-På samma sätt fungerar det i den elektriska världen. Det är sällan det är viktigt vad den faktiska potentialen är utan det viktiga är skillnaden mellan två noder. Det är denna skillnad vi kallar för **spänning**.
-
 ```admonish info title="Storhet och enhet"
 **Storheten** spänning betecknas med $U$ och har **enheten** volt, $\volt$.
 ```
+
+Oftast är det inte *potentialen* som är intressant utan *skillnaden i potential* mellan två noder.
+
+Du kan tänka dig att du måste gå upp en trappa till byggnadens nästa våning. Trapporna mellan våning 1 och 2 samt våning 2 och 3 är likadana. Du kommer inte tycka att det är jobbigare att gå uppför trappan från våning 2 till 3 än det är att gå från våning 1 till 2 även om din tyngdkraftspotential är högre i de högre våningarna. 
+
+På samma sätt fungerar det i den elektriska världen. Det är sällan det är viktigt vad den faktiska potentialen är utan det viktiga är skillnaden mellan två noder. Det är denna skillnad vi kallar för **spänning**.
+
 
 ```admonish example title="Exempel på spänning"
 Vanliga AA-batterier har spänningen $1.5 \volt$. Vad betyder det?
@@ -67,8 +71,13 @@ Vanliga AA-batterier har spänningen $1.5 \volt$. Vad betyder det?
 Jo, det betyder att från minus- till pluspol är det en potentialskillnad på $1.5 \volt$.
 
 ![Batteri](batteri.png)
-
 ```
+
+### Vattenliknelsen
+Ett sätt att förstå elektrisk spänning är att likna den till *skillnad i vattennivå*.
+
+![vattenliknelse.png](vattenliknelse.png)
+*Vattnet flödar (ström) på grund av nivåskillnad (spänning), men begränsas av rörets flaskhals (resistans).*
 
 ### Spänningskällor
 En spänningskälla är någonting som skapar en spänning, alltså en imbalans av potential. Ett exempel är batterier, som skapar spänning genom kemiska processer. Andra exempel på spänningskällor är vägguttag. Spänningen i vägguttag är däremot växelspänning, vilket vi inte kommer att räkna på i kursen.
