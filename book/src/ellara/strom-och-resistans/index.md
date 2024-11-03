@@ -57,8 +57,5 @@ Om man kopplar samman en spänningskälla med bra ledare och inget annat motstå
 ```
 
 
-Samspelet mellan spänning, ström och resistansen illustreras av bilden.
 
-BILD
-
-Spänningen är den drivande kraften bakom strömmen. Strömmen strömmar så fort den kan och resistansen är den som begränsar hur stor strömmen kan bli. 
+I nästa kapitel lär vi oss hur allt detta hänger ihop, med [ohms lag](../ohms-lag/index.md).
