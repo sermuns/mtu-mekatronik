@@ -44,7 +44,7 @@ nav *::selection {
 img {
     display: block;
     margin: auto;
-    max-height: 25em;
+    max-height: 30em;
 }
 
 blockquote img {
