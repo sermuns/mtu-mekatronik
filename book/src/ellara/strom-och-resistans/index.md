@@ -49,7 +49,7 @@ Det finns resistorer med olika stor resistans. För att veta vilken resistor man
 
 ```admonish question title="Varför vill vi ha resistorer i kretsen?"
 
-Man kan tänka på resistanssom stenar i en flod. Vattnet strömmar och stöter på motstånd. Motståndet gör så att strömmen inte kan vara så stor, vattnet saktar in. 
+Man kan tänka på resistanser som stenar i en flod. Vattnet strömmar och stöter på stenarna. Motståndet gör så att strömmen inte kan vara så stor och vattnet flödar långsammare. 
 
 Liknande roll har resistansen i elektriska sammanhang. 
 

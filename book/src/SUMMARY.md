@@ -29,7 +29,7 @@
     - [Ström och resistans](ellara/strom-och-resistans/index.md)
     - [Ohms lag](ellara/ohms-lag/index.md)
     - [Kretsschema](ellara/kretsschema/index.md)
-    - [Serie- och parallellkoppling]()
+    - [Serie- och parallellkoppling](ellara/serie-och-parallellkoppling/index.md)
     - [Uppgifter](ellara/uppgifter/index.md)
     - [Effekt]()
 - [Mekanik]()
@@ -37,7 +37,5 @@
 - [Mikrokontrollrar]()
 
 ---
-
-<!-- [Begrepp](begrepp/index.md) -->
 
 [Om sidan](om-sidan/index.md)

@@ -7,9 +7,9 @@ Som figuren visar är det **spänning** som driver **strömmen** framåt, men **
 
 Denna balans beskrivs också av matematik:
 
+$$I=\frac{U}{R}$$
 $$U=RI$$
 $$R=\frac{U}{I}$$
-$$I=\frac{U}{R}$$
 
 Alla tre formler är sanna, samtidigt! För att komma ihåg formlerna kan man använda *Ohms triangel*:
 
