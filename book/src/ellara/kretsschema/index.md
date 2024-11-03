@@ -26,17 +26,28 @@ Ett kretsschema är en förenklad bild av en elektrisk krets där olika symboler
 ## Komponenter
 Först en sammanfattning, sen kommer en mer detaljerad förklaring av varje symbol nedan.
 
-| Komponent                         | Symbol                       |
-| --------------------------------- | ---------------------------- |
-| [Sladd/ledare](#ledare)           | ![Sladd/ledare](sladd.svg)   |
-| [Spänningskälla](#spänningskälla) | ![Spänningskälla](skall.svg) |
-| [Resistor](#resistor)       | ![Resistor](resistor.svg)    |
-| [Lampa](#lampa)                   | ![Lampa](lampa.svg)          |
+| Komponent                         | Symbol                          |
+| --------------------------------- | ------------------------------- |
+| [Sladd/ledare](#ledare)           | ![Sladd/ledare](sladd.svg)      |
+| [Förgrening](#förgrening)         | ![Förgrening](fork.svg)         |
+| [Spänningskälla](#spänningskälla) | ![Spänningskälla](skall.svg)    |
+| [Resistor](#resistor)             | ![Resistor](resistor.svg)       |
+| [Brytare](#brytare)               | ![Brytare](brytare.svg)         |
+| [Lampa](#lampa)                   | ![Lampa](lampa.svg)             |
+| [Voltmeter](#voltmeter)           | ![Voltmeter](voltmeter.svg)     |
+| [Amperemeter](#amperemeter)       | ![Amperemeter](amperemeter.svg) |
+| [Strömriktning](#strömriktning)   | ![Strömriktning](stromriktning.svg) |
 
 ### Ledare
 En koppling mellan två noder ritas med en enkel linje.
 
 ![Sladd/ledare](sladd.svg)
+
+### Förgrening
+En förgrening är en punkt där strömmen delar sig. Det är en bra idé att använda förgreningar för att visa att strömmen delar sig.
+
+![Förgrening](fork.svg)
+
 
 ### Spänningskälla
 Det långa strecket är **plus**-polen (+), och det korta strecket är **minus**-polen (-).
@@ -51,6 +62,14 @@ Symbolen ovan betyder **likspänningskälla**. Det finns andra beteckningar för
 En resistor är en komponent som begränsar strömmen i kretsen. Det finns ingen skillnad på resistorns "ben", man kan koppla in den hur som helst.
 
 ![Resistor](resistor.svg)
+
+### Brytare
+En brytare är en komponent som kan bryta strömmen i kretsen. När brytaren är stängd (som på bilden) går ström genom den, när den är öppen går ingen ström.
+
+Knappar, spakar är brytare.
+
+![Brytare](brytare.svg)
+
 
 ### Lampa
 En lampa är en komponent som lyser när ström går genom den. Ofta måste de kopplas på rätt sätt i verkligheten, men det är inget man bryr sig om i kretsschemat.

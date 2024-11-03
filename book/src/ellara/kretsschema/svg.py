@@ -18,3 +18,9 @@ with schemdraw.Drawing(file="resistor.svg", show=False) as d:
 
 with schemdraw.Drawing(file="lampa.svg", show=False) as d:
     elm.Lamp2().left()
+
+with schemdraw.Drawing(file="brytare.svg", show=False) as d:
+    elm.Switch().left().flip()
+
+with schemdraw.Drawing(file="forgrening.svg", show=False) as d:
+    elm.
