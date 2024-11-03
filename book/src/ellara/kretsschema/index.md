@@ -1,7 +1,7 @@
 <style>
 table{
     td{
-        padding: 1em;
+        padding: .7em;
     }
     img{
         width: 20em;
@@ -18,7 +18,7 @@ p>img{
 
 För att förklara vad man vill bygga är det smidigt att rita upp kretser i ett <u>kretsschema</u>.
 
-<img src="kretsschema.svg" style="width: 20em;"></img>
+<img src="kretsschema.svg"></img>
 *En enkel krets med en spänningskälla och en resistor*
 
 Ett kretsschema är en förenklad bild av en elektrisk krets där olika symboler används för att representera olika komponenter. 
@@ -44,7 +44,7 @@ En koppling mellan två noder ritas med en enkel linje.
 ![Sladd/ledare](sladd.svg)
 
 ### Förgrening
-En förgrening är en punkt där strömmen delar sig. Det är en bra idé att använda förgreningar för att visa att strömmen delar sig.
+En förgrening är en plats där strömmen delar sig. Man markerar detta med en punkt.
 
 ![Förgrening](fork.svg)
 
@@ -75,3 +75,24 @@ Knappar, spakar är brytare.
 En lampa är en komponent som lyser när ström går genom den. Ofta måste de kopplas på rätt sätt i verkligheten, men det är inget man bryr sig om i kretsschemat.
 
 ![Lampa](lampa.svg)
+
+### Voltmeter
+Instrument som mäter spänning. Den ska kopplas **parallellt** mellan de två noder man vill mäta spänningen mellan.
+
+![Voltmeter](voltmeter.svg)
+
+
+### Amperemeter
+Instrument som mäter ström. Den ska kopplas **i serie**, alltså om man vill mäta strömmen i en vill sladd, måste man temporärt klippa av sladden och koppla in amperemetern.
+
+![Amperemeter](amperemeter.svg)
+
+### Strömriktning
+
+Om man vill vara övertydlig kan man rita ut hur strömmen kommer flöda. Det gör man med en pil som pekar i den riktning strömmen kommer att flyta.
+
+![Strömriktning](stromriktning.svg)
+
+```admonish warning title="Strömriktning"
+Även om elektricitet består av negativa partiklars flöde från minus till plus, så är det allmänt känt att strömmen flyter från **plus** till **minus**. Detta är en gammal konvention som fortfarande används.
+```
