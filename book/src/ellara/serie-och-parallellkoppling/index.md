@@ -128,17 +128,46 @@ Svar: $U_2 = 2 \volt$.
 
 ```
 
-
-
-
-
 ### Amperemeter
+När vi senare ska labba kommer vi att använda amperemetrar för att ta reda på hur stor strömmen är i olika kretsar eller på olika delar av kretsen. En amperemeter ska kopplas i serie med komponenterna.
+
+För att inte amperemetern ska påverka värdet har den en väldigt liten inre resistans. Skulle den vara stor skulle den totala resistansen ändras och därmed också strömmen. Då skulle vi inte kunna lita på mätvärdet. Som tur är har folk som skapat den tänkt till. 
+
+### <u>Sammanfattning:</u>
+- Seriekoppling är när komponenter kopplas in efter varandra så att strömmen igenom båda är densamma. 
+
+- Finns flera resistorer serikopplade kan alla resistorer ersättas med en enda resistans, *ersättningsresistansen*. Den beräknas som summan av alla resistanser.
+
+- Finns flera resistanser i en krets delar sig spänningen över de. Dessa spänningar kallas för delspänningar och kan beräknas med Ohms lag.
+
+- Seriekopplade spänningskällor har en total spänning som beräknas med summan av alla spänningar från de separata spänningskällorna.
+
+- Kirchhoffs spänningslag: Summan av alla potentialändringar i en sluten krets är noll.
+
+- Om vi potentialvandrar i strömmens riktning ökar potentialen med spänningskällors spänning och minskar med spänningen över resistorerna.
+
+- En amperemeter ska kopplas i serie.
 
 
 
 
 ## Parallellkoppling
-Vad är parallellkoppling?
+Det som kännetecknar parallellkopplingar är att det finns förgreningar i kretsen som leder till att strömmen i vissar delar i kretsen inte kommer att vara den totala strömmen. 
+
+### Resistorer parallellt kopplade
+
+Nedan syns en krets med ett batteri och två parallellkopplade resistorer.
+Även här kan det vara fördelaktigt att beräkna ersättningsresistansen. Tyvärr är den inte lika intuitiv som för serikopplingar. 
+
+BILD
+
+Ersättningsresistansen beräknas enligt
+$$\frac{1}{R _ {ersättning}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}$$
+
+osv för så många resistorer som är parallellt kopplade.
+
+Efter att har beräknat ersättningsresistansen kan kretschemat ritas om so men seriekopplad krets, och beräkningarna kan fortsätta därifrån.
+
 
 ### KCL
 
