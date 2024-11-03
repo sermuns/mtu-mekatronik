@@ -1,4 +1,4 @@
-# Serie- och paralellkoppling
+# Serie- och parallellkoppling
 
 Hittills har vi tittat på den väldigt enkla kretsen med en spänningskälla och en resistans som tillsammans bestämmer strömmen. Ofta är elektriska system mer komplicerade än såhär. Det kan finnas fler resistorer och även fler spänningskällor. Dessa kan bli ihopkopplade på flera sätt. I grunden finns två sätt att koppla ihop komponenter: **Seriekoppling** och **parallellkoppling**.
 
@@ -9,7 +9,7 @@ Seriekoppling av komponenter betyder att de är kopplade efter varandra så att 
 
 Bilden nedan visar en krets med ett batteri och två resistorer som är seriekopplade. 
 
-BILD PÅ BATTERI OCH RESISTORER.
+![](batres.svg)
 
 Vid kretsar som innehåller flera resistorer brukar dessa namnges enligt $R_1$, $R_2$, osv. 
 
@@ -19,9 +19,10 @@ Vid seriekoppling beräknas den totala resistansen i kretsen som summan av alla 
 
 **Beräkna strömmen, $I$, i kretsen nedan.**
 
+![i](ex_tot_res.svg)
+
 Batteriet har spänningen $U=10 \volt$, $R_1 = 2 \ohm$ och $R_2 = 3 \ohm$.
 
-BILD PÅ KRETSEN
 
 **Lösning:**
 
@@ -50,7 +51,7 @@ När vi har använts oss av Ohms lag tidigare har vi alltid använt den totala s
 ```admonish example title="Exempel: Delspänningar"
 Nedan ser vi att kretsen har en spänningskälla med spänningen $10 \volt$. Utöver det finns 3 resistorer. $R_1 = 20 \ohm$, $R_2 = 50 \ohm$ och $R_3 = 30 \ohm$.
 
-Bild
+![](ex_del.svg)
 
 **Beräkna alla delspänningar, alltså spänningen över alla resistorer i kretsen.**
 
