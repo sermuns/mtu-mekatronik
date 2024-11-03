@@ -110,7 +110,7 @@ Detta kan också formuleras som att summan av alla delspänningar över resistor
 
 Vi har en krets med två likadana batterier. Ett batteri har spänningen $U = 6 \volt$. Dessutom har vi två resistorer i kretsen. Spänningen över $R_1$ är $10 \volt$. 
 
-BILD: 2 spänningskällor, två resistanser.
+![](kvl.svg)
 
 **Beräkna spänningen över $R_2$.**
 

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="225.36pt" height="154.66pt" viewBox="0 0 225.36 154.66" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="256.656pt" height="154.66pt" viewBox="0 0 256.656 154.66" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2024-11-03T18:15:53.524965</dc:date>
+    <dc:date>2024-11-03T18:15:53.587328</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -22,8 +22,8 @@
  <g id="figure_1">
   <g id="patch_1">
    <path d="M 0 154.66 
-L 225.36 154.66 
-L 225.36 0 
+L 256.656 154.66 
+L 256.656 0 
 L 0 0 
 L 0 154.66 
 z
@@ -35,23 +35,23 @@ z
 L 116.055 136.48 
 M 109.305 136.48 
 L 4.68 136.48 
-" clip-path="url(#p37e63d6002)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#p1d6e0e90ac)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_2">
     <path d="M 116.055 149.98 
 L 116.055 122.98 
-" clip-path="url(#p37e63d6002)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#p1d6e0e90ac)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_3">
     <path d="M 109.305 143.23 
 L 109.305 129.73 
-" clip-path="url(#p37e63d6002)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#p1d6e0e90ac)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_4">
     <path d="M 4.68 136.48 
 L 4.68 82.48 
 L 4.68 28.48 
-" clip-path="url(#p37e63d6002)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#p1d6e0e90ac)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_5">
     <path d="M 4.68 28.48 
@@ -63,7 +63,7 @@ L 40.68 37.48
 L 40.68 28.48 
 M 76.68 28.48 
 L 112.68 28.48 
-" clip-path="url(#p37e63d6002)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#p1d6e0e90ac)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_6">
     <path d="M 112.68 28.48 
@@ -75,16 +75,16 @@ L 148.68 37.48
 L 148.68 28.48 
 M 184.68 28.48 
 L 220.68 28.48 
-" clip-path="url(#p37e63d6002)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#p1d6e0e90ac)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_7">
     <path d="M 220.68 28.48 
 L 220.68 82.48 
 L 220.68 136.48 
-" clip-path="url(#p37e63d6002)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#p1d6e0e90ac)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="text_1">
-    <!-- 12 V -->
+    <!-- 10 V -->
     <g transform="translate(98.105781 116.663125) scale(0.14 -0.14)">
      <defs>
       <path id="NewCMMath-Book-31" d="M 1722 4262 
@@ -106,28 +106,24 @@ L 1901 4070
 C 1901 4224 1888 4262 1722 4262 
 z
 " transform="scale(0.015625)"/>
-      <path id="NewCMMath-Book-32" d="M 1517 4262 
-C 1190 4262 915 4147 678 3917 
-C 442 3686 320 3418 320 3091 
-C 320 2874 480 2714 678 2714 
-C 870 2714 1030 2880 1030 3072 
-C 1030 3283 877 3430 672 3430 
-C 653 3430 640 3430 627 3424 
-C 749 3738 1030 4013 1434 4013 
-C 1958 4013 2253 3558 2253 3008 
-C 2253 2579 2035 2118 1600 1632 
-L 397 275 
-C 314 179 320 186 320 0 
-L 2694 0 
-L 2880 1152 
-L 2669 1152 
-C 2618 826 2573 640 2534 582 
-C 2502 550 2310 538 1958 538 
-L 890 538 
-L 1510 1146 
-C 1946 1555 2496 1997 2682 2336 
-C 2810 2560 2874 2784 2874 3008 
-C 2874 3763 2285 4262 1517 4262 
+      <path id="NewCMMath-Book-30" d="M 1594 -141 
+C 2496 -141 2944 589 2944 2048 
+C 2944 3027 2739 3680 2336 4000 
+C 2112 4173 1862 4262 1600 4262 
+C 698 4262 250 3526 250 2048 
+C 250 870 563 -141 1594 -141 
+z
+M 2310 3354 
+C 2355 3130 2374 2720 2374 2125 
+C 2374 1536 2349 1101 2304 819 
+C 2221 307 1984 51 1594 51 
+C 1446 51 1299 109 1165 218 
+C 992 365 890 666 845 1126 
+C 826 1286 819 1619 819 2125 
+C 819 2682 838 3072 870 3283 
+C 928 3635 1043 3859 1222 3955 
+C 1363 4032 1485 4070 1594 4070 
+C 2010 4070 2240 3731 2310 3354 
 z
 " transform="scale(0.015625)"/>
       <path id="NewCMMath-Book-20" transform="scale(0.015625)"/>
@@ -157,14 +153,14 @@ z
 " transform="scale(0.015625)"/>
      </defs>
      <use xlink:href="#NewCMMath-Book-31"/>
-     <use xlink:href="#NewCMMath-Book-32" x="49.999985"/>
+     <use xlink:href="#NewCMMath-Book-30" x="49.999985"/>
      <use xlink:href="#NewCMMath-Book-20" x="99.999969"/>
      <use xlink:href="#NewCMMath-Book-56" x="133.199966"/>
     </g>
    </g>
    <g id="text_2">
-    <!-- $R_1$ = 2 kΩ -->
-    <g transform="translate(25.78 13.163125) scale(0.14 -0.14)">
+    <!-- $R_1$ = 1 Ω -->
+    <g transform="translate(29.49 13.163125) scale(0.14 -0.14)">
      <defs>
       <path id="Cmmi10-52" d="M 313 0 
 Q 250 0 250 84 
@@ -270,46 +266,6 @@ C 4570 851 4621 902 4621 998
 C 4621 1082 4550 1146 4467 1146 
 z
 " transform="scale(0.015625)"/>
-      <path id="NewCMMath-Book-6b" d="M 2701 19 
-C 2829 26 3021 19 3270 0 
-L 3270 250 
-C 3117 250 3002 269 2925 301 
-C 2848 333 2758 422 2656 570 
-L 1856 1702 
-C 1837 1760 1824 1779 1824 1760 
-C 1824 1766 1888 1824 2022 1939 
-C 2246 2138 2413 2266 2522 2336 
-C 2720 2458 2918 2522 3123 2534 
-L 3123 2778 
-C 2989 2765 2835 2758 2662 2758 
-C 2368 2758 2125 2765 1926 2778 
-L 1926 2534 
-C 2048 2528 2112 2483 2112 2400 
-C 2112 2323 2067 2246 1984 2170 
-L 1139 1434 
-L 1139 4442 
-L 179 4371 
-L 179 4128 
-C 410 4128 550 4109 602 4070 
-C 653 4032 672 3942 672 3795 
-L 672 506 
-C 672 384 646 307 602 282 
-C 557 256 416 250 179 250 
-L 179 0 
-L 890 19 
-L 1606 0 
-L 1606 250 
-C 1370 250 1235 256 1190 282 
-C 1146 307 1120 384 1120 506 
-L 1120 1146 
-L 1491 1472 
-L 1594 1318 
-C 2010 742 2221 422 2221 365 
-C 2221 288 2144 250 1990 250 
-L 1990 0 
-L 2701 19 
-z
-" transform="scale(0.015625)"/>
       <path id="NewCMMath-Book-3a9" d="M 1709 160 
 C 1709 467 1594 941 1370 1574 
 C 1158 2144 1056 2586 1056 2906 
@@ -348,15 +304,14 @@ z
      <use xlink:href="#NewCMMath-Book-20" transform="translate(117.25625 0.5)"/>
      <use xlink:href="#NewCMMath-Book-3d" transform="translate(150.456247 0.5)"/>
      <use xlink:href="#NewCMMath-Book-20" transform="translate(228.256235 0.5)"/>
-     <use xlink:href="#NewCMMath-Book-32" transform="translate(261.456232 0.5)"/>
+     <use xlink:href="#NewCMMath-Book-31" transform="translate(261.456232 0.5)"/>
      <use xlink:href="#NewCMMath-Book-20" transform="translate(311.456216 0.5)"/>
-     <use xlink:href="#NewCMMath-Book-6b" transform="translate(344.656213 0.5)"/>
-     <use xlink:href="#NewCMMath-Book-3a9" transform="translate(397.456201 0.5)"/>
+     <use xlink:href="#NewCMMath-Book-3a9" transform="translate(344.656213 0.5)"/>
     </g>
    </g>
    <g id="text_3">
-    <!-- $R_2$ = 4 kΩ -->
-    <g transform="translate(133.78 13.163125) scale(0.14 -0.14)">
+    <!-- $R_2$ -->
+    <g transform="translate(158.42 13.163125) scale(0.14 -0.14)">
      <defs>
       <path id="Cmr10-32" d="M 319 0 
 L 319 172 
@@ -399,52 +354,93 @@ L 2694 0
 L 319 0 
 z
 " transform="scale(0.015625)"/>
-      <path id="NewCMMath-Book-34" d="M 2259 4333 
-C 2202 4333 2150 4301 2112 4243 
-L 179 1274 
-L 179 1043 
-L 1850 1043 
-L 1850 518 
-C 1850 403 1824 326 1779 294 
-C 1734 262 1613 250 1402 250 
-L 1242 250 
-L 1242 0 
-C 1427 13 1722 19 2118 19 
-C 2515 19 2810 13 2995 0 
-L 2995 250 
-L 2835 250 
-C 2624 250 2502 262 2458 294 
-C 2413 326 2387 403 2387 518 
-L 2387 1043 
-L 3014 1043 
-L 3014 1293 
-L 2387 1293 
-L 2387 4224 
-C 2387 4288 2342 4333 2259 4333 
+     </defs>
+     <use xlink:href="#Cmmi10-52" transform="translate(0 0.6875)"/>
+     <use xlink:href="#Cmr10-32" transform="translate(75.878906 -16.31875) scale(0.7)"/>
+    </g>
+   </g>
+   <g id="line2d_8">
+    <path d="M 220.68 82.48 
+L 220.68 82.48 
+" clip-path="url(#p1d6e0e90ac)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 215.28 82.48 
+L 220.68 71.68 
+L 226.08 82.48 
 z
-M 1888 3539 
-L 1888 1293 
-L 429 1293 
-L 1888 3539 
+" clip-path="url(#p1d6e0e90ac)"/>
+   </g>
+   <g id="text_4">
+    <!-- 2 A -->
+    <g transform="translate(231.48 80.58) scale(0.14 -0.14)">
+     <defs>
+      <path id="NewCMMath-Book-32" d="M 1517 4262 
+C 1190 4262 915 4147 678 3917 
+C 442 3686 320 3418 320 3091 
+C 320 2874 480 2714 678 2714 
+C 870 2714 1030 2880 1030 3072 
+C 1030 3283 877 3430 672 3430 
+C 653 3430 640 3430 627 3424 
+C 749 3738 1030 4013 1434 4013 
+C 1958 4013 2253 3558 2253 3008 
+C 2253 2579 2035 2118 1600 1632 
+L 397 275 
+C 314 179 320 186 320 0 
+L 2694 0 
+L 2880 1152 
+L 2669 1152 
+C 2618 826 2573 640 2534 582 
+C 2502 550 2310 538 1958 538 
+L 890 538 
+L 1510 1146 
+C 1946 1555 2496 1997 2682 2336 
+C 2810 2560 2874 2784 2874 3008 
+C 2874 3763 2285 4262 1517 4262 
+z
+" transform="scale(0.015625)"/>
+      <path id="NewCMMath-Book-41" d="M 3731 19 
+L 4589 0 
+L 4589 250 
+L 4448 250 
+C 4288 250 4179 256 4134 269 
+C 4038 301 3974 371 3936 480 
+L 2566 4442 
+C 2541 4525 2496 4582 2400 4582 
+C 2317 4582 2259 4538 2227 4442 
+L 915 653 
+C 826 390 589 250 205 243 
+L 205 0 
+L 877 19 
+L 1626 0 
+L 1626 250 
+C 1312 250 1152 346 1152 544 
+C 1152 589 1158 614 1165 627 
+L 1453 1440 
+L 2976 1440 
+L 3302 493 
+C 3315 454 3322 429 3322 410 
+C 3322 301 3149 250 2797 250 
+L 2797 0 
+C 3066 19 3379 26 3731 19 
+z
+M 2208 3642 
+L 2886 1690 
+L 1536 1690 
+L 2208 3642 
 z
 " transform="scale(0.015625)"/>
      </defs>
-     <use xlink:href="#Cmmi10-52" transform="translate(0 0.5)"/>
-     <use xlink:href="#Cmr10-32" transform="translate(75.878906 -16.50625) scale(0.7)"/>
-     <use xlink:href="#NewCMMath-Book-20" transform="translate(117.25625 0.5)"/>
-     <use xlink:href="#NewCMMath-Book-3d" transform="translate(150.456247 0.5)"/>
-     <use xlink:href="#NewCMMath-Book-20" transform="translate(228.256235 0.5)"/>
-     <use xlink:href="#NewCMMath-Book-34" transform="translate(261.456232 0.5)"/>
-     <use xlink:href="#NewCMMath-Book-20" transform="translate(311.456216 0.5)"/>
-     <use xlink:href="#NewCMMath-Book-6b" transform="translate(344.656213 0.5)"/>
-     <use xlink:href="#NewCMMath-Book-3a9" transform="translate(397.456201 0.5)"/>
+     <use xlink:href="#NewCMMath-Book-32"/>
+     <use xlink:href="#NewCMMath-Book-20" x="49.999985"/>
+     <use xlink:href="#NewCMMath-Book-41" x="83.199982"/>
     </g>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p37e63d6002">
-   <rect x="0" y="-0" width="225.36" height="154.66"/>
+  <clipPath id="p1d6e0e90ac">
+   <rect x="0" y="-0" width="256.656" height="154.66"/>
   </clipPath>
  </defs>
 </svg>

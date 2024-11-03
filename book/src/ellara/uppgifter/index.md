@@ -111,9 +111,12 @@ b) $I = \frac{U}{R} = \frac{6\volt}{1\kilo\ohm} = 6\milli\ampere$
 
 <li>
 
-a) Hur stor är del**spänningen** över varje resistor?
+a) Vad är ersättningsresistansen för kretsen?
 
 b) Hur stor är **strömmen** i kretsen?
+
+c) Hur stor är del**spänningen** över varje resistor?
+
 
 ![](ks5.svg)
 
@@ -121,9 +124,13 @@ b) Hur stor är **strömmen** i kretsen?
 <summary>Svar</summary>
 
 **SVAR:** 
-a) $U_1 = 4\volt$, $U_2 = 8\volt$
+
+a) $6 \kilo\ohm$
 
 b) $I = 2\milli\ampere$
+
+c) $U_1 = 4\volt$, $U_2 = 8\volt$
+
 
 ---
 
@@ -133,9 +140,9 @@ Man kan lösa detta på två sätt: antingen genom att först räkna ut totala s
 
 $U = 12\volt$, $R_1=2\kilo\ohm$, $R_2=4\kilo\ohm$.
 
-$R _ {tot} = R_1 + R_2 = 6\kilo\ohm$
+$R _ {ers} = R_1 + R_2 = 6\kilo\ohm$
 
-$$ I = \frac{U}{ R _ {tot} } = \frac{12\volt}{6\kilo\ohm} = 2\milli\ampere $$
+$$ I = \frac{U}{ R _ {ers} } = \frac{12\volt}{6\kilo\ohm} = 2\milli\ampere $$
 
 $$ U_1 = I R_1 = 2\milli\ampere \cdot 2\kilo\ohm = 4\volt $$
 
@@ -148,6 +155,38 @@ $R _ {tot} = R_1 + R_2 = 6\kilo\ohm$
 $$ U_1 = U * \frac{R_1}{R _ {tot}} = 12\volt \cdot \frac{2\kilo\ohm}{6\kilo\ohm} = 4\volt $$
 
 $$ U_2 = U - U_1 = 12\volt - 4\volt = 8\volt $$
+
+</details>
+
+</li>
+
+<li>
+
+Beräkna $R_2$
+
+![](ks7.svg)
+
+<details>
+<summary>Svar</summary>
+
+**SVAR:** $4 \ohm$
+
+---
+
+Ett alternativ är genom **KVL**.
+
+$U-U_1-U_2 = 0$
+
+$U_2 = U-U_1 = U - I R_1 = 10 \volt - 2 \volt = 8 \volt$
+
+$U_2 = R_2 I = 8 \volt$
+
+$R_2 = 8/I = 8/2 = 4 \ohm$
+
+<br>
+
+Ett annat alternativ är med ohms lag direkt!
+
 
 </details>
 
@@ -313,18 +352,5 @@ $$ R _ {ers} = \frac{U}{I} = \frac{5\volt}{150\milli\ampere} \approx 33.3\ohm $$
 </details>
 
 </li>
-<li>
 
-![]()
-
-<details>
-<summary>Svar</summary>
-
-**SVAR:** 
-
----
-
-</details>
-
-</li>
 </ol>

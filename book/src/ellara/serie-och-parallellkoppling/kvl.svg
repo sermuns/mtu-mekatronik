@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="225.36pt" height="169.46pt" viewBox="0 0 225.36 169.46" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2024-11-03T18:12:45.506568</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 169.46 
+L 225.36 169.46 
+L 225.36 0 
+L 0 0 
+L 0 169.46 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 220.68 32.98 
+L 170.055 32.98 
+M 163.305 32.98 
+L 112.68 32.98 
+" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 170.055 46.48 
+L 170.055 19.48 
+" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 163.305 39.73 
+L 163.305 26.23 
+" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 112.68 32.98 
+L 62.055 32.98 
+M 55.305 32.98 
+L 4.68 32.98 
+" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 62.055 46.48 
+L 62.055 19.48 
+" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 55.305 39.73 
+L 55.305 26.23 
+" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 4.68 32.98 
+L 4.68 86.98 
+L 4.68 140.98 
+" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 4.68 140.98 
+L 40.68 140.98 
+L 40.68 131.98 
+L 76.68 131.98 
+L 76.68 149.98 
+L 40.68 149.98 
+L 40.68 140.98 
+M 76.68 140.98 
+L 112.68 140.98 
+" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 112.68 140.98 
+L 148.68 140.98 
+L 148.68 131.98 
+L 184.68 131.98 
+L 184.68 149.98 
+L 148.68 149.98 
+L 148.68 140.98 
+M 184.68 140.98 
+L 220.68 140.98 
+" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 220.68 140.98 
+L 220.68 86.98 
+L 220.68 32.98 
+" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <!-- 6 V -->
+    <g transform="translate(155.605781 13.163125) scale(0.14 -0.14)">
+     <defs>
+      <path id="NewCMMath-Book-36" d="M 2451 3226 
+C 2662 3226 2765 3334 2765 3552 
+C 2765 4013 2419 4262 1946 4262 
+C 1414 4262 992 4013 678 3507 
+C 403 3072 269 2579 269 2022 
+C 269 1210 416 640 717 301 
+C 973 6 1267 -141 1606 -141 
+C 1997 -141 2317 6 2566 301 
+C 2803 582 2925 922 2925 1312 
+C 2925 1702 2810 2035 2579 2310 
+C 2336 2605 2022 2758 1645 2758 
+C 1312 2758 1056 2573 883 2214 
+L 883 2253 
+C 883 2976 1062 3590 1446 3872 
+C 1613 3994 1786 4051 1958 4051 
+C 2189 4051 2355 3987 2464 3853 
+C 2246 3853 2138 3731 2138 3539 
+C 2138 3360 2272 3226 2451 3226 
+z
+M 2202 2176 
+C 2272 2029 2310 1741 2310 1318 
+C 2310 902 2278 627 2208 486 
+C 2080 224 1882 90 1606 90 
+C 1421 90 1280 154 1178 282 
+C 1094 384 1037 474 1011 544 
+C 934 742 896 1043 896 1453 
+C 896 1632 922 1805 966 1971 
+C 1050 2272 1286 2554 1638 2554 
+C 1888 2554 2080 2426 2202 2176 
+z
+" transform="scale(0.015625)"/>
+      <path id="NewCMMath-Book-20" transform="scale(0.015625)"/>
+      <path id="NewCMMath-Book-56" d="M 3981 3718 
+C 4083 3981 4314 4115 4672 4122 
+L 4672 4371 
+C 4397 4352 4186 4346 4032 4352 
+L 3283 4371 
+L 3283 4128 
+C 3597 4122 3750 4019 3750 3834 
+C 3750 3808 3738 3770 3718 3718 
+L 2586 730 
+L 1395 3859 
+C 1376 3923 1363 3962 1363 3968 
+C 1363 4070 1536 4122 1882 4122 
+L 1882 4371 
+C 1613 4352 1306 4346 954 4352 
+L 122 4371 
+L 122 4122 
+C 358 4122 512 4109 582 4090 
+C 653 4070 704 4006 742 3898 
+L 2214 13 
+C 2253 -90 2310 -141 2394 -141 
+C 2477 -141 2534 -96 2566 -6 
+L 3981 3718 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#NewCMMath-Book-36"/>
+     <use xlink:href="#NewCMMath-Book-20" x="49.999985"/>
+     <use xlink:href="#NewCMMath-Book-56" x="83.199982"/>
+    </g>
+   </g>
+   <g id="text_2">
+    <!-- 6 V -->
+    <g transform="translate(47.605781 13.163125) scale(0.14 -0.14)">
+     <use xlink:href="#NewCMMath-Book-36"/>
+     <use xlink:href="#NewCMMath-Book-20" x="49.999985"/>
+     <use xlink:href="#NewCMMath-Book-56" x="83.199982"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <!-- $R_1$ -->
+    <g transform="translate(50.42 125.663125) scale(0.14 -0.14)">
+     <defs>
+      <path id="Cmmi10-52" d="M 313 0 
+Q 250 0 250 84 
+Q 253 100 262 139 
+Q 272 178 289 201 
+Q 306 225 331 225 
+Q 722 225 878 269 
+Q 959 297 997 441 
+L 1875 3956 
+Q 1888 4019 1888 4044 
+Q 1888 4113 1813 4122 
+Q 1691 4147 1350 4147 
+Q 1288 4147 1288 4231 
+Q 1291 4247 1300 4286 
+Q 1309 4325 1326 4348 
+Q 1344 4372 1369 4372 
+L 3309 4372 
+Q 3541 4372 3791 4319 
+Q 4041 4266 4250 4152 
+Q 4459 4038 4593 3848 
+Q 4728 3659 4728 3406 
+Q 4728 3084 4515 2831 
+Q 4303 2578 3978 2408 
+Q 3653 2238 3347 2169 
+Q 3597 2078 3756 1879 
+Q 3916 1681 3916 1422 
+Q 3916 1388 3914 1370 
+Q 3913 1353 3909 1331 
+L 3859 763 
+Q 3853 638 3847 550 
+Q 3841 463 3841 409 
+Q 3841 234 3892 129 
+Q 3944 25 4097 25 
+Q 4297 25 4448 211 
+Q 4600 397 4647 616 
+Q 4675 672 4709 672 
+L 4769 672 
+Q 4831 672 4831 588 
+Q 4784 403 4682 237 
+Q 4581 72 4426 -34 
+Q 4272 -141 4091 -141 
+Q 3716 -141 3452 26 
+Q 3188 194 3188 550 
+Q 3188 684 3213 788 
+L 3353 1356 
+Q 3378 1434 3378 1538 
+Q 3378 1803 3198 1954 
+Q 3019 2106 2747 2106 
+L 1959 2106 
+L 1538 416 
+Q 1522 363 1522 325 
+Q 1522 259 1600 250 
+Q 1722 225 2059 225 
+Q 2125 225 2125 141 
+Q 2103 50 2090 25 
+Q 2078 0 2016 0 
+L 313 0 
+z
+M 1997 2272 
+L 2706 2272 
+Q 3403 2272 3756 2625 
+Q 3919 2788 4014 3039 
+Q 4109 3291 4109 3541 
+Q 4109 3778 3970 3912 
+Q 3831 4047 3626 4097 
+Q 3422 4147 3175 4147 
+L 2747 4147 
+Q 2572 4147 2515 4117 
+Q 2459 4088 2413 3928 
+L 1997 2272 
+z
+" transform="scale(0.015625)"/>
+      <path id="Cmr10-31" d="M 594 0 
+L 594 225 
+Q 1394 225 1394 428 
+L 1394 3788 
+Q 1063 3628 556 3628 
+L 556 3853 
+Q 1341 3853 1741 4263 
+L 1831 4263 
+Q 1853 4263 1873 4245 
+Q 1894 4228 1894 4206 
+L 1894 428 
+Q 1894 225 2694 225 
+L 2694 0 
+L 594 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Cmmi10-52" transform="translate(0 0.6875)"/>
+     <use xlink:href="#Cmr10-31" transform="translate(75.878906 -16.31875) scale(0.7)"/>
+    </g>
+   </g>
+   <g id="text_4">
+    <!-- – -->
+    <g transform="translate(28.18 163.296875) scale(0.14 -0.14)">
+     <defs>
+      <path id="NewCMMath-Book-2013" d="M 0 1632 
+L 3194 1632 
+L 3194 1773 
+L 0 1773 
+L 0 1632 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#NewCMMath-Book-2013"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <!-- 10 V -->
+    <g transform="translate(44.105781 163.296875) scale(0.14 -0.14)">
+     <defs>
+      <path id="NewCMMath-Book-31" d="M 1722 4262 
+C 1459 3994 1075 3859 570 3859 
+L 570 3610 
+C 902 3610 1178 3661 1389 3763 
+L 1389 525 
+C 1389 410 1363 333 1306 301 
+C 1248 269 1088 250 832 250 
+L 608 250 
+L 608 0 
+C 768 13 1114 19 1645 19 
+C 2176 19 2522 13 2682 0 
+L 2682 250 
+L 2458 250 
+C 2195 250 2035 269 1984 301 
+C 1933 333 1901 410 1901 525 
+L 1901 4070 
+C 1901 4224 1888 4262 1722 4262 
+z
+" transform="scale(0.015625)"/>
+      <path id="NewCMMath-Book-30" d="M 1594 -141 
+C 2496 -141 2944 589 2944 2048 
+C 2944 3027 2739 3680 2336 4000 
+C 2112 4173 1862 4262 1600 4262 
+C 698 4262 250 3526 250 2048 
+C 250 870 563 -141 1594 -141 
+z
+M 2310 3354 
+C 2355 3130 2374 2720 2374 2125 
+C 2374 1536 2349 1101 2304 819 
+C 2221 307 1984 51 1594 51 
+C 1446 51 1299 109 1165 218 
+C 992 365 890 666 845 1126 
+C 826 1286 819 1619 819 2125 
+C 819 2682 838 3072 870 3283 
+C 928 3635 1043 3859 1222 3955 
+C 1363 4032 1485 4070 1594 4070 
+C 2010 4070 2240 3731 2310 3354 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#NewCMMath-Book-31"/>
+     <use xlink:href="#NewCMMath-Book-30" x="49.999985"/>
+     <use xlink:href="#NewCMMath-Book-20" x="99.999969"/>
+     <use xlink:href="#NewCMMath-Book-56" x="133.199966"/>
+    </g>
+   </g>
+   <g id="text_6">
+    <!-- + -->
+    <g transform="translate(80.234219 163.296875) scale(0.14 -0.14)">
+     <defs>
+      <path id="NewCMMath-Book-2b" d="M 4467 1754 
+L 2643 1754 
+L 2643 3578 
+C 2643 3680 2592 3731 2490 3731 
+C 2387 3731 2336 3680 2336 3578 
+L 2336 1754 
+L 512 1754 
+C 410 1754 358 1702 358 1600 
+C 358 1498 410 1446 512 1446 
+L 2336 1446 
+L 2336 -378 
+C 2336 -480 2387 -531 2490 -531 
+C 2592 -531 2643 -480 2643 -378 
+L 2643 1446 
+L 4467 1446 
+C 4570 1446 4621 1498 4621 1600 
+C 4621 1683 4550 1754 4467 1754 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#NewCMMath-Book-2b"/>
+    </g>
+   </g>
+   <g id="text_7">
+    <!-- $R_2$ -->
+    <g transform="translate(158.42 125.663125) scale(0.14 -0.14)">
+     <defs>
+      <path id="Cmr10-32" d="M 319 0 
+L 319 172 
+Q 319 188 331 206 
+L 1325 1306 
+Q 1550 1550 1690 1715 
+Q 1831 1881 1968 2097 
+Q 2106 2313 2186 2536 
+Q 2266 2759 2266 3009 
+Q 2266 3272 2169 3511 
+Q 2072 3750 1880 3894 
+Q 1688 4038 1416 4038 
+Q 1138 4038 916 3870 
+Q 694 3703 603 3438 
+Q 628 3444 672 3444 
+Q 816 3444 917 3347 
+Q 1019 3250 1019 3097 
+Q 1019 2950 917 2848 
+Q 816 2747 672 2747 
+Q 522 2747 420 2851 
+Q 319 2956 319 3097 
+Q 319 3338 409 3548 
+Q 500 3759 670 3923 
+Q 841 4088 1055 4175 
+Q 1269 4263 1509 4263 
+Q 1875 4263 2190 4108 
+Q 2506 3953 2690 3670 
+Q 2875 3388 2875 3009 
+Q 2875 2731 2753 2481 
+Q 2631 2231 2440 2026 
+Q 2250 1822 1953 1562 
+Q 1656 1303 1563 1216 
+L 838 519 
+L 1453 519 
+Q 1906 519 2211 526 
+Q 2516 534 2534 550 
+Q 2609 631 2688 1141 
+L 2875 1141 
+L 2694 0 
+L 319 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Cmmi10-52" transform="translate(0 0.6875)"/>
+     <use xlink:href="#Cmr10-32" transform="translate(75.878906 -16.31875) scale(0.7)"/>
+    </g>
+   </g>
+   <g id="text_8">
+    <!-- – -->
+    <g transform="translate(136.18 163.296875) scale(0.14 -0.14)">
+     <use xlink:href="#NewCMMath-Book-2013"/>
+    </g>
+   </g>
+   <g id="text_9">
+    <!-- 10 V -->
+    <g transform="translate(152.105781 163.296875) scale(0.14 -0.14)">
+     <use xlink:href="#NewCMMath-Book-31"/>
+     <use xlink:href="#NewCMMath-Book-30" x="49.999985"/>
+     <use xlink:href="#NewCMMath-Book-20" x="99.999969"/>
+     <use xlink:href="#NewCMMath-Book-56" x="133.199966"/>
+    </g>
+   </g>
+   <g id="text_10">
+    <!-- + -->
+    <g transform="translate(188.234219 163.296875) scale(0.14 -0.14)">
+     <use xlink:href="#NewCMMath-Book-2b"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7e64811109">
+   <rect x="0" y="0" width="225.36" height="169.46"/>
+  </clipPath>
+ </defs>
+</svg>

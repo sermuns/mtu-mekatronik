@@ -56,6 +56,18 @@ with schemdraw.Drawing(file=f"ks5.svg", show=False) as d:
     down_line = e.Line().down()
     built += 1
 
+with schemdraw.Drawing(file=f"ks7.svg", show=False) as d:
+
+    u = d.unit
+    e.BatteryCell().left(6).label('10 V')
+    up_line = e.Line().up()
+    e.Resistor().right().label('$R_1$ = 1 Ω')
+    e.Resistor().right().label('$R_2$')
+    down_line = e.Line().down()
+    e.CurrentLabelInline(
+        ofst=0*u, direction='out').at(down_line).label('2 A', loc='B')
+    built += 1
+
 with schemdraw.Drawing(file=f"ks6.svg", show=False) as d:
     u = d.unit
     e.BatteryCell().left().label('5 V')

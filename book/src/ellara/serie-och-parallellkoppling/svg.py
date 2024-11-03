@@ -34,4 +34,15 @@ with schemdraw.Drawing(file=f"ex_del.svg", show=False) as d:
     e.Resistor().right().label('30 Ω')
     down_line = e.Line().down()
 
+with schemdraw.Drawing(file=f"kvl.svg", show=False) as d:
+    u = d.unit
+    e.BatteryCell().left().label('6 V')
+    e.BatteryCell().left().label('6 V')
+    e.Line().down()
+    e.Resistor().right().label('$R_1$').label(('–', '10 V', '+'), loc='B')
+    e.Resistor().right().label('$R_2$').label(('–', '10 V', '+'), loc='B')
+    e.Line().up()
+    
+    
+
 print(f"Done in {time()-start_time} s")
