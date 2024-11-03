@@ -27,7 +27,7 @@
 - [Ellära](ellara/index.md)
     - [Potential och spänning](ellara/potential-och-spanning/index.md)
     - [Ström och resistans](ellara/strom-och-resistans/index.md)
-    - [Ohms lag](ellara/ohms-lag.md)
+    - [Ohms lag](ellara/ohms-lag/index.md)
     - [Kretsschema](ellara/kretsschema/index.md)
     - [Serie- och parallellkoppling]()
     - [Effekt]()

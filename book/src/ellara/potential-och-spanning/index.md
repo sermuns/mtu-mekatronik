@@ -72,3 +72,9 @@ Jo, det betyder att från minus- till pluspol är det en potentialskillnad på $
 
 ### Spänningskällor
 En spänningskälla är någonting som skapar en spänning, alltså en imbalans av potential. Ett exempel är batterier, som skapar spänning genom kemiska processer. Andra exempel på spänningskällor är vägguttag. Spänningen i vägguttag är däremot växelspänning, vilket vi inte kommer att räkna på i kursen.
+
+### Voltmeter
+Utrustning som kan mäta spänning kallas för <u>voltmeter</u>.
+
+![multimeter](multimeter.png)
+*En multimeter kan mäta spänning, ström och resistans.*
