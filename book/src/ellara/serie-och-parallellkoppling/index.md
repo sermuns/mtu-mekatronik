@@ -88,24 +88,47 @@ Har vi spänningskällor som ger $10\volt$, $4\volt$ och $3\volt$ blir den total
 ### Potentialvandring
 Som vi har nämnt tidigare är spänning en potentialskillnad mellan två noder. Olika noder är sådana "punkter" där potentialen inte är samma. Vi har också tidigare nämnt att den elektriska potentialen i kretsar ändras efter ett motstånd eller spänningskälla.
 
-Går vi från battriets pluspol mot batteriets minuspol kommer vi att stöta på resistanser (om inte kretsen är kortsluten, och det vill vi ju inte!). Vid pluspolen är potentialen hög och efter varje resistor är potentialen lägre ända fram till batteriets minuspol då den är som lägst. Dessa potentialskillnader som finns innan och efter resistorer är såna *delspänningar* som vi beräknade [ovan](#admonition-exempel-delspänningar).
+Går vi från battriets pluspol mot batteriets minuspol kommer vi att stöta på resistanser (om inte kretsen är kortsluten, och det vill vi ju inte!). Vid pluspolen är potentialen hög och efter varje resistor är potentialen lägre ända fram till batteriets minuspol då den är som lägst. 
 
+```admonish success title=""
 
+Dessa potentialskillnader som finns innan och efter resistorer är såna *delspänningar* som vi har räknat på [ovan](#admonition-exempel-delspänningar).
+```
 
-
-Så om man går i strömmens riktning minska potentialen med varje resistor. Stöter vi istället på spänningar 
-
-
-
-
-Har vi en enkel krets med enbart en resistor och ett batteri vet vi att skillnaden mellan potentialen innan resistorn och potentialen efter resistorn är samma som spänningen över batteriet. 
+Fortsätter man att gå i strömmens riktning från minuspolen till pluspolen ökar potentialen med exakt batteriets spänning. Har man gått ett varv visar sig potentialskillnaden i en krets alltid vara noll. Detta är kirchhoffsspänningslag.
 
 ```admonish info title="Kirchhoffs spänningslag"
 Summan av alla potentialändringar i en sluten krets är $0$.
 ```
 
-Vad betyder detta egentligen?
-Jo, som vi har hört ändras potentialen 
+
+Detta kan också formuleras som att summan av alla delspänningar över resistorerna är lika stort som summan av alla spänningar från spänningskällorna i en sluten krets. 
+
+
+```admonish example title="Exempel: Kirchhoffs spänningslag"
+
+Vi har en krets med två likadana batterier. Ett batteri har spänningen $U = 6 \volt$. Dessutom har vi två resistorer i kretsen. Spänningen över $R_1$ är $10 \volt$. 
+
+BILD: 2 spänningskällor, två resistanser.
+
+**Beräkna spänningen över $R_2$.**
+
+**Lösning:**
+
+Den totala spänningen från batterierna är $$U _ {tot} = 2 \cdot 6 = 12 \volt$$
+
+Delspänningen över $R_1$ är $ U_1 = 10 \volt$.
+
+Med hjälp av kirchhoffs spänningslag vet vi att $$U _ {tot} - U_1 - U_2 = 0 \volt$$
+
+Vi löser ut delspänningen över $R_2$ och får $$U_2 = U _ {tot} - U_1 = 12 - 10 = 2 \volt$$
+
+Svar: $U_2 = 2 \volt$.
+
+```
+
+
+
 
 
 ### Amperemeter
