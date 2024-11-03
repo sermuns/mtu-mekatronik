@@ -30,6 +30,7 @@
     - [Ohms lag](ellara/ohms-lag/index.md)
     - [Kretsschema](ellara/kretsschema/index.md)
     - [Serie- och parallellkoppling]()
+    - [Uppgifter](ellara/uppgifter/index.md)
     - [Effekt]()
 - [Mekanik]()
   - [Krafter]()

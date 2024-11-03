@@ -16,3 +16,18 @@ Alla tre formler är sanna, samtidigt! För att komma ihåg formlerna kan man an
 ![ohms_triangel](triangel.svg)
 
 För att lösa ut en viss storhet täcker man över den med handen och läser vad det står. När man täcker över $U$ med handen, är det enda man kan se $RI$. Det betyder att $U=RI$.
+
+```admonish example title="Exempel: beräkna ström"
+
+Beräkna strömmen $I$ i kretsen.
+
+<img src="ks.svg" style="width: 100%;"></img>
+
+**Lösning:**
+$I = U/R$, där $U=5 \volt$ och $R=1000 \ohm$.
+
+Alltså blir svaret
+
+$$I = \frac{5}{1000} = 0.005 \ampere = 5 \milli\ampere$$
+
+```
