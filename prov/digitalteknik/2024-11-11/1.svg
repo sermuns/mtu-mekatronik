@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Digital by H.Neemann -->
+<!-- created: Fri Nov 08 17:00:50 CET 2024 -->
+
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="30.9mm"
+   height="17.1mm"
+   viewBox="207 143 206 114">
+<g stroke-linecap="square">
+<path d="M 240,160 L 260,160 L 260,180 L 280,180" stroke="#000000" stroke-width="2.8" fill="none"/>
+<path d="M 240,240 L 260,240 L 260,220 L 280,220" stroke="#000000" stroke-width="2.8" fill="none"/>
+<path d="M 340,200 L 380,200" stroke="#000000" stroke-width="2.8" fill="none"/>
+<g>
+</g>
+<g>
+<path d="M 209,145 L 239,145 L 239,175 L 209,175 Z" stroke="#000000" stroke-width="2.8" fill="none"/>
+<circle cx="224.0" cy="160.0" r="9.0" stroke="#000000" stroke-width="2.8" fill="none" />
+</g>
+<g>
+<path d="M 209,225 L 239,225 L 239,255 L 209,255 Z" stroke="#000000" stroke-width="2.8" fill="none"/>
+<circle cx="224.0" cy="240.0" r="9.0" stroke="#000000" stroke-width="2.8" fill="none" />
+</g>
+<g>
+<path d="M 281,170 L 339,170 L 339,230 L 281,230 Z" stroke="#000000" stroke-width="2.8" fill="none"/>
+<text text-anchor="middle" x="310.0" y="192.0" fill="#000000" style="font-size:24px">≥1</text>
+</g>
+<g>
+<circle cx="396.0" cy="200.0" r="9.0" stroke="#000000" stroke-width="2.8" fill="none" />
+<circle cx="396.0" cy="200.0" r="15.0" stroke="#000000" stroke-width="2.8" fill="none" />
+</g>
+</g>
+</svg>

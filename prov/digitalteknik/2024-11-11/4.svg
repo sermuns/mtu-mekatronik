@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Digital by H.Neemann -->
+<!-- created: Sun Oct 20 18:48:49 CEST 2024 -->
+
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="63.9mm"
+   height="23.1mm"
+   viewBox="267 343 426 154">
+<g stroke-linecap="square">
+<path d="M 300,400 L 340,400" stroke="#000000" stroke-width="2.8" fill="none"/>
+<path d="M 300,480 L 360,480 L 360,440 L 380,440" stroke="#000000" stroke-width="2.8" fill="none"/>
+<path d="M 520,420 L 560,420" stroke="#000000" stroke-width="2.8" fill="none"/>
+<path d="M 620,420 L 660,420" stroke="#000000" stroke-width="2.8" fill="none"/>
+<path d="M 300,360 L 340,360" stroke="#000000" stroke-width="2.8" fill="none"/>
+<path d="M 440,440 L 460,440" stroke="#000000" stroke-width="2.8" fill="none"/>
+<path d="M 400,380 L 420,380 L 420,400 L 460,400" stroke="#000000" stroke-width="2.8" fill="none"/>
+<g>
+</g>
+<g>
+<path d="M 269,345 L 299,345 L 299,375 L 269,375 Z" stroke="#000000" stroke-width="2.8" fill="none"/>
+<circle cx="284.0" cy="360.0" r="9.0" stroke="#000000" stroke-width="2.8" fill="none" />
+</g>
+<g>
+<path d="M 269,385 L 299,385 L 299,415 L 269,415 Z" stroke="#000000" stroke-width="2.8" fill="none"/>
+<circle cx="284.0" cy="400.0" r="9.0" stroke="#000000" stroke-width="2.8" fill="none" />
+</g>
+<g>
+<path d="M 269,465 L 299,465 L 299,495 L 269,495 Z" stroke="#000000" stroke-width="2.8" fill="none"/>
+<circle cx="284.0" cy="480.0" r="9.0" stroke="#000000" stroke-width="2.8" fill="none" />
+</g>
+<g>
+<path d="M 341,350 L 399,350 L 399,410 L 341,410 Z" stroke="#000000" stroke-width="2.8" fill="none"/>
+<text text-anchor="middle" x="370.0" y="372.0" fill="#000000" style="font-size:24px">=1</text>
+</g>
+<g>
+<path d="M 461,390 L 519,390 L 519,450 L 461,450 Z" stroke="#000000" stroke-width="2.8" fill="none"/>
+<text text-anchor="middle" x="490.0" y="412.0" fill="#000000" style="font-size:24px">≥1</text>
+</g>
+<g>
+<path d="M 561,400 L 599,400 L 599,440 L 561,440 Z" stroke="#000000" stroke-width="2.8" fill="none"/>
+<circle cx="610.0" cy="420.0" r="9.0" stroke="#000000" stroke-width="2.8" fill="none" />
+<text text-anchor="middle" x="580.0" y="422.0" fill="#000000" style="font-size:24px">1</text>
+</g>
+<g>
+<circle cx="676.0" cy="420.0" r="9.0" stroke="#000000" stroke-width="2.8" fill="none" />
+<circle cx="676.0" cy="420.0" r="15.0" stroke="#000000" stroke-width="2.8" fill="none" />
+</g>
+<g>
+<path d="M 381,420 L 419,420 L 419,460 L 381,460 Z" stroke="#000000" stroke-width="2.8" fill="none"/>
+<circle cx="430.0" cy="440.0" r="9.0" stroke="#000000" stroke-width="2.8" fill="none" />
+<text text-anchor="middle" x="400.0" y="442.0" fill="#000000" style="font-size:24px">1</text>
+</g>
+</g>
+</svg>
