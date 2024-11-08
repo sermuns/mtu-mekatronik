@@ -154,6 +154,20 @@ För att inte amperemetern ska påverka värdet har den en väldigt liten inre r
 ## Parallellkoppling
 Det som kännetecknar parallellkopplingar är att det finns förgreningar i kretsen som leder till att strömmen i vissar delar i kretsen inte kommer att vara den totala strömmen. 
 
+```admonish question title="Vad är poängen med parallellkoppling?"
+
+<!-- TODO: FIXTHIS -->
+
+
+
+Som vi lärde oss ovan är paralellkoppling när det finns flera vägar för strömmen att ta. Detta medför oftast att strömmen delar upp sig i så kallade delströmmar och åker igenom alla parallella vägar.
+
+Detta brukar användas i praktiken vid till exempel julbelysning. Har du någonsin märkt att ljusslingans ena ljus har gått sönder och slocknat, samtidigt som de andra ljusen lyser fortfarande. Detta har att göra med att ljusen är parallellkopplade. När ena ljuset går sönder gör det inte så mycket för kretsen är fortfarande sluten för alla andra ljus och strömmen kan flöda. Då är det lätt att se vilken som behöver bytas och allt blir inte helt mörkt. 
+
+Hade alla lampor varit seriekopplade skulle kretsen brytas så fort en lampa går sönder och vi hade inte vetat vilken lampa som var den söndriga.
+
+```
+
 ### Resistorer parallellt kopplade
 
 Nedan syns en krets med ett batteri och två parallellkopplade resistorer.
@@ -275,6 +289,8 @@ $$I_5 = I _ {ut} - I_4 = 13-11 = 2\ampere$$
 ```
 
 
+
+
 ### Spänning vid parallellkoppling
 I en seriekoppling vet vi att spännigen från spänningskällan delar sig över resistorerna som finns. Vad är fallet vid parallellkopplingar?
 
@@ -282,7 +298,11 @@ I en seriekoppling vet vi att spännigen från spänningskällan delar sig över
 BILD: ett batteri, två resistorer, R1 och R2. Rita ut punkterna A1, A2, och A3 (fråga mig om du inte vet vad jag menar).
 
 
-Om vi potentialvandrar längs med en parallellkopplad krets från spänningskällans pluspol mot minuspolen ser vi att mellan punkt A1 och A2 finns ingen potentialskillnad. Detta vet vi för att det inte finns något motstånd eller någon spänningskälla mellan A1 och A2 så därför kan inte potentialen varken minska eller öka. Med exakt samma resonemang ser vi att potentialen inte ändras mellan A1 och A3. Ingen potentialskillnad betyder att alla dessa punkter tillhör samma **nod** [Länka till nodrubriken i tidigare avsnitt]. 
+Om vi potentialvandrar längs med en parallellkopplad krets från spänningskällans pluspol mot minuspolen ser vi att mellan punkt A1 och A2 finns ingen potentialskillnad. Detta vet vi för att det inte finns något motstånd eller någon spänningskälla mellan A1 och A2 så därför kan inte potentialen varken minska eller öka. Med exakt samma resonemang ser vi att potentialen inte ändras mellan A1 och A3. Ingen potentialskillnad betyder att alla dessa punkter tillhör samma **nod** 
+
+<!-- TODo [Länka till nodrubriken i tidigare avsnitt]. -->
+
+Då kan vi markera förgreningen innan resistorerna som nod A.
 
 ```admonish tip title="Beteckna noder"
 
@@ -290,12 +310,12 @@ Ofta är det bra att markera noderna mellan resistorer ifall dessa är seriekopp
 
 ```
 
-Då kan vi markera förgreningen innan resistorerna som nod A.
-
 BILD: samma krets. alla Ax har kombinerats till ett A vid förgreningen. det har tillkomit B1 efter R1 och B2 efter R2, B3 vid batteriets minuspol.
 
 
 Om vi fortsätter vår potentialvandring från A genom $R_1$ vet vi att potentialen kommer att minska  med spänningen som ligger över resistorn. Vi kan kalla den punkten för B1. Vandrar vi från A genom $R_1$ kommer vi till punkten B2. Eftersom att det inte finns något resistans eller någon spänningskälla mellan B1 och B2 eller B3 måste dessa vara samma noder. Vi kan markera noden B i förgreningen.
+
+BILD: Samma krets finns två noder A och B innan respektive efter resistorerna. 
 
 Det vi har kommit fram till nu är att vid parallellkopplingar av resistorer finns det en nod vid förgreningen innan resistorerna och en nod vid förgreningen efter dem. Vilken väg vi än väljer att gå igenom är potentialskillnaden lika stor mellan A och B, alltså spänningen över alla grenar är lika stora. Detta gäller ALLTID. Vi kommer kolla på mer komplicerade kretsar framöver och även där gäller det att vid parallellkopplingar är spänningen över grenarna lika stora.
 
@@ -304,6 +324,54 @@ Det vi har kommit fram till nu är att vid parallellkopplingar av resistorer fin
 När spänningskällan är parallellkopplad med resistorerna kommer spänningen över varje gren vara lika stor som spänningen över spänningskällan.
 
 ```
+
+```admonish example title="Exempel: Delströmmar och paralella resistorer"
+
+I en krets finns ett batteri på med spänningen $U = 15 \volt$. Den är parallellkopplad med resistorerna $R_1 = 20 \ohm$ respektive $R_2 = ? \ohm$ enligt bilden nedan.
+
+Den totala strömmen är $I _ {tot} = 1 \ampere$.
+
+
+BILD: ett batteri, två parallella R, döp de till R1 = 20 ohm och R2. Rita ut I = 1 A vid pluspolen, I1 vid, I2 vid R2 ooch I3 vid minuspolen (I3 = I men det är något jag vill leda de fram till därför har jag lite sneaky beteckning.) plus noden A i frögreningen framför R.
+
+**a) Beräkna delströmmarna $I_1$ och $I_2$.**
+
+**b) Beräkna $R_2$.**
+
+**c) Bestäm också $I_3$.**
+
+Lösning:
+
+a) $I_1$ kan vi beräkna m.h.a Ohms lag:
+
+$$I_1 = U_1 / R_1$$
+
+Där $U_1$ är spänningen över $R_1$, $U_1 = U = 15\volt$.
+
+$$I_1 = 15 / 20 = 7.5/10 = \underline{0.75 \ampere}$$
+
+Om vi betraktar noden A ser vi att strömmen in är $I _ {tot}$ och strömmarna ut är $I_1$ och $I_2$.Vi vet då att $$I _ {tot} = I_1 + I_2$$
+
+$$I_2 = I _ {tot} - I_1 = 1 - 0.75 = \underline{0.25 \ampere}$$
+
+
+b) Vi utnyttjar Ohms lag även här.
+
+$$R_2 = U_2 / I_2 = 15 / 0.25 = \underline{60\ohm}$$
+
+c) Vid förgreningen efter resistorerna möts $I_1$ och $I_2$ igen så 
+
+$$I_3 = I_1 + I_2 = I _ {tot} = \underline{1 \ampere}$$
+
+**Svar:**
+
+a) $I_1 = 0.75 \ampere$, $I_2 = 0.25 \ampere$  
+b) $R_2 = 60 \ohm$   
+c) $I_3 = 1 \ampere$.
+
+```
+
+
 
 
 ### Parallella spänningskällor
