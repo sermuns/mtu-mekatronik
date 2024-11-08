@@ -148,4 +148,22 @@ with schemdraw.Drawing(file=f"nod_forklaring2.svg", show=False) as d:
     e.Line().right(u/8)
     e.Line().down(.8*u)
 
+with schemdraw.Drawing(file=f"nod_forklaring3.svg", show=False) as d:
+    e.BatteryCell().left()
+    e.Line().up(.8*u)
+    e.Line().right(u/8)
+    e.Dot(color='green').label('$B$', loc="R")
+    d.push()
+    res_sep= u/4
+    e.Line().up(res_sep)
+    e.Resistor().right(u*6/8)
+    e.Line().down(res_sep)
+    d.pop()
+    e.Line().down(res_sep)
+    e.Resistor().right(u*6/8)
+    e.Line().up(res_sep).dot()
+    e.Dot(color='red').label('$A$', loc="L")
+    e.Line().right(u/8)
+    e.Line().down(.8*u)
+
 print(f"Done in {time()-start_time} s")
