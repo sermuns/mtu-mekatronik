@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2024-11-03T18:12:45.506568</dc:date>
+    <dc:date>2024-11-08T19:22:16.267302</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -35,40 +35,40 @@ z
 L 170.055 32.98 
 M 163.305 32.98 
 L 112.68 32.98 
-" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#pbeb57c079b)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_2">
     <path d="M 170.055 46.48 
 L 170.055 19.48 
-" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#pbeb57c079b)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_3">
     <path d="M 163.305 39.73 
 L 163.305 26.23 
-" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#pbeb57c079b)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_4">
     <path d="M 112.68 32.98 
 L 62.055 32.98 
 M 55.305 32.98 
 L 4.68 32.98 
-" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#pbeb57c079b)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_5">
     <path d="M 62.055 46.48 
 L 62.055 19.48 
-" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#pbeb57c079b)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_6">
     <path d="M 55.305 39.73 
 L 55.305 26.23 
-" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#pbeb57c079b)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_7">
     <path d="M 4.68 32.98 
 L 4.68 86.98 
 L 4.68 140.98 
-" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#pbeb57c079b)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_8">
     <path d="M 4.68 140.98 
@@ -80,7 +80,7 @@ L 40.68 149.98
 L 40.68 140.98 
 M 76.68 140.98 
 L 112.68 140.98 
-" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#pbeb57c079b)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_9">
     <path d="M 112.68 140.98 
@@ -92,13 +92,13 @@ L 148.68 149.98
 L 148.68 140.98 
 M 184.68 140.98 
 L 220.68 140.98 
-" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#pbeb57c079b)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="line2d_10">
     <path d="M 220.68 140.98 
 L 220.68 86.98 
 L 220.68 32.98 
-" clip-path="url(#p7e64811109)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#pbeb57c079b)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="text_1">
     <!-- 6 V -->
@@ -412,31 +412,10 @@ z
      <use xlink:href="#Cmr10-32" transform="translate(75.878906 -16.31875) scale(0.7)"/>
     </g>
    </g>
-   <g id="text_8">
-    <!-- – -->
-    <g transform="translate(136.18 163.296875) scale(0.14 -0.14)">
-     <use xlink:href="#NewCMMath-Book-2013"/>
-    </g>
-   </g>
-   <g id="text_9">
-    <!-- 10 V -->
-    <g transform="translate(152.105781 163.296875) scale(0.14 -0.14)">
-     <use xlink:href="#NewCMMath-Book-31"/>
-     <use xlink:href="#NewCMMath-Book-30" x="49.999985"/>
-     <use xlink:href="#NewCMMath-Book-20" x="99.999969"/>
-     <use xlink:href="#NewCMMath-Book-56" x="133.199966"/>
-    </g>
-   </g>
-   <g id="text_10">
-    <!-- + -->
-    <g transform="translate(188.234219 163.296875) scale(0.14 -0.14)">
-     <use xlink:href="#NewCMMath-Book-2b"/>
-    </g>
-   </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p7e64811109">
+  <clipPath id="pbeb57c079b">
    <rect x="0" y="0" width="225.36" height="169.46"/>
   </clipPath>
  </defs>

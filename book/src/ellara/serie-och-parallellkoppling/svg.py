@@ -40,7 +40,7 @@ with schemdraw.Drawing(file=f"kvl.svg", show=False) as d:
     e.BatteryCell().left().label('6 V')
     e.Line().down()
     e.Resistor().right().label('$R_1$').label(('–', '10 V', '+'), loc='B')
-    e.Resistor().right().label('$R_2$').label(('–', '10 V', '+'), loc='B')
+    e.Resistor().right().label('$R_2$')
     e.Line().up()
     
     
