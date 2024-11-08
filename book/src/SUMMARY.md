@@ -39,4 +39,7 @@
 
 ---
 
+[Lite bra förkunskaper](forkunskaper.md)
+
+---
 [Om sidan](om-sidan/index.md)
