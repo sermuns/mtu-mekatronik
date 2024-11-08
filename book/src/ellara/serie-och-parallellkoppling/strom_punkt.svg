@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="117.36pt" height="85.36pt" viewBox="0 0 117.36 85.36" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2024-11-08T21:49:04.862313</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 85.36 
+L 117.36 85.36 
+L 117.36 0 
+L 0 0 
+L 0 85.36 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 4.68 26.68 
+L 31.68 26.68 
+L 58.68 26.68 
+" clip-path="url(#p291038d0f4)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 58.68 26.68 
+L 58.68 53.68 
+L 58.68 80.68 
+" clip-path="url(#p291038d0f4)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 58.68 26.68 
+L 85.68 26.68 
+L 112.68 26.68 
+" clip-path="url(#p291038d0f4)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 58.68 29.38 
+C 59.396048 29.38 60.082866 29.095511 60.589188 28.589188 
+C 61.095511 28.082866 61.38 27.396048 61.38 26.68 
+C 61.38 25.963952 61.095511 25.277134 60.589188 24.770812 
+C 60.082866 24.264489 59.396048 23.98 58.68 23.98 
+C 57.963952 23.98 57.277134 24.264489 56.770812 24.770812 
+C 56.264489 25.277134 55.98 25.963952 55.98 26.68 
+C 55.98 27.396048 56.264489 28.082866 56.770812 28.589188 
+C 57.277134 29.095511 57.963952 29.38 58.68 29.38 
+z
+" clip-path="url(#p291038d0f4)" style="stroke: #000000; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 20.88 26.68 
+L 20.88 26.68 
+" clip-path="url(#p291038d0f4)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 20.88 21.28 
+L 31.68 26.68 
+L 20.88 32.08 
+z
+" clip-path="url(#p291038d0f4)"/>
+   </g>
+   <g id="text_1">
+    <!-- $I$ -->
+    <g transform="translate(23.2 13.163125) scale(0.14 -0.14)">
+     <defs>
+      <path id="Cmmi10-49" d="M 269 0 
+Q 206 0 206 84 
+Q 231 225 288 225 
+Q 666 225 800 250 
+Q 947 284 984 441 
+L 1863 3956 
+Q 1875 4019 1875 4038 
+Q 1875 4078 1854 4095 
+Q 1834 4113 1791 4122 
+Q 1663 4147 1306 4147 
+Q 1241 4147 1241 4231 
+Q 1263 4313 1275 4342 
+Q 1288 4372 1350 4372 
+L 3138 4372 
+Q 3200 4372 3200 4288 
+Q 3197 4272 3187 4234 
+Q 3178 4197 3162 4172 
+Q 3147 4147 3116 4147 
+Q 2741 4147 2597 4122 
+Q 2456 4088 2419 3928 
+L 1544 416 
+Q 1528 338 1528 331 
+Q 1528 316 1533 302 
+Q 1538 288 1552 277 
+Q 1566 266 1580 261 
+Q 1594 256 1613 250 
+Q 1734 225 2100 225 
+Q 2163 225 2163 141 
+Q 2141 50 2128 25 
+Q 2116 0 2053 0 
+L 269 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Cmmi10-49" transform="translate(0 0.6875)"/>
+    </g>
+   </g>
+   <g id="line2d_5">
+    <path d="M 58.68 42.88 
+L 58.68 42.88 
+" clip-path="url(#p291038d0f4)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 64.08 42.88 
+L 58.68 53.68 
+L 53.28 42.88 
+z
+" clip-path="url(#p291038d0f4)"/>
+   </g>
+   <g id="text_2">
+    <!-- $I_2$ -->
+    <g transform="translate(35.84 51.78) scale(0.14 -0.14)">
+     <defs>
+      <path id="Cmr10-32" d="M 319 0 
+L 319 172 
+Q 319 188 331 206 
+L 1325 1306 
+Q 1550 1550 1690 1715 
+Q 1831 1881 1968 2097 
+Q 2106 2313 2186 2536 
+Q 2266 2759 2266 3009 
+Q 2266 3272 2169 3511 
+Q 2072 3750 1880 3894 
+Q 1688 4038 1416 4038 
+Q 1138 4038 916 3870 
+Q 694 3703 603 3438 
+Q 628 3444 672 3444 
+Q 816 3444 917 3347 
+Q 1019 3250 1019 3097 
+Q 1019 2950 917 2848 
+Q 816 2747 672 2747 
+Q 522 2747 420 2851 
+Q 319 2956 319 3097 
+Q 319 3338 409 3548 
+Q 500 3759 670 3923 
+Q 841 4088 1055 4175 
+Q 1269 4263 1509 4263 
+Q 1875 4263 2190 4108 
+Q 2506 3953 2690 3670 
+Q 2875 3388 2875 3009 
+Q 2875 2731 2753 2481 
+Q 2631 2231 2440 2026 
+Q 2250 1822 1953 1562 
+Q 1656 1303 1563 1216 
+L 838 519 
+L 1453 519 
+Q 1906 519 2211 526 
+Q 2516 534 2534 550 
+Q 2609 631 2688 1141 
+L 2875 1141 
+L 2694 0 
+L 319 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Cmmi10-49" transform="translate(0 0.6875)"/>
+     <use xlink:href="#Cmr10-32" transform="translate(43.896484 -16.31875) scale(0.7)"/>
+    </g>
+   </g>
+   <g id="line2d_6">
+    <path d="M 74.88 26.68 
+L 74.88 26.68 
+" clip-path="url(#p291038d0f4)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 74.88 21.28 
+L 85.68 26.68 
+L 74.88 32.08 
+z
+" clip-path="url(#p291038d0f4)"/>
+   </g>
+   <g id="text_3">
+    <!-- $I_1$ -->
+    <g transform="translate(74.26 13.163125) scale(0.14 -0.14)">
+     <defs>
+      <path id="Cmr10-31" d="M 594 0 
+L 594 225 
+Q 1394 225 1394 428 
+L 1394 3788 
+Q 1063 3628 556 3628 
+L 556 3853 
+Q 1341 3853 1741 4263 
+L 1831 4263 
+Q 1853 4263 1873 4245 
+Q 1894 4228 1894 4206 
+L 1894 428 
+Q 1894 225 2694 225 
+L 2694 0 
+L 594 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Cmmi10-49" transform="translate(0 0.6875)"/>
+     <use xlink:href="#Cmr10-31" transform="translate(43.896484 -16.31875) scale(0.7)"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p291038d0f4">
+   <rect x="0" y="0" width="117.36" height="85.36"/>
+  </clipPath>
+ </defs>
+</svg>

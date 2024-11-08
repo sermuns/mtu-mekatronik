@@ -159,7 +159,7 @@ Det som kännetecknar parallellkopplingar är att det finns förgreningar i kret
 Nedan syns en krets med ett batteri och två parallellkopplade resistorer.
 Även här kan det vara fördelaktigt att beräkna ersättningsresistansen. 
 
-BILD
+![](parallell.svg)
 
 #### Ersättningsresistans
 Ersättningsresistansen kallas den resistansen som kan ersätta två eller fler resistanser. Vid seriekopplade resistanser vet vi att ersättningsresistansen beräknades som summan av resistanserna. Tyvärr är den inte lika intuitiv för parallellkopplingar. 
@@ -173,7 +173,7 @@ osv för så många resistorer som är parallellt kopplade.
 
 I krets finns två resistorer kopplade parallellt, $R_1 = 5 \ohm$ och $R_2 = 3 \ohm$. Du vill ersätta de två resistorerna med en enda resistor. **Hur stor resistans bör den nya resistorn ha?**
 
-BILD på resistorerna
+![](ex_ers_res.svg)
 
 Lösning: 
 $$\frac{1}{R _ {ersättning}} = \frac{1}{R_1} + \frac{1}{R_2}$$
@@ -193,7 +193,7 @@ Efter att har beräknat ersättningsresistansen kan kretschemat ritas om som en 
 
 I en krets finns ett batteri med spänningen $U = 42 \volt$, och två resistorer där $R_1 = 70 \ohm$ och $R_2 = 30 \ohm$. **Beräkna den total strömmen i kretsen.**
 
-BILD om parallellkopplade resistorer plus batteri.
+![](res_par_batt.svg)
 
 Enligt Ohms lag gäller:
 
@@ -210,7 +210,8 @@ $$R _ {ersättning} = \frac{2100}{100} = 21 \ohm$$
 
 Nu när vi har ersättningsresistansen kan vi rita kretsen nedan.
 
-BILD på den nya kretsen, seriekoppling av batteri och EN resistans, visa strömmen också. 
+
+![](res_par_batt_ny.svg)
 
 $$I = U/R = 42/21 = 2 \ampere$$
 
@@ -225,12 +226,11 @@ Som vi har lärt oss tidigare innebär parallellkoppling att det finns minst en 
 
 I en seriekopplad krets är den totala strömmen, $I$, densamma som strömmen genom HELA kretsen. Den har ju ingen annan stans att ta vägen. 
 
-BILD
-
+![](kirchoff1.svg)
 
 Vid parallellt kopplade komponenter kommer en del av strömmen att ta ena vägen medan den andra delen av strömmen tar den andra vägen. 
 
-BILD.
+![](kirchoff2.svg)
 
 Strömmen vill ta den lättaste vägen. Har vi alltså två parallellt kopplade resistorer, där den ena har en lägre resistans kommer att mer ström att strömma där igenom. 
 
@@ -238,14 +238,14 @@ Ni kan tänka er att det finns två vägar att ta till skolan. Den snabbaste/lä
 
 På samma sätt fungerar ström. Strömmen kommer att ta den vägen som har minst motstånd, men en mindre andel av strömmen måste ta omvägen.
 
-Om man fortsätter resonera kommer man fram till Kirchoffs strömlag.
+Om man fortsätter resonera kommer man fram till Kirchhoffs strömlag.
 
 ```admonish info title="Kirchhoffs strömlag"
 
 Den totala strömmen in i en nod i en krets är är lika med den totala strömmen som lämnar noden.
 ```
 
-BILD på strömmar in och ut ur punkten
+![](strom_punkt.svg)
 
 Vad betyder detta? Jo, om du tänker dig att du har en punkt och det finns några strömmar in mot den här punkten. Strömmar kan aldrig bli stilla utan måste fortsätta och då måste de också komma ut ur punkten.
 
@@ -279,7 +279,7 @@ $$I_5 = I _ {ut} - I_4 = 13-11 = 2\ampere$$
 I en seriekoppling vet vi att spännigen från spänningskällan delar sig över resistorerna som finns. Vad är fallet vid parallellkopplingar?
 
 
-BILD: ett batteri, två resistorer, R1 och R2. Rita ut punkterna A1, A2, och A3 (fråga mig om du inte vet vad jag menar).
+![](nod_forklaring.svg)
 
 
 Om vi potentialvandrar längs med en parallellkopplad krets från spänningskällans pluspol mot minuspolen ser vi att mellan punkt A1 och A2 finns ingen potentialskillnad. Detta vet vi för att det inte finns något motstånd eller någon spänningskälla mellan A1 och A2 så därför kan inte potentialen varken minska eller öka. Med exakt samma resonemang ser vi att potentialen inte ändras mellan A1 och A3. Ingen potentialskillnad betyder att alla dessa punkter tillhör samma **nod** [Länka till nodrubriken i tidigare avsnitt]. 
@@ -292,7 +292,7 @@ Ofta är det bra att markera noderna mellan resistorer ifall dessa är seriekopp
 
 Då kan vi markera förgreningen innan resistorerna som nod A.
 
-BILD: samma krets. alla Ax har kombinerats till ett A vid förgreningen. det har tillkomit B1 efter R1 och B2 efter R2, B3 vid batteriets minuspol.
+![](nod_forklaring2.svg)
 
 
 Om vi fortsätter vår potentialvandring från A genom $R_1$ vet vi att potentialen kommer att minska  med spänningen som ligger över resistorn. Vi kan kalla den punkten för B1. Vandrar vi från A genom $R_1$ kommer vi till punkten B2. Eftersom att det inte finns något resistans eller någon spänningskälla mellan B1 och B2 eller B3 måste dessa vara samma noder. Vi kan markera noden B i förgreningen.
