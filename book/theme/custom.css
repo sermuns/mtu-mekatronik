@@ -44,12 +44,11 @@ nav *::selection {
 img {
     display: block;
     margin: auto;
-    max-height: 30em;
 }
 
-blockquote img {
-    margin: 1rem auto;
-    max-height: 40em;
+main>blockquote img, main>div img {
+    margin: 1em auto;
+    height: 20em;
 }
 
 img::before {
