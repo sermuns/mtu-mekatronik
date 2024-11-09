@@ -310,14 +310,13 @@ Ofta är det bra att markera noderna mellan resistorer ifall dessa är seriekopp
 
 ```
 
-Då kan vi markera förgreningen innan resistorerna som nod A.
-
+<!-- todo lägg till betckningarna R1 och R2 i den här bilden och nästa bild.  -->
 ![](nod_forklaring2.svg)
 
 
 Om vi fortsätter vår potentialvandring från A genom $R_1$ vet vi att potentialen kommer att minska  med spänningen som ligger över resistorn. Vi kan kalla den punkten för B1. Vandrar vi från A genom $R_1$ kommer vi till punkten B2. Eftersom att det inte finns något resistans eller någon spänningskälla mellan B1 och B2 eller B3 måste dessa vara samma noder. Vi kan markera noden B i förgreningen.
 
-BILD: Samma krets finns två noder A och B innan respektive efter resistorerna. 
+<!-- todo BILD: Samma krets finns två noder A och B innan respektive efter resistorerna. glöm ej R1 och R2 -->
 
 Det vi har kommit fram till nu är att vid parallellkopplingar av resistorer finns det en nod vid förgreningen innan resistorerna och en nod vid förgreningen efter dem. Vilken väg vi än väljer att gå igenom är potentialskillnaden lika stor mellan A och B, alltså spänningen över alla grenar är lika stora. Detta gäller ALLTID. Vi kommer kolla på mer komplicerade kretsar framöver och även där gäller det att vid parallellkopplingar är spänningen över grenarna lika stora.
 
@@ -334,7 +333,7 @@ I en krets finns ett batteri på med spänningen $U = 15 \volt$. Den är paralle
 Den totala strömmen är $I _ {tot} = 1 \ampere$.
 
 
-BILD: ett batteri, två parallella R, döp de till R1 = 20 ohm och R2. Rita ut I = 1 A vid pluspolen, I1 vid, I2 vid R2 ooch I3 vid minuspolen (I3 = I men det är något jag vill leda de fram till därför har jag lite sneaky beteckning.) plus noden A i frögreningen framför R.
+<!--  todo BILD: ett batteri, två parallella R, döp de till R1 = 20 ohm och R2. Rita ut I = 1 A vid pluspolen, I1 vid, I2 vid R2 ooch I3 vid minuspolen (I3 = I men det är något jag vill leda de fram till därför har jag lite sneaky beteckning.) plus noden A i frögreningen framför R. -->
 
 **a) Beräkna delströmmarna $I_1$ och $I_2$.**
 
@@ -373,11 +372,28 @@ c) $I_3 = 1 \ampere$.
 
 ```
 
-
-
-
 ### Parallella spänningskällor
+I seriekopplade kretsar har vi stött på flera spänningskällor. Då har vi bara kunnat addera spänningarna och fått den totala spänningen i kretsen. Vid parallellt kopplade spänningkällor är inte matten lika lätt, så vi kommer inte att räkna på det.
 
+Något som är bra ifall ni känner till är dock vad seriekopplade respektive parallellt kopplade spänningskällor har för påverkan på kretsen. 
+
+Har vi en krets med ett batteri och en resistans så har vi en ström som kan beräknas $$I = U/R$$ Om vi kopplar in ett lika stort batteri <u>i serie</u> i kretsen kommer den nya spänningen att vara $$U _ {tot} = U + U = 2U$$ Då blir den nya strömmen genom kretsen $$I _ {ny} = U _ {tot}/R = 2U / R = 2I$$
+
+Strömmen genom kretsen blir alltså dubbelt så stor efter att det andra batteriet koppls in.
+
+Detta är inte fallet vid parallellkoppling. Ifall vi har en krets med ett batteri och en resistor får vi en ström $I$ i kretsen. Om vi då kopplar in ett till lika stort batteri <u>parallellt</u> i kretsen har vi ingen förändring i strömmen. 
+
+Batterierna hjälps åt att skapa strömmen som kommer att vara lika stort som innan
+
+$$I _ {ny} = I$$
+
+Eftersom batterierna är lika stora och hjälps åt att skapa strömmen behöver var och en bara leverera hälften så mycket spänning för strömmen, $I$. Batterierna kommer alltså att hålla dubbelt så länge.
+
+```admonish info title="Parallella spänningskällor"
+
+Strömmen i kretsen påverkas inte, och batterierna håller längre.
+
+```
 
 
 ### Voltmeter
