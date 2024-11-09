@@ -1,0 +1,104 @@
+# Effekt
+
+Effekt är ett begrepp man ofta hör i samband med olika apparater. Exempelvis drar ett helt vanligt hårfön runt 2200 watt. Ni kanske har någon vag uppfattning om att mer effekt har något att göra med mer energi och det stämmer, på sätt och vis. Låt oss ta det från början.
+
+
+
+```admonish info title="Storhet och enhet"
+
+Effekten betecknas $P$ och har enheten watt, $\watt$.
+
+```
+
+I elektriska kretsar kopplar man någon apparat, kan vara en brödrost, högtalare eller en glödlampa till en spänning för att något ska hända. Detta ger upphov till att energi omvandlas från elektrisk energi till någon annan energiform. Detta kan vara värme i brödrosten, ljud i högtalaren eller ljus i glödlampan. På något sätt omvandlas en mängd energi under en viss tid. Effekten är den storheten som beskriver hur mycket energi per tidsenhet som omvandlas. 
+
+```admonish info title="Definition"
+
+Effekt definieras som energi per tidsenhet. 
+
+```
+
+
+
+```admonish question title="Vad betyder det egentligen att en apparat drar en viss effekt?"
+
+```
+
+
+```admonish question title="Varför jobbar vi med effekt, är inte det som spelar roll hur mycket energi något drar?"
+
+```
+
+När vi pratar om elektrisk effekt jobbar vi såklart med elektrisk energi på en viss tid. Från andra fysikaliska formler kan vi komma fram till sånt som vi ska använda i kursen. Effekten har en ekvation som kan skriva om med Ohms lag:
+
+```admonish info title="Formler för effekt"
+
+$$P = UI$$
+$$P = RI^2$$
+$$P = U^2/R$$
+
+```
+
+Ifall vi har en sluten krets som vi kopplar in en lampa till kommer strömmen att flyta igenom lampan och den kommer börja lysa. Hur mycket lampan lyser beror på effekten.
+
+```admonish example title=""
+
+I lampa 1 utvecklas effekten P1 och i lampa 2 utvecklas dubbelt så mycket effekt P2 = 2*P1. Då kommer lampa nummer 2 att lysa dubbel så starkt som lampa nummer 1.
+
+```
+
+Vi har tidigare pratat om att anledningen till att lampan lyser är för att ström flyter igenom den. Men ni kan tänka er istället att anledningen till att lampan lyser är för att en effekt utvecklas i den. Vad spelar det för roll hur man tänker på det? Jo, om man tänker att det är strömmen som styr kanske man tror att dubbelt så mycket ström innebär att lampan lyser dubbelt så mycket men det är inte fallet. 
+
+```admonish example title="något"
+
+Vi har en krets där vi har en lampa inkopplad. Strömmen genom kretsen betecknar vi $I$ och effekten som utvecklas i lampan vid den strömmen kallar vi för $P$. Efter ett tag ökar vi strömmen så att den bli dubbelt så stor utan att resistansen ökar i kretsen.
+
+**Hur mycket starkare eller svagare kommer lampan att lysa efter att strömmen ökades?**
+
+Lösning:
+
+$$P = RI^2$$
+
+Resistansen förblir konstant men strömmen ökar ger oss den nya effekten:
+
+$$P _ {ny} = RI _ {ny}^2 = R(2I)^2 = 4RI^2 = 4P$$
+
+Den nya effekten är fyra gånger så stor som den gamla effekten. Lampan lyser alltså fyra gånger så ljust efter att strömmen ökade jämfört med innan. 
+
+**Svar:** Fyra gånger så starkt.
+
+```
+
+```admonish example title="inget dåligt exempel men den ska inte vara här!"
+
+I en enkel krets finns ett batteri, en resistor $R=12\ohm$ och en lampa. Strömmen igenom kretsen är $I = 0.5 \ampere$. 
+
+a) Bestäm effekten som utvecklas i lampan. 
+
+b) Resistorn byts ut mot en annan resistor som har resistansen $R=6\ohm$. Beräkna den nya strömmen, $I _ {ny}$ och den nya effekten, $P _ {ny}$.
+
+Lösning:  
+a) $$P = RI^2 = 12 \cdot 0.5^2 = \underline{3\watt}$$
+
+b) Ohms lag ger 
+
+$$U = RI$$
+
+Eftersom batteriet fortfarande är densamma vet vi att den nya spänningen är densmamma som den gamla spänningen. Vilket ger oss:
+
+$$U = R _ {gammal} \cdot I _ {gammal} = R _ {ny} \cdot I _ {ny}$$
+
+Vi vet också att den nya resistorn har hälften så stor resistans som den gamla så vi får
+
+$$R _ {gammal} \cdot I _ {gammal} = 0.5R _ {gammal} \cdot I _ {ny}$$
+
+Vi kan nu lösa ut $I _ {ny}$.
+
+$$ I _ {ny} = 2 I _ {gammal} = 2 \cdot 0.5 = \underline{1 \ampere}$$
+
+Nu när vi har både $R _ {ny}$ och $I _ {ny}$ kan vi också beräkna $P _ {ny}$.
+
+$$ P _ {ny} = R _ {ny}I _ {ny}^2 = 6 \cdot 1^2 = \underline{6\watt}$$
+```
+
+<!-- todo Nämn något om värme -->
