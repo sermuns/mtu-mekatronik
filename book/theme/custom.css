@@ -44,6 +44,8 @@ nav *::selection {
 img {
     display: block;
     margin: auto;
+    height: auto;
+    object-fit: contain;
 }
 
 main>blockquote img, main>div img {

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="179.34pt" height="125.36pt" viewBox="0 0 179.34 125.36" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2024-11-09T15:37:55.603827</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 125.36 
+L 179.34 125.36 
+L 179.34 0 
+L 0 0 
+L 0 125.36 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 116.67 103.18 
+L 66.045 103.18 
+M 59.295 103.18 
+L 8.67 103.18 
+" clip-path="url(#p93fcb1a8ab)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 66.045 116.68 
+L 66.045 89.68 
+" clip-path="url(#p93fcb1a8ab)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 59.295 109.93 
+L 59.295 96.43 
+" clip-path="url(#p93fcb1a8ab)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 8.67 103.18 
+L 8.67 89.68 
+L 8.67 76.18 
+" clip-path="url(#p93fcb1a8ab)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 8.67 76.18 
+L 8.67 49.18 
+L 8.67 22.18 
+" clip-path="url(#p93fcb1a8ab)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 8.67 22.18 
+L 31.17 22.18 
+L 31.17 13.18 
+L 67.17 13.18 
+L 67.17 31.18 
+L 31.17 31.18 
+L 31.17 22.18 
+M 67.17 22.18 
+L 89.67 22.18 
+" clip-path="url(#p93fcb1a8ab)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 89.67 22.18 
+L 112.17 22.18 
+L 112.17 13.18 
+L 148.17 13.18 
+L 148.17 31.18 
+L 112.17 31.18 
+L 112.17 22.18 
+M 148.17 22.18 
+L 170.67 22.18 
+" clip-path="url(#p93fcb1a8ab)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 170.67 22.18 
+L 170.67 62.68 
+L 170.67 103.18 
+" clip-path="url(#p93fcb1a8ab)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 170.67 103.18 
+L 143.67 103.18 
+L 116.67 103.18 
+" clip-path="url(#p93fcb1a8ab)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 8.67 76.18 
+L 44.67 76.18 
+L 44.67 67.18 
+L 80.67 67.18 
+L 80.67 85.18 
+L 44.67 85.18 
+L 44.67 76.18 
+M 80.67 76.18 
+L 116.67 76.18 
+" clip-path="url(#p93fcb1a8ab)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_11">
+    <path d="M 8.67 76.18 
+L 8.67 62.68 
+L 8.67 49.18 
+" clip-path="url(#p93fcb1a8ab)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_12">
+    <path d="M 8.67 49.18 
+L 44.67 49.18 
+L 44.67 40.18 
+L 80.67 40.18 
+L 80.67 58.18 
+L 44.67 58.18 
+L 44.67 49.18 
+M 80.67 49.18 
+L 116.67 49.18 
+" clip-path="url(#p93fcb1a8ab)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_13">
+    <path d="M 116.67 49.18 
+L 116.67 76.18 
+L 116.67 103.18 
+" clip-path="url(#p93fcb1a8ab)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 8.67 105.88 
+C 9.386048 105.88 10.072866 105.595511 10.579188 105.089188 
+C 11.085511 104.582866 11.37 103.896048 11.37 103.18 
+C 11.37 102.463952 11.085511 101.777134 10.579188 101.270812 
+C 10.072866 100.764489 9.386048 100.48 8.67 100.48 
+C 7.953952 100.48 7.267134 100.764489 6.760812 101.270812 
+C 6.254489 101.777134 5.97 102.463952 5.97 103.18 
+C 5.97 103.896048 6.254489 104.582866 6.760812 105.089188 
+C 7.267134 105.595511 7.953952 105.88 8.67 105.88 
+z
+" clip-path="url(#p93fcb1a8ab)" style="fill: #ff0000; stroke: #ff0000; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <!-- 1 -->
+    <g style="fill: #ff0000" transform="translate(5.17 119.196875) scale(0.14 -0.14)">
+     <defs>
+      <path id="NewCMMath-Book-31" d="M 1722 4262 
+C 1459 3994 1075 3859 570 3859 
+L 570 3610 
+C 902 3610 1178 3661 1389 3763 
+L 1389 525 
+C 1389 410 1363 333 1306 301 
+C 1248 269 1088 250 832 250 
+L 608 250 
+L 608 0 
+C 768 13 1114 19 1645 19 
+C 2176 19 2522 13 2682 0 
+L 2682 250 
+L 2458 250 
+C 2195 250 2035 269 1984 301 
+C 1933 333 1901 410 1901 525 
+L 1901 4070 
+C 1901 4224 1888 4262 1722 4262 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#NewCMMath-Book-31"/>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 89.67 24.88 
+C 90.386048 24.88 91.072866 24.595511 91.579188 24.089188 
+C 92.085511 23.582866 92.37 22.896048 92.37 22.18 
+C 92.37 21.463952 92.085511 20.777134 91.579188 20.270812 
+C 91.072866 19.764489 90.386048 19.48 89.67 19.48 
+C 88.953952 19.48 88.267134 19.764489 87.760812 20.270812 
+C 87.254489 20.777134 86.97 21.463952 86.97 22.18 
+C 86.97 22.896048 87.254489 23.582866 87.760812 24.089188 
+C 88.267134 24.595511 88.953952 24.88 89.67 24.88 
+z
+" clip-path="url(#p93fcb1a8ab)" style="fill: #ff0000; stroke: #ff0000; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_2">
+    <!-- 2 -->
+    <g style="fill: #ff0000" transform="translate(86.17 13.163125) scale(0.14 -0.14)">
+     <defs>
+      <path id="NewCMMath-Book-32" d="M 1517 4262 
+C 1190 4262 915 4147 678 3917 
+C 442 3686 320 3418 320 3091 
+C 320 2874 480 2714 678 2714 
+C 870 2714 1030 2880 1030 3072 
+C 1030 3283 877 3430 672 3430 
+C 653 3430 640 3430 627 3424 
+C 749 3738 1030 4013 1434 4013 
+C 1958 4013 2253 3558 2253 3008 
+C 2253 2579 2035 2118 1600 1632 
+L 397 275 
+C 314 179 320 186 320 0 
+L 2694 0 
+L 2880 1152 
+L 2669 1152 
+C 2618 826 2573 640 2534 582 
+C 2502 550 2310 538 1958 538 
+L 890 538 
+L 1510 1146 
+C 1946 1555 2496 1997 2682 2336 
+C 2810 2560 2874 2784 2874 3008 
+C 2874 3763 2285 4262 1517 4262 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#NewCMMath-Book-32"/>
+    </g>
+   </g>
+   <g id="patch_4">
+    <path d="M 170.67 105.88 
+C 171.386048 105.88 172.072866 105.595511 172.579188 105.089188 
+C 173.085511 104.582866 173.37 103.896048 173.37 103.18 
+C 173.37 102.463952 173.085511 101.777134 172.579188 101.270812 
+C 172.072866 100.764489 171.386048 100.48 170.67 100.48 
+C 169.953952 100.48 169.267134 100.764489 168.760812 101.270812 
+C 168.254489 101.777134 167.97 102.463952 167.97 103.18 
+C 167.97 103.896048 168.254489 104.582866 168.760812 105.089188 
+C 169.267134 105.595511 169.953952 105.88 170.67 105.88 
+z
+" clip-path="url(#p93fcb1a8ab)" style="fill: #ff0000; stroke: #ff0000; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_3">
+    <!-- 3 -->
+    <g style="fill: #ff0000" transform="translate(167.17 119.196875) scale(0.14 -0.14)">
+     <defs>
+      <path id="NewCMMath-Book-33" d="M 1939 2259 
+C 2362 2419 2758 2822 2758 3366 
+C 2758 3642 2624 3866 2362 4038 
+C 2131 4186 1869 4262 1574 4262 
+C 1286 4262 1037 4186 813 4038 
+C 563 3872 435 3654 435 3379 
+C 435 3168 576 3021 781 3021 
+C 986 3021 1126 3168 1126 3373 
+C 1126 3584 1005 3699 762 3712 
+C 928 3936 1190 4051 1549 4051 
+C 1933 4051 2125 3827 2125 3373 
+C 2125 3104 2074 2880 1978 2694 
+C 1805 2387 1568 2330 1171 2330 
+C 1094 2317 1056 2285 1056 2227 
+C 1056 2131 1101 2131 1229 2131 
+L 1504 2131 
+C 1984 2131 2227 1792 2227 1107 
+C 2227 563 2029 90 1542 90 
+C 1126 90 819 230 634 512 
+C 858 506 1024 672 1024 890 
+C 1024 1107 864 1267 646 1267 
+C 397 1267 269 1139 269 877 
+C 269 563 410 314 691 115 
+C 941 -58 1235 -141 1562 -141 
+C 1926 -141 2240 -19 2515 218 
+C 2790 454 2925 749 2925 1107 
+C 2925 1709 2451 2125 1939 2259 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#NewCMMath-Book-33"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p93fcb1a8ab">
+   <rect x="0" y="0" width="179.34" height="125.36"/>
+  </clipPath>
+ </defs>
+</svg>
