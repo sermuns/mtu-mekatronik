@@ -149,6 +149,10 @@ html.ayu img[src$=".svg"] {
     filter: invert(1);
 }
 
+html.rust .admonition img[src$=".svg"]{
+    filter: invert(1);
+}
+
 svg[id^="mermaid"] {
     display: block;
     margin: auto;
@@ -162,11 +166,6 @@ span.katex {
 hr {
     border-color: var(--fg);
 }
-
-/* em > .katex {
-    border: 1px solid var(--fg);
-    padding: 0.2em;
-} */
 
 ol.exercises {
     gap: 5rem;

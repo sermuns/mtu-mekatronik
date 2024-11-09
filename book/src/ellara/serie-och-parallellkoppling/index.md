@@ -156,8 +156,6 @@ Det som kännetecknar parallellkopplingar är att det finns förgreningar i kret
 
 ```admonish question title="Vad är poängen med parallellkoppling?"
 
-<!-- TODO: FIXTHIS -->
-
 Det kallas för parallellkoppling när det finns flera vägar för strömmen att ta. Strömmen delar då upp sig i så kallade delströmmar.
 
 Ett exempel på parallellkoppling i vardagen är julbelysning. Har du någonsin märkt att ett ljus i slingan har gått sönder samtidigt som de andra ljusen fortsätter lysa? Detta har att göra med att ljusen är parallellkopplade. När ena ljuset går sönder, gör det inte så mycket för kretsen är fortfarande sluten för alla andra ljus och strömmen kan flöda. Då är det lätt att se vilken som behöver bytas och allt blir inte helt mörkt. 
