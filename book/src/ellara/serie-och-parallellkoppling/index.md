@@ -89,14 +89,14 @@ Har vi spänningskällor som ger $10\volt$, $4\volt$ och $3\volt$ blir den total
 ### Potentialvandring
 Som vi har nämnt tidigare är spänning en potentialskillnad mellan två noder. Olika noder är sådana "punkter" där potentialen inte är samma. Vi har också tidigare nämnt att den elektriska potentialen i kretsar ändras efter ett motstånd eller spänningskälla.
 
-Går vi från battriets pluspol mot batteriets minuspol kommer vi att stöta på resistanser (om inte kretsen är kortsluten, och det vill vi ju inte!). Vid pluspolen är potentialen hög och efter varje resistor är potentialen lägre ända fram till batteriets minuspol då den är som lägst. 
+Går vi från batteriets pluspol mot batteriets minuspol kommer vi att stöta på resistanser (om inte kretsen är kortsluten, och det vill vi ju inte!). Vid pluspolen är potentialen hög och efter varje resistor är potentialen lägre ända fram till batteriets minuspol då den är som lägst. 
 
 ```admonish success title=""
 
 Dessa potentialskillnader som finns innan och efter resistorer är såna *delspänningar* som vi har räknat på [ovan](#admonition-exempel-delspänningar).
 ```
 
-Fortsätter man att gå i strömmens riktning från minuspolen till pluspolen ökar potentialen med exakt batteriets spänning. Har man gått ett varv visar sig potentialskillnaden i en krets alltid vara noll. Detta är kirchhoffsspänningslag.
+Fortsätter man att gå i strömmens riktning från minuspolen till pluspolen ökar potentialen med exakt batteriets spänning. Har man gått ett varv visar sig potentialskillnaden i en krets alltid vara noll. Detta är kirchhoffs spänningslag.
 
 ```admonish info title="Kirchhoffs spänningslag"
 Summan av alla potentialändringar i en sluten krets är $0$.
@@ -136,7 +136,7 @@ För att inte amperemetern ska påverka värdet har den en väldigt liten inre r
 ### <u>Sammanfattning:</u>
 - Seriekoppling är när komponenter kopplas in efter varandra så att strömmen igenom båda är densamma. 
 
-- Finns flera resistorer serikopplade kan alla resistorer ersättas med en enda resistans, *ersättningsresistansen*. Den beräknas som summan av alla resistanser.
+- Finns flera resistorer seriekopplade kan alla resistorer ersättas med en enda resistans, *ersättningsresistansen*. Den beräknas som summan av alla resistanser.
 
 - Finns flera resistanser i en krets delar sig spänningen över de. Dessa spänningar kallas för delspänningar och kan beräknas med Ohms lag.
 
@@ -152,17 +152,15 @@ För att inte amperemetern ska påverka värdet har den en väldigt liten inre r
 
 
 ## Parallellkoppling
-Det som kännetecknar parallellkopplingar är att det finns förgreningar i kretsen som leder till att strömmen i vissar delar i kretsen inte kommer att vara den totala strömmen. 
+Det som kännetecknar parallellkopplingar är att det finns förgreningar i kretsen som leder till att strömmen i vissa delar i kretsen inte kommer att vara den totala strömmen. 
 
 ```admonish question title="Vad är poängen med parallellkoppling?"
 
 <!-- TODO: FIXTHIS -->
 
+Det kallas för parallellkoppling när det finns flera vägar för strömmen att ta. Strömmen delar då upp sig i så kallade delströmmar.
 
-
-Som vi lärde oss ovan är paralellkoppling när det finns flera vägar för strömmen att ta. Detta medför oftast att strömmen delar upp sig i så kallade delströmmar och åker igenom alla parallella vägar.
-
-Detta brukar användas i praktiken vid till exempel julbelysning. Har du någonsin märkt att ljusslingans ena ljus har gått sönder och slocknat, samtidigt som de andra ljusen lyser fortfarande. Detta har att göra med att ljusen är parallellkopplade. När ena ljuset går sönder gör det inte så mycket för kretsen är fortfarande sluten för alla andra ljus och strömmen kan flöda. Då är det lätt att se vilken som behöver bytas och allt blir inte helt mörkt. 
+Ett exempel på parallellkoppling i vardagen är julbelysning. Har du någonsin märkt att ett ljus i slingan har gått sönder samtidigt som de andra ljusen fortsätter lysa? Detta har att göra med att ljusen är parallellkopplade. När ena ljuset går sönder, gör det inte så mycket för kretsen är fortfarande sluten för alla andra ljus och strömmen kan flöda. Då är det lätt att se vilken som behöver bytas och allt blir inte helt mörkt. 
 
 Hade alla lampor varit seriekopplade skulle kretsen brytas så fort en lampa går sönder och vi hade inte vetat vilken lampa som var den söndriga.
 
@@ -171,7 +169,8 @@ Hade alla lampor varit seriekopplade skulle kretsen brytas så fort en lampa gå
 ### Resistorer parallellt kopplade
 
 Nedan syns en krets med ett batteri och två parallellkopplade resistorer.
-Även här kan det vara fördelaktigt att beräkna ersättningsresistansen. 
+
+Precis som vid seriekopplade resistorer, kan det nu vara bekvämt att ersätta de parallellkopplade resistorerna med en enda <u>ersättningsresistans</u>.
 
 ![](parallell.svg)
 
@@ -179,7 +178,7 @@ Nedan syns en krets med ett batteri och två parallellkopplade resistorer.
 Ersättningsresistansen kallas den resistansen som kan ersätta två eller fler resistanser. Vid seriekopplade resistanser vet vi att ersättningsresistansen beräknades som summan av resistanserna. Tyvärr är den inte lika intuitiv för parallellkopplingar. 
 
 Vid parallella resistorer beräknas ersättningsresistansen enligt
-$$\frac{1}{R _ {ersättning}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}$$
+$$\frac{1}{R _ {ers}} = \frac{1}{R_1} + \frac{1}{R_2} + ...$$
 
 osv för så många resistorer som är parallellt kopplade.
 
@@ -190,18 +189,18 @@ I krets finns två resistorer kopplade parallellt, $R_1 = 5 \ohm$ och $R_2 = 3 \
 ![](ex_ers_res.svg)
 
 Lösning: 
-$$\frac{1}{R _ {ersättning}} = \frac{1}{R_1} + \frac{1}{R_2}$$
-$$\frac{1}{R _ {ersättning}} = \frac{1}{5} + \frac{1}{3} = \frac{3}{15} + \frac{5}{15} = \frac{8}{15}$$
+$$\frac{1}{R _ {ers}} = \frac{1}{R_1} + \frac{1}{R_2}$$
+$$\frac{1}{R _ {ers}} = \frac{1}{5} + \frac{1}{3} = \frac{3}{15} + \frac{5}{15} = \frac{8}{15}$$
 
-För att få $R _ {ersättning}$ måste vi vända på bråket, täljare ska bli nämnare och nämnare blir täljare:
+Sista steget för att få $R _ {ers}$ är att <u>invertera</u> båda sidorna. Det betyder att man "vänder upp-och-ned" på bråken, täljare ska bli nämnare och nämnare blir täljare:
 
-$$R _ {ersättning} = \frac{15}{8} \ohm$$
+$$R _ {ers} = \frac{15}{8} \ohm$$
 
 **Svar:** Vi kan ersätta de två resistorerna i kretsen med en resistor med resistansen $\frac{15}{8} \ohm$. 
 
 ```
 
-Efter att har beräknat ersättningsresistansen kan kretschemat ritas om som en krets med enbart en resistor, och beräkningarna kan fortsätta som vi tidigare har lärt oss.
+Efter att har beräknat ersättningsresistansen kan kretsschemat ritas om som en krets med enbart en resistor, och beräkningarna kan fortsätta som vi tidigare har lärt oss.
 
 ```admonish example title="Exempel: Resistorer parallellt"
 
@@ -236,7 +235,7 @@ $$I = U/R = 42/21 = 2 \ampere$$
 
 
 ### Kirchhoffs strömlag
-Som vi har lärt oss tidigare innebär parallellkoppling att det finns minst en förgrening i kretsen där den totala strömmen kan dela på sig i så kallade delströmmar. 
+Som vi lärde oss i förra kapitel innebär parallellkoppling att det finns minst en förgrening i kretsen där den totala strömmen kan dela på sig i så kallade delströmmar. 
 
 I en seriekopplad krets är den totala strömmen, $I$, densamma som strömmen genom HELA kretsen. Den har ju ingen annan stans att ta vägen. 
 
@@ -252,7 +251,7 @@ Ni kan tänka er att det finns två vägar att ta till skolan. Den snabbaste/lä
 
 På samma sätt fungerar ström. Strömmen kommer att ta den vägen som har minst motstånd, men en mindre andel av strömmen måste ta omvägen.
 
-Om man fortsätter resonera kommer man fram till Kirchhoffs strömlag.
+Om man fortsätter resonera kommer man fram till <u>Kirchhoffs strömlag</u>.
 
 ```admonish info title="Kirchhoffs strömlag"
 
@@ -263,7 +262,7 @@ Den totala strömmen in i en nod i en krets är är lika med den totala strömme
 
 Vad betyder detta? Jo, om du tänker dig att du har en punkt och det finns några strömmar in mot den här punkten. Strömmar kan aldrig bli stilla utan måste fortsätta och då måste de också komma ut ur punkten.
 
-```admonish example title="Exempel: Kirchoffs strömlag"
+```admonish example title="Exempel: Kirchhoffs strömlag"
 
 In i en punkt flödar tre strömmar, $I_1 = 2 \ampere, I_2 = 6 \ampere, I_3 = 5 \ampere$.
 
@@ -292,13 +291,13 @@ $$I_5 = I _ {ut} - I_4 = 13-11 = 2\ampere$$
 
 
 ### Spänning vid parallellkoppling
-I en seriekoppling vet vi att spännigen från spänningskällan delar sig över resistorerna som finns. Vad är fallet vid parallellkopplingar?
+I en seriekoppling vet vi att spänningen från spänningskällan delar sig över resistorerna som finns. Vad är fallet vid parallellkopplingar?
 
 
 ![](nod_forklaring.svg)
 
 
-Om vi potentialvandrar längs med en parallellkopplad krets från spänningskällans pluspol mot minuspolen ser vi att mellan punkt A1 och A2 finns ingen potentialskillnad. Detta vet vi för att det inte finns något motstånd eller någon spänningskälla mellan A1 och A2 så därför kan inte potentialen varken minska eller öka. Med exakt samma resonemang ser vi att potentialen inte ändras mellan A1 och A3. Ingen potentialskillnad betyder att alla dessa punkter tillhör samma **nod** 
+Om vi potentialvandrar längs med en parallellkopplad krets från spänningskällans pluspol mot minuspolen ser vi att mellan punkt A3 och A2 finns ingen potentialskillnad. Detta vet vi för att det inte finns något motstånd eller någon spänningskälla mellan A3 och A2 så därför kan inte potentialen varken minska eller öka. Med exakt samma resonemang ser vi att potentialen inte ändras mellan A1 och A3. Ingen potentialskillnad betyder att alla dessa punkter tillhör samma **nod** 
 
 <!-- TODo [Länka till nodrubriken i tidigare avsnitt]. -->
 
@@ -309,8 +308,6 @@ Då kan vi markera förgreningen innan resistorerna som nod A.
 Ofta är det bra att markera noderna mellan resistorer ifall dessa är seriekopplade eller vid förgreningar vid parallellkopplingar.
 
 ```
-
-Då kan vi markera förgreningen innan resistorerna som nod A.
 
 ![](nod_forklaring2.svg)
 
@@ -327,14 +324,13 @@ När spänningskällan är parallellkopplad med resistorerna kommer spänningen 
 
 ```
 
-```admonish example title="Exempel: Delströmmar och paralella resistorer"
+```admonish example title="Exempel: Delströmmar och parallella resistorer"
 
 I en krets finns ett batteri på med spänningen $U = 15 \volt$. Den är parallellkopplad med resistorerna $R_1 = 20 \ohm$ respektive $R_2 = ? \ohm$ enligt bilden nedan.
 
 Den totala strömmen är $I _ {tot} = 1 \ampere$.
 
-
-BILD: ett batteri, två parallella R, döp de till R1 = 20 ohm och R2. Rita ut I = 1 A vid pluspolen, I1 vid, I2 vid R2 ooch I3 vid minuspolen (I3 = I men det är något jag vill leda de fram till därför har jag lite sneaky beteckning.) plus noden A i frögreningen framför R.
+![](ex_del_parallell.svg)
 
 **a) Beräkna delströmmarna $I_1$ och $I_2$.**
 

@@ -166,4 +166,20 @@ with schemdraw.Drawing(file=f"nod_forklaring3.svg", show=False) as d:
     e.Line().right(u/8)
     e.Line().down(.8*u)
 
+with schemdraw.Drawing(file=f"ex_del_parallell.svg", show=False) as d:
+    e.BatteryCell().left()
+    up_line = e.Line().up(u/2)
+    e.CurrentLabelInline(ofst=0, direction='out').at(up_line).label('$I_3$', loc='T')
+    d.push()
+    middle_resistor = e.Resistor().right().label('$R_2$')
+    d.pop()
+    e.Line().up(u/2)
+    e.Resistor().right().label('$R_1 = 20 Ω$')
+    down_line = e.Line().down()
+    e.CurrentLabelInline(ofst=-1, direction='out').at(down_line).label(r'$I_{tot} = 1$A', loc='B')
+    e.CurrentLabelInline(ofst=.5, direction='out').at(down_line).label('$I_1$', loc='B')
+    e.CurrentLabelInline(ofst=-1.1, direction='out').at(middle_resistor).label('$I_2$', loc='B')
+
+
+
 print(f"Done in {time()-start_time} s")
