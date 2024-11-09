@@ -265,100 +265,156 @@ $$ R _ {ers} = \frac{15}{8} \ohm = 1.875 \ohm $$
 </li>
 <li>
 
-Du vet att ersättningsresistansen $R _ {ers} = 15.78\ohm$ för de parallellkopplade resistorerna.
+Du vet att ersättningsresistansen $R _ {ers} = 50\ohm$ för de parallellkopplade resistorerna.
 
-Vad borde $R_2$ ha för värde om $R_1 = 75\ohm$
+Vad måste $R_2$ ha för värde om $R_1 = 100\ohm$
 
-![](007.png)
+![](r2_ers.svg)
 
 <details>
 <summary>Svar</summary>
 
 **SVAR:** 
 
-
+$R_2 = 100\ohm$
 
 ---
 
+Formeln för ersättningsresistans är samma som i föregående uppgift, men nu är det istället $R_2$ som är okänt.
 
+$$\frac{1}{50} = \frac{1}{100} + \frac{1}{R_2} \iff \frac{1}{50} - \frac{1}{100} = \frac{1}{R_2}$$
+
+$$\iff \frac{2}{100} - \frac{1}{100} = \frac{1}{R_2} \iff \frac{1}{100} = \frac{1}{R_2}$$
+
+invertera båda sidorna:
+
+$$R_2 = 100\ohm$$
+
+</details>
+
+</li>
+
+## Noder
+
+<li>
+
+Markera alla noder i kretsen. Varför är de noder?
+
+![](unika_noder.svg)
+
+<details>
+<summary>Svar</summary>
+
+**SVAR:** 
+
+![](unika_noder_svar.svg)
+
+---
+
+Dessa är de enda tre noderna i kretsen, eftersom det finns komponenter (spänningskällor eller resistorer) som skiljer dem åt.
 
 </details>
 
 </li>
 <li>
 
-Beräkna effekten i kretsen.
+Markera alla noder i kretsen. Varför är detta en kortslutning?
 
-![]()
+![](kortslut.svg)
 
 <details>
 <summary>Svar</summary>
 
 **SVAR:** 
 
-
+![](kortslut_svar.svg)
 
 ---
 
-
+Det finns bara en nod. Problemet är att noden både är kopplad med plus- och minuspol, det finns ingen komponent som stoppar upp potentialskillnaden och det kommer strömma jättemycket genom noden.
 
 </details>
 
 </li>
+
+## Kombinerade kretsar
+
 <li>
 
-Beräkna effekten i kretsen.
+Hitta ersättningsresistansen för resistornätet.
 
-![]()
+![](ers_resistornat.svg)
 
 <details>
 <summary>Svar</summary>
 
 **SVAR:** 
 
-
+$R _ {ers} = 70\ohm$
 
 ---
 
+Det kanske ser komplicerat ut, men lösningen är att börja med att ersätta resistanser på den minsta nivån möjligt och sen "jobba sig uppåt".
 
+Vi kan börja med att kombinera $R_1$ och $R_2$ till en resistans $R _ {12}$.
+
+$$ R _ {12} = R_1 + R_2 = 25\ohm + 75\ohm = 100\ohm $$
+
+Sen kan vi räkna ersättningsresistansen på $R _ {12}$ och $R_3$. Vi kan kalla den för $R _ {123}$.
+
+$$ \frac{1}{R _ {123}} = \frac{1}{R _ {12}} + \frac{1}{R_3} = \frac{1}{100} + \frac{1}{100} = \frac{2}{100} $$
+
+$$ R _ {123} = \frac{100}{2} = 50\ohm $$
+
+Sista steget blir att kombinera $R _ {123}$ och $R_4$ till den totala ersättningsresistans $R _ {ers}$.
+
+$$ R _ {ers} = R _ {123} + R_4 = 50\ohm + 20\ohm = 70\ohm $$
 
 </details>
 
 </li>
+
+## Strömförgrening
+
 <li>
 
-Beräkna effekten i kretsen.
+a) Vad är delströmmarna $I_1$ och $I_2$?
 
-![]()
+b) Vad är totala strömmen $I$?
+
+![](008.png)
 
 <details>
 <summary>Svar</summary>
 
 **SVAR:** 
 
-
-
----
-
-
-
-</details>
-
-</li>
-<li>
-
-Beräkna effekten i kretsen.
-
-![]()
-
-<details>
-<summary>Svar</summary>
-
-**SVAR:** 
-
-
+$I_1 = 2.3\ampere$, $I_2 = 4.6\ampere$, $I = 6.9\ampere$
 
 ---
+
+Applicera ohms lag ($I = \frac{U}{R}$) för varje gren. För den övre grenen blir strömmen $I_1$:
+
+$$I_1 = \frac{230\volt}{100\ohm} = 2.3\ampere$$
+
+För $I_2$:
+
+$$I_2 = \frac{230\volt}{50\ohm} = 4.6\ampere$$
+
+Då blir den totala strömmen $I$ summan av delströmmarna.
+
+$$I = I_1 + I_2 = 2.3\ampere + 4.6\ampere = 6.9\ampere$$
+
+<br>
+
+**ALTERNATIVT SÄTT ATT HITTA $I$**:
+
+Man kan också hitta ersättningsresistansen och sen använda ohms lag på den totala kretsen.
+
+$$R _ {ers} = \frac{100 \cdot 50}{100 + 50} \approx 33.33\ohm$$
+
+$$I = \frac{U}{R} \approx \frac{230\volt}{33.33\ohm} = 6.9\ampere$$
+
 
 
 

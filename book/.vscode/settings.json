@@ -3,6 +3,12 @@
         "admonish",
         "example",
         "question",
+        "resistornät",
+        "resistornätet",
+        "schemdraw",
         "underline"
+    ],
+    "cSpell.enableFiletypes": [
+        "!python"
     ]
 }
