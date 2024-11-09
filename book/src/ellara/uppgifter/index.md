@@ -643,6 +643,41 @@ $$I = \frac{U}{R} \approx \frac{230\volt}{33.33\ohm} = 6.9\ampere$$
 </details>
 
 </li>
+
+## Kirchhoffs lagar
+
+<li>
+
+a) Vad är delspänningen över varje resistor?  
+b) Vad är batteriets spänning?
+
+![](kirchhoff_delspann.svg)
+
+<details>
+<summary>Svar</summary>
+
+**SVAR:** 
+
+a) $U_1 = 6\volt$, $U_2 = 10\volt$  
+b) $U = 16 \volt$
+
+---
+
+a) Ohms lag applicerat på varje resistor ger
+
+$$U_1 = I \cdot R_1 = 0.2\ampere \cdot 30\ohm = 6\volt$$
+
+$$U_2 = I \cdot R_2 = 0.2\ampere \cdot 50\ohm = 10\volt$$
+
+b) **KVL:** Eftersom resistorerna är kopplade i serie har spänningen fördelats och summan av delspänningarna ska motsvara den totala spänningen:
+
+$$U = U_1 + U_2 = 6\volt + 10\volt = 16\volt$$
+
+
+
+</details>
+
+</li>
 <li>
 
 Beräkna effekten i kretsen.
@@ -663,6 +698,27 @@ Beräkna effekten i kretsen.
 </details>
 
 </li>
+<li>
+
+Beräkna effekten i kretsen.
+
+![]()
+
+<details>
+<summary>Svar</summary>
+
+**SVAR:** 
+
+
+
+---
+
+
+
+</details>
+
+</li>
+
 <li>
 
 Beräkna effekten i kretsen.

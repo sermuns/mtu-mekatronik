@@ -183,6 +183,14 @@ with schemdraw.Drawing(file=f"ers_resistornat.svg", show=False) as d:
     e.Line().down(u/2)
     e.Resistor().down(u/2).label("$R_4 = 20 Ω$", loc="B")
 
+with schemdraw.Drawing(file=f"kirchhoff_delspann.svg", show=False) as d:
+    e.BatteryCell().left(1.5*u)
+    e.Line().up(u/2)
+    e.Resistor().right(.75*u).label("$R_1 = 30 Ω$")
+    e.Resistor().right(.75*u).label("$R_2 = 50 Ω$")
+    down_line = e.Line().down(u/2)
+    e.CurrentLabelInline(
+        ofst=0, direction='out').at(down_line).label('$I=200$ mA', loc='B')
 
 
 print(f"Built {built} files")
