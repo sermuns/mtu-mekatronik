@@ -253,7 +253,7 @@ Om man fortsätter resonera kommer man fram till <u>Kirchhoffs strömlag</u>.
 
 ```admonish info title="Kirchhoffs strömlag"
 
-Den totala strömmen in i en nod i en krets är är lika med den totala strömmen som lämnar noden.
+Den totala strömmen in i en nod i en krets är lika med den totala strömmen som lämnar noden.
 ```
 
 ![](strom_punkt.svg)
@@ -295,9 +295,7 @@ I en seriekoppling vet vi att spänningen från spänningskällan delar sig öve
 ![](nod_forklaring.svg)
 
 
-Om vi potentialvandrar längs med en parallellkopplad krets från spänningskällans pluspol mot minuspolen ser vi att mellan punkt A3 och A2 finns ingen potentialskillnad. Detta vet vi för att det inte finns något motstånd eller någon spänningskälla mellan A3 och A2 så därför kan inte potentialen varken minska eller öka. Med exakt samma resonemang ser vi att potentialen inte ändras mellan A1 och A3. Ingen potentialskillnad betyder att alla dessa punkter tillhör samma **nod** 
-
-<!-- TODo [Länka till nodrubriken i tidigare avsnitt]. -->
+Om vi potentialvandrar längs med en parallellkopplad krets från spänningskällans pluspol mot minuspolen ser vi att mellan punkt A3 och A2 finns ingen potentialskillnad. Detta vet vi för att det inte finns något motstånd eller någon spänningskälla mellan A3 och A2 så därför kan inte potentialen varken minska eller öka. Med exakt samma resonemang ser vi att potentialen inte ändras mellan A1 och A3. Ingen potentialskillnad betyder att alla dessa punkter tillhör samma [nod](../potential-och-spanning#nod).
 
 Då kan vi markera förgreningen innan resistorerna som nod A.
 
@@ -393,9 +391,33 @@ Strömmen i kretsen påverkas inte, och batterierna håller längre.
 
 ### Voltmeter
 
+En voltmeter är ett mäteinstrument som mäter potentialskillnaden mellan två punkter. Man säger att den mäter *spänningen över* komponenterna. För att en voltmeter ska kunna avgöra spänningen över en eller flera komponenter måste den kopplas parallellt med dessa. 
+
+Vi vet ju att strömmen delar på sig när den har chansen men hur mycket ström som tar vilken väg beror på hur stor resistanserna är på de olika vägarna/grenarna. Voltmetern har en VÄLDIGT stor inre resistans för att inte påverka kretsen när den kopplas in.
 
 
+### <u>Sammanfattning:</u>
+- Parallellkoppling är när komponenter kopplas "över" varandra så att strömmen har flera vägar att välja. När strömmen delar på sig skapas så kallade delströmmar. 
 
+- Hur stort motståndet är på de olika vägarna avgör hur stor andel av strömmen som kommer att flöda därigenom. Grenen med lägre resistans kommer ha en större andel ström.
+
+- Finns flera resistorer kopplade parallellt kan alla resistorer ersättas med en enda resistans, *ersättningsresistansen*. Formeln ser annorlunda ut i parallellkopplingar än i seriekopplingar. 
+
+<!-- todo: länka ordet f"formeln" ovan till formeln för parallella ersättningsres. -->
+
+- Efter att ersättningsresistansen har beräknats kan vi rita ett nytt kretschema där hela kretsen är seriekopplad. Därefter kan vi räkna precis som för seriekopplade kretsar. 
+
+- Kirchhoffs strömlag: Den totala strömmen in i en nd i en krets är lika med den totala strömmen som lämnar noden.
+
+- Spänningen är densamma över alla parallellt kopplade grenar. 
+
+- Bra att rita noder i förgreningar.
+
+- Parallellt kopplade spänningskällor förändrar inte den totala strömmen i  kretsen. Däremot håller batterierna längre. 
+
+- Om vi potentialvandrar i strömmens riktning ökar potentialen med spänningskällors spänning och minskar med spänningen över resistorerna.
+
+- En voltmeter ska kopplas parallellt med komponenterna som den ska mäta spänningen över.
 
 
 
