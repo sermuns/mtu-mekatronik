@@ -33,7 +33,7 @@
       - [Seriekoppling](ellara/serie-och-parallellkoppling/seriekoppling/index.md)
       - [Parallellkoppling](ellara/serie-och-parallellkoppling/parallellkoppling/index.md)
       - [Kombinerade nät](ellara/serie-och-parallellkoppling/kombinerade-nat/index.md)
-    - [Effekt]()
+    - [Effekt](ellara/effekt/index.md)
     - [✏️ ️Uppgifter](ellara/uppgifter/index.md)
 - [Mekanik]()
   - [Krafter]()
