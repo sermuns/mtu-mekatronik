@@ -1,6 +1,7 @@
 services:
   mdbook:
-    image: ghcr.io/sermuns/mtu:latest
+#   image: ghcr.io/sermuns/mtu:latest
+    build: .
     user: 1000:1000
     restart: unless-stopped
     ports:
@@ -13,12 +14,3 @@ services:
     entrypoint: "mdbook"
     command: "serve --hostname 0.0.0.0"
     stop_signal: SIGKILL
-
-# mtu-pandoc:
-#   image: ghcr.io/sermuns/styrelsemote-lysator:latest
-#   network_mode: none
-#   volumes:
-#     - ./pandoc:/pandoc
-#   working_dir: /pandoc
-#   entrypoint: build -w -i src -o build -t templates/template.typ -m templates/metadata.yaml -e typst
-#   stop_signal: SIGKILL
