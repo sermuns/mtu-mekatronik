@@ -668,12 +668,83 @@ $$R _ {ers} = \frac{100 \cdot 50}{100 + 50} \approx 33.33\ohm$$
 
 $$I = \frac{U}{R} \approx \frac{230\volt}{33.33\ohm} = 6.9\ampere$$
 
+</details>
 
+</li>
+
+<li>
+
+Beräkna hur stor spänningskällan $U$ borde vara, totala strömmen $I$ och delströmmen $I_2$ om du vet att $I_1=2.3\ampere$.
+
+![](010.png)
+
+<details>
+<summary>Svar</summary>
+
+**SVAR:** 
+
+$U=2300\volt$, $I=11.5\ampere$, $I_2=9.2\ampere$
+
+---
+
+Vi börjar att applicera ohms lag på den övre grenen. $$U = 1\kilo\ohm \cdot 2.3\ampere = 2300\volt$$
+
+Det är samma spänning i alla grenar i en parallellkoppling, vilket betyder att denna spänning är lika med spänningskällan.
+
+Nu kan vi lista ut delströmmen $I_2$:
+
+$$I_2 = \frac{2300\volt}{250\ohm} = 9.2\ampere$$
+
+Och till sist, den totala strömmen är summan av delströmmarna:
+
+$$I = 2.3\ampere + 9.2\ampere = 11.5\ampere$$
 
 
 </details>
 
 </li>
+
+<li>
+
+Beräkna totala strömmen I, spänningarna U1 och U3, samt delströmmarna I1 och I2.
+
+![](012.png)
+
+<details>
+<summary>Svar</summary>
+
+**SVAR:** 
+
+$I \approx 0.21 \ampere$, $U_3 \approx 210 \volt$, $U_1 \approx 21 \volt$, $I_1 = I_2 = I/2 \approx 0.10 \ampere$.
+
+---
+
+Det kan vara svårt att välja hur man ska börja med uppgiften. En idé är att börja med att hitta den totala strömmen $I$. Då kan det vara bra att hitta den totala ersättningsresistansen.
+
+Vi börjar med att kombinera de två parallellkopplade resistorerna på $200\ohm$. Vi kan kalla dem för $R_1$ och $R_2$.
+
+$$ \frac 1 R _ {12} = \frac 1 {R_1} + \frac 1 {R_2} = \frac 1 {200} + \frac 1 {200} = \frac 2 {200} $$
+
+$$ R _ {12} = \frac {200} 2 = 100\ohm $$
+
+Nu, den totala ersättningsresistansen $R$.
+
+$$ R = 1000\ohm + R _ {12} = 1000\ohm + 100\ohm = 1100\ohm $$
+
+Nu kan vi applicera ohms lag på hela kretsen för att hitta strömmen $I$:
+
+$$I=\frac{U}{R}=\frac{230\volt}{1100\ohm} \approx 0.21\ampere$$
+
+Eftersom grenarna i parallellkopplingen har lika stor resistans kommer strömmen dela upp sig jämnt, så $I_1 = I_2$ och $I=I_1+I_2$.
+
+Då är $I_1$ och $I_2$:
+$$I_1 = I_2 = \frac{I}{2} = \frac{0.21\ampere}{2} \approx 0.10\ampere$$
+
+</details>
+
+</li>
+
+
 
 ## Kirchhoffs lagar
 

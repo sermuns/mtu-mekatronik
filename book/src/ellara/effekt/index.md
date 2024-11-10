@@ -95,7 +95,7 @@ b) Ohms lag ger
 
 $$U = RI$$
 
-Eftersom batteriet fortfarande är densamma vet vi att den nya spänningen är densmamma som den gamla spänningen. Vilket ger oss:
+Eftersom batteriet fortfarande är densamma vet vi att den nya spänningen är densamma som den gamla spänningen. Vilket ger oss:
 
 $$U = R _ {gammal} \cdot I _ {gammal} =12 \cdot 0.5 = 6 \volt$$
 
@@ -114,7 +114,6 @@ Nu när vi har både $R _ {ny}$ och $I _ {ny}$ kan vi också beräkna $P _ {ny}$
 $$ P _ {ny} = R _ {ny}I _ {ny}^2 = 6 \cdot 1^2 = \underline{6\watt}$$
 ```
 
-<!-- todo Nämn något om värme -->
 ## Värmeenergi
 
 I princip all effekt som utvecklas i en resistor omvandlas till värmeenergi. Det är
