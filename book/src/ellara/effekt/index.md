@@ -79,22 +79,24 @@ b) Resistorn byts ut mot en annan resistor som har resistansen $R=6\ohm$. Beräk
 
 Lösning:  
 a) $$P = RI^2 = 12 \cdot 0.5^2 = \underline{3\watt}$$
-
+ 
 b) Ohms lag ger 
 
 $$U = RI$$
 
 Eftersom batteriet fortfarande är densamma vet vi att den nya spänningen är densmamma som den gamla spänningen. Vilket ger oss:
 
-$$U = R _ {gammal} \cdot I _ {gammal} = R _ {ny} \cdot I _ {ny}$$
+$$U = R _ {gammal} \cdot I _ {gammal} =12 \cdot 0.5 = 6 \volt$$
 
-Vi vet också att den nya resistorn har hälften så stor resistans som den gamla så vi får
+$$U = R _ {ny} \cdot I _ {ny} = 6\volt$$
 
-$$R _ {gammal} \cdot I _ {gammal} = 0.5R _ {gammal} \cdot I _ {ny}$$
+Vi vet också att den nya resistorn har hälften så stor resistans som den gamla ($R _ {ny} = 12/2 = 6\ohm$) så vi får
+
+$$U = 6 = 6 \cdot I _ {ny}$$
 
 Vi kan nu lösa ut $I _ {ny}$.
 
-$$ I _ {ny} = 2 I _ {gammal} = 2 \cdot 0.5 = \underline{1 \ampere}$$
+$$ I _ {ny} = 6/6 = \underline{1 \ampere}$$
 
 Nu när vi har både $R _ {ny}$ och $I _ {ny}$ kan vi också beräkna $P _ {ny}$.
 
