@@ -213,13 +213,13 @@ c) $I_3 = 1 \ampere$.
 ```
 
 ### Parallella spänningskällor
-I seriekopplade kretsar har vi stött på flera spänningskällor. Då har vi bara kunnat addera spänningarna och fått den totala spänningen i kretsen. Vid parallellt kopplade spänningkällor är inte matten lika lätt, så vi kommer inte att räkna på det.
+I seriekopplade kretsar har vi stött på flera spänningskällor. Då har vi bara kunnat addera spänningarna och fått den totala spänningen i kretsen. Vid parallellt kopplade spänningskällor är inte matten lika lätt, så vi kommer inte att räkna på det.
 
 Något som är bra ifall ni känner till är dock vad seriekopplade respektive parallellt kopplade spänningskällor har för påverkan på kretsen. 
 
 Har vi en krets med ett batteri och en resistans så har vi en ström som kan beräknas $$I = U/R$$ Om vi kopplar in ett lika stort batteri <u>i serie</u> i kretsen kommer den nya spänningen att vara $$U _ {tot} = U + U = 2U$$ Då blir den nya strömmen genom kretsen $$I _ {ny} = U _ {tot}/R = 2U / R = 2I$$
 
-Strömmen genom kretsen blir alltså dubbelt så stor efter att det andra batteriet koppls in.
+Strömmen genom kretsen blir alltså dubbelt så stor efter att det andra batteriet kopplas in.
 
 Detta är inte fallet vid parallellkoppling. Ifall vi har en krets med ett batteri och en resistor får vi en ström $I$ i kretsen. Om vi då kopplar in ett till lika stort batteri <u>parallellt</u> i kretsen har vi ingen förändring i strömmen. 
 
@@ -238,7 +238,7 @@ Strömmen i kretsen påverkas inte, och batterierna håller längre.
 
 ### Voltmeter
 
-En voltmeter är ett mäteinstrument som mäter potentialskillnaden mellan två punkter. Man säger att den mäter *spänningen över* komponenterna. För att en voltmeter ska kunna avgöra spänningen över en eller flera komponenter måste den kopplas parallellt med dessa. 
+En voltmeter är ett mätinstrument som mäter potentialskillnaden mellan två punkter. Man säger att den mäter *spänningen över* komponenterna. För att en voltmeter ska kunna avgöra spänningen över en eller flera komponenter måste den kopplas parallellt med dessa. 
 
 Vi vet ju att strömmen delar på sig när den har chansen men hur mycket ström som tar vilken väg beror på hur stor resistanserna är på de olika vägarna/grenarna. Voltmetern har en VÄLDIGT stor inre resistans för att inte påverka kretsen när den kopplas in.
 
@@ -248,11 +248,9 @@ Vi vet ju att strömmen delar på sig när den har chansen men hur mycket ström
 
 - Hur stort motståndet är på de olika vägarna avgör hur stor andel av strömmen som kommer att flöda därigenom. Grenen med lägre resistans kommer ha en större andel ström.
 
-- Finns flera resistorer kopplade parallellt kan alla resistorer ersättas med en enda resistans, *ersättningsresistansen*. Formeln ser annorlunda ut i parallellkopplingar än i seriekopplingar. 
+- Finns flera resistorer kopplade parallellt kan alla resistorer ersättas med en enda resistans, *ersättningsresistansen*. [Formeln](#ersättningsresistans) ser annorlunda ut i parallellkopplingar än i seriekopplingar. 
 
-<!-- todo: länka ordet f"formeln" ovan till formeln för parallella ersättningsres. -->
-
-- Efter att ersättningsresistansen har beräknats kan vi rita ett nytt kretschema där hela kretsen är seriekopplad. Därefter kan vi räkna precis som för seriekopplade kretsar. 
+- Efter att ersättningsresistansen har beräknats kan vi rita ett nytt kretsschema där hela kretsen är seriekopplad. Därefter kan vi räkna precis som för seriekopplade kretsar. 
 
 - Kirchhoffs strömlag: Den totala strömmen in i en nod i en krets är lika med den totala strömmen som lämnar noden.
 
