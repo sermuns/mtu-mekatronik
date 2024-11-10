@@ -107,3 +107,4 @@ $$ P _ {ny} = R _ {ny}I _ {ny}^2 = 6 \cdot 1^2 = \underline{6\watt}$$
 ```
 
 <!-- todo Nämn något om värme -->
+
