@@ -16,7 +16,7 @@ p>img{
 
 # Kretsschema
 
-För att förklara vad man vill bygga är det smidigt att rita upp kretser i ett <u>kretsschema</u>.
+För att förklara vad man vill bygga är det smidigt att rita upp kretsar i ett <u>kretsschema</u>.
 
 <img src="kretsschema.svg"></img>
 *En enkel krets med en spänningskälla och en resistor*

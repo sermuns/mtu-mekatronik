@@ -10,7 +10,7 @@ Finns flera laddningar relativt nära varandra kan de ge upphov till två olika 
 
 ## Potential
 
-När det finns en kraft som verkar på ett förmål måste energi tillföras för att förflytta föremålet motsatt kraftens riktning. Exempelvis är graviationskraften en kraft som verkar *neråt*. Det krävs alltså energi att förflytta föremål *uppåt*. Detta är anledningen till varför det är jobbigt att gå uppför en backe eller varför hissar kräver el. 
+När det finns en kraft som verkar på ett föremål måste energi tillföras för att förflytta föremålet motsatt kraftens riktning. Exempelvis är gravitationskraften en kraft som verkar *neråt*. Det krävs alltså energi att förflytta föremål *uppåt*. Detta är anledningen till varför det är jobbigt att gå uppför en backe eller varför hissar kräver el. 
 
 ```admonish info title="En inofficiell definition"
 Potential är (typ) ett mått på hur mycket energi ett föremål har lagrat i sig på grund av den har förflyttats i motsatt en krafts riktning. När ett föremål rör sig i kraftens riktning minskar dess potential.  
@@ -24,7 +24,7 @@ Potential mäts i enheten volt, $\volt$.
 
 Elektrisk potential har att göra med de elektriska laddningarna. Vi har lärt oss att partiklars olika laddningar ger upphov till krafter som antingen attraherar eller repellerar partiklarna från varandra.
 
-> Om vi tänker oss att vi har två partiklar som <u>attraherar</u> varandra och ena partikeln sitter fast i väggen mean den andra partikeln är fri i luften. Vi kan tänka oss att den fria partikeln är på ett avstånd som ger den potentialen 5 $\volt$. När den dras närmare väggen minskar dess potential och vid väggen kan vi säga att potentialen är 0 $\volt$.
+> Om vi tänker oss att vi har två partiklar som <u>attraherar</u> varandra och ena partikeln sitter fast i väggen medan den andra partikeln är fri i luften. Vi kan tänka oss att den fria partikeln är på ett avstånd som ger den potentialen 5 $\volt$. När den dras närmare väggen minskar dess potential och vid väggen kan vi säga att potentialen är 0 $\volt$.
 > 
 > ![potential mellan partiklar](partiklar_potential_5v.svg)
 > *Partiklarna "vill" mot varandra. När de hålls isär finns det potentiell energi.*
@@ -80,7 +80,7 @@ Ett sätt att förstå elektrisk spänning är att likna den till *skillnad i va
 *Vattnet flödar (ström) på grund av nivåskillnad (spänning), men begränsas av rörets flaskhals (resistans).*
 
 ### Spänningskällor
-En spänningskälla är någonting som skapar en spänning, alltså en imbalans av potential. Ett exempel är batterier, som skapar spänning genom kemiska processer. Andra exempel på spänningskällor är vägguttag. Spänningen i vägguttag är däremot växelspänning, vilket vi inte kommer att räkna på i kursen.
+En spänningskälla är någonting som skapar en spänning, alltså en obalans av potential. Ett exempel är batterier, som skapar spänning genom kemiska processer. Andra exempel på spänningskällor är vägguttag. Spänningen i vägguttag är däremot växelspänning, vilket vi inte kommer att räkna på i kursen.
 
 ### Voltmeter
 Utrustning som kan mäta spänning kallas för <u>voltmeter</u>.

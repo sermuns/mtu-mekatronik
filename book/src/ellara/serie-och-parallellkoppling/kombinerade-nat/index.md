@@ -1,13 +1,17 @@
 # Kombinerade kretsar
-Vi lärde oss från tidigare avsnitt att om komponenter är kopplade i serie är strömmen igenom de densamma, medan spänningen fördelar sig över dem i delspänningar enligt Kirchhoffs spänningslag. För komponenter som är kopplade parallellt delar sig strömmen i delströmmar enligt Kirchhoffs strömlag, medan spänningen är samma över de parallella grenarna.
+Från tidigare avsnitt har vi lärt oss komponenter kopplade i serie har samma ström genom sig, medan spänningen fördelar sig över dem i delspänningar enligt KVL (Kirchhoffs spänningslag).
 
-Kretsar i verkligheten är ofta lite mer komplicerade än att alla komponenter är kopplade i serie eller att alla komponenter är kopplade parallellt. I kretsen nedan syns det att $R_1$ och $R_2$ är kopplade parallellt med varandra. Den parallellkopplingen är dock kopplad i serie med $R_3$ och spänningskällan.
+För komponenter som är kopplade parallellt är det istället strömmen som delar sig i delströmmar enligt KCL (Kirchhoffs strömlag) medan spänningen är samma över de parallella grenarna.
+
+Kretsar i verkligheten är ofta lite mer komplicerade än att alla komponenter är kopplade i serie eller att alla komponenter är kopplade parallellt.
+
+I kretsen är $R_1$ och $R_2$ kopplade parallellt med varandra, och den parallellkopplingen är sen kopplad i serie med $R_3$.
 
 ![](kom-krets.svg)
 
-Ohms lag gäller även här, det gäller bara att hålla koll på vilken ström och vilken spänning som finns på de olika delarna i kretsen.
+Ohms lag gäller även här, men det är viktigt att hålla koll på vilken ström och vilken spänning man pratar om när man delar upp kretsen i mindre delar.
 
-Tar vi kretsen ovan som exempel vet vi att spänningskällan har spänningen U. Enligt Kirchhoffs spänningslag måste den spänningen fördelas över alla komponenterna i serie. 
+Tar vi kretsen ovan som exempel vet vi att spänningskällan har spänningen $U$. Enligt KVL måste den spänningen fördelas över alla komponenterna i serie. 
 
 ```admonish example title="Exempel: Kombinerad krets"
 
@@ -23,7 +27,7 @@ I kretsen nedan har batteriet spänningen $U = 20 \volt$, och resistorerna är $
 
 Lösning
 
-**a)** Vi kan lösa ut den totala strömmen ur Ohms lag. Det vi behöver då är den totala spänningen från spänningskällorna och den totala resistansen. 
+**a)** Vi kan lösa ut den totala strömmen med Ohms lag. Det vi behöver då är den totala spänningen från spänningskällorna och den totala resistansen. 
 
 $R_1$ och $R_2$ är kopplade parallellt och kan ersättas med resistansen som vi kallar för $R _ {12}$. 
 
@@ -51,7 +55,7 @@ Anledningen till att vi använder $I _ {tot}$ är för att det är den strömmen
 
 $$U_3 = 20 \cdot 0.25 = \underline{5\volt}$$
 
-Om vi potentialvandrar från batteriets pluspol mot minuspolen och går igenom $R_1$ ser vi att finns en potentialskillnad över den resistorn. Den delspänningen har vi kallat för $U_1$. Fortsätter vi att vandra stöter vi också på $U_3$. Därefter ör vi framme vid minuspolen.
+Om vi potentialvandrar från batteriets pluspol mot minuspolen och går igenom $R_1$ ser vi att finns en potentialskillnad över den resistorn. Den delspänningen har vi kallat för $U_1$. Fortsätter vi att vandra stöter vi också på $U_3$. Därefter är vi framme vid minuspolen.
 
 Kirchhoffs spänningslag säger att alla spänningar i en krets efter ett helt varv ska vara noll. Detta ger
 
@@ -60,9 +64,9 @@ $$U_1 = U _ {tot} - U_3 = 20 - 5 = \underline{15\volt}$$
 
 Vi vet att vid parallellkoppling är spänningen över de olika grenarna samma. Vi vet alltså att $U_1 = U_2 = \underline{15 \volt}$.
 
-**c)** Vi söker nu alla delspänningar. Dessa är $I_1$ som går igenom $R_1$ och $I_2$ som går igenom $R_2$.
+**c)** Vi söker nu alla delströmmar. Det finns $I_1$ som går igenom $R_1$ och $I_2$ som går igenom $R_2$.
 
-I $R_1$ finns resistansen $R_1 = 100\ohm$, spänningen över är $U_1 = 15 \volt$ och strömmen igenom är $I_1 = ?$.
+I grenen med $R_1$ är resistansen $100\ohm$, spänningen över är $U_1 = 15 \volt$ och strömmen igenom är $I_1 = ?$.
 
 Med Ohms lag får vi:
 
@@ -77,9 +81,10 @@ $$I_2 = U_2 / R_2 = 15 / 150 = \underline{0.1\ampere}$$
 Har man koll på hur man räknar på parallella och seriella kopplingar är inte kombinerade kretsar mycket svårare.
 
 ## Ersättningsresistans
-I tidigare kapitel har vi kunnat kalla ersättningsresistansen för $R _ {ersättning}$. I kombinerade kretsar vill vi ibland ha flera ersättningsresistanser. Därför är det bra ifall vi istället namnger ersättningsresistanserna efter de resistorer som vi har ersatt. Har Vi exempelvis $R_1$ och $R_2$ ersätter vi dem med $R _ {12}$.
 
-För att det ska gå lätt att ersätta resistorerna kan ni försöka tänka på vissa saker:
+I tidigare kapitel har vi kunnat kalla den totala ersättningsresistansen för $R _ {ersättning}$. I kombinerade kretsar behöver man dock ofta ersätta resistanser i flera steg. Det är då bättre att namnge den nya ersättningsresistansen efter de resistorer som har ersatts. Exempelvis kan ersättningsresistansen för $R_1$ och $R_2$ kallas för $R _ {12}$.
+
+Här är en generell steg-för-steg metod i att ersätta ett komplicerat resistornät:
 1. Ersätt resistorerna som är kopplade i serie på samma gren.
 2. Ersätt de parallella kopplingarna.
 3. Ersätt resterande seriekoppling.

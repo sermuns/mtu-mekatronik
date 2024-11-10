@@ -6,9 +6,9 @@ En ström är en strömning av partiklar som uppstår för att någon typ av kra
 På liknande sätt finns elektrisk strömning som uppstår på grund av en potentialskillnad, med andra ord: en spänning, som verkar på de elektriska partiklarna. Ifall det senare i kapitlet bara står "ström" eller "el" menas elektrisk ström. 
 
 ```admonish info title="Storhet och enhet"
-Den elektriska strömen betecknas $I$ och har enheten  ampere, $\ampere$.
+Den elektriska strömmen betecknas $I$ och har enheten  ampere, $\ampere$.
 
-Strömmen kan mätas med en så kallad *amperemeter*. Det är vanligt att ha ett gemensamt mätinstrument som kan mäta både spänning och ström. Detta intrument kallas *multimeter*.
+Strömmen kan mätas med en så kallad *amperemeter*. Det är vanligt att ha ett gemensamt mätinstrument som kan mäta både spänning och ström. Detta instrument kallas *multimeter*.
 ```
 
 En elektrisk ström innebär att negativa elektriska partiklar (elektroner och negativa joner) förflyttas. Så om partiklarna inte har en väg som de kan förflyttas längs med kan ingen ström uppstå.
@@ -23,7 +23,7 @@ En elektrisk ström innebär att negativa elektriska partiklar (elektroner och n
 ## Ledare, halvledare och isolatorer
 Vad finns det för olika typer av "vägar"? I en krets används oftast sladdar som består av någon metall inuti och har ett gummihölje runt. Metaller leder ström väldigt bra på grund av deras kemiska struktur. Ämnen som har den egenskapen kallas för **ledare**. 
 
-Gummihöljet finns av säkerhetskäl och för att minimera risken för kortslutning. Gummi är ett material som används eftersom den leder ström väldigt dåligt. Sådana ämnen kallas för **isolatorer**. 
+Gummihöljet finns av säkerhetsskäl och för att minimera risken för kortslutning. Gummi är ett material som används eftersom den leder ström väldigt dåligt. Sådana ämnen kallas för **isolatorer**. 
 
 Utöver ledare och isolatorer finns kategorin **halvledare**, som varken är speciellt bra eller dåliga ledare. Halvledare kännetecknas av att ledningsförmågan varierar med omständigheterna. I vanliga fall är ledningsförmågan relativt dålig, men när energi tillförs i form av värme eller ljus förbättras ledningen.
 
@@ -36,7 +36,7 @@ Den kemiska strukturen är den som avgör hur bra ett ämne leder ström. Metall
 Elektriskt motstånd har också ett fysikaliskt namn, vilket är **resistans**. Hur bra ledare något är kan också beskrivas med en fysikalisk storhet, *resistivitet*. Resistansen som strömmen måste överkomma i en ledare beror direkt på ämnets resistivitet. Bra ledare har låg resistivitet och isolatorer har hög. 
 
 ```admonish info title="Storhet och enhet"
-Resistans beteckans $R$ och har enheten ohm $\ohm$.
+Resistans betecknas $R$ och har enheten ohm $\ohm$.
 ```
 
 Ett materials ledningsförmåga har att göra med den *inre* resistansen hos materialet. Utöver den finns det elektroniska komponenter vars uppgift är att skapa resistans i en krets. Dessa kallas **resistorer**. 
