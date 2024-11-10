@@ -1,16 +1,14 @@
 # Effekt
 
-Effekt är ett begrepp man ofta hör i samband med olika apparater. Exempelvis drar ett helt vanligt hårfön runt 2200 watt. Ni kanske har någon vag uppfattning om att mer effekt har något att göra med mer energi och det stämmer, på sätt och vis. Låt oss ta det från början.
-
-
+Effekt är ett begrepp man ofta hör i samband med olika apparater. Exempelvis kan en hårfön dra runt 2200 watt. Ni kanske har någon vag uppfattning om att mer effekt har något att göra med mer energi och det stämmer, på sätt och vis. Låt oss ta det från början.
 
 ```admonish info title="Storhet och enhet"
 
-Effekten betecknas $P$ och har enheten watt, $\watt$.
+Effekt betecknas $P$ och har enheten watt, $\watt$.
 
 ```
 
-I elektriska kretsar kopplar man någon apparat, kan vara en brödrost, högtalare eller en glödlampa till en spänning för att något ska hända. Detta ger upphov till att energi omvandlas från elektrisk energi till någon annan energiform. Detta kan vara värme i brödrosten, ljud i högtalaren eller ljus i glödlampan. På något sätt omvandlas en mängd energi under en viss tid. Effekten är den storheten som beskriver hur mycket energi per tidsenhet som omvandlas. 
+I elektriska kretsar kopplar man någon apparat, kan vara en brödrost, högtalare eller en glödlampa till en spänning för att något ska hända. Då omvandlas den elektriska energin till annan energiform. Det kan vara värme i brödrosten, ljud i högtalaren eller ljus i glödlampan. På något sätt omvandlas en mängd energi under en viss tid. Effekten är den storheten som beskriver hur mycket energi per tidsenhet som omvandlas. 
 
 ```admonish info title="Definition"
 
@@ -18,18 +16,15 @@ Effekt definieras som energi per tidsenhet.
 
 ```
 
-
+Effekt är med andra ord, hur fort flödar energin?
 
 ```admonish question title="Vad betyder det egentligen att en apparat drar en viss effekt?"
 
-```
-
-
-```admonish question title="Varför jobbar vi med effekt, är inte det som spelar roll hur mycket energi något drar?"
+Om en mikrovågsugn har effekten 800 watt, betyder det oftast att **maxeffekten** är 800 watt. Tillverkarna kanske kan garantera att den drar MINDRE än det, men inte exakt hur mycket den drar under drift.
 
 ```
 
-När vi pratar om elektrisk effekt jobbar vi såklart med elektrisk energi på en viss tid. Från andra fysikaliska formler kan vi komma fram till sånt som vi ska använda i kursen. Effekten har en ekvation som kan skriva om med Ohms lag:
+När vi pratar om effekt i ellära, jobbar vi med elektrisk energi på en viss tid. Effekt har en formel $P=UI$, och man kan skriva om den på två till sätt med hjälp av ohms lag.
 
 ```admonish info title="Formler för effekt"
 
@@ -39,11 +34,19 @@ $$P = U^2/R$$
 
 ```
 
-Ifall vi har en sluten krets som vi kopplar in en lampa till kommer strömmen att flyta igenom lampan och den kommer börja lysa. Hur mycket lampan lyser beror på effekten.
+Ifall vi har en sluten krets som vi kopplar in en lampa till kommer strömmen att flyta igenom lampan och den kommer börja lysa. Vad beror det på hur starkt lampan lyser? Är det spänningen? Strömmen? Effekten?
 
-```admonish example title=""
+```admonish example title="Lampstyrka"
 
-I lampa 1 utvecklas effekten P1 och i lampa 2 utvecklas dubbelt så mycket effekt P2 = 2*P1. Då kommer lampa nummer 2 att lysa dubbel så starkt som lampa nummer 1.
+![](lampstyrka.svg)
+
+Om vi ökar resistansen, kommer lampan lysa starkare eller svagare?
+
+Lampan kommer lysa svagare.
+
+Vad är det som ändras när man justerar resistansen? Strömmen minskar, och delspänningen över resistorn ökar, alltså blir det mindre delspänning över lampan. 
+
+Så lampans styrka beror både på strömmen och spänningen. Då passar det bra med effekt $P=UI$, vilket också beror på spänning och ström.
 
 ```
 
