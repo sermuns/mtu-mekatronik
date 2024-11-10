@@ -20,9 +20,17 @@ Effekt är med andra ord, hur fort flödar energin?
 
 ```admonish question title="Vad betyder det egentligen att en apparat drar en viss effekt?"
 
-Om en mikrovågsugn har effekten 800 watt, betyder det oftast att **maxeffekten** är 800 watt. Tillverkarna kanske kan garantera att den drar MINDRE än det, men inte exakt hur mycket den drar under drift.
+Om en vattenkokare har effekten 1000 watt, betyder det oftast att **maxeffekten** är 1000 watt. Tillverkarna kanske kan garantera att den drar MINDRE än det, men inte exakt hur mycket den drar under drift.
+
+Sen är frågan, om vi har två vattenkokare, en på 1000 W och en på 2000 W. Vilken är bäst?
+
+![](vattenkokare.png)
+
+Om målet är att koka upp vatten på kortast tid, ska vi välja den med högst effekt, eftersom effekt är ett mått på hur snabbt energi överförs. Vi vill att elektrisk energi ska omvandlas till värmeenergi så snabbt som möjligt!
 
 ```
+
+## Formel för effekt
 
 När vi pratar om effekt i ellära, jobbar vi med elektrisk energi på en viss tid. Effekt har en formel $P=UI$, och man kan skriva om den på två till sätt med hjälp av ohms lag.
 
@@ -107,4 +115,34 @@ $$ P _ {ny} = R _ {ny}I _ {ny}^2 = 6 \cdot 1^2 = \underline{6\watt}$$
 ```
 
 <!-- todo Nämn något om värme -->
+## Värmeenergi
 
+I princip all effekt som utvecklas i en resistor omvandlas till värmeenergi. Det är
+därför som en resistor blir varm när ström flyter igenom den. 
+
+```admonish example title="Värmeenergi"
+
+Vi har en resistor på $R=10\ohm$ och en spänningskälla $U=20\volt$. Det betyder att strömmen måste vara $I=2\ampere$.
+
+![](ex_varmeenergi.svg)
+
+**a)** Bestäm effekten som utvecklas i resistorn. 
+
+**b)** Hade resistorn blivit varmare eller kallare om resistansen hade varit $R=20\ohm$?
+
+<br>
+
+Lösning:
+
+**a)**
+$$P = RI^2 = 10 \cdot 2^2 = 40\watt$$
+
+**b)** Om resistansen hade varit $R=20\ohm$ hade strömmen sjunkit. Det nya strömmen blir
+$$ I = U/R = 20/20 = 1\ampere$$
+
+Då blir den nya effekten:
+$$ P = RI^2 = 20 \cdot 1^2 = 20\watt$$
+
+Alltså hade resistorn blivit kallare!
+
+```

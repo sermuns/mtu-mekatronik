@@ -229,6 +229,111 @@ $$ R _ {ers} = \frac{U}{I} = \frac{5\volt}{150\milli\ampere} \approx 33.3\ohm $$
 </details>
 
 </li>
+<li>
+
+Vad är ersättningsresistansen $R _ {ers}$ för parallellkopplingen om...
+
+a) $R_1 = 75\ohm$, $R_2 = 100\ohm$
+
+b) $R_1 = 100\ohm$, $R_2 = 100\ohm$
+
+c) $R_1 = 3\ohm$, $R_2 = 5\ohm$
+
+
+![](parallell.svg)
+
+<details>
+<summary>Svar</summary>
+
+**SVAR:** 
+
+a) $R _ {ers} = 300/7 \ohm \approx 42.86\ohm$
+
+b) $R _ {ers} = 50\ohm$
+
+c) $R _ {ers} = 15/8 \ohm = 1.875 \ohm$
+
+---
+
+Formeln för att räkna ut ersättningsresistans är:
+$$ \frac{1}{R _ {ers}} = \frac{1}{R_1} + \frac{1}{R_2} + ... $$
+
+a) 
+$$ \frac{1}{R _ {ers}} = \frac{1}{75} + \frac{1}{100} = \frac{4}{300} + \frac{3}{300} = \frac{7}{300} $$
+$$ R _ {ers} = \frac{300}{7} \ohm \approx 42.86\ohm $$
+
+b) 
+$$ \frac{1}{R _ {ers}} = \frac{1}{100} + \frac{1}{100} = \frac{2}{100} = \frac{1}{50} $$
+$$ R _ {ers} = 50\ohm $$
+
+c)
+$$ \frac{1}{R _ {ers}} = \frac{1}{3} + \frac{1}{5} = \frac{5}{15} + \frac{3}{15} = \frac{8}{15} $$
+$$ R _ {ers} = \frac{15}{8} \ohm = 1.875 \ohm $$
+
+</details>
+
+</li>
+
+<li>
+
+Du vet att ersättningsresistansen $R _ {ers} = 50\ohm$ för de parallellkopplade resistorerna.
+
+Vad måste $R_2$ ha för värde om $R_1 = 100\ohm$
+
+![](r2_ers.svg)
+
+<details>
+<summary>Svar</summary>
+
+**SVAR:** 
+
+$R_2 = 100\ohm$
+
+---
+
+Formeln för ersättningsresistans är samma som i föregående uppgift, men nu är det istället $R_2$ som är okänt.
+
+$$\frac{1}{50} = \frac{1}{100} + \frac{1}{R_2} \iff \frac{1}{50} - \frac{1}{100} = \frac{1}{R_2}$$
+
+$$\iff \frac{2}{100} - \frac{1}{100} = \frac{1}{R_2} \iff \frac{1}{100} = \frac{1}{R_2}$$
+
+invertera båda sidorna:
+
+$$R_2 = 100\ohm$$
+
+</details>
+
+</li>
+
+<li>
+
+Vad är ersättningsresistansen för kretsen?
+
+![](ers_tre.svg)
+
+<details>
+<summary>Svar</summary>
+
+**SVAR:**
+
+$R _ {ers} = 60\ohm$
+
+---
+
+Nu är det faktiskt tre resistor i parallell med varandra, men formeln för parallellkopplade resistorer funkar oavsett hur många resistorer det är.
+
+$$ \frac 1 {R _ {ers}} = \frac 1 {100} + \frac 1 {200} + \frac 1 {600}$$
+$$ \iff \frac 1 {R _ {ers}} = \frac {6}{600} + \frac {3}{600} + \frac {1}{600}$$
+$$ \iff \frac 1 {R _ {ers}} = \frac {10}{600}$$
+
+Invertera bråket:
+
+$$ \iff R _ {ers} = \frac {600} {10} = 60\ohm $$
+
+
+</details>
+
+</li>
 
 ## Effekt
 
@@ -437,80 +542,6 @@ $$U = \sqrt{1\kilo\watt \cdot 10\ohm} = \sqrt{10000} = 100\volt$$
 Vi kan nu räkna ut strömmen genom Ohms lag.
 
 $$I = \frac{U}{R} = \frac{100\volt}{10\ohm} = 10\ampere$$
-
-</details>
-
-</li>
-<li>
-
-Vad är ersättningsresistansen $R _ {ers}$ för parallellkopplingen om...
-
-a) $R_1 = 75\ohm$, $R_2 = 100\ohm$
-
-b) $R_1 = 100\ohm$, $R_2 = 100\ohm$
-
-c) $R_1 = 3\ohm$, $R_2 = 5\ohm$
-
-
-![](parallell.svg)
-
-<details>
-<summary>Svar</summary>
-
-**SVAR:** 
-
-a) $R _ {ers} = 300/7 \ohm \approx 42.86\ohm$
-
-b) $R _ {ers} = 50\ohm$
-
-c) $R _ {ers} = 15/8 \ohm = 1.875 \ohm$
-
----
-
-Formeln för att räkna ut ersättningsresistans är:
-$$ \frac{1}{R _ {ers}} = \frac{1}{R_1} + \frac{1}{R_2} + ... $$
-
-a) 
-$$ \frac{1}{R _ {ers}} = \frac{1}{75} + \frac{1}{100} = \frac{4}{300} + \frac{3}{300} = \frac{7}{300} $$
-$$ R _ {ers} = \frac{300}{7} \ohm \approx 42.86\ohm $$
-
-b) 
-$$ \frac{1}{R _ {ers}} = \frac{1}{100} + \frac{1}{100} = \frac{2}{100} = \frac{1}{50} $$
-$$ R _ {ers} = 50\ohm $$
-
-c)
-$$ \frac{1}{R _ {ers}} = \frac{1}{3} + \frac{1}{5} = \frac{5}{15} + \frac{3}{15} = \frac{8}{15} $$
-$$ R _ {ers} = \frac{15}{8} \ohm = 1.875 \ohm $$
-
-</details>
-
-</li>
-<li>
-
-Du vet att ersättningsresistansen $R _ {ers} = 50\ohm$ för de parallellkopplade resistorerna.
-
-Vad måste $R_2$ ha för värde om $R_1 = 100\ohm$
-
-![](r2_ers.svg)
-
-<details>
-<summary>Svar</summary>
-
-**SVAR:** 
-
-$R_2 = 100\ohm$
-
----
-
-Formeln för ersättningsresistans är samma som i föregående uppgift, men nu är det istället $R_2$ som är okänt.
-
-$$\frac{1}{50} = \frac{1}{100} + \frac{1}{R_2} \iff \frac{1}{50} - \frac{1}{100} = \frac{1}{R_2}$$
-
-$$\iff \frac{2}{100} - \frac{1}{100} = \frac{1}{R_2} \iff \frac{1}{100} = \frac{1}{R_2}$$
-
-invertera båda sidorna:
-
-$$R_2 = 100\ohm$$
 
 </details>
 
