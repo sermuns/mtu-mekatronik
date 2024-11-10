@@ -20,7 +20,13 @@ Effekt är med andra ord, hur fort flödar energin?
 
 ```admonish question title="Vad betyder det egentligen att en apparat drar en viss effekt?"
 
-Om en mikrovågsugn har effekten 800 watt, betyder det oftast att **maxeffekten** är 800 watt. Tillverkarna kanske kan garantera att den drar MINDRE än det, men inte exakt hur mycket den drar under drift.
+Om en vattenkokare har effekten 1000 watt, betyder det oftast att **maxeffekten** är 1000 watt. Tillverkarna kanske kan garantera att den drar MINDRE än det, men inte exakt hur mycket den drar under drift.
+
+Sen är frågan, om vi har två vattenkokare, en på 1000 W och en på 2000 W. Vilken är bäst?
+
+![](vattenkokare.png)
+
+Om målet är att koka upp vatten på kortast tid, ska vi välja den med högst effekt, eftersom effekt är ett mått på hur snabbt energi överförs. Vi vill att elektrisk energi ska omvandlas till värmeenergi så snabbt som möjligt!
 
 ```
 
