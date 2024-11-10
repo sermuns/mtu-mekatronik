@@ -192,5 +192,19 @@ with schemdraw.Drawing(file=f"kirchhoff_delspann.svg", show=False) as d:
     e.CurrentLabelInline(
         ofst=0, direction='out').at(down_line).label('$I=200$ mA', loc='B')
 
+with schemdraw.Drawing(file=f"ers_tre.svg", show=False) as d:
+    e.BatteryCell().left()
+    e.Line().up(d.unit/3)
+    d.push()
+    e.Resistor().right().label("$R_3 = 600 Ω$")
+    d.pop()
+    e.Line().up(d.unit/3)
+    d.push()
+    e.Resistor().right().label("$R_2 = 200 Ω$")
+    d.pop()
+    e.Line().up(d.unit/3)
+    e.Resistor().right().label("$R_1 = 100 Ω$")
+    e.Line().down(u)
+
 
 print(f"Built {built} files")
