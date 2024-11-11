@@ -43,8 +43,8 @@ Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/in
 | 42    | Inför skriftligt prov i digitalteknik (frågor/repetition)                     |                 | [Digitalteknik](/digitalteknik)               |
 | 43    | Skriftligt prov i digitalteknik                                               | SKRIFTLIGT PROV | [Digitalteknik](/digitalteknik)               |
 | 44    | \-                                                                            |                 |                                               |
-| 45    | Intro ellära (spänning, ström och resistans) + simulering av likströmskretsar |                 | [Ellära](/ellara)                             |
-| 46    | Begreppet effekt, parallelkopplade resistans, uppkoppling av enkla kretsar    |                 | [Ellära](/ellara)                             |
+| 45    | Intro ellära (spänning, ström och resistans) |                 | [Ellära](/ellara)                             |
+| 46    | Begreppet effekt, parallellkopplade resistans    |                 | [Ellära](/ellara)                             |
 | 47    | Förberedelse inför LaX                                                        |                 | [Ellära](/ellara)                             |
 | 48    | LaX ellära                                                                    | LAX             | [Ellära](/ellara)                             |
 | 49    | Förberedelse inför prov                                                       |                 | [Ellära](/ellara)                             |
