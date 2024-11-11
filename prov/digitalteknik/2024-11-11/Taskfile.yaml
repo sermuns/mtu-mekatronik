@@ -1,0 +1,6 @@
+version: '3'
+
+tasks:
+  build:
+    - typst compile main.typ prov.pdf
+    - typst compile --input facit=true main.typ facit.pdf

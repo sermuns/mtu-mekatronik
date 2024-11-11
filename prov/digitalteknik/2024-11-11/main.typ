@@ -1,4 +1,11 @@
-#let facit = false
+#let facit = {
+  if sys.inputs.facit.contains("true"){
+    true
+  }
+  else{
+    false
+  }
+}
 #let ans = body => if facit [#strong[#math.bold[#body]]]
 #let date = "2024-11-11"
 
