@@ -73,7 +73,7 @@ blockquote table {
     margin-bottom: 2rem;
 }
 
-ul * {
+ul li {
     margin: 1rem 0;
 }
 
@@ -170,14 +170,19 @@ hr {
 }
 
 ol.exercises {
-    gap: 5rem;
-
-    & li {
+    ol {
+      list-style-type: lower-alpha; /* Letters for nested lists */
+    }
+    > li {
         border: 1px solid var(--fg);
         padding: 1em;
     }
 
-    & li+li {
+    >li::marker, ol>li::marker{
+      font-size: 2em;
+    }
+
+    >li+li,ol>li+li {
         margin-top: 10rem;
     }
 }
