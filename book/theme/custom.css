@@ -60,7 +60,6 @@ img::before {
 
 img+em {
     display: block;
-    margin-top: 1em;
     text-align: center;
 }
 

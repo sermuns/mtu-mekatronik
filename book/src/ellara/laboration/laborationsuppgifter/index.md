@@ -2,20 +2,6 @@
 
 I följande uppgifter ska ni koppla upp kretsar och använda en Arduino för att mäta spänning mellan noder i kretsen. Med hjälp av mätningarna kommer ni besvara frågor om elektriska storheter.
 
-Arduinons pin `5V` är pluspol och `GND` är minuspol. Man mäter spänning mellan `A0` och `A1`.
-
-```admonish example title="Exempelkrets"
-
-Här är ett exempel på hur man mäter spänningen över en resistor med Arduino Nano.
-
-Resistorn ska kopplas in mellan `+` och `-`, sen mäter man med hjälp av `A0` och `A1`.
-
-![](000.png)
-
-![](001.png)
-
-```
-
 <ol class="exercises">
 
 <li>

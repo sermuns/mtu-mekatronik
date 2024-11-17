@@ -1,5 +1,5 @@
 <style>
-  li a{
+  main li a{
     font-size: 2em;
   }
 </style>
