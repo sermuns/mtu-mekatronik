@@ -2,6 +2,8 @@
 
 [Startsida / Planering](index.md)
 
+[För tvåor](far-tvaor/index.md)
+
 ---
 
 [Introduktion](introduktion/index.md)
