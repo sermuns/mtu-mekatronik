@@ -61,13 +61,12 @@ $I$ är den totala strömmen i kretsen, $U$ är spänningen i kretsen och $R$ ä
 
 Den totala resistansen är ersättningsresistansen och fås enligt
 
-$$\frac{1}{R _ {ersättning}} = \frac{1}{R_1} + \frac{1}{R_2}$$
-$$\frac{1}{R _ {ersättning}} = \frac{1}{70} + \frac{1}{30} = \frac{30}{2100} + \frac{70}{2100} = \frac{100}{2100}$$
+$$\frac{1}{R _ {ers}} = \frac{1}{R_1} + \frac{1}{R_2}$$
+$$\frac{1}{R _ {ers}} = \frac{1}{70} + \frac{1}{30} = \frac{30}{2100} + \frac{70}{2100} = \frac{100}{2100}$$
 
-$$R _ {ersättning} = \frac{2100}{100} = 21 \ohm$$
+$$R _ {ers} = \frac{2100}{100} = 21 \ohm$$
 
 Nu när vi har ersättningsresistansen kan vi rita kretsen nedan.
-
 
 ![](res_par_batt_ny.svg)
 
