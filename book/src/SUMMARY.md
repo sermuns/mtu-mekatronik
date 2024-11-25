@@ -2,8 +2,6 @@
 
 [Startsida / Planering](index.md)
 
-[För tvåor](far-tvaor/index.md)
-
 ---
 
 [Introduktion](introduktion/index.md)
@@ -40,6 +38,7 @@
       - [Teori](ellara/laboration/teori/index.md)
       - [Laborationsuppgifter](ellara/laboration/laborationsuppgifter/index.md)
     - [✏️ ️Uppgifter](ellara/uppgifter/index.md)
+    - [LaX](ellara/lax/index.md)
 - [Mekanik]()
   - [Krafter]()
 - [Mikrokontrollrar]()
