@@ -49,7 +49,7 @@ Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/in
 | 48    | LaX ellära                                                                    | LAX             | [Ellära](/ellara)                             |
 | 49    | Förberedelse inför prov                                                       |                 | [Ellära](/ellara)                             |
 | 50    | Skriftligt prov ellära                                                        | SKRIFTLIGT PROV | [Ellära](/ellara)                             |
-| 51    | Besök av FIA robotics (MISSA INTE!)                                           |                 | [Ellära](/ellara)                             |
+| 51    |    annan lektion (Joel tar över)                                       |                 |                              |
 | 52    | \-                                                                            |                 |                                               |
 | 1     | \-                                                                            |                 |                                               |
 | 2     | \-                                                                            |                 |                                               |
