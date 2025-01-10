@@ -1,6 +1,6 @@
 // Optimized function to calculate the current week
-function getDateWeek(date) {
-  const currentDate = typeof date === "object" ? date : new Date();
+function getDateWeek() {
+  const currentDate = new Date();
   const januaryFirst = new Date(currentDate.getFullYear(), 0, 1);
   const daysToNextMonday =
     januaryFirst.getDay() === 1 ? 0 : (7 - januaryFirst.getDay()) % 7;
@@ -22,7 +22,7 @@ const WEEK_COLUMN_INDEX = 0;
 // Cache DOM lookup for performance
 function getRowOfCurrentWeek() {
   const tbody = document.querySelector("tbody");
-  const currentWeek = getDateWeek(new Date());
+  const currentWeek = getDateWeek() + 1; // FIXME: !!
   const rows = Array.from(tbody.children);
 
   return rows.find((row) => {
