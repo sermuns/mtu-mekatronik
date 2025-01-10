@@ -39,7 +39,7 @@
       - [Laborationsuppgifter](ellara/laboration/laborationsuppgifter/index.md)
     - [✏️ ️Uppgifter](ellara/uppgifter/index.md)
     - [LaX](ellara/lax/index.md)
-- [Mekanik]()
+- [Mekanik](mekanik/index.md)
   - [Krafter]()
 - [Mikrokontrollrar]()
 
