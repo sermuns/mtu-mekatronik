@@ -19,7 +19,7 @@ preferred-dark-theme = "ayu"
 enable = false
 
 [output.html.fold]
-# enable = true
+enable = true
 
 [preprocessor.external-links]
 
@@ -36,4 +36,4 @@ command = "mdbook-mermaid"
 
 [preprocessor.admonish]
 command = "mdbook-admonish"
-assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
+assets_version = "3.0.2"    # do not edit: managed by `mdbook-admonish install`
