@@ -40,8 +40,9 @@
     - [LaX](ellara/lax/index.md)
 - [Mekanik](mekanik/index.md)
   - [Vad är mekanik?](mekanik/vad-ar-mekanik/index.md)
-  - [Vektorer](mekanik/vektorer/index.md)
   - [Krafter](mekanik/krafter/index.md)
+  - [Vektorer](mekanik/vektorer/index.md)
+  - [Newtons lagar](mekanik/newtons-lagar/index.md)
   - [✏️ Uppgifter](mekanik/uppgifter/index.md)
 - [Mikrokontrollrar]()
 

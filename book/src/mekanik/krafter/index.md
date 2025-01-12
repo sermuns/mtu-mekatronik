@@ -41,9 +41,14 @@ Krafter som ni nu har förstått har att göra med hastighet, men det är viktig
 
 
 ### Tyngdkraft
-Gravitationskraft eller tyngdkraft är den kraft som verkar på alla objekt mot jordens mittpunkt, vi kommer framöver bara säga att den verkar *nedåt*. 
+Gravitationskraft eller tyngdkraft är den kraft som verkar på alla objekt mot jordens mittpunkt, vi kommer framöver bara säga att den verkar *nedåt*. Utan den hade vi flytit iväg i rymden vid minsta lilla steg.
 
-Tyngdkraften betecknas $\bm {F_g}$ och utan den hade vi flytit iväg i rymden vid minsta lilla steg. Tyngdkraften ritas alltid från ett föremåls *tyngdpunkt* (oftast i mitten av föremålet)
+Tyngdkraften betecknas $\bm {F_g}$.
+$$ F_g = m \cdot g$$
+
+$m$ är föremålets massa i kilo gram och $g = 9.82  \meter / \second^2$.
+
+Tyngdkraften ritas alltid från ett föremåls *tyngdpunkt* (oftast i mitten av föremålet)
 
 ![](pelle.svg)
 
@@ -100,7 +105,7 @@ När den resulterande kraften är noll råder *jämvikt* och vi säger att före
 
 ```admonish question title="Varför är $F_R = 0$ vid konstant hastighet?"
 
-Vi vet att krafter förändrar hastigheten. Ifall hastigheten är konstant sker ingen förändring och den verkande kraften, $F_R$ bör därför vara noll. 
+Vi vet att krafter förändrar hastigheten. Ifall hastigheten är konstant sker ingen förändring och den verkande kraften, $F_R$ är därför noll. 
 
 ```
 
