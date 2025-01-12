@@ -112,16 +112,110 @@ Vi antar att allt är jämnt utplacerat på bordet. Då tar varje ben upp hälft
 </details>
 </li>
 
-<h2>
+## Jämviktsproblem
 
-<a href="jämviktsproblem.pdf" target="_blank">Jämviktsproblem</a>
-
-</h2>
 
 <li>
 
+En cyklist som väger 80 kg färdar i konstant hastighet. Färdaren trampar och skapar $1 \kilo\newton$ i kraft framåt. Cykeln väger ingenting.
+
+a) Hur stora är de bromsande krafterna?
+
+b) Hur stor är normalkrafterna som verkar på varje däck? (vi antar att tyngpunkten är perfekt i mitten.)
+
+<details>
+<summary>Svar</summary>
+
+**SVAR:** 
+
+a) $1 \kilo\newton$
+
+b) $392.8 \newton$
+
+---
+
+a) Vi vet att cyklisten skapar $1 \kilo\newton$ framåt. Då måste bromskrafterna vara lika stora för att cyklisten ska färdas i konstant hastighet (jämvikt).
+
+b) Vi vet att tyngdkraften är $80 \cdot 9.82 = 785.6 \newton$. Då måste normalkraften vara lika stor som tyngdkraften för att cyklisten ska färdas i konstant hastighet. Då blir normalkraften $392.8 \newton$ på varje däck.
+
+$ F_g = F_N = 785.6 \newton $, varje däck tar $ F_N / 2 = 392.8 \newton $.
+
+</li>
+
+<li>
+
+Pelle har köpt ett bord som maximalt tål $900 \newton$. Kommer bordet gå sönder om vi lägger på 10 stycken $10\kilogram$ vikter på det?
+
+<details>
+<summary>Svar</summary>
+
+**SVAR:**
+Ja.
+
+---
+
+Vi vet att tyngdkraften för en vikt är $10 \cdot 9.82 = 98.2 \newton$. Då blir totala tyngdkraften $10 \cdot 98.2 = 982 \newton$.
+
+Eftersom $ 982 > 900 $ kommer bordet gå sönder.
+
+</li>
+
+<li>
+
+En båt har en lyftkraft på $4 \kilo\newton$ och en massa på $500 \kilogram$. Är båten i jämvikt?
+
+<details>
+
+<summary>Svar</summary>
+
+**SVAR:**
+Nej.
+
+---
+
+Tyngdkraften är $ 500 \cdot 9.82 = 4910 \newton $.
+
+Summan av krafterna är $ 4000 - 4910 = -910 \newton $. (positivt uppåt)
+
+Det blir alltså kraft nedåt över, alltså kommer båten sjunka! Den är inte i jämvikt!
+
+</li>
+
+<li>
+
+En balk med tyngd $2000 \newton$ är hänger stilla med två rep enligt bilden. Hur stor är kraften i varje rep?
+
+![](balk.svg)
+
+<details>
+<summary>Svar</summary>
+
+**SVAR:**
+
+Ungefär $ 1 155 \newton $
+
+---
+
+Vi vet att tyngdkraften är $ 2000 \newton $.
+
+Vi vet att summan av krafterna i x-led är 0, och summan av krafterna i y-led är 0.
+
+$$ \uparrow : F _ {Ry} + F _ {Ry} = F_g $$
+$$ 2F _ {Ry} = 2000 \newton $$
+$$ F _ {Ry} = 1000 \newton $$
+
+Vi vet att vinkeln är $ 60 \degree $, så vi kan använda trigonometri för att räkna ut kraften i repen.
+
+$$ F _ {Ry} = F _ {R} \sin (60 \degree) $$
+$$ 1000 = F _ {R} \sin (60 \degree) $$
+$$ \frac {1000}{\sin (60 \degree)} = F _ {R} $$
+$$ \frac {1000}{\sin (60 \degree)} = F _ {R} \approx 1155 \newton $$
+
+</li>
 
 
+<li>
+<a href="jämviktsproblem.pdf" target="_blank">Fler jämviktsproblem</a>
 </li>
 
 </ol>

@@ -10,7 +10,7 @@ Krafter är det som ändrar ett föremåls rörelse eller form.
 
 ```
 
-Detta innebär att all typ av förändring i ett föremåls rörelse involverar krafter. När du puttar undan soffan påverkar du den med en kraft. Först hade den ingen hastighet, sen hade den det. Denna förändring förklarar vi med krafter. 
+När du puttar undan soffan påverkar du den med en kraft. Först hade den ingen hastighet, sen hade den det. Denna förändring förklarar vi med krafter. 
 
 ```admonish info title="Storhet och enhet"
 
@@ -21,19 +21,20 @@ Man särskiljer på olika krafter med olika index, exempelvis $F_g$ för tyngdkr
 ```
 
 ## Rita krafter
-Krafter ritas som pilar. Pilarnas storlek visar hur stor kraften är och riktningen berättar också i vilken riktigt kraften verkar. Det är också viktigt att rita krafterna från rätt punkt. 
+Krafter ritas som pilar. Pilarnas längd visar hur stor kraften är och riktningen berättar också i vilken riktning kraften verkar. Det är också viktigt att rita krafterna från rätt punkt. Exempelvis
 
-När något har en storlek och riktning kallas det för en vektor. Hur dessa beräknas kommer vi gå igenom i nästa delkapitel. 
+När något har en storlek och riktning kallas det för en [vektor](../vektorer/index.md). Hur dessa beräknas kommer vi gå igenom i nästa delkapitel. 
 
 ```admonish question title="Vad betyder det att krafter har en riktning?"
 
-Ni kan tänka er att ni håller i en penna. Pennan kan ni nu röra både uppåt och nedåt, framåt och bakåt, eller i vilken riktning som helst. Det kan vara viktigt att hålla reda på vilken riktning krafter verkar speciellt när det finns flera som verkar på samma föremål. 
+Ni kan tänka er att ni håller i en penna. Pennan kan ni röra både uppåt och nedåt, framåt och bakåt, eller i vilken riktning som helst. Det kan vara viktigt att hålla reda på vilken riktning krafter verkar speciellt när det finns flera som verkar på samma föremål. 
+
 ```
 
 ## Vanliga krafter
 Eftersom det rörelse är en så stor del av vår vardag är även krafter det. Nedan beskrivs de krafter som ni ska förstå dess påverkan på förmål och kunna rita in i figurer. 
 
-```admonish danger title="VIKTIGT"
+```admonish danger title="Krafter är INTE hastighet"
 
 Krafter som ni nu har förstått har att göra med hastighet, men det är viktigt att ni förstår att en kraft inte **är** en hastighet. Krafter enbart **förändrar** hastigheten.
 
@@ -76,12 +77,12 @@ Olika underlag har olika så kallad friktionskonstant och det är därför olika
 
 Det är också friktionskraften som gör att vi kan komma någon vart. Utan den hade vi varit fast på samma ställe (lite som att springa på is). 
 
-Frikstionskraften betecknas $\bm {F_f}$ och ritas från kontaktytan.
+Friktionskraften betecknas $\bm {F_f}$ och ritas från kontaktytan.
 
 ![](friktion.svg)
 
 ### Bromskrafter
-Bromskrafter är såna krafter som bromsar in ett förmål och därmed minskar dess hastighet. Ifall du kör en bil och slutar gasa kommer bilen att saktas in. Detta sker på grund av de bromsande krafterna. 
+Bromskrafter är sådana krafter som bromsar in ett förmål och därmed minskar dess hastighet. Ifall du kör en bil och slutar gasa kommer bilen att saktas in. Detta sker på grund av de bromsande krafterna. 
 
 Bromsande krafter uppstår bland annat  på grund av luftmotstånd, vattenmotstånd mm. 
 
@@ -95,7 +96,7 @@ Det kommer att vara tydligt i uppgifter ifall friktionskraften redan finns inrä
 ## Friläggning
 När vi vill ta reda på vad som händer med ett föremål måste vi först hitta och rita ut alla krafter som verkar på den. Friläggningen gäller alltid bara **ett** föremål.
 
-BILD på ett frilagt föremål.
+![](friläggning.svg)
 
 När alla krafter läggs ihop ser vi ifall krafter har tagit ut varandra eller förstärkt varandra. Den kraften som sedan faktiskt verkar är den **resulterande kraften** och betecknas $\bm F_R$.
 
