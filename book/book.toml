@@ -7,7 +7,6 @@ cname = "mek.samake.se"
 
 [build]
 build-dir = "build"
-create-missing = false
 
 [output.html]
 mathjax-support = true

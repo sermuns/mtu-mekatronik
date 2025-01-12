@@ -1,0 +1,7 @@
+[tools]
+"cargo:mdbook-external-links" = "latest"
+mdbook = "latest"
+"ubi:badboy/mdbook-mermaid" = "latest"
+"ubi:badboy/mdbook-toc" = "latest"
+"ubi:lzanini/mdbook-katex" = "0.9.2-binaries"
+"ubi:tommilligan/mdbook-admonish" = "latest"
