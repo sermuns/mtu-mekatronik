@@ -42,7 +42,7 @@
   - [Vad är mekanik?](mekanik/vad-ar-mekanik/index.md)
   - [Vektorer](mekanik/vektorer/index.md)
     - [✏️ Uppgifter](mekanik/vektorer/uppgifter/index.md)
-  - [Krafter](mekanik/vad-ar-mekanik/index.md)
+  - [Krafter](mekanik/krafter/index.md)
     - [Jämvikt med krafter]()
     - [✏️ Uppgifter](mekanik/krafter/uppgifter/index.md)
   - [Vridmoment]()
