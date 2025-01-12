@@ -1,16 +1,12 @@
 services:
   mdbook:
-#   image: ghcr.io/sermuns/mtu:latest
     build: .
     user: 1000:1000
     restart: unless-stopped
-    ports:
-      - 3000:3000
-      - 3001:3001
+    network_mode: host
     volumes:
-      - ./book:/book
-      - ./entrypoint.sh:/entrypoint.sh
-    working_dir: /book
+      - .:/app
+    working_dir: /app
     entrypoint: "mdbook"
     command: "serve --hostname 0.0.0.0"
     stop_signal: SIGKILL
