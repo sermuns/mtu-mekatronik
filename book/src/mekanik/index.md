@@ -1,5 +1,9 @@
 # Mekanik
 
+## Verktyg
+
+- [Desmos (kalkylator)](https://www.desmos.com/scientific)
+
 ## Examination
 
 För att bli godkänd i detta moment måste man bli godkänd på det [**skriftliga provet**](#prov).

@@ -3,6 +3,7 @@
 <style>
 img{
     height: 15em;
+    background-color: white;
 }
 </style>
 
