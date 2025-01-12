@@ -49,7 +49,7 @@ Tyngdkraften betecknas $\bm {F_g}$ och utan den hade vi flytit iväg i rymden vi
 BILD på tyngdkraft, snubbe som dras ner?
 
 ### Normalkraft
-Normalkraften är en kotaktkraft som uppstår som en motkraft till en annan kraft som verkar på föremålet. Man kan se det som att det är normalkraften som gör ont när du slår näven i väggen. Det är också på grund av normalkraften som din hand inte kommer längre fram än väggen. Utan en kraft att sakta in din hand hade den åkt rätt igenom. 
+Normalkraften är en kontaktkraft som uppstår som en motkraft till en annan kraft som verkar på föremålet. Man kan se det som att det är normalkraften som gör ont när du slår näven i väggen. Det är också på grund av normalkraften som din hand inte kommer längre fram än väggen. Utan en kraft att sakta in din hand hade den åkt rätt igenom. 
 
 ```admonish question title="Hur ser det ut med krafterna när man tar sönder väggen?"
 
@@ -61,18 +61,18 @@ BILD på två olika stora krafter med vägg.
 
 ```
 
-Normalkraften betecknas $\bm {F_N}$ och verkar alltid vinkelrätt mot ytan som påverkas av en kraft. Den ger föremål sin hårdhet.
+Normalkraften betecknas $\bm {F_N}$ och verkar alltid vinkelrätt mot ytan som påverkas av en kraft. Pilen ritas från kontaktytan.
 
-BILD på vad vinkelrätt betyder. 
+BILD på vad vinkelrätt betyder och kontaktyta. 
 
 ### Friktionskraft
 Friktionskraft är en kontaktkraft som uppstår när två ytor gnids mot varandra. Friktionskraften är den som gör det tungt att putta föremål längs med marken. 
 
 Olika underlag har olika så kallad friktionskonstant och det är därför olika lätt att putta föremål på dem. Exempelvis är det lättare att flytta något tungt på ett slätt golv än på en lurvig matta. 
 
-Det är också friktionskonstanten som gör att vi kan komma någon vart. Utan den hade vi varit fast på samma ställe (lite som att springa på is).
+Det är också friktionskraften som gör att vi kan komma någon vart. Utan den hade vi varit fast på samma ställe (lite som att springa på is). 
 
-Frikstionskraften betecknas $\bm {F_f}$.
+Frikstionskraften betecknas $\bm {F_f}$ och ritas från kontaktytan.
 
 Fin BILD på friktionskraften. SNubbe som går?
 
@@ -81,25 +81,27 @@ Bromskrafter är såna krafter som bromsar in ett förmål och därmed minskar d
 
 Bromsande krafter uppstår bland annat  på grund av luftmotstånd, vattenmotstånd mm. 
 
-Friktionskraften är också en bromsande kraft men vi behöver skilja på dem ibland och introducerar därför de som separata krafter. Den bromsande kraften betecknas $\ bm {F_{broms}}$.
+Friktionskraften är också en bromsande kraft men vi behöver skilja på dem ibland och introducerar därför de som separata krafter. Den bromsande kraften betecknas $\bm {F _ {broms}}$ och verkar i hastighetens motsatta riktning.
 
-Det kommer att vara tydligt i uppgifter ifall friktionskraften finns inräknad i bromskraften eller inte.
+Det kommer att vara tydligt i uppgifter ifall friktionskraften redan finns inräknad i bromskraften eller inte.
 
 BILD på bromskraft. Bil som bromsas?
 
 
+## Friläggning
+När vi vill ta reda på vad som händer med ett föremål måste vi först hitta och rita ut alla krafter som verkar på den. Friläggningen gäller alltid bara **ett** föremål.
 
+BILD på ett frilagt föremål.
 
+När alla krafter läggs ihop ser vi ifall krafter har tagit ut varandra eller förstärkt varandra. Den kraften som sedan faktiskt verkar är den **resulterande kraften** och betecknas $\bm F_R$.
 
+## Jämvikt
 
+När den resulterande kraften är noll råder *jämvikt* och vi säger att föremålet är i **vila**. Vila kan både betyda att föremålet inte har någon hastighet alls, eller att hastigheten är konstant.
 
+```admonish question title="Varför är $F_R = 0$ vid konstant hastighet?"
 
+Vi vet att krafter förändrar hastigheten. Ifall hastigheten är konstant sker ingen förändring och den verkande kraften, $F_R$ bör därför vara noll. 
 
+```
 
-Hur ritar vi krafter?
-
-
-
-newtonslagar
-
-Friläggning
