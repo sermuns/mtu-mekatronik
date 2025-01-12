@@ -2,11 +2,11 @@
 
 Krafter är en stor del i mekanikens värld, och även vår egen. I avsnittet kommer vi lära oss hur krafter påverkar vår omvärld, vilka de vanligaste krafterna är och även vilka lagar Isaac Newton har observerat kring krafter. 
 
-Vi börjar med att förså vad en kraft är. 
+Vi börjar med att förstå vad en kraft är. 
 
 ```admonish info title="Definition"
 
-Krafter är det som ändrar ett föremåls rörerlse eller form.
+Krafter är det som ändrar ett föremåls rörelse eller form.
 
 ```
 
@@ -37,7 +37,6 @@ Eftersom det rörelse är en så stor del av vår vardag är även krafter det. 
 
 Krafter som ni nu har förstått har att göra med hastighet, men det är viktigt att ni förstår att en kraft inte **är** en hastighet. Krafter enbart **förändrar** hastigheten.
 
-
 ```
 
 
@@ -46,7 +45,7 @@ Gravitationskraft eller tyngdkraft är den kraft som verkar på alla objekt mot 
 
 Tyngdkraften betecknas $\bm {F_g}$ och utan den hade vi flytit iväg i rymden vid minsta lilla steg. Tyngdkraften ritas alltid från ett föremåls *tyngdpunkt* (oftast i mitten av föremålet)
 
-BILD på tyngdkraft, snubbe som dras ner?
+![](pelle.svg)
 
 ### Normalkraft
 Normalkraften är en kontaktkraft som uppstår som en motkraft till en annan kraft som verkar på föremålet. Man kan se det som att det är normalkraften som gör ont när du slår näven i väggen. Det är också på grund av normalkraften som din hand inte kommer längre fram än väggen. Utan en kraft att sakta in din hand hade den åkt rätt igenom. 
@@ -57,13 +56,13 @@ När din hand rör väggen trycker du på den med en kraft. Normalkraften uppst�
 
 Ifall vi istället skulle ha en betongvägg som ännu inte har torkat så kan du antagligen trycka din hand en bit in i väggen. Kraftmässigt ser detta ut som att den kraft du trycker med på väggen är större än normalkraften.  
 
-BILD på två olika stora krafter med vägg. 
+![](hand.svg)
 
 ```
 
 Normalkraften betecknas $\bm {F_N}$ och verkar alltid vinkelrätt mot ytan som påverkas av en kraft. Pilen ritas från kontaktytan.
 
-BILD på vad vinkelrätt betyder och kontaktyta. 
+![](skatepark.svg)
 
 ### Friktionskraft
 Friktionskraft är en kontaktkraft som uppstår när två ytor gnids mot varandra. Friktionskraften är den som gör det tungt att putta föremål längs med marken. 
@@ -74,7 +73,7 @@ Det är också friktionskraften som gör att vi kan komma någon vart. Utan den 
 
 Frikstionskraften betecknas $\bm {F_f}$ och ritas från kontaktytan.
 
-Fin BILD på friktionskraften. SNubbe som går?
+![](friktion.svg)
 
 ### Bromskrafter
 Bromskrafter är såna krafter som bromsar in ett förmål och därmed minskar dess hastighet. Ifall du kör en bil och slutar gasa kommer bilen att saktas in. Detta sker på grund av de bromsande krafterna. 
@@ -85,7 +84,7 @@ Friktionskraften är också en bromsande kraft men vi behöver skilja på dem ib
 
 Det kommer att vara tydligt i uppgifter ifall friktionskraften redan finns inräknad i bromskraften eller inte.
 
-BILD på bromskraft. Bil som bromsas?
+![](broms.svg)
 
 
 ## Friläggning
