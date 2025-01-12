@@ -26,13 +26,7 @@ Hur mycket är det binära talet $101$ värt i det decimala talsystemet?
 
 <img src="/media/binar-ex1.svg" style="height: 7em; border: 1px solid var(--fg); padding: 1em;"></img>
 
-$$
-\begin{aligned}
-101_2 &= 1\cdot2^2 + 0\cdot2^1 + 1\cdot2^0 \\\\
-&= 4 + 1 \\\\
-&= 5
-\end{aligned}
-$$
+$$101_2 = 1 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0 = 4 + 1 = 5$$
 
 Så det binära talet $101$ är värt 5 i det decimala talsystemet.
 ```
