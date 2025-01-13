@@ -4,7 +4,9 @@ on:
     branches:
       - main
     paths:
-      - 'book/**'
+      - 'book.toml'
+      - 'src/**'
+      - 'theme/**'
   workflow_dispatch:
 
 concurrency:
@@ -19,16 +21,12 @@ jobs:
       pages: write # to push to a github pages site
       id-token: write # to update the deployment status
     steps:
-
       - uses: actions/checkout@v4
 
-      - name: Cache Docker images.
-        uses: ScribeMD/docker-cache@0.5.0
-        with:
-          key: docker-images-${{ hashFiles('Dockerfile') }}
+      - uses: jdx/mise-action@v2
 
       - name: Build mdBook
-        run: docker compose run --user root mdbook build
+        run: mdbook build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -36,9 +34,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "book/build"
+          path: "build"
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
