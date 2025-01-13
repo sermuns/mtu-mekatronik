@@ -22,7 +22,7 @@ const WEEK_COLUMN_INDEX = 0;
 // Cache DOM lookup for performance
 function getRowOfCurrentWeek() {
   const tbody = document.querySelector("tbody");
-  const currentWeek = getDateWeek(); // FIXME: !!
+  const currentWeek = getDateWeek() +1; // FIXME: !!
   const rows = Array.from(tbody.children);
 
   return rows.find((row) => {
