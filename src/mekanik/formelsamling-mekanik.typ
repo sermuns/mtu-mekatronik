@@ -1,20 +1,21 @@
-#set page(
-	margin: 1em
-)
+#let p = it => {
+  pad(left: 1em, it)
+}
 
-#set text(
-	font: "Atkinson Hyperlegible"
-)
+#set page(margin: 3em)
 
-#set heading(
-	numbering: "1.1"
+#set text(font: "Atkinson Hyperlegible")
+
+#align(
+  center,
+  text(size: 2em)[*Formelsamling mekanik*],
 )
 
 = Vektorer
 
 == Komposantuppdelning
 
-// = Vridmoment
-
 = Newtons lagar
-1. $ F = m a $
+#p[
+  $ F = m a $
+]
