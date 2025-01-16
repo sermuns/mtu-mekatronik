@@ -43,6 +43,7 @@
   - [Krafter](mekanik/krafter/index.md)
   - [Vektorer](mekanik/vektorer/index.md)
   - [Newtons lagar](mekanik/newtons-lagar/index.md)
+  - [Vridmoment](mekanik/vridmoment/index.md)
   - [✏️ Uppgifter](mekanik/uppgifter/index.md)
 - [Mikrokontrollrar]()
 

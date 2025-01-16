@@ -49,14 +49,14 @@ Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/in
 | 48    | LaX ellära                                                                    | LAX             | [Ellära](/ellara)                             |
 | 49    | Förberedelse inför prov                                                       |                 | [Ellära](/ellara)                             |
 | 50    | Skriftligt prov ellära                                                        | SKRIFTLIGT PROV | [Ellära](/ellara)                             |
-| 51    |    annan lektion (Joel tar över)                                       |                 |                              |
+| 51    |    (Annan lektion)                                       |                 |                              |
 | 52    | \-                                                                            |                 |                                               |
 | 1     | \-                                                                            |                 |                                               |
 | 2     | \-                                                                            |                 |                                               |
 | 3     | Introduktion till mekanik (krafter, vektorer)                                 |                 | [Mekanik](/mekanik)                           |
-| 4     | Jämviktsproblem, friläggning                                                  |                 | [Mekanik](/mekanik)                           |
-| 5     | Vridmoment, mekanikens gyllene regel, hävstång                                |                 | [Mekanik](/mekanik)                           |
-| 6     | Mekanikens gyllene regel: hävstång, lutande plan                              |                 | [Mekanik](/mekanik)                           |
+| 4     | Vridmoment, jämviktsproblem |                 | [Mekanik](/mekanik)                           |
+| 5     | Mekanikens gyllene regel: hävstång, lutande plan                              |                 | [Mekanik](/mekanik)                           |
+| 6     |   |                 | [Mekanik](/mekanik)                           |
 | 7     | Inför prov                                                                    |                 | [Mekanik](/mekanik)                           |
 | 8     | \-                                                                            |                 |                                               |
 | 9     | Mekanik prov                                                                  | PROV MEKANIK    | [Mekanik](/mekanik)                           |
