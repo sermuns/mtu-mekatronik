@@ -1,0 +1,12 @@
+session: mdbook
+root: .
+
+
+
+windows:
+  - name: code
+  - name: mdbook
+    before_start:
+      - sleep 1
+    commands:
+      - mdbook serve
