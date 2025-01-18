@@ -22,12 +22,12 @@ Så fort man har en **kraft** som verkar **runt en punkt** skapas <u>vridmoment<
 
 ![](moment.svg)
 
-- **Rotationspunkten** är det som krafter verkar kring. Kan även kallas för vridpunkt, momentcentrum.
+- **Rotationspunkten** är det som krafter verkar kring. Kan även kallas för vridpunkt, momentcentrum. Det kan vara bekvämt att ge den ett namn, som $\bm O$, för att sen kunna prata om olika punkters vridmoment.
 - **Momentarmen** är det som faktiskt kopplar samman kraften med rotationspunkten. Det kan vara en skiftnyckel, en gungbräda eller din arm.
-    - Längden på momentarmen betecknas oftast $ \bm l$ .
+  - Längden på momentarmen betecknas oftast $ \bm l$ .
 - Endast **den del av kraften som är vinkelrät mot momentarmen** (betecknas $\bm F _ \perp$) spelar roll när man räknar ut vridmoment.
 - **Vridmoment** betecknas med $\bm M$ .
-    - Vinklar som är moturs räknas som positiva. På samma sätt är moturs vridmoment positiv.
+  - Vinklar som är moturs räknas som positiva. På samma sätt är moturs vridmoment positiv.
 
 ## Hur räknar man på vridmoment?
 
@@ -67,8 +67,8 @@ Det har att göra med jämvikt. Mer specifikt jämvikt med vridmoment.
 
 $$\sum M = 0$$
 eller
-$$\overset \curvearrowleft M - \overset \curvearrowright M = 0$$
-$$\overset \curvearrowleft M =\overset \curvearrowright M$$
+$$M _ {\text{moturs}} - M _ {\text{medurs}} = 0$$
+$$M _ {\text{moturs}} = M _ {\text{medurs}}$$
 
 ```admonish example title="Gungbräda i jämvikt"
 
@@ -83,16 +83,18 @@ Vi kan räkna mot- och medurs vridmoment för sig, och sen kombinera ekvationern
 Systern bidrar med medurs vridmoment:
 
 $$F _ \text{lillasyster} = 50 \cdot 9.82 = 491 \newton$$
-$$\overset \curvearrowright M = 491 \cdot 1.5 = 736.5 \newton\meter$$
+$$ M _ {\text{medurs}} = F _ \text{lillasyster} \cdot 1.5 \meter = 491 \cdot 1.5 = 736.5 \newton \cdot \meter$$
 
 Pelle bidrar med moturs vridmoment:
 
 $$F _ \text{Pelle} = 80 \cdot 9.82 = 785.6 \newton$$
-$$\overset \curvearrowleft M = 785.6 \cdot l$$
+$$ M _ {\text{moturs}} = F _ \text{Pelle} \cdot l = 785.6 \cdot l$$
 
-För att uppnå vridmomentsjämvikt ska $\overset \curvearrowleft M = \overset \curvearrowright M$:
+För att uppnå vridmomentsjämvikt ska $\sum M = 0$:
 
-$$785.6 \cdot l = 736.5$$
+$$785.6 \cdot l - 736.5 = 0$$
+
+$$ 785.6 \cdot l = 736.5$$
 
 $$l = \frac{736.5}{785.6} = 0.9375 \meter$$
 

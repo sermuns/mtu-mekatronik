@@ -32,7 +32,7 @@ g) ![](image13.png)
 <details>
 <summary>Svar</summary>
 
-**SVAR:** 
+**SVAR:**
 
 a) 7 N, $0 \degree$
 
@@ -58,7 +58,7 @@ Vilka av bollarna från förra uppgiften är **i jämvikt?**
 <details>
 <summary>Svar</summary>
 
-**SVAR:** 
+**SVAR:**
 
 **d** och **g**, eftersom deras resultant är 0.
 
@@ -112,8 +112,7 @@ Vi antar att allt är jämnt utplacerat på bordet. Då tar varje ben upp hälft
 </details>
 </li>
 
-## Jämviktsproblem
-
+## Kraftjämviktsproblem
 
 <li>
 
@@ -126,7 +125,7 @@ b) Hur stor är normalkrafterna som verkar på varje däck? (vi antar att tyngpu
 <details>
 <summary>Svar</summary>
 
-**SVAR:** 
+**SVAR:**
 
 a) $1 \kilo\newton$
 
@@ -200,22 +199,29 @@ Vi vet att tyngdkraften är $ 2000 \newton $.
 
 Vi vet att summan av krafterna i x-led är 0, och summan av krafterna i y-led är 0.
 
-$$ \uparrow : F _ {Ry} + F _ {Ry} = F_g $$
-$$ 2F _ {Ry} = 2000 \newton $$
-$$ F _ {Ry} = 1000 \newton $$
+$$ \uparrow : F _ {Ry} + F _ {Ry} = F*g $$
+$$ 2F * {Ry} = 2000 \newton $$
+$$ F \_ {Ry} = 1000 \newton $$
 
 Vi vet att vinkeln är $ 60 \degree $, så vi kan använda trigonometri för att räkna ut kraften i repen.
 
 $$ F _ {Ry} = F _ {R} \sin (60 \degree) $$
 $$ 1000 = F _ {R} \sin (60 \degree) $$
 $$ \frac {1000}{\sin (60 \degree)} = F _ {R} $$
-$$ \frac {1000}{\sin (60 \degree)} = F _ {R} \approx 1155 \newton $$
+$$ \frac {1000}{\sin (60 \degree)} = F \_ {R} \approx 1155 \newton $$
 
 </li>
 
-
 <li>
 <a href="jämviktsproblem.pdf" target="_blank">Fler jämviktsproblem</a>
+</li>
+
+## Vridmoment
+
+
+<li>
+<a href="vridmoment.pdf" target="_blank">Fler uppgifter om vridmoment</a><br>
+<a href="vridmoment_facit.pdf" target="_blank">Lösningar</a>
 </li>
 
 </ol>
