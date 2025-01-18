@@ -199,8 +199,8 @@ Vi vet att tyngdkraften är $ 2000 \newton $.
 
 Vi vet att summan av krafterna i x-led är 0, och summan av krafterna i y-led är 0.
 
-$$ \uparrow : F _ {Ry} + F _ {Ry} = F*g $$
-$$ 2F * {Ry} = 2000 \newton $$
+$$ \uparrow : F _ {Ry} + F _ {Ry} = F \cdot g $$
+$$ 2F \cdot {Ry} = 2000 \newton $$
 $$ F \_ {Ry} = 1000 \newton $$
 
 Vi vet att vinkeln är $ 60 \degree $, så vi kan använda trigonometri för att räkna ut kraften i repen.
@@ -217,7 +217,6 @@ $$ \frac {1000}{\sin (60 \degree)} = F \_ {R} \approx 1155 \newton $$
 </li>
 
 ## Vridmoment
-
 
 <li>
 <a href="vridmoment.pdf" target="_blank">Fler uppgifter om vridmoment</a><br>
