@@ -9,4 +9,4 @@ windows:
     before_start:
       - sleep 1
     commands:
-      - mdbook serve
+      - mdbook serve --open
