@@ -7,7 +7,6 @@
 "ubi:jonahgoldwastaken/mdbook-external-links" = "latest"
 "ubi:ivaaaan/smug" = "latest"
 "ubi:Enter-tainer/typstyle" = "latest"
-"cargo:duskmoon314/mdbook-typst-math" = "latest"
 
 [tasks.build]
 run = 'mdbook build'
