@@ -209,6 +209,7 @@ $$ F _ {Ry} = F _ {R} \sin (60 \degree) $$
 $$ 1000 = F _ {R} \sin (60 \degree) $$
 $$ \frac {1000}{\sin (60 \degree)} = F _ {R} $$
 $$ \frac {1000}{\sin (60 \degree)} = F \_ {R} \approx 1155 \newton $$
+</details>
 
 </li>
 
@@ -217,6 +218,44 @@ $$ \frac {1000}{\sin (60 \degree)} = F \_ {R} \approx 1155 \newton $$
 </li>
 
 ## Vridmoment
+
+<li>
+
+Hur stort vridmoment skapas om vinkeln:
+
+a) $\theta = 90 \degree$
+
+b) $\theta = 45 \degree$
+
+c) $\theta = 30 \degree$
+
+![](sned_nyckel.svg)
+
+<details>
+<summary>Svar</summary>
+
+a) $ 150 \newton\meter $
+
+b) $ 106.1 \newton\meter $
+
+c) $ 75 \newton\meter $
+
+---
+
+$$ M = F _ \perp \cdot l $$
+
+I detta fall får vi den vinkelräta kraften genom sinus:
+
+$$ F _ \perp = 100 \newton \cdot \sin \theta $$
+
+a) $ M = 100 \sin{(90 \degree)} \cdot 1.5 = 100 \cdot 1.5 = \bm{150 \newton\meter}$
+
+a) $ M = 100 \sin{(45 \degree)} \cdot 1.5 \approx 70.7 \cdot 1.5 \approx \bm{106.1 \newton\meter}$
+
+a) $ M = 100 \sin{(30 \degree)} \cdot 1.5 = 50 \cdot 1.5 = \bm{75 \newton\meter}$
+
+
+</li>
 
 <li>
 <a href="vridmoment.pdf" target="_blank">Fler uppgifter om vridmoment</a><br>
