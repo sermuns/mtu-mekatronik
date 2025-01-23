@@ -26,7 +26,7 @@ jobs:
       - uses: jdx/mise-action@v2
 
       - name: Build mdBook
-        run: mdbook build
+        run: mise build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
