@@ -51,7 +51,9 @@ Om du vill ha samma vridmoment som i förra exemplet, $250\newton\meter$, men h�
 
 ![](ex_nyckel2.svg)
 
-**Svar:** $M = F \cdot l = 100 \newton \cdot 2.5 \meter = 250 \newton \cdot \meter$
+$$M = F \cdot l = F \cdot 1.25 \meter = 250 \newton\meter$$
+
+**Svar:** $$ F = \frac{250}{1.25} = 200 \newton$$
 
 ```
 
@@ -83,7 +85,7 @@ Vi kan räkna mot- och medurs vridmoment för sig, och sen kombinera ekvationern
 Systern bidrar med medurs vridmoment:
 
 $$F _ \text{lillasyster} = 50 \cdot 9.82 = 491 \newton$$
-$$ M _ {\text{medurs}} = F _ \text{lillasyster} \cdot 1.5 \meter = 491 \cdot 1.5 = 736.5 \newton \cdot \meter$$
+$$ M _ {\text{medurs}} = F _ \text{lillasyster} \cdot 1.5 \meter = 491 \cdot 1.5 = 736.5 \newton\meter$$
 
 Pelle bidrar med moturs vridmoment:
 
