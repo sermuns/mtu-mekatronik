@@ -68,3 +68,172 @@
     )
   },
 )
+
+#let vridmoment = cetz.canvas(
+  length: 3cm,
+  {
+    import cetz.draw: *
+
+    set-style(
+      mark: (scale: 1),
+      angle: (
+        radius: 0.3,
+        label-radius: .22,
+        fill: orange.lighten(80%),
+      ),
+      content: (padding: 5pt),
+    )
+
+    line(
+      (1, 0),
+      (1, calc.tan(30deg)),
+      name: "F_perp",
+      stroke: (maroon + 5pt),
+      mark: (end: ">"),
+    )
+    content(
+      "F_perp.mid",
+      $ F_perp $,
+      anchor: "west",
+    )
+
+    line(
+      (0, 0),
+      (1, 0),
+      name: "momarm",
+      stroke: (black.lighten(50%) + 5pt),
+    )
+
+    line(
+      (0, -.1),
+      (1, -.1),
+      mark: (start: "|", end: "|", width: .1),
+      name: "l",
+      stroke: (black + 2pt),
+    )
+    content(
+      "l.mid",
+      $ l $,
+      anchor: "north",
+    )
+
+    circle(
+      (0, 0),
+      radius: 0.03,
+      fill: black,
+      name: "o",
+    )
+    content(
+      "o",
+      $ O $,
+      anchor: "south-east",
+    )
+  },
+)
+
+#let likriktade = cetz.canvas(
+  length: 3cm,
+  {
+    import cetz.draw: *
+
+    set-style(
+      mark: (scale: 1),
+      angle: (
+        radius: 0.3,
+        label-radius: .22,
+        fill: orange.lighten(80%),
+      ),
+      content: (padding: 5pt),
+    )
+
+    line(
+      (1, 0),
+      (1, calc.tan(30deg)),
+      name: "F_perp",
+      stroke: (maroon + 5pt),
+      mark: (end: ">"),
+    )
+    content(
+      "F_perp.mid",
+      $ F_perp $,
+      anchor: "west",
+    )
+
+    line(
+      (0, 0),
+      (1, 0),
+      name: "momarm",
+      stroke: (black.lighten(50%) + 5pt),
+    )
+
+    line(
+      (0, -.1),
+      (1, -.1),
+      mark: (start: "|", end: "|", width: .1),
+      name: "l",
+      stroke: (black + 2pt),
+    )
+  },
+)
+
+#let motriktade = cetz.canvas(
+  length: 3cm,
+  {
+    import cetz.draw: *
+
+    set-style(
+      mark: (scale: 1),
+      angle: (
+        radius: 0.3,
+        label-radius: .22,
+        fill: orange.lighten(80%),
+      ),
+      content: (padding: 5pt),
+    )
+
+    line(
+      (1, 0),
+      (1, calc.tan(30deg)),
+      name: "F_perp",
+      stroke: (maroon + 5pt),
+      mark: (end: ">"),
+    )
+    content(
+      "F_perp.mid",
+      $ F_perp $,
+      anchor: "west",
+    )
+
+    line(
+      (0, 0),
+      (1, 0),
+      name: "momarm",
+      stroke: (black.lighten(50%) + 5pt),
+    )
+
+    line(
+      (0, -.1),
+      (1, -.1),
+      mark: (start: "|", end: "|", width: .1),
+      name: "l",
+      stroke: (black + 2pt),
+    )
+    content(
+      "l.mid",
+      $ l $,
+      anchor: "north",
+    )
+
+    circle(
+      (0, 0),
+      radius: 0.03,
+      fill: black,
+      name: "o",
+    )
+    content(
+      "o",
+      $ O $,
+      anchor: "south-east",
+    )
+  },
+)

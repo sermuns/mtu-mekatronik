@@ -5,13 +5,14 @@
   pad(left: 1em, it)
 }
 
+#set document(title: "Formelsamling mekanik | MEKMEK01")
 #set page(margin: 3em)
 #set text(font: "Atkinson Hyperlegible", size: 12pt)
 #show math.equation: text.with(size: 1.2em)
 
 #align(
   center,
-  text(size: 1.5em)[*Formelsamling för mekanik [MEKMEK01]*],
+  text(size: 1.5em)[*#context document.title*],
 )
 
 #let mcell = (it, cs: 1, align: auto) => {
@@ -70,10 +71,20 @@
         F_"tot" &= F_1 + F_2\
       $),
 
+      grid.cell(
+        colspan: 2,
+        likriktade,
+      ),
+
       [Motriktade:],
       mcell($
         F_"tot" &= F_1 - F_2\
       $),
+
+      grid.cell(
+        colspan: 2,
+        motriktade,
+      ),
 
       grid.cell(inset: 1em, colspan: 2, align: left)[
         _(Om krafter inte är parallella måste de komposantuppdelas och adderas komposantvis.)_
@@ -100,6 +111,20 @@
   ],
   grid.cell(colspan: 2)[
     *Vridmoment*
-    
+
+    #grid(
+      columns: (1fr,) * 2,
+      row-gutter: 3em,
+      column-gutter: 2em,
+
+      mcell(
+        align: center + horizon,
+        $
+          M = F_perp dot l
+        $,
+      ),
+
+      vridmoment
+    )
   ]
 )
