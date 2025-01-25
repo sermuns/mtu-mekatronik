@@ -18,7 +18,7 @@ jobs:
   deploy:
     runs-on: ubuntu-24.04
     permissions:
-      # contents: write # to push a branch
+      contents: read # to push a branch
       pages: write # to push to a github pages site
       id-token: write # to update the deployment status
     steps:
