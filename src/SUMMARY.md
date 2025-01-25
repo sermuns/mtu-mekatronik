@@ -44,6 +44,7 @@
   - [Vektorer](mekanik/vektorer/index.md)
   - [Newtons lagar](mekanik/newtons-lagar/index.md)
   - [Vridmoment](mekanik/vridmoment/index.md)
+  - [Mekanikens gyllene regel](mekanik/mekanikens-gyllene-regel/index.md)
   - [✏️ Uppgifter](mekanik/uppgifter/index.md)
 - [Mikrokontrollrar]()
 
