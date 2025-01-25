@@ -19,8 +19,8 @@ jobs:
     runs-on: ubuntu-24.04
     permissions:
       contents: read # to checkout private repo
+      id-token: write # to use actions/deploy-pages
       pages: write # to push to a github pages site
-      # id-token: write # to update the deployment status
     steps:
       - uses: actions/checkout@v4
 
