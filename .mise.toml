@@ -12,4 +12,4 @@
 run = 'mdbook build'
 
 [tasks.serve]
-run = 'mdbook serve'
+run = 'mdbook serve -d /dev/shm/mdbook'
