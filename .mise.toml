@@ -6,7 +6,6 @@
 "ubi:tommilligan/mdbook-admonish" = "latest"
 "ubi:jonahgoldwastaken/mdbook-external-links" = "latest"
 "ubi:ivaaaan/smug" = "latest"
-"ubi:Enter-tainer/typstyle" = "latest"
 
 [tasks.build]
 run = 'mdbook build'
