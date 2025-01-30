@@ -1,12 +1,10 @@
 #let facit = false
-#let ans = body => if facit [#strong[#math.bold[#body]]]
 #let date = "2025-01-31"
 
 #set page(
   paper: "a4",
   margin: 4em,
   numbering: "1 / 1",
-  header: ans[#rect()[_Facit_]],
 )
 #set text(
   font: "Atkinson Hyperlegible",
@@ -29,7 +27,7 @@
     columns: (r, 1fr, auto),
     align: bottom,
     gutter: .5em,
-    body, line(length: 100%), [*#p*],
+    body, line(length: 100%), //[*#p*],
   )
 }
 
@@ -47,37 +45,41 @@
   spacing: 2em,
   ebox(p: "(1p)")[Skriv ditt namn:],
   {
-    [Vad är beteckningen för... #h(1fr) *(3p)*]
+    [Vad är beteckningen för storheten... #h(1fr)]
     grid(
       columns: 3,
       column-gutter: 1em,
       inset: .5em,
-      ebox(p: "")[*a)* Resistans], ebox(p: "")[*b)* Spänning], ebox(p: "")[*b)* Ström],
+      ebox(p: "")[*a)* resistans],
+      ebox(p: "")[*b)* spänning],
+      ebox(p: "")[*b)* ström],
     )
   },
   {
-    [Vad är enheten för... #h(1fr) *(3p)*]
+    [Vad är enheten för... #h(1fr)]
     grid(
       columns: 3,
       column-gutter: 1em,
       inset: .5em,
-      ebox(p: "")[*a)* Resistans], ebox(p: "")[*b)* Spänning], ebox(p: "")[*b)* Ström],
+      ebox(p: "")[*a)* resistans],
+      ebox(p: "")[*b)* spänning],
+      ebox(p: "")[*b)* ström],
     )
   },
   {
-    align(center, image("ström.svg", height: 10em))
+    align(center, image("ström.svg", height: 13em))
     enum(
       ebox(p: "(1p)")[I vilken nod är potentialen högst, *$A$* eller *$B$*?],
       ebox(p: "(1p)")[Hur stor är resistansen i kretsen?],
       ebox(p: "(1p)")[Hur stor är spänningen i kretsen?],
-      [Rita in strömmen som en pil i kretsen. Tänk på riktningen! #h(1fr) *(1p)*],
+      [Rita in strömmen som en pil i kretsen. Tänk på riktningen! #h(1fr) ],
       {
-        [Hur stor är strömmen i kretsen? Visa beräkningarna i rutan. #h(1fr) *(1p)*]
-        rect(width: 100%, height: 3em)
+        [Hur stor är strömmen i kretsen? Visa beräkningarna i rutan. #h(1fr) ]
+        rect(width: 100%, height: 5em)
       },
       {
-        [Hur stor effekt utvecklas i resistorn? Visa beräkningarna i rutan. #h(1fr) *(1p)*]
-        rect(width: 100%, height: 3em)
+        [Hur stor effekt utvecklas i resistorn? Visa beräkningarna i rutan. #h(1fr) ]
+        rect(width: 100%, height: 5em)
       },
     )
     v(1fr)
@@ -85,14 +87,16 @@
   {
     align(center, image("kretsfrågor.svg", width: 80%))
     enum(
-      ebox(p: "(1p)")[I kretsen ovan, är resistorna serie- eller parallelkopplade?],
+      ebox(
+        p: "(1p)",
+      )[I kretsen ovan, är resistorerna serie- eller parallelkopplade?],
       {
-        [Vad är ersättningsresistansen? Visa beräkningarna i rutan. #h(1fr) *(1p)*]
-        rect(width: 100%, height: 3em)
+        [Vad är ersättningsresistansen? Visa beräkningarna i rutan. #h(1fr) ]
+        rect(width: 100%, height: 5em)
       },
       {
-        [Hur stor är strömmen $I$ i kretsen? Visa beräkningarna i rutan. #h(1fr) *(1p)*]
-        rect(width: 100%, height: 3em)
+        [Hur stor är strömmen $I$ i kretsen? Visa beräkningarna i rutan. #h(1fr) ]
+        rect(width: 100%, height: 5em)
       },
       [
         Hur stor är delspänningarna $U_1$ och $U_2$ som ligger över $R_1$ respektive $R_2$?
@@ -103,13 +107,13 @@
           columns: (auto, 1fr),
           align: center + horizon,
           column-gutter: .5em,
-          [$U_1:$], rect(width: 100%, height: 3em),
+          [$U_1:$], rect(width: 100%, height: 5em),
         )
         #grid(
           columns: (auto, 1fr),
           align: center + horizon,
           column-gutter: .5em,
-          [$U_2:$], rect(width: 100%, height: 3em),
+          [$U_2:$], rect(width: 100%, height: 5em),
         )
       ],
     )
@@ -124,7 +128,7 @@
     )
     v(1em)
     [
-      *a)* Ta fram ersättningsresistansen för resistornätet. (Tips: gör det stegvis!) #h(1fr) *(3p)*
+      *a)* Ta fram ersättningsresistansen för resistornätet. (Tips: gör det stegvis!) #h(1fr)
 
       $R_1 = 10 ohm$, $R_2 = 20 ohm$, $R_3 = 30 ohm$ och $R_4 = 40 ohm$.
     ]
@@ -133,18 +137,18 @@
 
     v(1em)
     [
-      *b)* Rita ut alla noder i kretsen. #h(1fr) *(1p)*
+      *b)* Rita ut alla _(unika)_ noder i kretsen. #h(1fr)
     ]
 
     v(1em)
     [
-      *c)* Rita ut och beräkna alla delströmmar. #h(1fr) *(1p)*
+      *c)* Rita ut och beräkna alla delströmmar.
     ]
     rect(width: 100%, height: 7em)
 
     v(1em)
     [
-      *d)* Hur stor är delspänningen över $R_1$ om spänningskällan är $10 "V"$? #h(1fr) *(2p)*
+      *d)* Hur stor är delspänningen över $R_3$?
     ]
     rect(width: 100%, height: 7em)
   },
@@ -157,20 +161,20 @@
       },
     )
     [
-      I kretsen ovan är $I_1 = 0.3 "A"$ och $I_2 = 0.1 "A"$
+      #v(1em)
 
       *a)* Hur stor är spänningskällan $U$ ?
-      #h(1fr) *(1p)*
+      #h(1fr)
     ]
     rect(width: 100%, height: 7em)
     [
       *b)* Hur stor är resistorn $R_2$ ?
-      #h(1fr) *(2p)*
+      #h(1fr)
     ]
     rect(width: 100%, height: 7em)
     [
-      *c)* Rita ut och beräkna alla delströmmar
-      #h(1fr) *(2p)*
+      *c)* Vad är totala strömmen $I$ ?
+      #h(1fr)
     ]
     rect(width: 100%, height: 7em)
   },
