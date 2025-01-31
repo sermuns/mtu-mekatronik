@@ -262,4 +262,10 @@ a) $ M = 100 \sin{(30 \degree)} \cdot 1.5 = 50 \cdot 1.5 = \bm{75 \newton\meter}
 <a href="vridmoment_facit.pdf" target="_blank">Lösningar</a>
 </li>
 
+## Mekanikens gyllene regel
+<li>
+<a href="mekaniska_lösningar.pdf" target="_blank">Uppgifter om mekanikens gyllene regel</a><br>
+<a href="mekaniska_lösningar_facit.pdf" target="_blank">Lösningar</a>
+</li>
+
 </ol>
