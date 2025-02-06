@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 200.84081 82.607208"
+   fill="none"
+   stroke="none"
+   stroke-linecap="square"
+   stroke-miterlimit="10"
+   id="svg30"
+   sodipodi:docname="subtraktion.svg"
+   width="200.84081"
+   height="82.607208"
+   inkscape:version="1.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs30">
+    <filter
+       inkscape:label="Black Light"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Light areas turn to black"
+       style="color-interpolation-filters:sRGB;"
+       id="filter2"
+       x="-9.5842488e-05"
+       y="-0.074291102"
+       width="1.0000958"
+       height="1.0742911">
+      <feColorMatrix
+         type="luminanceToAlpha"
+         result="result2"
+         id="feColorMatrix1" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="arithmetic"
+         in="result2"
+         k3="2"
+         result="result4"
+         id="feComposite1" />
+      <feBlend
+         in="result4"
+         mode="multiply"
+         result="result3"
+         in2="result2"
+         id="feBlend1" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         in="result3"
+         id="feComposite2" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="namedview30"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.9354167"
+     inkscape:cx="-27.642626"
+     inkscape:cy="-1.0333692"
+     inkscape:window-width="2560"
+     inkscape:window-height="1403"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg30"
+     showgrid="false" />
+  <clipPath
+     id="g324e6a7c3e8_0_150.0">
+    <path
+       d="M 0,0 H 960 V 540 H 0 Z"
+       clip-rule="nonzero"
+       id="path1" />
+  </clipPath>
+  <g
+     id="g1"
+     style="filter:url(#filter2)">
+    <path
+       fill="#000000"
+       fill-opacity="0"
+       d="M 66.541597,18.926576 H 200.8408"
+       fill-rule="evenodd"
+       id="path18" />
+    <path
+       stroke="#ffff00"
+       stroke-width="8"
+       stroke-linejoin="round"
+       stroke-linecap="butt"
+       d="M 66.541597,18.926546 H 152.84079"
+       fill-rule="evenodd"
+       id="path19"
+       style="fill:#000000;fill-opacity:1;stroke:#959500;stroke-opacity:1" />
+    <path
+       fill="#ffff00"
+       stroke="#ffff00"
+       stroke-width="8"
+       stroke-linecap="butt"
+       d="M 152.8408,32.140416 189.14555,18.926546 152.8408,5.7127161 Z"
+       fill-rule="evenodd"
+       id="path20"
+       style="fill:#959500;fill-opacity:1;stroke:#959500;stroke-opacity:1" />
+    <path
+       fill="#000000"
+       fill-opacity="0"
+       d="M 0.01924724,18.926426 H 72.176717"
+       fill-rule="evenodd"
+       id="path21"
+       style="fill:#00ff00;fill-opacity:1" />
+    <path
+       stroke="#00ff00"
+       stroke-width="8"
+       stroke-linejoin="round"
+       stroke-linecap="butt"
+       d="M 0.01924724,18.926426 H 24.176717"
+       fill-rule="evenodd"
+       id="path22"
+       style="fill:#00ff00;fill-opacity:1" />
+    <path
+       fill="#00ff00"
+       stroke="#00ff00"
+       stroke-width="8"
+       stroke-linecap="butt"
+       d="M 24.176697,32.140286 60.481507,18.926416 24.176697,5.7125861 Z"
+       fill-rule="evenodd"
+       id="path23"
+       style="fill:#00ff00;fill-opacity:1" />
+    <path
+       fill="#000000"
+       fill-opacity="0"
+       d="M 0.02449724,18.312376 200.59146,19.540736"
+       fill-rule="evenodd"
+       id="path26" />
+    <path
+       stroke="#ff0000"
+       stroke-width="8"
+       stroke-linejoin="round"
+       stroke-linecap="butt"
+       d="M 0.02449724,58.312376 152.59231,59.246766"
+       fill-rule="evenodd"
+       id="path27" />
+    <path
+       fill="#ff0000"
+       stroke="#ff0000"
+       stroke-width="8"
+       stroke-linecap="butt"
+       d="m 152.5114,72.460386 36.38507,-12.99127 -36.22321,-13.43598 z"
+       fill-rule="evenodd"
+       id="path28" />
+    <path
+       fill="#000000"
+       fill-opacity="0"
+       d="M 20.024737,34.134766 H 134.32393 v 48.47244 H 20.024737 Z"
+       fill-rule="evenodd"
+       id="path29" />
+  </g>
+</svg>

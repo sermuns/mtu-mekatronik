@@ -1,5 +1,10 @@
 # Mekanik
 
+## Formelsamling
+[Denna formelsamling får du under provet!](<formelsamling-mekanik.pdf>)
+
+Säg till om något saknas!
+
 ## Verktyg
 
 - [Desmos (kalkylator)](https://www.desmos.com/scientific)
