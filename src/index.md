@@ -56,9 +56,9 @@ Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/in
 | 4     | Vridmoment, jämviktsproblem                                              |                 | [Mekanik](/mekanik)                           |
 | 5     | Mekanikens gyllene regel: hävstång, lutande plan                         |                 | [Mekanik](/mekanik)                           |
 | 6     | Inför prov                                                               |                 | [Mekanik](/mekanik)                           |
-| 7     | Mekanik prov                                                             |                 | [Mekanik](/mekanik)                           |
+| 7     | Mekanik prov                                                             | PROV MEKANIK    | [Mekanik](/mekanik)                           |
 | 8     | \-                                                                       |                 |                                               |
-| 9     |                                                                          | PROV MEKANIK    | [Mekanik](/mekanik)                           |
+| 9     |                                                                          |                 | [Mekanik](/mekanik)                           |
 | 10    | Övningar för Arduino                                                     |                 | [Arduino](/arduino)                           |
 | 11    | Övningar för Arduino                                                     |                 | [Arduino](/arduino)                           |
 | 12    | Designspecifikation arbete                                               | GRUPPANMÄLAN    | [Arduino](/arduino)                           |
