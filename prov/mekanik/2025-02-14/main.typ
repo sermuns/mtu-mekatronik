@@ -1,6 +1,5 @@
 #import "@preview/fletcher:0.5.4" as fletcher: diagram, node, edge
 
-#let facit = false
 #let date = "2025-02-14"
 #let title = "Mekanik prov | MEKMEK01 EE22"
 
@@ -119,8 +118,8 @@
   {
     [
       En 50 ton bro ligger på två stödytor och är i jämvikt. Avstånd mellan tyngdpunkt och
-      vänster stödyta är 10 meter och avståndet mellan tyngdpunkt och höger stödyta är
-      5 meter.
+      vänster stödyta är 6 meter och avståndet mellan tyngdpunkt och höger stödyta är
+      2.5 meter.
 
       *Hur mycket kraft tar varje stödyta upp?*
     ]
