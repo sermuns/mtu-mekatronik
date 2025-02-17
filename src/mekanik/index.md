@@ -18,3 +18,5 @@ För att bli godkänd i detta moment måste man bli godkänd på det [**skriftli
 **Tidigare prov:**  
 - [Prov 1](<mekanik_prov1.pdf>)  
 - [Prov 2](<mekanik_prov2.pdf>)
+- [2025-02-14](<prov_2025-02-14/main.pdf>)
+  - [Lösningar](<prov_2025-02-14/facit.pdf>)
