@@ -46,7 +46,9 @@
   - [Vridmoment](mekanik/vridmoment/index.md)
   - [Mekanikens gyllene regel](mekanik/mekanikens-gyllene-regel/index.md)
   - [✏️ Uppgifter](mekanik/uppgifter/index.md)
-- [Mikrokontrollrar]()
+- [Mikrokontroller](mikrokontroller/index.md)
+  - [Vad är en mikokontroller?](mikrokontroller/vad-ar-en-mikrokontroller/index.md)
+  - [⚙️ Uppgifter](mikrokontroller/uppgifter/index.md)
 
 ---
 
