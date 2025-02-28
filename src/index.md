@@ -58,10 +58,10 @@ Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/in
 | 6     | Inför prov                                                               |                 | [Mekanik](/mekanik)                           |
 | 7     | Mekanik prov                                                             | PROV MEKANIK    | [Mekanik](/mekanik)                           |
 | 8     | \-                                                                       |                 |                                               |
-| 9     |                                                                          |                 | [Mekanik](/mekanik)                           |
-| 10    | Övningar för Arduino                                                     |                 | [Arduino](/arduino)                           |
-| 11    | Övningar för Arduino                                                     |                 | [Arduino](/arduino)                           |
-| 12    | Designspecifikation arbete                                               | GRUPPANMÄLAN    | [Arduino](/arduino)                           |
+| 9     |  Introduktion mikrokontroller                                                                        |                 | [Mikrokontroller](/mikrokontroller)                           |
+| 10    | Omprovstillfälle |                 ||
+| 11    | Mekanik repetition |                 | [Mekanik](/mekanik) |
+| 12    | Omprovstillfälle | ||
 | 13    | Projektarbete Arduino                                                    | DESIGNSPEC      | [Arduino](/arduino)                           |
 | 14    | Projektarbete Arduino                                                    |                 |                                               |
 | 15    | Projektarbete Arduino                                                    |                 | [Arduino](/arduino)                           |
