@@ -1,13 +1,13 @@
-:root{
-    --content-max-width: 70ch !important;
+:root {
+	--content-max-width: 70ch !important;
 }
 
 html {
-    font-family: "Atkinson Hyperlegible", monospace !important;
+	font-family: "Atkinson Hyperlegible", monospace !important;
 }
 
 body {
-    font-size: 1.7rem;
+	font-size: 1.7rem;
 }
 
 blockquote h1,
@@ -16,82 +16,88 @@ blockquote h3,
 blockquote h4,
 blockquote h5,
 blockquote h6 {
-    margin-block-start: 1em !important;
+	margin-block-start: 1em !important;
 }
 
 blockquote h3,
 blockquote p {
-    margin: 2rem auto;
+	margin: 2rem auto;
 }
 
 .content p {
-    line-height: 2.5rem !important;
+	line-height: 2.5rem !important;
 }
 
 p {
-    margin: 2rem 0;
+	margin: 2rem 0;
 }
 
 nav *::selection {
-    background-color: color-mix(in srgb, var(--sidebar-bg), var(--sidebar-active) 35%);
+	background-color: color-mix(
+		in srgb,
+		var(--sidebar-bg),
+		var(--sidebar-active) 35%
+	);
 }
 
 #page-wrapper *::selection {
-    background-color: color-mix(in srgb, var(--bg), var(--sidebar-active) 30%);
+	background-color: color-mix(in srgb, var(--bg), var(--sidebar-active) 30%);
 }
-
 
 img {
-    display: block;
-    margin: auto;
-    height: auto;
-    object-fit: contain;
+	display: block;
+	margin: auto;
+	height: auto;
+	object-fit: contain;
 }
 
-main>blockquote img, main>div img {
-    margin: 1em auto;
-    height: 20em;
+main > blockquote img,
+main > div img {
+	margin: 1em auto;
+	height: 20em;
 }
 
 img::before {
-    border: 0.3rem solid #808080;
-    border-radius: 0.3rem;
+	border: 0.3rem solid #808080;
+	border-radius: 0.3rem;
 }
 
-img+em {
-    display: block;
-    text-align: center;
+img + em {
+	display: block;
+	text-align: center;
 }
 
-div>svg {
-    display: block;
-    width: 100%;
+div > svg {
+	display: block;
+	width: 100%;
 }
 
 blockquote table {
-    margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 
 ul li {
-    margin: 1rem 0;
+	margin: 1rem 0;
 }
 
 a {
-    white-space: nowrap;
-    text-decoration: none !important;
-    border: 1px solid transparent;
+	white-space: nowrap;
+	text-decoration: none !important;
+	border: 1px solid transparent;
 
-    &:hover {
-        border-color: rgba(var(--links), 0.6);
-    }
+	&:hover {
+		border-color: rgba(var(--links), 0.6);
+	}
+
+	&[href^="http"] {
+		&::after {
+			content: " ⤴";
+		}
+	}
+	&[href$="facit.pdf"] {
+		color: var(--warning-border);
+	}
 }
-
-a[href^="http"] {
-    &::after {
-        content: " ⤴";
-    }
-}
-
 
 h1:target::before,
 h2:target::before,
@@ -99,26 +105,25 @@ h3:target::before,
 h4:target::before,
 h5:target::before,
 h6:target::before {
-    margin-inline-start: unset;
-    width: 1em;
-    color: var(--sidebar-active);
-    animation: blink 1s ease 0s 1 normal forwards;
+	margin-inline-start: unset;
+	width: 1em;
+	color: var(--sidebar-active);
+	animation: blink 1s ease 0s 1 normal forwards;
 }
 
 @keyframes blink {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 
-    0%,
-    50%,
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-
-    25%,
-    75% {
-        opacity: 0;
-        transform: translateX(-1rem);
-    }
+	25%,
+	75% {
+		opacity: 0;
+		transform: translateX(-1rem);
+	}
 }
 
 /* .menu-bar > .right-buttons{
@@ -126,116 +131,117 @@ h6:target::before {
 } */
 
 li.part-title {
-    color: var(--search-mark-bg) !important;
+	color: var(--search-mark-bg) !important;
 }
-
 
 /* place items in section side by side, but collapse if too narrow */
 /* make second child as high as first childs content */
 section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 2rem;
 }
 
-section>p {
-    flex: 1;
+section > p {
+	flex: 1;
 }
 
 html.navy img[src$=".svg"],
 html.coal img[src$=".svg"],
 html.ayu img[src$=".svg"] {
-    filter: invert(1);
+	filter: invert(1);
 }
 
-html.rust .admonition img[src$=".svg"]{
-    filter: invert(1);
+html.rust .admonition img[src$=".svg"] {
+	filter: invert(1);
 }
 
 svg[id^="mermaid"] {
-    display: block;
-    margin: auto;
+	display: block;
+	margin: auto;
 }
 
 span.katex {
-    /* no wrap */
-    white-space: nowrap;
+	/* no wrap */
+	white-space: nowrap;
 }
 
 hr {
-    border-color: var(--fg);
+	border-color: var(--fg);
 }
 
 ol.exercises {
-    ol {
-      list-style-type: lower-alpha; /* Letters for nested lists */
-    }
-    > li {
-        border: 1px solid var(--fg);
-        padding: 1em;
-    }
+	ol {
+		list-style-type: lower-alpha; /* Letters for nested lists */
+	}
+	> li {
+		border: 1px solid var(--fg);
+		padding: 1em;
+	}
 
-    >li::marker, ol>li::marker{
-      font-size: 2em;
-    }
+	> li::marker,
+	ol > li::marker {
+		font-size: 2em;
+	}
 
-    >li+li,ol>li+li {
-        margin-top: 10rem;
-    }
+	> li + li,
+	ol > li + li {
+		margin-top: 10rem;
+	}
 }
 
 ol li::marker {
-    font-weight: bold;
+	font-weight: bold;
 }
 
-.more-gap li+li {
-    margin-top: 5em;
+.more-gap li + li {
+	margin-top: 5em;
 }
 
-main li+li {
-    margin-top: 1em;
+main li + li {
+	margin-top: 1em;
 }
 
 kbd {
-    color: var(--fg);
-    margin: 0;
+	color: var(--fg);
+	margin: 0;
 }
 
 ol ol {
-    list-style-type: lower-alpha;
+	list-style-type: lower-alpha;
 }
 
-li{
-    padding-left: 0.5em;
+li {
+	padding-left: 0.5em;
 }
 
-summary{
-    cursor: pointer;
-    outline: 1px solid var(--fg);
-    padding: 0 0.5em;
+summary {
+	cursor: pointer;
+	outline: 1px solid var(--fg);
+	padding: 0 0.5em;
 }
 
-details{
-    user-select: none;
-    margin-top: 1em;
-    border: 1px solid var(--fg); 
-    >:not(summary){
-        margin: 1em 1em;
-    }
+details {
+	user-select: none;
+	margin-top: 1em;
+	border: 1px solid var(--fg);
+	> :not(summary) {
+		margin: 1em 1em;
+	}
 }
 
-.grid{
-    display: grid;
-    justify-items: stretch;
+.grid {
+	display: grid;
+	justify-items: stretch;
 
-    >div{
-        padding: 0.5em;
-        border: 0.1em solid var(--icons);
-    }
+	> div {
+		padding: 0.5em;
+		border: 0.1em solid var(--icons);
+	}
 }
 
 svg *[fill="white"] {
-    display: none;
+	display: none;
 }
