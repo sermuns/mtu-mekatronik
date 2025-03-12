@@ -58,19 +58,19 @@ Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/in
 | 6     | Inför prov                                                               |                 | [Mekanik](/mekanik)                           |
 | 7     | Mekanik prov                                                             | PROV MEKANIK    | [Mekanik](/mekanik)                           |
 | 8     | \-                                                                       |                 |                                               |
-| 9     |  Introduktion mikrokontroller                                                                        |                 | [Mikrokontroller](/mikrokontroller)                           |
-| 10    | Omprovstillfälle |                 ||
-| 11    | Mekanik repetition |                 | [Mekanik](/mekanik) |
-| 12    | Omprovstillfälle | ||
-| 13    | Projektarbete Arduino                                                    | DESIGNSPEC      | [Arduino](/arduino)                           |
-| 14    | Projektarbete Arduino                                                    |                 |                                               |
-| 15    | Projektarbete Arduino                                                    |                 | [Arduino](/arduino)                           |
-| 16    | \-                                                                       |                 | [Arduino](/arduino)                           |
-| 17    | \-                                                                       |                 | [Arduino](/arduino)                           |
-| 18    | Projektarbete Arduino                                                    |                 | [Arduino](/arduino)                           |
-| 19    | Projektarbete Arduino                                                    |                 | [Arduino](/arduino)                           |
-| 20    | Projektarbete Arduino                                                    |                 | [Arduino](/arduino)                           |
-| 21    | Presentation av Arduinoprojekt                                           | PRESENTATION    | [Arduino](/arduino)                           |
+| 9     | Introduktion mikrokontroller                                             |                 | [Mikrokontroller](/mikrokontroller)           |
+| 10    | Omprovstillfälle                                                         |                 |                                               |
+| 11    |                                                                          |                 |                                               |
+| 12    | Mekanik repetition                                                       |                 | [Mekanik](/mekanik)                           |
+| 13    | Omprovstillfälle                                                         |                 | [Mikrokontroller](/mikrokontoller)                    |
+| 14    | Projektarbete Mikrokontroller                                                    |                 |                                               |
+| 15    | Projektarbete Mikrokontroller                                                    |                 | [Mikrokontroller](/mikrokontoller)                    |
+| 16    | \-                                                                       |                 | [Mikrokontroller](/mikrokontoller)                    |
+| 17    | \-                                                                       |                 | [Mikrokontroller](/mikrokontoller)                    |
+| 18    | Projektarbete Mikrokontroller                                                    |                 | [Mikrokontroller](/mikrokontoller)                    |
+| 19    | Projektarbete Mikrokontroller                                                    |                 | [Mikrokontroller](/mikrokontoller)                    |
+| 20    | Projektarbete Mikrokontroller                                                    |                 | [Mikrokontroller](/mikrokontoller)                    |
+| 21    | Presentation av Mikrokontrollerprojekt                                           | PRESENTATION    | [Mikrokontroller](/mikrokontoller)                    |
 | 22    | Omprovstillfälle / rest                                                  |                 |                                               |
 | 23    | Omprovstillfälle / rest                                                  |                 |                                               |
 
