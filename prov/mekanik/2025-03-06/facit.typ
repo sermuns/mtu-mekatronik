@@ -3,12 +3,16 @@
 #let u(unit) = $space.thin upright(unit)$
 #let newton = u[N]
 #let kg = "kg"
+#let cm = "cm"
 #let meter = u[m]
 #let second = u[s]
-#let date = "2025-02-14"
+#let date = "2025-03-06"
 #let title = "Lösningar till mekanik prov | MEKMEK01 EE22"
 #let wrong = emoji.crossmark
 #let correct = "✅"
+
+#let catan(x) = calc.round(calc.atan(x).deg(), digits: 2)
+#let csqrt(x) = calc.round(calc.sqrt(x), digits: 2)
 
 #show image: align.with(center)
 #set document(title: title)
@@ -18,7 +22,7 @@
 )
 #set text(
   font: "Atkinson Hyperlegible",
-  size: 12pt,
+  size: 11pt,
   lang: "sv",
 )
 #set heading(numbering: "1.")
@@ -50,124 +54,121 @@
 
 #enum(
   numbering: (it => strong[#numbering("1.", it)]),
-  spacing: 2em,
+  spacing: 5em,
   start: 2,
 
   enum(
     [
-      Om han _ligger stilla_ betyder att hans hastighet är noll. Alltså har han en konstant hastighet, alltså är han i *jämvikt*!
+      #correct Om han _ligger stilla_ betyder att hans hastighet är noll. Alltså har han en konstant hastighet, alltså är han i *jämvikt*!
     ],
     [
-      Raketen _ökar i hastighet_ (accelererar). Hans hastighet är *inte* konstant. Därför är han *inte* i jämvikt.
+      #wrong Raketen _ökar i hastighet_ (accelererar). Hans hastighet är *inte* konstant. Därför är han *inte* i jämvikt.
     ],
     [
-      Om han har nått sin maxhastighet och faller i i _konstant hastightet_, betyder det att luftmotståndet bromsar lika hårt som tyngdkraften försöker accelerera, alltså är han i *jämvikt*.
+      #correct Om han har nått sin maxhastighet och faller i i _konstant hastightet_, betyder det att luftmotståndet bromsar lika hårt som tyngdkraften försöker accelerera, alltså är han i *jämvikt*.
     ],
   ),
 
   {
-    image("elefant.svg", height: 15em)
+    image("bil.svg", height: 15em)
     [
-      Detta är ett *jämviktsproblem*, eftersom det nämns i texten att elefanten rör sig med konstant hastighet.
+      Detta är ett *jämviktsproblem*, eftersom det nämns i texten att bilen kör i $90 "km/h"$ (konstant) hastighet.
 
       Från texten vet vi att $F_"broms" = 2700 newton$.
 
-      Man kan beräkna elefantens tyngdkraft $F_g$ från att dess massa är $5000 kg$.
+      Vi får bilens tyngdkraft $F_g$ från att dess massa är $1000 kg$.
 
       $
         F_g &= m_"elefant" dot g \
-        F_g &= 5000 dot 9.82 = 49100 newton
+        F_g &= 1000 dot 9.82 = 9820 newton
       $
 
-      Elefanten går på en väg, så därför måste vägen bära upp elefantens tyngd. Detta görs med en *normalkraft*, $F_N$. Enligt jämvikt måste $sum F_y = 0$, alltså:
+      Bilen kör ovanpå en väg, så därför måste vägen bära upp bilens tyngd. Detta görs med en normalkraft $F_N$. Enligt jämvikt måste $sum F_y = 0$, alltså:
 
       $
         F_N - F_g &= 0 \
-        F_N - 491000 &= 0 \
-        F_N &= 49100 newton
+        F_N - 9820 &= 0 \
+        F_N &= 9820 newton
       $
 
-      På sammas sätt måste elefantens framåtkraft vara lika stor som vad den blir bromsad med, alltså:
+      Enligt jämvikt måste $sum F_x = 0$.
+
+      Alltså måste bilens framåtkraft vara lika stor som vad den blir bromsad med:
 
       $
-        F_"fram" - F_"broms" &= 0 \
-        F_"fram" - 2700 &= 0 \
-        F_"fram" &= 2700 newton
+        F_"motor" - F_"broms" &= 0 \
+        F_"motor" - 2700 &= 0 \
+        F_"motor" &= 2700 newton
       $
     ]
     v(1fr)
   },
   enum(
     [
-      #wrong Visserligen sant, men har ingenting med mekanikens gyllene regel att göra.
-    ],
-    [
       #correct Detta är ett exempel på regeln! Samma mängd vridmoment kan uppstå genom olika kombinationer av längd och kraft.
     ],
     [
-      #correct Också ett exempel på regeln!
+      #wrong Visserligen sant, men har ingenting med mekanikens gyllene regel att göra.
+    ],
+    [
+      #correct Också ett exempel på regeln! Man får göra en avvägning mellan sträcka trampat med pedalerna, eller kraft applicerad.
     ],
   ),
   {
     enum(
       diagram(
-        cell-size: 5em,
+        cell-size: 1em,
         edge-stroke: 2pt,
         mark-scale: 70%,
         node-stroke: 2pt,
         $
-          "" edge("u", 5 newton, "-|>") edge("rr", 10 newton, "-|>") edge("urr", F_R, "-|>")
+          "" edge("uuu", 6 newton, #left, "-|>") edge("rr", 2 newton, #right, "-|>") edge("uuurr", F_R, "-|>")
         $,
       ),
       $
         F_R &= sqrt(F_y^2 + F_x^2) \
-        F_R &= sqrt(5^2 + 10^2) = sqrt(25 + 100) = sqrt(125) \
-        F_R &approx 11.2 newton
+        F_R &= sqrt(6^2 + 2^2) = sqrt(36 + 4) = sqrt(40) \
+        F_R &approx #csqrt(40)newton
       $,
       $
         theta &= arctan(F_y / F_x) \
-        theta &= arctan(5 / 10) \
-        theta &approx 26.57 degree
+        theta &= arctan(6 / 2) \
+        theta &approx #catan(6/2) degree
       $,
+    )
+  },
+  {
+    $M = F_perp dot l$
+    enum(
+      $M &= 20 dot sin(30 degree) dot 0.50 = #calc.round(20*calc.sin(30deg)*0.5, digits: 2) "Nm"$,
+      $M &= 20 dot sin(60 degree) dot 0.50 = #calc.round(20*calc.sin(60deg)*0.5, digits: 2) "Nm"$,
+      $M &= 20 dot sin(90 degree) dot 0.50 = #calc.round(20*calc.sin(90deg)*0.5, digits: 2) "Nm"$,
     )
     v(1fr)
   },
   {
-    image("byggarbete_facit.svg")
+    image("linjal.svg", height: 15em)
     [
-      Detta är en jämviktssituation.
+      Detta är en jämviktssituation, eftersom det står i texten "allting är i balans".
 
-      Enklast blir att räkna på moment kring balkens fästpunkt $O$.
+      Då vet vi att summan av vridmoment är noll:
       $
         sum M &= 0 \
-        -F_"balk" dot 2.5 -F_"pelle" dot 3 + F_"lina_y" dot 5 &= 0 \
-        F_"lina_y" dot 5 &= F_"balk" dot 2.5 + F_"pelle" dot 3 \
-        F_"lina_y" &= (F_"balk" dot 2.5 + F_"pelle" dot 3) / 5 \
-        F_"lina_y" &= (100 dot 9.82 dot 2.5 + 80 dot 9.82 dot 3) / 5 \
-        F_"lina_y" &= 962.36 newton
+        M_"suddi" - M_"linjal" &= 0 \
+        m_"suddi" dot g dot 0.03 - m_"linjal" dot g dot 0.05 &= 0 \
+        m_"suddi" dot g dot 0.03 &= m_"linjal" dot g dot 0.05 \
+        m_"suddi" dot 0.03 &= m_"linjal" dot 0.05 \
+        (m_"suddi" dot 0.03) / 0.05 &= m_"linjal" \
       $
-
-      Nu vet vi att linan tar upp $962.36 newton$ i y-led, men hur mycket tar den upp totalt? Vi kan kolla på komposantuppdelningsformeln för $F_y$:
+      Vi vet från texten att $m_"suddi" = 100 "g " = 0.1 kg $:
       $
-        F_y &= F_R dot sin(theta) \
-      $
-      I detta fall motsvarar $F_"lina"$ vår $F_R$, och $F_"lina_Y"$ motsvarar $F_y$.
-
-      Vi vet att $theta = 30 degree$. Därför:
-      $
-        F_"lina_Y" &= F_"lina" dot sin(30 degree) \
-        F_"lina_Y" / sin(30 degree) &= F_"lina" \
-        962.36 / sin(30 degree) &= F_"lina" \ \
-        F_"lina" &= 1924.72 newton
+        m_"linjal" &= (0.1 dot 0.03) / 0.05 \
+        m_"linjal" &= #calc.round(0.1*0.03/0.05, digits: 2) "kg" = 60 "g "
       $
     ]
     v(1fr)
   },
-  enum(
-    $50 dot sin (30 degree) dot 0.7 = 17.5 "Nm"$,
-    $50 dot sin (60 degree) dot 0.7 approx 30.3 "Nm"$,
-    $50 dot sin (90 degree) dot 0.7 = 35 "Nm"$,
-  ),
+
   {
     image("bro_facit.svg")
     [
