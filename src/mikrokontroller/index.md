@@ -1,5 +1,8 @@
 # Mikrokontroller
 
+## Presentationer
+[v12 intro](https://docs.google.com/presentation/d/1gHaOC2THTsCGaCog_Q5dl3q5AUnQr16GBacROUhVwr8/edit?usp=sharing)
+
 ## Verktyg
 
 - [Wokwi](https://wokwi.com/dashboard/projects)
