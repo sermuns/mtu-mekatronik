@@ -61,16 +61,16 @@ Välkommen till kurshemsidan för Mekatronik 1. Läs igenom [introduktionen](/in
 | 9     | Introduktion mikrokontroller                                             |                 | [Mikrokontroller](/mikrokontroller)           |
 | 10    | Omprovstillfälle                                                         |                 |                                               |
 | 11    |                                                                          |                 |                                               |
-| 12    | Mekanik repetition, samla idéer för arduinoprojekt                       |                 | [Mikrokontroller](/mikrokontoller)            |
-| 13    | Omprovstillfälle, samla idéer för arduinoprojekt                         |                 | [Mikrokontroller](/mikrokontoller)            |
+| 12    | Mekanik repetition, bilda projektgrupp och samla idéer för projekt       |                 | [Mikrokontroller](/mikrokontroller)           |
+| 13    | Omprovstillfälle, skriva designspecifikation                             |                 | [Mikrokontroller](/mikrokontroller)           |
 | 14    | Projektarbete Mikrokontroller                                            |                 |                                               |
-| 15    | Projektarbete Mikrokontroller                                            |                 | [Mikrokontroller](/mikrokontoller)            |
-| 16    | \-                                                                       |                 | [Mikrokontroller](/mikrokontoller)            |
-| 17    | \-                                                                       |                 | [Mikrokontroller](/mikrokontoller)            |
-| 18    | Projektarbete Mikrokontroller                                            |                 | [Mikrokontroller](/mikrokontoller)            |
-| 19    | Projektarbete Mikrokontroller                                            |                 | [Mikrokontroller](/mikrokontoller)            |
-| 20    | Projektarbete Mikrokontroller                                            |                 | [Mikrokontroller](/mikrokontoller)            |
-| 21    | Presentation av Mikrokontrollerprojekt                                   | PRESENTATION    | [Mikrokontroller](/mikrokontoller)            |
+| 15    | Projektarbete Mikrokontroller                                            |                 | [Mikrokontroller](/mikrokontroller)           |
+| 16    | \-                                                                       |                 | [Mikrokontroller](/mikrokontroller)           |
+| 17    | \-                                                                       |                 | [Mikrokontroller](/mikrokontroller)           |
+| 18    | Projektarbete Mikrokontroller                                            |                 | [Mikrokontroller](/mikrokontroller)           |
+| 19    | Projektarbete Mikrokontroller                                            |                 | [Mikrokontroller](/mikrokontroller)           |
+| 20    | Projektarbete Mikrokontroller                                            |                 | [Mikrokontroller](/mikrokontroller)           |
+| 21    | Presentation av Mikrokontrollerprojekt                                   | PRESENTATION    | [Mikrokontroller](/mikrokontroller)           |
 | 22    | Omprovstillfälle / rest                                                  |                 |                                               |
 | 23    | Omprovstillfälle / rest                                                  |                 |                                               |
 
