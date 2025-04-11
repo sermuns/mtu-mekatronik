@@ -1,4 +1,4 @@
-#import "@preview/fletcher:0.5.4" as fletcher: diagram, node, edge
+#import "@preview/fletcher:0.5.7" as fletcher: diagram, node, edge
 
 #let date = "2025-04-11"
 #let title = "Mekanik prov | MEKMEK01 EE22"
