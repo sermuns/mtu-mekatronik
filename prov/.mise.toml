@@ -1,3 +1,6 @@
+[env]
+_.path = '.'
+
 [tools]
 typst = "latest"
 "ubi:Enter-tainer/typstyle" = "latest"

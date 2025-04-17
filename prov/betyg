@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-m", "--max", help="Max poäng")
+parser.add_argument("-e", help="Poäng för E")
+args = parser.parse_args()
+
+max_points = float(args.max)
+e = float(args.e)
+d = e + 1 / 5 * (max_points - e)
+c = e + 2 / 5 * (max_points - e)
+b = e + 3 / 5 * (max_points - e)
+a = e + 4 / 5 * (max_points - e)
+
+print(f"""-- BETYGSGRÄNSER --
+A: {a:.1f}
+B: {b:.1f}
+C: {c:.1f}
+D: {d:.1f}
+E: {e:.1f}
+-------------------
+""")
