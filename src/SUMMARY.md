@@ -49,6 +49,7 @@
 - [Mikrokontroller](mikrokontroller/index.md)
   - [Vad är en mikokontroller?](mikrokontroller/vad-ar-en-mikrokontroller/index.md)
   - [⚙️ Uppgifter](mikrokontroller/uppgifter/index.md)
+  - [Redovisning](mikrokontroller/redovisning.md)
 
 ---
 
