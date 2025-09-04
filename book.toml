@@ -30,18 +30,6 @@ renderer = ["html"]
 after = ["links"]
 macros = "theme/macros.tex"
 
-# [preprocessor.typst-math]
-# preamble = """
-# #let volt = "V"
-# #let ampere = "A"
-# #let watt = "W"
-# #let kilo = "K"
-# #let kilogram = "kg"
-# #let gram = "kg"
-# #let meter = "m"
-# #let centi = "c"
-# """
-
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
 

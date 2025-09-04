@@ -5,10 +5,3 @@
 "ubi:lzanini/mdbook-katex" = "0.9.2-binaries"
 "ubi:tommilligan/mdbook-admonish" = "latest"
 "ubi:jonahgoldwastaken/mdbook-external-links" = "latest"
-"ubi:ivaaaan/smug" = "latest"
-
-[tasks.build]
-run = 'mdbook build'
-
-[tasks.serve]
-run = 'mdbook serve --open -d /dev/shm/mdbook'
