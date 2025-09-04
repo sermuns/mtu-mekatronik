@@ -22,12 +22,13 @@ jobs:
       id-token: write # to use actions/deploy-pages
       pages: write # to push to a github pages site
     steps:
+
       - uses: actions/checkout@v4
 
       - uses: jdx/mise-action@v2
 
       - name: Build mdBook
-        run: mise build
+        run: mdbook build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -35,7 +36,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "build"
+          path: build
 
       - name: Deploy to GitHub Pages
         id: deployment
